@@ -1,0 +1,83 @@
+{
+  "clinical_study": {
+    "@rank": "130371",
+    "required_header": {
+      "download_date": {"_$": "ClinicalTrials.gov processed this data on December 16, 2015"},
+      "link_text": {"_$": "Link to the current ClinicalTrials.gov record."},
+      "url": {"_$": "https://clinicaltrials.gov/show/NCT00929461"}
+    },
+    "id_info": {
+      "org_study_id": {"_$": "B.30.2.EGE.0.01.00.00/7EM/458"},
+      "nct_id": {"_$": "NCT00929461"}
+    },
+    "brief_title": {"_$": "Impact of Omega-3 Fatty Acids on Lactate"},
+    "official_title": {"_$": "Do Omega-3 Fatty Acids Have Any Impact On Serum Lactate Levels After Major Gastric Cancer Surgery?"},
+    "sponsors": {"lead_sponsor": {
+      "agency": {"_$": "Ege University"},
+      "agency_class": {"_$": "Other"}
+    }},
+    "source": {"_$": "Ege University"},
+    "oversight_info": {
+      "authority": {"_$": "Turkey: Ethics Committee"},
+      "has_dmc": {"_$": "No"}
+    },
+    "brief_summary": {"textblock": {"_$": "Pre- and intra-operative nutritional support in patient undergoing major surgery results in\n      decreased morbidity and mortality. Studies investigating the role of omega-3 fatty acids in\n      these patients are increasing. Some are focused on perfusion at the cellular level. This\n      study was undertaken to address the effect of postoperative administration of omega-3 fatty\n      acids on cellular hypoperfusion associated with major gastric surgery."}},
+    "overall_status": {"_$": "Completed"},
+    "phase": {"_$": "N/A"},
+    "study_type": {"_$": "Interventional"},
+    "study_design": {"_$": "Primary Purpose: Treatment"},
+    "number_of_arms": {"_$": "2"},
+    "condition": {"_$": "Gastric Surgery"},
+    "arm_group": [
+      {
+        "arm_group_label": {"_$": "Omega-3 group"},
+        "arm_group_type": {"_$": "Other"},
+        "description": {"_$": "All patients received TPN for 5 days postoperatively, according to a standard protocol: 3 g/kg BW glucose (5% Dextrose in Ringer's Lactate, Biosel, Istanbul), 1.2 g/kg BW amino acids (Aminosteril 10%, Fresenius-Kabi) and 0.8 g/kg BW omega-6 fatty acids (Lipovenoes® 10%, Fresenius-Kabi) were provided to both groups through an indwelling central venous catheter. In the omega-3 group, the lipid content of TPN was replaced partially by omega-3 fatty acids (Omegaven®, Fresenius-Kabi) up to 0.2 g/kg BW per day."}
+      },
+      {
+        "arm_group_label": {"_$": "Omega 3 + Omega 6 group"},
+        "arm_group_type": {"_$": "Other"},
+        "description": {"_$": "All patients received TPN for 5 days postoperatively, according to a standard protocol: 3 g/kg BW glucose (5% Dextrose in Ringer's Lactate, Biosel, Istanbul), 1.2 g/kg BW amino acids (Aminosteril 10%, Fresenius-Kabi) and 0.8 g/kg BW omega-6 fatty acids (Lipovenoes® 10%, Fresenius-Kabi) were provided to both groups through an indwelling central venous catheter."}
+      }
+    ],
+    "intervention": {
+      "intervention_type": {"_$": "Drug"},
+      "intervention_name": {"_$": "Lipovenoes® 10% and Omegaven®,"},
+      "description": {"_$": "All patients received TPN for 5 days postoperatively, according to a standard protocol: 3 g/kg BW glucose (5% Dextrose in Ringer's Lactate, Biosel, Istanbul), 1.2 g/kg BW amino acids (Aminosteril 10%, Fresenius-Kabi) and 0.8 g/kg BW omega-6 fatty acids (Lipovenoes® 10%, Fresenius-Kabi) were provided to both groups through an indwelling central venous catheter. In the omega-3 group, the lipid content of TPN was replaced partially by omega-3 fatty acids (Omegaven®, Fresenius-Kabi) up to 0.2 g/kg BW per day."},
+      "arm_group_label": [
+        {"_$": "Omega-3 group"},
+        {"_$": "Omega 3 + Omega 6 group"}
+      ]
+    },
+    "eligibility": {
+      "criteria": {"textblock": {"_$": "Inclusion Criteria:\n\n          -  Patients undergoing major gastric cancer surgery\n\n        Exclusion Criteria:"}},
+      "gender": {"_$": "Both"},
+      "minimum_age": {"_$": "25 Years"},
+      "maximum_age": {"_$": "65 Years"}
+    },
+    "location": {"facility": {
+      "name": {"_$": "Ege University General Surgery Dep"},
+      "address": {
+        "city": {"_$": "Izmir"},
+        "zip": {"_$": "35100"},
+        "country": {"_$": "Turkey"}
+      }
+    }},
+    "location_countries": {"country": {"_$": "Turkey"}},
+    "results_reference": {"citation": {"_$": "16. McNelis J, Marini CP, Jurkiewicz A, et al. Prolonged lactate clearance is associated with increased mortality in the surgical intensive care unit. Am J Surg 2001; 182: 481-5. 7. Smith I, Kumar P, Molloy S, et al. Base excess and lactate as prognostic indicators for patients admitted to intensive care. Intensive Care Med 2001; 27: 74-83. 8. Husain FA, Martin MJ, Mullenix PS, et al. Serum lactate and base deficit as predictors of mortality and morbidity. Am J Surg 2003; 185: 485-91. 9. Skalski M, Goto M, Ravindranath T, et al. Omega-3 polyunsaturated fatty acid enriched diet attenuates stress induced lactacidemia in 10-day-old rats. Pediatr Int 2001; 43: 409-16. 11. Pscheidl EM, Wan JM, Blackburn GL, et al. Influence of omega-3 fatty acids on splanchnic blood flow and lactate metabolism in an endotoxemic rat model. Metabolism 1992; 41: 698-705. 22. Farolan LR, Goto M, Myers TF, et al. Perinatal nutrition enriched with omega-3 polyunsaturated fatty acids attenuates endotoxic shock in newborn rats. Shock 1996; 6: 263-6. 23. Pomposelli JJ, Flores EA, Blackburn GL, et al. Diets enriched with N-3 fatty acids ameliorate lactic acidosis by improving endotoxin-induced tissue hypoperfusion in guinea pigs. Ann Surg 1991; 213:166-76."}},
+    "verification_date": {"_$": "November 2009"},
+    "lastchanged_date": {"_$": "November 24, 2009"},
+    "firstreceived_date": {"_$": "June 25, 2009"},
+    "keyword": [
+      {"_$": "omega-3 fatty acids"},
+      {"_$": "lactate"},
+      {"_$": "surgery"},
+      {"_$": "gastric cancer"},
+      {"_$": "address the effect of postoperative administration of omega-3 fatty acids on cellular hypoperfusion associated with major gastric surgery."}
+    ],
+    "is_fda_regulated": {"_$": "No"},
+    "has_expanded_access": {"_$": "No"}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}
