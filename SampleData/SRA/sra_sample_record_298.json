@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258648",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "AKR_J-sc-2013-10-18T08:46:28Z-1727839",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "AKR_J-sc-2013-10-18T08:46:28Z-1727839",
+      "@accession": "ERS361111",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS361111"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224582"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "AKR_J-sc-2013-10-18T08:46:28Z-1727839"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "AKR_J-sc-2013-10-18T08:46:28Z-1727839"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Mus musculus"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Mus musculus"},
+        "TAXON_ID": {"_$": "10090"},
+        "SCIENTIFIC_NAME": {"_$": "Mus musculus"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "female"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Mus musculus"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

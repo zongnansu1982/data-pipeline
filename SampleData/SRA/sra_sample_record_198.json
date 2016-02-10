@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258265",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "01_18_016_2-sc-2013-10-16T09:21:55Z-1720421",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "01_18_016_2-sc-2013-10-16T09:21:55Z-1720421",
+      "@accession": "ERS360191",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360191"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2223794"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "01_18_016_2-sc-2013-10-16T09:21:55Z-1720421"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "01_18_016_2-sc-2013-10-16T09:21:55Z-1720421"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Escherichia coli"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Escherichia coli"},
+        "TAXON_ID": {"_$": "562"},
+        "SCIENTIFIC_NAME": {"_$": "Escherichia coli"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Escherichia coli"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

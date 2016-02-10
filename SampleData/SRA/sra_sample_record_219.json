@@ -1,0 +1,45 @@
+{
+  "SRA": {
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-AIT-17-10-2013-11:58:17:001-26",
+      "@center_name": "Austrian Institute of Technology",
+      "@accession": "ERP004099",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004099"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4780"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "AIT",
+            "_$": "ena-STUDY-AIT-17-10-2013-11:58:17:001-26"
+          },
+          {
+            "@namespace": "Austrian Institute of Technology",
+            "_$": "ena-STUDY-AIT-17-10-2013-11:58:17:001-26"
+          }
+        ]
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Analysis of antibiotic resistance genes in clinical isolates"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "The whole genome of beta-lactam resistant clinical isolates was sequenced upon characterization with PCR and Sanger-sequencing. The clinical samples were collected in the General Hospital Vienna, Austria. The IonTorrent PGM platform was used. MIRA 3.9.9. was used to assemble the contigs. RAST was used for the annotation."},
+        "CENTER_PROJECT_NAME": {"_$": "ena-STUDY-AIT-17-10-2013-11:58:17:001-26"},
+        "STUDY_DESCRIPTION": {"_$": "The whole genome of beta-lactam resistant clinical isolates was sequenced upon characterization with PCR and Sanger-sequencing. The clinical samples were collected in the General Hospital Vienna, Austria. The IonTorrent PGM platform was used. MIRA 3.9.9. was used to assemble the contigs. RAST was used for the annotation."}
+      },
+      "STUDY_LINKS": {"STUDY_LINK": {"XREF_LINK": {
+        "DB": {"_$": "PUBMED"},
+        "ID": {"_$": "25159028"}
+      }}}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258513",
+      "@alias": "ena-SUBMISSION-AIT-17-10-2013-11:57:42:852-1",
+      "@center_name": "AIT",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

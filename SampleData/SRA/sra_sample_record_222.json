@@ -1,0 +1,36 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@alias": "ena-SUBMISSION-HSL-SP-17-10-2013-12:22:28:644-1",
+      "@center_name": "HSL-SP",
+      "@lab_name": "Lab of Bioinformatics",
+      "@accession": "ERA258615",
+      "@broker_name": "European Nucleotide Archive"
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-HSL-SP-17-10-2013-12:28:00:541-28",
+      "@center_name": "HSL-SP",
+      "@accession": "ERP004101",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004101"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4781"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "HSL-SP",
+          "_$": "ena-STUDY-HSL-SP-17-10-2013-12:28:00:541-28"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "ICRmax: an optimized approach to detect tumor-specific interchromosomal rearrangements for clinical application"},
+        "STUDY_TYPE": {"@existing_study_type": "Population Genomics"},
+        "STUDY_ABSTRACT": {"_$": "We developed a computational pipeline (ICRmax) designed for the cost-effective identification of a minimal set of tumor-specific interchromosomal rearrangements (ICRs) for clinical application. We examined ICRmax performance on our own sequencing data derived from six rectal tumors achieving an average accuracy of 70% for ICR identification. ICRmax allows the identification of interchromosomal translocations from low-coverage (3x) sequenced tumor genomes, eliminates the need to sequence a matched normal tissue genome."},
+        "CENTER_PROJECT_NAME": {"_$": "ICRMax and rectal tumor"},
+        "STUDY_DESCRIPTION": {"_$": "We developed a computational pipeline (ICRmax) designed for the cost-effective identification of a minimal set of tumor-specific interchromosomal rearrangements (ICRs) for clinical application. We examined ICRmax performance on our own sequencing data derived from six rectal tumors achieving an average accuracy of 70% for ICR identification. ICRmax allows the identification of interchromosomal translocations from low-coverage (3x) sequenced tumor genomes, eliminates the need to sequence a matched normal tissue genome."}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

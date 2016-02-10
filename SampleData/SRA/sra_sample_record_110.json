@@ -1,0 +1,296 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "Eimeria acervulina Houghton",
+        "@center_name": "King Abdullah University of Science and Technology",
+        "@accession": "ERS361218",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361218"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241753"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "KAUST",
+              "_$": "Eimeria acervulina Houghton"
+            },
+            {
+              "@namespace": "King Abdullah University of Science and Technology",
+              "_$": "Eimeria acervulina Houghton"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Eimeria acervulina; Eimeria acervulina Houghton"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "5801"},
+          "SCIENTIFIC_NAME": {"_$": "Eimeria acervulina"}
+        },
+        "DESCRIPTION": {"_$": "Eimeria acervulina Houghton"}
+      },
+      {
+        "@alias": "Eimeria maxima Weybridge",
+        "@center_name": "King Abdullah University of Science and Technology",
+        "@accession": "ERS361219",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361219"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241754"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "KAUST",
+              "_$": "Eimeria maxima Weybridge"
+            },
+            {
+              "@namespace": "King Abdullah University of Science and Technology",
+              "_$": "Eimeria maxima Weybridge"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Eimeria maxima; Eimeria maxima Weybridge"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "5804"},
+          "SCIENTIFIC_NAME": {"_$": "Eimeria maxima"}
+        },
+        "DESCRIPTION": {"_$": "Eimeria maxima"}
+      },
+      {
+        "@alias": "Eimeria necatrix Houghton",
+        "@center_name": "King Abdullah University of Science and Technology",
+        "@accession": "ERS361220",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361220"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241719"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "KAUST",
+              "_$": "Eimeria necatrix Houghton"
+            },
+            {
+              "@namespace": "King Abdullah University of Science and Technology",
+              "_$": "Eimeria necatrix Houghton"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Eimeria necatrix; Eimeria necatrix Houghton"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "51315"},
+          "SCIENTIFIC_NAME": {"_$": "Eimeria necatrix"}
+        },
+        "DESCRIPTION": {"_$": "Eimeria necatrix"}
+      },
+      {
+        "@alias": "Eimeria brunetti Houghton",
+        "@center_name": "King Abdullah University of Science and Technology",
+        "@accession": "ERS361221",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361221"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241720"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "KAUST",
+              "_$": "Eimeria brunetti Houghton"
+            },
+            {
+              "@namespace": "King Abdullah University of Science and Technology",
+              "_$": "Eimeria brunetti Houghton"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Eimeria brunetti; Eimeria brunetti Houghton"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "51314"},
+          "SCIENTIFIC_NAME": {"_$": "Eimeria brunetti"}
+        },
+        "DESCRIPTION": {"_$": "Eimeria brunetti"}
+      },
+      {
+        "@alias": "Eimeria mitis Houghton",
+        "@center_name": "King Abdullah University of Science and Technology",
+        "@accession": "ERS361222",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361222"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241755"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "KAUST",
+              "_$": "Eimeria mitis Houghton"
+            },
+            {
+              "@namespace": "King Abdullah University of Science and Technology",
+              "_$": "Eimeria mitis Houghton"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Eimeria mitis; Eimeria mitis Houghton"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "44415"},
+          "SCIENTIFIC_NAME": {"_$": "Eimeria mitis"}
+        },
+        "DESCRIPTION": {"_$": "Eimeria mitis"}
+      },
+      {
+        "@alias": "Eimeria praecox Houghton",
+        "@center_name": "King Abdullah University of Science and Technology",
+        "@accession": "ERS361223",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361223"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241756"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "KAUST",
+              "_$": "Eimeria praecox Houghton"
+            },
+            {
+              "@namespace": "King Abdullah University of Science and Technology",
+              "_$": "Eimeria praecox Houghton"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Eimeria praecox; Eimeria praecox Houghton"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "51316"},
+          "SCIENTIFIC_NAME": {"_$": "Eimeria praecox"}
+        },
+        "DESCRIPTION": {"_$": "Eimeria praecox"}
+      }
+    ]},
+    "EXPERIMENT_SET": {"EXPERIMENT": {
+      "@alias": "ena-EXPERIMENT-KAUST-18-10-2013-10:24:46:871-1",
+      "@center_name": "KAUST",
+      "@accession": "ERX329899",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERX329899"},
+        "SUBMITTER_ID": {
+          "@namespace": "KAUST",
+          "_$": "ena-EXPERIMENT-KAUST-18-10-2013-10:24:46:871-1"
+        }
+      },
+      "TITLE": {},
+      "STUDY_REF": {
+        "@refname": "ena-STUDY-SC-22-10-2013-11:00:51:800-17",
+        "@refcenter": "SC",
+        "@accession": "ERP004155",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERP004155"},
+          "SUBMITTER_ID": {
+            "@namespace": "SC",
+            "_$": "ena-STUDY-SC-22-10-2013-11:00:51:800-17"
+          }
+        }
+      },
+      "DESIGN": {
+        "DESIGN_DESCRIPTION": {},
+        "SAMPLE_DESCRIPTOR": {
+          "@refname": "Eimeria acervulina Houghton",
+          "@refcenter": "KAUST",
+          "@accession": "ERS361218",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERS361218"},
+            "SUBMITTER_ID": {
+              "@namespace": "KAUST",
+              "_$": "Eimeria acervulina Houghton"
+            }
+          }
+        },
+        "LIBRARY_DESCRIPTOR": {
+          "LIBRARY_NAME": {"_$": "unspecified"},
+          "LIBRARY_STRATEGY": {"_$": "WGS"},
+          "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+          "LIBRARY_SELECTION": {"_$": "RANDOM"},
+          "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "350"}}
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+          {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "F1"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          },
+          {
+            "READ_INDEX": {"_$": "1"},
+            "READ_LABEL": {"_$": "R2"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Reverse"},
+            "RELATIVE_ORDER": {"@follows_read_index": "0"}
+          }
+        ]}}
+      },
+      "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina Genome Analyzer IIx"}}},
+      "PROCESSING": {}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258750",
+      "@alias": "ena-SUBMISSION-KAUST-18-10-2013-10:17:03:366-1",
+      "@center_name": "KAUST",
+      "@lab_name": "Pathogen Genomics Laboratory"
+    },
+    "RUN_SET": {"RUN": {
+      "@alias": "ena-RUN-KAUST-18-10-2013-10:24:46:871-1",
+      "@center_name": "King Abdullah University of Science and Technology",
+      "@accession": "ERR357127",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERR357127"},
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "KAUST",
+            "_$": "ena-RUN-KAUST-18-10-2013-10:24:46:871-1"
+          },
+          {
+            "@namespace": "King Abdullah University of Science and Technology",
+            "_$": "ena-RUN-KAUST-18-10-2013-10:24:46:871-1"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Illumina Genome Analyzer IIx paired end sequencing"},
+      "EXPERIMENT_REF": {
+        "@refname": "ena-EXPERIMENT-KAUST-18-10-2013-10:24:46:871-1",
+        "@refcenter": "KAUST",
+        "@accession": "ERX329899",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329899"},
+          "SUBMITTER_ID": {
+            "@namespace": "KAUST",
+            "_$": "ena-EXPERIMENT-KAUST-18-10-2013-10:24:46:871-1"
+          }
+        }
+      },
+      "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+        "SPOT_LENGTH": {"_$": "202"},
+        "READ_SPEC": [
+          {
+            "READ_INDEX": {"_$": "0"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          },
+          {
+            "READ_INDEX": {"_$": "1"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Reverse"},
+            "BASE_COORD": {"_$": "102"}
+          }
+        ]
+      }},
+      "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina Genome Analyzer IIx"}}}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

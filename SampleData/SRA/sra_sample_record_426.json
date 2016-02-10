@@ -1,0 +1,103 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258725",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "sin_OSN_145-sc-2013-10-18T09:52:39Z-1727915",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "sin_OSN_145-sc-2013-10-18T09:52:39Z-1727915",
+      "@accession": "ERS361189",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS361189"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224660"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "sin_OSN_145-sc-2013-10-18T09:52:39Z-1727915"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "sin_OSN_145-sc-2013-10-18T09:52:39Z-1727915"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Mus musculus"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Mus musculus"},
+        "TAXON_ID": {"_$": "10090"},
+        "SCIENTIFIC_NAME": {"_$": "Mus musculus"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {"_$": "C57Bl6"}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {"_$": "library from single OSNs"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Genotype"},
+          "VALUE": {"_$": "OMP-GFP (+/-)"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-StrainOrLine"},
+          "VALUE": {"_$": "C57Bl6"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-DevelopmentalStage"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "male"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-CellType"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-DiseaseState"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Compound"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Dose"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Immunoprecipitate"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-GrowthCondition"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-OrganismPart"},
+          "VALUE": {"_$": "Olfactory epithelium"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Mus musculus"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-TimePoint"},
+          "VALUE": {"_$": "N/A"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

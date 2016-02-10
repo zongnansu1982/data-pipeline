@@ -1,0 +1,2371 @@
+{
+  "SRA": {
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329874",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329874"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2625_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329875",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329875"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2665_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329876",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329876"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2664_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329877",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329877"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2618_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329878",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329878"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2624_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329879",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329879"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2667_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do900_Input_HepG2_hsa",
+        "@accession": "ERX329880",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329880"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do900_Input_HepG2_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do900_Input_HepG2_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do900_Input_HepG2_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "Input"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329881",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329881"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2660_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329882",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329882"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2626_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do264_Input_mcf7_hsa",
+        "@accession": "ERX329883",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329883"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do264_Input_mcf7_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do264_Input_mcf7_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do264_Input_mcf7_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "Input"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329884",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329884"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2617_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329885",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329885"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2661_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329886",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329886"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2621_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329887",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329887"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2619_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329888",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329888"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2666_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329889",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329889"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2658_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329890",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329890"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2657_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329891",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329891"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2663_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329892",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329892"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2662_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329893",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329893"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2622_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329894",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329894"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2623_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329895",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329895"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2659_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa",
+        "@accession": "ERX329896",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329896"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:MCF7",
+            "@accession": "ERS361116",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361116"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224587"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:MCF7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2656_H3K4me3_MCF7_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329897",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329897"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2620_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa",
+        "@accession": "ERX329898",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329898"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 sequencing; AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1579",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERP002518",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP002518"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "AHT-ChIP-seq, a completely automated robotic protocol to perform chromatin immunoprecipitation in high-throughput"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1579:HepG2",
+            "@accession": "ERS361115",
+            "@refcenter": "Cambridge University",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361115"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224586"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Cambridge University",
+                "_$": "E-MTAB-1579:HepG2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "do2616_H3K4me3_HepG2_05-1339_hsa"},
+            "LIBRARY_STRATEGY": {"_$": "ChIP-Seq"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "ChIP"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: immunoprecipitate"},
+          "VALUE": {"_$": "H3K4me3"}
+        }}
+      }
+    ]},
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357102",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357102"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329888",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329888"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2666_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357103",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357103"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329875",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329875"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2665_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357104",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357104"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329897",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329897"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2620_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357105",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357105"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329887",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329887"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2619_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357106",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357106"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329881",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329881"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2660_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357107",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357107"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329876",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329876"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2664_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357108",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357108"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329890",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329890"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2657_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357109",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357109"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329882",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329882"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2626_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357110",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357110"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329885",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329885"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2661_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357111",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357111"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329877",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329877"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2618_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357112",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357112"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329886",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329886"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2621_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357113",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357113"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329895",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329895"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2659_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357114",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357114"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329874",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329874"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2625_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357115",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357115"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329884",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329884"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2617_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357116",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357116"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329893",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329893"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2622_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357117",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357117"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329891",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329891"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2663_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357118",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357118"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329892",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329892"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2662_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do900_Input_liver_none_hsa_CRI02.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357119",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357119"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do900_Input_liver_none_hsa_CRI02.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do900_Input_HepG2_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329880",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329880"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do900_Input_HepG2_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357120",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357120"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329878",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329878"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2624_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357121",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357121"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329898",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329898"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2616_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357122",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357122"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329894",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329894"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2623_H3K4me3_HepG2_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do264_Input_breast_none_hsamcf7_CRI01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357123",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357123"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do264_Input_breast_none_hsamcf7_CRI01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do264_Input_mcf7_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329883",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329883"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do264_Input_mcf7_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357124",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357124"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329896",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329896"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2656_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357125",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357125"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329889",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329889"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2658_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz",
+        "@run_center": "SC",
+        "@center_name": "Cambridge University",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357126",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357126"},
+          "SUBMITTER_ID": {
+            "@namespace": "Cambridge University",
+            "_$": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa_SAN01.fq.gz"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa",
+          "@refcenter": "Cambridge University",
+          "@accession": "ERX329879",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329879"},
+            "SUBMITTER_ID": {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:do2667_H3K4me3_MCF7_05-1339_hsa"
+            }
+          }
+        }
+      }
+    ]},
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "E-MTAB-1579:HepG2",
+        "@accession": "ERS361115",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361115"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2224586"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:HepG2"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:HepG2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; HepG2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "developmental stage"},
+            "VALUE": {"_$": "adult"}
+          },
+          {
+            "TAG": {"_$": "organism part"},
+            "VALUE": {"_$": "liver"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "HepG2"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "male"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1579:MCF7",
+        "@accession": "ERS361116",
+        "@center_name": "CAMBRIDGE UNIVERSITY",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361116"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2224587"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "CAMBRIDGE UNIVERSITY",
+              "_$": "E-MTAB-1579:MCF7"
+            },
+            {
+              "@namespace": "Cambridge University",
+              "_$": "E-MTAB-1579:MCF7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; MCF7"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Samples were prepared by direct perfusion of the tissue with buffered salt solution, followed by % formaldehyde.  After 10 minutes, the tissue was removed and diced in 500 mM glycine buffer to neutralize the formaldehyde. After homogenization, the cells were rinsed with PBS. The animal tissues were crosslinked with formaldehyde treatment and chromatin fragmented to an average of 300 bp by sonication. Chromatin from an mass equivalent of 1/4 mouse liver was used for each ChIP experiment. Solexa libraries were prepared following the instructions of Illumina (Sample preparation for genomic DNA - version 2.2) with the following modifications. The ChIP-enriched DNA was not further fragmented. After end-repair and addition of an A base to the 3prime ends, the adapters were ligated to the ends of the DNA Fragments using 2 ul of fortyfold diluted Adapter oligo mix in a total reaction volume of 25 ul. Between these steps, the DNA was purified using the DNA Clean-and-Concentrator-5 kit (Zymo Research). Subsequently, the DNA was amplified by 18 cycles of PCR, purified with QIAquick PCR purification Kit, and eluted with 33.5 ul of 10 mM tris buffer at pH7.0. The PCR-product was sized fractionated on 2% agarose gel and a gel slice containing the 200-300 bp fragments was excised. The flowcells were prepared and processed according to the manufacturers protocols, with paired end sequencing for 75 cycles."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "developmental stage"},
+            "VALUE": {"_$": "adult"}
+          },
+          {
+            "TAG": {"_$": "organism part"},
+            "VALUE": {"_$": "breast"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "MCF-7"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          }
+        ]}
+      }
+    ]},
+    "SUBMISSION": {
+      "@accession": "ERA258652",
+      "@alias": "E-MTAB-1579_newruns",
+      "@center_name": "Cambridge University",
+      "@broker_name": "ArrayExpress",
+      "@lab_name": "ArrayExpress"
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

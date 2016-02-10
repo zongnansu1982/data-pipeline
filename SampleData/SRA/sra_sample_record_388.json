@@ -1,0 +1,63 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "CHAB_454-sc-2013-10-15T15:26:54Z-1725393",
+      "@accession": "ERS359928",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS359928"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2223467"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "CHAB_454-sc-2013-10-15T15:26:54Z-1725393"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "CHAB_454-sc-2013-10-15T15:26:54Z-1725393"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Plasmodium chabaudi chabaudi"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Plasmodium chabaudi chabaudi"},
+        "TAXON_ID": {"_$": "31271"},
+        "SCIENTIFIC_NAME": {"_$": "Plasmodium chabaudi chabaudi"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {"_$": "AS"}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {"_$": "454 sequencing"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-StrainOrLine"},
+          "VALUE": {"_$": "AS"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "not applicable"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Plasmodium chabaudi chabaudi"}
+        }
+      ]}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258014",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "CHAB_454-sc-2013-10-15T15:26:54Z-1725393",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

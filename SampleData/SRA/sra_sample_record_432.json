@@ -1,0 +1,107 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258485",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "ZMP_phenotype_32_3_sibling-sc-2013-10-17T10:16:26Z-1727407",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "ZMP_phenotype_32_3_sibling-sc-2013-10-17T10:16:26Z-1727407",
+      "@accession": "ERS360449",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360449"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224100"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "ZMP_phenotype_32_3_sibling-sc-2013-10-17T10:16:26Z-1727407"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "ZMP_phenotype_32_3_sibling-sc-2013-10-17T10:16:26Z-1727407"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Danio rerio"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Danio rerio"},
+        "TAXON_ID": {"_$": "7955"},
+        "SCIENTIFIC_NAME": {"_$": "Danio rerio"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {"_$": "mixed"}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {"_$": "3' end enriched mRNA from morphologically normal embryos from ZMP phenotype 32 clutch 3. A 5 base indexing sequence (GCACG) is bases 6 to 10 of read 1 followed by polyT.  More information describing the mutant phenotype can be found at the Wellcome Trust Sanger Institute Zebrafish Mutation Project website http://www.sanger.ac.uk/cgi-bin/Projects/D_rerio/zmp/search.pl?q=zmp_ph32"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Genotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-StrainOrLine"},
+          "VALUE": {"_$": "mixed"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-DevelopmentalStage"},
+          "VALUE": {"_$": "Hatching - long pec - pec fin - ZFS:0000033 \u2013 ZFS:0000034"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "unknown"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-CellType"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-DiseaseState"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Compound"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Dose"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Immunoprecipitate"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-GrowthCondition"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-OrganismPart"},
+          "VALUE": {"_$": "Whole Embryo"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Danio rerio"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-TimePoint"},
+          "VALUE": {"_$": "N/A"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

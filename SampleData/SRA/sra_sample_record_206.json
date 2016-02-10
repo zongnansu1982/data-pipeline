@@ -1,0 +1,42 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258643",
+      "@alias": "ena-SUBMISSION-CUGB-18-10-2013-02:14:04:855-1",
+      "@center_name": "CUGB",
+      "@lab_name": "The Key Laboratory of Marine Reservoir Evolution and Hydrocarbon Accumulation Mechanism",
+      "@broker_name": "European Nucleotide Archive"
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-CUGB-18-10-2013-02:19:45:935-156",
+      "@center_name": "School of Energy Resources, China University of Geosciences (Beijing)",
+      "@accession": "ERP004113",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004113"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4792"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "CUGB",
+            "_$": "ena-STUDY-CUGB-18-10-2013-02:19:45:935-156"
+          },
+          {
+            "@namespace": "School of Energy Resources, China University of Geosciences (Beijing)",
+            "_$": "ena-STUDY-CUGB-18-10-2013-02:19:45:935-156"
+          }
+        ]
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Dynamics of microbial community during a stage of microbial enhanced oil recovery used high-throughput sequencing"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "Based on 454 pyrosequencing of 16S rRNA gene amplicons, microbial communities in samples of injected water and oil associated production waters during the second round of a serial microbial enhanced oil recovery (MEOR) field trial in a water-flooded oil reservoir were analyzed. There were 43 shared dominant operational taxonomic units (OTUs) detected both in the injected water and the produced waters before nutrients injection, which showed a close compositional relationship of microbial community in the injected water and the oil reservoir. Microbes clustered into Proteobacteria and Bacteroidetes were detected in all samples. The vast majority of reads obtained were aligned closely to those microbes usually detected in oil reservoirs environments or those associated with hydrocarbon-degradation. Alterations of microbial community in the produced waters after nutrients injection showed that microbes giving positive responses to the injected nutrients were mainly those detected both in the injected water and in the oil reservoir. Additionally, microbes only detected or dominant in the produced waters were significantly inhibited with a sharp decline in relative abundance after nutrients injection. A suggestion of selecting potential microbes for MEOR preferentially from microbes possessed survival ability in both surface and subsurface environments was proposed"},
+        "CENTER_PROJECT_NAME": {"_$": "Microbial community of oil reservoirs"},
+        "STUDY_DESCRIPTION": {"_$": "Based on 454 pyrosequencing of 16S rRNA gene amplicons, microbial communities in samples of injected water and oil associated production waters during the second round of a serial microbial enhanced oil recovery (MEOR) field trial in a water-flooded oil reservoir were analyzed. There were 43 shared dominant operational taxonomic units (OTUs) detected both in the injected water and the produced waters before nutrients injection, which showed a close compositional relationship of microbial community in the injected water and the oil reservoir. Microbes clustered into Proteobacteria and Bacteroidetes were detected in all samples. The vast majority of reads obtained were aligned closely to those microbes usually detected in oil reservoirs environments or those associated with hydrocarbon-degradation. Alterations of microbial community in the produced waters after nutrients injection showed that microbes giving positive responses to the injected nutrients were mainly those detected both in the injected water and in the oil reservoir. Additionally, microbes only detected or dominant in the produced waters were significantly inhibited with a sharp decline in relative abundance after nutrients injection. A suggestion of selecting potential microbes for MEOR preferentially from microbes possessed survival ability in both surface and subsurface environments was proposed"}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

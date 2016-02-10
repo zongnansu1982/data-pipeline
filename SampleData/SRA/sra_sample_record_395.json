@@ -1,0 +1,35 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258951",
+      "@alias": "ena-SUBMISSION-UDEA-18-10-2013-15:03:25:567-1",
+      "@center_name": "UDEA",
+      "@lab_name": ""
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-UDEA-18-10-2013-15:17:26:449-67",
+      "@center_name": "UDEA",
+      "@accession": "ERP004124",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004124"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4803"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "UDEA",
+          "_$": "ena-STUDY-UDEA-18-10-2013-15:17:26:449-67"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Genome sequencing of a Colombian isolate a Brucella canis"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "Brucella canis is an important pathogen in dogs. Only few genomes of B. canis are available in public databases and we wanted to study a reference strain of this pathogen isolated from an infected dog in Medellin-Colombia."},
+        "CENTER_PROJECT_NAME": {"_$": "Genome sequencing of a Colombian isolate a Brucella canis"},
+        "STUDY_DESCRIPTION": {"_$": "Brucella canis is an important pathogen in dogs. Only few genomes of B. canis are available in public databases and we wanted to study a reference strain of this pathogen isolated from an infected dog in Medellin-Colombia."}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

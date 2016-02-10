@@ -1,0 +1,39 @@
+{
+  "SRA": {
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-IPK-Gatersleben-16-10-2013-07:33:46:549-493",
+      "@center_name": "IPK-Gatersleben",
+      "@accession": "ERP004079",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004079"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4765"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "IPK-Gatersleben",
+          "_$": "ena-STUDY-IPK-Gatersleben-16-10-2013-07:33:46:549-493"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Sequencing of Barley BACs mapped to rym11 locus"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "454 sequencing technology was used to analyse barley BACs that were mapped to the rym11 locus on chromosome 4H."},
+        "CENTER_PROJECT_NAME": {"_$": "BACSeq_rym11"},
+        "STUDY_DESCRIPTION": {"_$": "454 sequencing technology was used to analyse barley BACs that were mapped to the rym11 locus on chromosome 4H."}
+      },
+      "STUDY_LINKS": {"STUDY_LINK": {"XREF_LINK": {
+        "DB": {"_$": "pubmed"},
+        "ID": {"_$": "24481254"}
+      }}}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258026",
+      "@alias": "ena-SUBMISSION-IPK-Gatersleben-16-10-2013-07:25:27:722-1",
+      "@center_name": "IPK-Gatersleben",
+      "@lab_name": "Bioinformatics and Information Technology"
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

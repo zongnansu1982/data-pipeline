@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "bmarCR11-sc-2013-10-17T13:31:21Z-1727535",
+      "@accession": "ERS360929",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360929"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224240"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "bmarCR11-sc-2013-10-17T13:31:21Z-1727535"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "bmarCR11-sc-2013-10-17T13:31:21Z-1727535"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Brucella ceti"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Brucella ceti"},
+        "TAXON_ID": {"_$": "120577"},
+        "SCIENTIFIC_NAME": {"_$": "Brucella ceti"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "not applicable"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Brucella ceti"}
+        }
+      ]}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258626",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "bmarCR11-sc-2013-10-17T13:31:21Z-1727535",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

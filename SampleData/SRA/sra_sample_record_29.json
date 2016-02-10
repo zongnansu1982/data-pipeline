@@ -1,0 +1,63 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258498",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "2010_12407-sc-2013-10-17T11:21:18Z-1727514",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "2010_12407-sc-2013-10-17T11:21:18Z-1727514",
+      "@accession": "ERS360464",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360464"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224115"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "2010_12407-sc-2013-10-17T11:21:18Z-1727514"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "2010_12407-sc-2013-10-17T11:21:18Z-1727514"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Salmonella enterica subsp. enterica serovar Paratyphi B"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Salmonella enterica subsp. enterica serovar Paratyphi B"},
+        "TAXON_ID": {"_$": "57045"},
+        "SCIENTIFIC_NAME": {"_$": "Salmonella enterica subsp. enterica serovar Paratyphi B"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {"_$": "dT+"}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-StrainOrLine"},
+          "VALUE": {"_$": "dT+"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "not applicable"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Salmonella enterica subsp. enterica serovar Paratyphi B"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

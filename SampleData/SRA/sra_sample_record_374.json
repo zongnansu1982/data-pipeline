@@ -1,0 +1,3811 @@
+{
+  "SRA": {
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-1",
+        "@center_name": "UW",
+        "@accession": "ERX329083",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329083"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-1"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "1a",
+            "@refcenter": "UW",
+            "@accession": "ERS359671",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359671"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "1a"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "608"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-2",
+        "@center_name": "UW",
+        "@accession": "ERX329084",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329084"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-2"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "12",
+            "@refcenter": "UW",
+            "@accession": "ERS359668",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359668"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "12"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "611"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-3",
+        "@center_name": "UW",
+        "@accession": "ERX329085",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329085"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-3"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "28a",
+            "@refcenter": "UW",
+            "@accession": "ERS359815",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359815"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "28a"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "617"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-4",
+        "@center_name": "UW",
+        "@accession": "ERX329086",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329086"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-4"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "30a",
+            "@refcenter": "UW",
+            "@accession": "ERS359807",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359807"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "30a"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "619"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-5",
+        "@center_name": "UW",
+        "@accession": "ERX329087",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329087"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-5"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "31d",
+            "@refcenter": "UW",
+            "@accession": "ERS359816",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359816"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "31d"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "620"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-6",
+        "@center_name": "UW",
+        "@accession": "ERX329088",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329088"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-6"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "31f",
+            "@refcenter": "UW",
+            "@accession": "ERS359820",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359820"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "31f"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "626"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-7",
+        "@center_name": "UW",
+        "@accession": "ERX329089",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329089"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-7"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "31b",
+            "@refcenter": "UW",
+            "@accession": "ERS359855",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359855"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "31b"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "627"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-8",
+        "@center_name": "UW",
+        "@accession": "ERX329090",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329090"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-8"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "28b",
+            "@refcenter": "UW",
+            "@accession": "ERS359856",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359856"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "28b"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "629"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-9",
+        "@center_name": "UW",
+        "@accession": "ERX329091",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329091"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-9"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "26g",
+            "@refcenter": "UW",
+            "@accession": "ERS359860",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359860"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "26g"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "637"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-10",
+        "@center_name": "UW",
+        "@accession": "ERX329092",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329092"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-10"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "36",
+            "@refcenter": "UW",
+            "@accession": "ERS359861",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359861"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "36"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "648"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-11",
+        "@center_name": "UW",
+        "@accession": "ERX329093",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329093"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-11"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "37",
+            "@refcenter": "UW",
+            "@accession": "ERS359862",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359862"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "37"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "650"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-12",
+        "@center_name": "UW",
+        "@accession": "ERX329094",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329094"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-12"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "5",
+            "@refcenter": "UW",
+            "@accession": "ERS359868",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359868"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "5"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "663"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-13",
+        "@center_name": "UW",
+        "@accession": "ERX329095",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329095"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-13"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "41",
+            "@refcenter": "UW",
+            "@accession": "ERS359872",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359872"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "41"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "668"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-14",
+        "@center_name": "UW",
+        "@accession": "ERX329096",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329096"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-14"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "45",
+            "@refcenter": "UW",
+            "@accession": "ERS359875",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359875"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "45"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "671"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-15",
+        "@center_name": "UW",
+        "@accession": "ERX329097",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329097"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-15"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "46b",
+            "@refcenter": "UW",
+            "@accession": "ERS359876",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359876"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "46b"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "672"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-16",
+        "@center_name": "UW",
+        "@accession": "ERX329098",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329098"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-16"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "46a",
+            "@refcenter": "UW",
+            "@accession": "ERS359877",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359877"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "46a"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "673"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-17",
+        "@center_name": "UW",
+        "@accession": "ERX329099",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329099"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-17"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "47",
+            "@refcenter": "UW",
+            "@accession": "ERS359878",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359878"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "47"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "674"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-18",
+        "@center_name": "UW",
+        "@accession": "ERX329100",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329100"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-18"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E5",
+            "@refcenter": "UW",
+            "@accession": "ERS359893",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359893"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E5"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "706"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-19",
+        "@center_name": "UW",
+        "@accession": "ERX329101",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329101"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-19"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E6",
+            "@refcenter": "UW",
+            "@accession": "ERS359894",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359894"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E6"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "707"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-20",
+        "@center_name": "UW",
+        "@accession": "ERX329102",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329102"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-20"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E7",
+            "@refcenter": "UW",
+            "@accession": "ERS359895",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359895"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "708"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-21",
+        "@center_name": "UW",
+        "@accession": "ERX329103",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329103"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-21"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E8",
+            "@refcenter": "UW",
+            "@accession": "ERS359896",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359896"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E8"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "709"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-22",
+        "@center_name": "UW",
+        "@accession": "ERX329104",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329104"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-22"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E9",
+            "@refcenter": "UW",
+            "@accession": "ERS359897",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359897"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E9"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "710"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-23",
+        "@center_name": "UW",
+        "@accession": "ERX329105",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329105"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-23"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E10",
+            "@refcenter": "UW",
+            "@accession": "ERS359898",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359898"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E10"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "711"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-24",
+        "@center_name": "UW",
+        "@accession": "ERX329106",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329106"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-24"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E2",
+            "@refcenter": "UW",
+            "@accession": "ERS359899",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359899"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "712"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-25",
+        "@center_name": "UW",
+        "@accession": "ERX329107",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329107"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-25"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E3",
+            "@refcenter": "UW",
+            "@accession": "ERS359900",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359900"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "713"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-26",
+        "@center_name": "UW",
+        "@accession": "ERX329108",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329108"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-26"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E4",
+            "@refcenter": "UW",
+            "@accession": "ERS359901",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359901"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "E4"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "714"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-27",
+        "@center_name": "UW",
+        "@accession": "ERX329109",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329109"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-27"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "55",
+            "@refcenter": "UW",
+            "@accession": "ERS359902",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359902"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "55"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "715"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-28",
+        "@center_name": "UW",
+        "@accession": "ERX329110",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329110"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-28"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "57",
+            "@refcenter": "UW",
+            "@accession": "ERS359903",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359903"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "57"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "716"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-29",
+        "@center_name": "UW",
+        "@accession": "ERX329111",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329111"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-29"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "56",
+            "@refcenter": "UW",
+            "@accession": "ERS359904",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359904"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "56"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "717"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-30",
+        "@center_name": "UW",
+        "@accession": "ERX329112",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329112"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-30"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "58",
+            "@refcenter": "UW",
+            "@accession": "ERS359905",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359905"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "58"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "718"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-31",
+        "@center_name": "UW",
+        "@accession": "ERX329113",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329113"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-31"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "52",
+            "@refcenter": "UW",
+            "@accession": "ERS359906",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359906"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "52"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "719"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-32",
+        "@center_name": "UW",
+        "@accession": "ERX329114",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329114"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-32"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "54",
+            "@refcenter": "UW",
+            "@accession": "ERS359907",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359907"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "54"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "720"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-33",
+        "@center_name": "UW",
+        "@accession": "ERX329115",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329115"},
+          "SUBMITTER_ID": {
+            "@namespace": "UW",
+            "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-33"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004046",
+          "@refname": "ena-STUDY-UW-11-10-2013-16:42:20:333-371",
+          "@refcenter": "UW",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004046"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-STUDY-UW-11-10-2013-16:42:20:333-371"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "53",
+            "@refcenter": "UW",
+            "@accession": "ERS359908",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359908"},
+              "SUBMITTER_ID": {
+                "@namespace": "UW",
+                "_$": "53"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "721"},
+            "LIBRARY_STRATEGY": {"_$": "WGS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "550"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "NexteraXT"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      }
+    ]},
+    "SUBMISSION": {
+      "@alias": "ena-SUBMISSION-UW-15-10-2013-16:53:21:402-1",
+      "@center_name": "UW",
+      "@lab_name": "Division of Microbiology and Infection, Warwick Medical School",
+      "@accession": "ERA258017"
+    },
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:721-1",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356300",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356300"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:721-1"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:721-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-1",
+          "@refcenter": "UW",
+          "@accession": "ERX329083",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329083"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:721-2",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356301",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356301"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:721-2"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:721-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-2",
+          "@refcenter": "UW",
+          "@accession": "ERX329084",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329084"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-2"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:721-3",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356302",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356302"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:721-3"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:721-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-3",
+          "@refcenter": "UW",
+          "@accession": "ERX329085",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329085"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:721-3"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-4",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356303",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356303"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-4"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-4"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-4",
+          "@refcenter": "UW",
+          "@accession": "ERX329086",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329086"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-4"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-5",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356304",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356304"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-5"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-5"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-5",
+          "@refcenter": "UW",
+          "@accession": "ERX329087",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329087"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-5"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-6",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356305",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356305"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-6"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-6"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-6",
+          "@refcenter": "UW",
+          "@accession": "ERX329088",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329088"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-6"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-7",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356306",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356306"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-7"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-7",
+          "@refcenter": "UW",
+          "@accession": "ERX329089",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329089"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-7"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-8",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356307",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356307"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-8"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-8",
+          "@refcenter": "UW",
+          "@accession": "ERX329090",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329090"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-9",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356308",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356308"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-9"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-9"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-9",
+          "@refcenter": "UW",
+          "@accession": "ERX329091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329091"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-9"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-10",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356309",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356309"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-10"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-10"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-10",
+          "@refcenter": "UW",
+          "@accession": "ERX329092",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329092"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-10"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:722-11",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356310",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356310"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-11"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:722-11"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-11",
+          "@refcenter": "UW",
+          "@accession": "ERX329093",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329093"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:722-11"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-12",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356311",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356311"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-12"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-12"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-12",
+          "@refcenter": "UW",
+          "@accession": "ERX329094",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329094"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-12"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-13",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356312",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356312"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-13"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-13"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-13",
+          "@refcenter": "UW",
+          "@accession": "ERX329095",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329095"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-13"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-14",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356313",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356313"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-14"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-14"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-14",
+          "@refcenter": "UW",
+          "@accession": "ERX329096",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329096"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-14"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-15",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356314",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356314"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-15"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-15"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-15",
+          "@refcenter": "UW",
+          "@accession": "ERX329097",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329097"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-15"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-16",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356315",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356315"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-16"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-16"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-16",
+          "@refcenter": "UW",
+          "@accession": "ERX329098",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329098"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-16"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-17",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356316",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356316"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-17"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-17"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-17",
+          "@refcenter": "UW",
+          "@accession": "ERX329099",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329099"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-17"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-18",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356317",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356317"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-18"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-18"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-18",
+          "@refcenter": "UW",
+          "@accession": "ERX329100",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329100"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-18"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:723-19",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356318",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356318"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-19"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:723-19"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-19",
+          "@refcenter": "UW",
+          "@accession": "ERX329101",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329101"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:723-19"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-20",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356319",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356319"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-20"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-20"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-20",
+          "@refcenter": "UW",
+          "@accession": "ERX329102",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329102"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-20"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-21",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356320",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356320"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-21"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-21"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-21",
+          "@refcenter": "UW",
+          "@accession": "ERX329103",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329103"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-21"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-22",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356321",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356321"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-22"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-22"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-22",
+          "@refcenter": "UW",
+          "@accession": "ERX329104",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329104"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-22"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-23",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356322",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356322"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-23"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-23"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-23",
+          "@refcenter": "UW",
+          "@accession": "ERX329105",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329105"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-23"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-24",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356323",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356323"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-24"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-24"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-24",
+          "@refcenter": "UW",
+          "@accession": "ERX329106",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329106"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-24"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-25",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356324",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356324"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-25"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-25"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-25",
+          "@refcenter": "UW",
+          "@accession": "ERX329107",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329107"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-25"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:724-26",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356325",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356325"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-26"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:724-26"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-26",
+          "@refcenter": "UW",
+          "@accession": "ERX329108",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329108"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-26"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-27",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356326",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356326"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-27"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-27"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-27",
+          "@refcenter": "UW",
+          "@accession": "ERX329109",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329109"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:724-27"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-28",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356327",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356327"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-28"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-28"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-28",
+          "@refcenter": "UW",
+          "@accession": "ERX329110",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329110"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-28"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-29",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356328",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356328"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-29"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-29"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-29",
+          "@refcenter": "UW",
+          "@accession": "ERX329111",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329111"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-29"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-30",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356329",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356329"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-30"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-30"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-30",
+          "@refcenter": "UW",
+          "@accession": "ERX329112",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329112"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-30"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-31",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356330",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356330"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-31"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-31"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-31",
+          "@refcenter": "UW",
+          "@accession": "ERX329113",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329113"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-31"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-32",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356331",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356331"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-32"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-32"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-32",
+          "@refcenter": "UW",
+          "@accession": "ERX329114",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329114"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-32"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      },
+      {
+        "@alias": "ena-RUN-UW-15-10-2013-16:53:48:725-33",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERR356332",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356332"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-33"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "ena-RUN-UW-15-10-2013-16:53:48:725-33"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina MiSeq paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-33",
+          "@refcenter": "UW",
+          "@accession": "ERX329115",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329115"},
+            "SUBMITTER_ID": {
+              "@namespace": "UW",
+              "_$": "ena-EXPERIMENT-UW-15-10-2013-16:53:48:725-33"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "502"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "252"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

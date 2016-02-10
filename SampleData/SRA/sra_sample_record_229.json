@@ -1,0 +1,1288 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "LGL2",
+        "@center_name": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+        "@accession": "ERS361284",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361284"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241746"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "DPSQ",
+              "_$": "LGL2"
+            },
+            {
+              "@namespace": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+              "_$": "LGL2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oryctolagus cuniculus; RabbitLGL"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9986"},
+          "SCIENTIFIC_NAME": {"_$": "Oryctolagus cuniculus"},
+          "COMMON_NAME": {"_$": "rabbit"}
+        }
+      },
+      {
+        "@alias": "LGL3",
+        "@center_name": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+        "@accession": "ERS361285",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361285"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241747"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "DPSQ",
+              "_$": "LGL3"
+            },
+            {
+              "@namespace": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+              "_$": "LGL3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oryctolagus cuniculus; RabbitLGL"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9986"},
+          "SCIENTIFIC_NAME": {"_$": "Oryctolagus cuniculus"},
+          "COMMON_NAME": {"_$": "rabbit"}
+        }
+      },
+      {
+        "@alias": "LGL4",
+        "@center_name": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+        "@accession": "ERS361286",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361286"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241748"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "DPSQ",
+              "_$": "LGL4"
+            },
+            {
+              "@namespace": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+              "_$": "LGL4"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oryctolagus cuniculus; RabbitLGL"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9986"},
+          "SCIENTIFIC_NAME": {"_$": "Oryctolagus cuniculus"},
+          "COMMON_NAME": {"_$": "rabbit"}
+        }
+      },
+      {
+        "@alias": "LGL5",
+        "@center_name": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+        "@accession": "ERS361287",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361287"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241749"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "DPSQ",
+              "_$": "LGL5"
+            },
+            {
+              "@namespace": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+              "_$": "LGL5"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oryctolagus cuniculus; RabbitLGL"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9986"},
+          "SCIENTIFIC_NAME": {"_$": "Oryctolagus cuniculus"},
+          "COMMON_NAME": {"_$": "rabbit"}
+        }
+      },
+      {
+        "@alias": "LGL7",
+        "@center_name": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+        "@accession": "ERS361288",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361288"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241750"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "DPSQ",
+              "_$": "LGL7"
+            },
+            {
+              "@namespace": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+              "_$": "LGL7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oryctolagus cuniculus; RabbitLGL"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9986"},
+          "SCIENTIFIC_NAME": {"_$": "Oryctolagus cuniculus"},
+          "COMMON_NAME": {"_$": "rabbit"}
+        }
+      },
+      {
+        "@alias": "LGL9",
+        "@center_name": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+        "@accession": "ERS361289",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361289"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241751"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "DPSQ",
+              "_$": "LGL9"
+            },
+            {
+              "@namespace": "Deep Seq department, Centre for Genetics and Genomics, The University of Nottingham, United Kingdom",
+              "_$": "LGL9"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oryctolagus cuniculus; RabbitLGL"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9986"},
+          "SCIENTIFIC_NAME": {"_$": "Oryctolagus cuniculus"},
+          "COMMON_NAME": {"_$": "rabbit"}
+        }
+      }
+    ]},
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+      "@center_name": "DPSQ",
+      "@accession": "ERP004120",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004120"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4799"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "DPSQ",
+          "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "The A2 gene of alcelaphine herpesvirus-1 is a transcriptional regulator affecting cytotoxicity in virus-infected T cells but is not required for malignant catarrhal fever induction in rabbits"},
+        "STUDY_TYPE": {"@existing_study_type": "Population Genomics"},
+        "STUDY_ABSTRACT": {"_$": "Alcelaphine herpesvirus-1 (AlHV-1) causes Malignant Catarrhal Fever (MCF). The A2 gene of AlHV-1 is a member of the bZIP transcription factor family. An A2 gene knockout (A2?AlHV1) virus, revertant (A2revAlHV-1) virus, and wild-type virus (wtAlHV-1) were used to infect three groups of rabbits. A2?AlHV1-infected rabbits succumbed to MCF, albeit with a delayed onset compared to the control groups, so A2 is not a critical virulence factor. We also performed differential gene transcription analysis by RNAseq and qRT-PCR validation of selected gene transcripts in infected large granular lymphocyte (LGL) T cells obtained in culture from the MCF-affected animals in each of the groups. This revealed that A2 was apparently involved in the transcriptional regulation of immunological, cell cycle and apoptosis pathways. In particular, there was a bias towards ?d T cell receptor (TCR) expression and downregulation of aß TCR. TCR signalling, apoptosis, cell cycle, IFN-?, NF?B and NFAT pathways were affected. Of particular interest was partial inhibition of the cytotoxicity-associated pathways involving perforin and the granzymes A and B in the A2?AlHV1-infected LGLs compared to controls. In functional assays, A2?AlHV1-infected LGLs were significantly less cytotoxic than wtAlHV-1- and A2revAlHV-1-infected LGLs using rabbit corneal epithelial cells (SIRC) as targets. This implies that A2 is involved in a pathway enhancing the expression of LGL cytotoxicity. This is important as virus-infected T cell cytotoxicity in vivo has been suggested as a potential mechanism of disease induction in MCF."},
+        "CENTER_PROJECT_NAME": {"_$": "A2 of AlHV-1 and infected cell cytotoxicity"},
+        "STUDY_DESCRIPTION": {"_$": "Alcelaphine herpesvirus-1 (AlHV-1) causes Malignant Catarrhal Fever (MCF). The A2 gene of AlHV-1 is a member of the bZIP transcription factor family. An A2 gene knockout (A2?AlHV1) virus, revertant (A2revAlHV-1) virus, and wild-type virus (wtAlHV-1) were used to infect three groups of rabbits. A2?AlHV1-infected rabbits succumbed to MCF, albeit with a delayed onset compared to the control groups, so A2 is not a critical virulence factor. We also performed differential gene transcription analysis by RNAseq and qRT-PCR validation of selected gene transcripts in infected large granular lymphocyte (LGL) T cells obtained in culture from the MCF-affected animals in each of the groups. This revealed that A2 was apparently involved in the transcriptional regulation of immunological, cell cycle and apoptosis pathways. In particular, there was a bias towards ?d T cell receptor (TCR) expression and downregulation of aß TCR. TCR signalling, apoptosis, cell cycle, IFN-?, NF?B and NFAT pathways were affected. Of particular interest was partial inhibition of the cytotoxicity-associated pathways involving perforin and the granzymes A and B in the A2?AlHV1-infected LGLs compared to controls. In functional assays, A2?AlHV1-infected LGLs were significantly less cytotoxic than wtAlHV-1- and A2revAlHV-1-infected LGLs using rabbit corneal epithelial cells (SIRC) as targets. This implies that A2 is involved in a pathway enhancing the expression of LGL cytotoxicity. This is important as virus-infected T cell cytotoxicity in vivo has been suggested as a potential mechanism of disease induction in MCF."}
+      }
+    }},
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-1",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329965",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329965"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-1"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL2",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361284",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361284"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-2",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329966",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329966"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-2"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL2",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361284",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361284"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-3",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329967",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329967"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-3"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL2",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361284",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361284"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-4",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329968",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329968"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-4"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL3",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361285",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361285"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-5",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329969",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329969"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-5"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL3",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361285",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361285"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-6",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329970",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329970"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-6"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL4",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361286",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361286"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL4"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-7",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329971",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329971"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-7"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL4",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361286",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361286"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL4"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-8",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329972",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329972"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-8"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL5",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361287",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361287"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL5"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-9",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329973",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329973"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-9"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL5",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361287",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361287"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL5"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-10",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329974",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329974"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-10"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL7",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361288",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361288"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-11",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329975",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329975"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-11"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL7",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361288",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361288"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL7"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-12",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329976",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329976"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-12"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL9",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361289",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361289"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL9"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:653-13",
+        "@center_name": "DPSQ",
+        "@accession": "ERX329977",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329977"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:653-13"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192",
+          "@refcenter": "DPSQ",
+          "@accession": "ERP004120",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004120"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-STUDY-DPSQ-18-10-2013-11:13:42:742-192"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "LGL9",
+            "@refcenter": "DPSQ",
+            "@accession": "ERS361289",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361289"},
+              "SUBMITTER_ID": {
+                "@namespace": "DPSQ",
+                "_$": "LGL9"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "unspecified"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB 5500xl Genetic Analyzer"}}},
+        "PROCESSING": {}
+      }
+    ]},
+    "SUBMISSION": {
+      "@accession": "ERA258757",
+      "@alias": "ena-SUBMISSION-DPSQ-18-10-2013-10:20:53:605-1",
+      "@center_name": "DPSQ",
+      "@lab_name": ""
+    },
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:650-1",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357193",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357193"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:650-1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-1",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329965",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329965"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-2",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357194",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357194"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-2"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-2",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329966",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329966"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:650-2"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-3",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357195",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357195"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-3"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-3",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329967",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329967"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-3"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-4",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357196",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357196"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-4"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-4",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329968",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329968"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-4"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-5",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357197",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357197"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-5"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-5",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329969",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329969"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-5"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-6",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357198",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357198"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-6"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-6",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329970",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329970"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-6"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-7",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357199",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357199"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:651-7"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-7",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329971",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329971"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:651-7"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-8",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357200",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357200"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-8",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329972",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329972"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-9",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357201",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357201"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-9"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-9",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329973",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329973"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-9"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-10",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357202",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357202"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-10"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-10",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329974",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329974"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-10"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-11",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357203",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357203"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-11"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-11",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329975",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329975"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-11"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-12",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357204",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357204"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:652-12"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-12",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329976",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329976"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:652-12"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      },
+      {
+        "@alias": "ena-RUN-DPSQ-18-10-2013-11:13:41:653-13",
+        "@center_name": "DPSQ",
+        "@accession": "ERR357205",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357205"},
+          "SUBMITTER_ID": {
+            "@namespace": "DPSQ",
+            "_$": "ena-RUN-DPSQ-18-10-2013-11:13:41:653-13"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:653-13",
+          "@refcenter": "DPSQ",
+          "@accession": "ERX329977",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329977"},
+            "SUBMITTER_ID": {
+              "@namespace": "DPSQ",
+              "_$": "ena-EXPERIMENT-DPSQ-18-10-2013-11:13:41:653-13"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "50"},
+          "READ_SPEC": {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "Forward"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          }
+        }}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258163",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "SC_MFY5616325-sc-2013-10-16T09:19:38Z-1720045",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "SC_MFY5616325-sc-2013-10-16T09:19:39Z-1720045",
+      "@accession": "ERS360089",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360089"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2223692"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "SC_MFY5616325-sc-2013-10-16T09:19:39Z-1720045"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "SC_MFY5616325-sc-2013-10-16T09:19:39Z-1720045"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Schizosaccharomyces pombe 972h-"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Schizosaccharomyces pombe"},
+        "TAXON_ID": {"_$": "284812"},
+        "SCIENTIFIC_NAME": {"_$": "Schizosaccharomyces pombe 972h-"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Schizosaccharomyces pombe"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

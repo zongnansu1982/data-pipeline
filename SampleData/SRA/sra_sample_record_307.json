@@ -1,0 +1,36 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258758",
+      "@alias": "ena-SUBMISSION-TANUVAS-18-10-2013-11:15:36:963-1",
+      "@center_name": "TANUVAS",
+      "@lab_name": "",
+      "@broker_name": "European Nucleotide Archive"
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-TANUVAS-18-10-2013-11:27:06:034-60",
+      "@center_name": "TANUVAS",
+      "@accession": "ERP004121",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004121"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4800"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "TANUVAS",
+          "_$": "ena-STUDY-TANUVAS-18-10-2013-11:27:06:034-60"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Transcriptome profiling reveals the existence of orthologous of mammalian of intra-cytoplasmic pattern recognition receptors in grey bamboo shark (Chiloscyllium griseum)"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "From an immunologist perspective, sharks are an important group of jawed cartilaginous fishes and survey of the public database revealed a great gap in availability of large-scale sequence data for the group of Chondrichthyans the elasmobranchs. In an attempt to bridge this deficit we generated the transcriptome from the spleen and kidney tissues (a total of 1,606,172 transcripts) of the shark, Chiloscyllium griseum using the Illumina HiSeq 2000 platform. With a cut off of >=300 bp and an expression value of >1RPKM we used 43,385 transcripts for BLASTX analysis which revealed 17,548 transcripts matching to the NCBI nr database with an E-value of <=10-5 and similarity score of 40%. The longest transcript was 16,974 bases with matched to HECT domain containing E3 ubiqutin protein ligase. MEGAN4 annotation pipeline revealed immune and signalling pathways including cell adhesion molecules, cytokine-cytokine receptor interaction, T-cell receptor signalling pathway and chemokine signaling pathway to be highly expressed in spleen, while different metabolism pathways such as amino acid metabolism, carbohydrate metabolism, lipid metabolism and xenobiotic biodegradation were highly expressed in kidney. Few of the candidate genes were selected to analyze their expression levels in various tissues by real-time PCR to validate the prediction. We also predicted the domains structures of some of the identified pattern recognition receptors as well their phylogenetic relationship with lower and higher vertebrates. The generated transcriptome will be a valuable resource to further genetic and genomic research in elasmobranchs."},
+        "CENTER_PROJECT_NAME": {"_$": "Transcriptome profiling from spleen and kidney of grey bamboo shark (Chiloscyllium griseum)"},
+        "STUDY_DESCRIPTION": {"_$": "From an immunologist perspective, sharks are an important group of jawed cartilaginous fishes and survey of the public database revealed a great gap in availability of large-scale sequence data for the group of Chondrichthyans the elasmobranchs. In an attempt to bridge this deficit we generated the transcriptome from the spleen and kidney tissues (a total of 1,606,172 transcripts) of the shark, Chiloscyllium griseum using the Illumina HiSeq 2000 platform. With a cut off of >=300 bp and an expression value of >1RPKM we used 43,385 transcripts for BLASTX analysis which revealed 17,548 transcripts matching to the NCBI nr database with an E-value of <=10-5 and similarity score of 40%. The longest transcript was 16,974 bases with matched to HECT domain containing E3 ubiqutin protein ligase. MEGAN4 annotation pipeline revealed immune and signalling pathways including cell adhesion molecules, cytokine-cytokine receptor interaction, T-cell receptor signalling pathway and chemokine signaling pathway to be highly expressed in spleen, while different metabolism pathways such as amino acid metabolism, carbohydrate metabolism, lipid metabolism and xenobiotic biodegradation were highly expressed in kidney. Few of the candidate genes were selected to analyze their expression levels in various tissues by real-time PCR to validate the prediction. We also predicted the domains structures of some of the identified pattern recognition receptors as well their phylogenetic relationship with lower and higher vertebrates. The generated transcriptome will be a valuable resource to further genetic and genomic research in elasmobranchs."}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

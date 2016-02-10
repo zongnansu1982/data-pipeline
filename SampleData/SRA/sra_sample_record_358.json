@@ -1,0 +1,209 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "1",
+        "@center_name": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+        "@accession": "ERS361213",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361213"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241742"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IBCH RAS",
+              "_$": "1"
+            },
+            {
+              "@namespace": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+              "_$": "1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; Homo sapiens tissue samples"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"},
+          "COMMON_NAME": {"_$": "human"}
+        },
+        "DESCRIPTION": {"_$": "cerebellum"},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "Russia"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "M"}
+          }
+        ]}
+      },
+      {
+        "@alias": "2",
+        "@center_name": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+        "@accession": "ERS361214",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361214"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241743"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IBCH RAS",
+              "_$": "2"
+            },
+            {
+              "@namespace": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+              "_$": "2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; Homo sapiens tissue samples"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"},
+          "COMMON_NAME": {"_$": "human"}
+        },
+        "DESCRIPTION": {"_$": "frontal cortex"},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "Russia"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "M"}
+          }
+        ]}
+      },
+      {
+        "@alias": "3",
+        "@center_name": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+        "@accession": "ERS361215",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361215"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241744"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IBCH RAS",
+              "_$": "3"
+            },
+            {
+              "@namespace": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+              "_$": "3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; Homo sapiens tissue samples"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"},
+          "COMMON_NAME": {"_$": "human"}
+        },
+        "DESCRIPTION": {"_$": "Subventricular zone (SVZ)"},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "Russia"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "M"}
+          }
+        ]}
+      },
+      {
+        "@alias": "4",
+        "@center_name": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+        "@accession": "ERS361216",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361216"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241745"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IBCH RAS",
+              "_$": "4"
+            },
+            {
+              "@namespace": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+              "_$": "4"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; Homo sapiens tissue samples"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"},
+          "COMMON_NAME": {"_$": "human"}
+        },
+        "DESCRIPTION": {"_$": "dentate gyrus (DG)"},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "Russia"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "M"}
+          }
+        ]}
+      },
+      {
+        "@alias": "5",
+        "@center_name": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+        "@accession": "ERS361217",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361217"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241752"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IBCH RAS",
+              "_$": "5"
+            },
+            {
+              "@namespace": "Shemyakin-Ovchinnikov Institute of Bioorganic Chemistry of the Russian Academy of Sciences",
+              "_$": "5"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; Homo sapiens tissue samples"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"},
+          "COMMON_NAME": {"_$": "human"}
+        },
+        "DESCRIPTION": {"_$": "myocardium"},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "Russia"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "M"}
+          }
+        ]}
+      }
+    ]},
+    "SUBMISSION": {
+      "@accession": "ERA258749",
+      "@alias": "ena-SUBMISSION-IBCH RAS-18-10-2013-09:45:58:773-1",
+      "@center_name": "IBCH RAS",
+      "@lab_name": "Laboratory of comparative and functional genomics"
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

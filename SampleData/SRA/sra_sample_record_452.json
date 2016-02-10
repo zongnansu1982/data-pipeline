@@ -1,0 +1,80 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@alias": "ena-SUBMISSION-IOA-15-10-2013-14:57:19:404-1",
+      "@center_name": "Institute of Aquaculture, University of Stirling, Stirling, UK",
+      "@lab_name": "Institute of Aquaculture",
+      "@accession": "ERA258010"
+    },
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "Tilapia_ddRAD_pool_1",
+        "@center_name": "Institute of Aquaculture, University of Stirling, Stirling, UK",
+        "@accession": "ERS359889",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359889"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241893"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IOA",
+              "_$": "Tilapia_ddRAD_pool_1"
+            },
+            {
+              "@namespace": "Institute of Aquaculture, University of Stirling, Stirling, UK",
+              "_$": "Tilapia_ddRAD_pool_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oreochromis niloticus; Parents and Offspring (pool I)"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8128"},
+          "SCIENTIFIC_NAME": {"_$": "Oreochromis niloticus"},
+          "COMMON_NAME": {"_$": "Nile tilapia"}
+        },
+        "DESCRIPTION": {"_$": "Include barcoded samples: F00D, C4a, E2E1, 06A2, F2CB, 0EFD, 0COD, E86C, DDF9, D9E3, 1A5F, 19EB, EF6A, T33T_9, T33T_11, T33T_12, T33T_17, T33T_27, T33T_52, T33T_62, T33T_49, T33T_50, T33T_55, T33T_57, T31C_1, T31C_2, T31C_3, T31C_4, T31C_5, T31C_6, T31C_7, T31C_8, T31C_9, T31C_10, T31C_11, T31C_12, T31C_13, T31C_14, T31C_15, T31C_16, T31C_17, T31C_18, T31C_19, T31C_20, T31C_21, T31C_22, T31C_23, T31C_24, T31C_25, T31C_26, T31C_27, T31C_28, T31C_29, T31C_30, T31C_31, T31C_32, T31C_33, T31C_34, T31C_35, T31C_36, T31C_37, T31C_38, T31C_39, T31C_40, T31C_41, T31C_50, T31C_51, T31C_52, T31C_53, T31C_54, T31C_55, T31C_56, T31T_1, T31T_2, T31T_3, T31T_4, T31T_5, T31T_6, T31T_7, T31T_8, T31T_9, T31T_10, T31T_11, T31T_12, T31T_13, T31T_14, T31T_15, T31T_16, T31T_17, T31T_18, T31T_19, T31T_20, T31T_21, T31T_22, T31T_23, T31T_24, T31T_25, T31T_26, T31T_27, T31T_28, T31T_29, T31T_30, T31T_31, T31T_32, T31T_33, T31T_34, T31T_35, T31T_36, T31T_37, T31T_38, T31T_39, T31T_40, T31T_41, T31T_42, T31T_43, T31T_44, T31T_45, T31T_46, T31T_47, T31T_48, T31T_49, T31T_50, T31T_51, T31T_52, T31T_53, T31T_54, T31T_55, T31T_56, T31T_57, T31T_58, T31T_59, T31T_60, T31T_61, T31T_62, T31T_63, T31T_64, T31T_65, T31T_66, T31T_67, T31T_68, T31T_69, T31T_70, T31C_58, T31C_59."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": {
+          "TAG": {"_$": "tissue_type"},
+          "VALUE": {"_$": "fin clip"}
+        }}
+      },
+      {
+        "@alias": "Tilapia_ddRAD_pool_2",
+        "@center_name": "Institute of Aquaculture, University of Stirling, Stirling, UK",
+        "@accession": "ERS359890",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359890"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241894"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IOA",
+              "_$": "Tilapia_ddRAD_pool_2"
+            },
+            {
+              "@namespace": "Institute of Aquaculture, University of Stirling, Stirling, UK",
+              "_$": "Tilapia_ddRAD_pool_2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Oreochromis niloticus; Parents and Offspring (pool II)"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8128"},
+          "SCIENTIFIC_NAME": {"_$": "Oreochromis niloticus"},
+          "COMMON_NAME": {"_$": "Nile tilapia"}
+        },
+        "DESCRIPTION": {"_$": "Include barcoded samples: Dam, Sire1_F1, Sire2_F2, F1_1, F1_2, F1_3, F1_4, F1_5, F1_6, F1_7, F1_8, F1_9, F1_10, F1_11, F1_12, F1_13, F1_14, F1_15, F1_16, F1_17, F1_18, F1_19, F1_20, F1_21, F1_22, F1_23, F1_24, F1_25, F1_26, F1_27, F1_28, F1_29, F1_30, F1_32, F1_33, F1_36, F1_37, F2_2, F2_8, F2_9, F2_10, F2_11, F2_13, F2_14, F1_42, F1_44, F1_45, F1_46, F1_47, F1_48, F1_49, F1_50, F1_51, F1_52, F1_53, F1_54, F1_55, F1_56, F1_57, F1_58, F1_59, F1_61, F1_62, F1_63, F1_64, F1_65, F1_66, F1_67, F1_68, F1_70, F1_71, F1_72, F1_73, F1_74, F1_75, F1_76, F1_77, F1_79, F1_80, F1_81, F1_82, F1_83, F1_84, F1_85, F1_86, F1_87, F1_88, F1_89, F1_90, F1_91, F1_92, F1_93, F1_94, F1_95, F1_96, F1_97, F1_98, F1_99, F1_100, F1_101, F1_102, F2_15, F2_16, F2_18, F2_19, F2_20, F2_22, F2_23, F1_31, F1_34, F1_35, F1_38, F2_1, F2_4, F2_5, F2_12, F1_43, F1_39, F1_40, F1_78."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": {
+          "TAG": {"_$": "tissue_type"},
+          "VALUE": {"_$": "fin clip"}
+        }}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

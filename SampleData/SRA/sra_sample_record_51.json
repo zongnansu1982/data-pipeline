@@ -1,0 +1,39 @@
+{
+  "SRA": {
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-INRA DIJON-15-10-2013-13:14:55:577-478",
+      "@center_name": "INRA DIJON",
+      "@accession": "ERP004076",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004076"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4762"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "INRA DIJON",
+          "_$": "ena-STUDY-INRA DIJON-15-10-2013-13:14:55:577-478"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Genome sequence of the sulfonamide-degrading Microbacterium sp. strain C448"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "Microbacterium sp. strains C448 was isolated from an agricultural soil collected on a long term experiment carried out over the past fifteen years at the experimental farm of Agriculture and AgriFood Canada consisting in regular application to the soil of a wide range of antibiotics, including sulfonamides. Strain C448 demonstrates resistance for various types of sulfonamides but also the capability of using several sulfonamides antibiotics as C source for its growth. The draft genome sequence clarified that strain C448 harbors several resistance genes, including sulI and intI genes known as sulfonamide resistance genes"},
+        "CENTER_PROJECT_NAME": {"_$": "MicrobactGenome  C448"},
+        "STUDY_DESCRIPTION": {"_$": "Microbacterium sp. strains C448 was isolated from an agricultural soil collected on a long term experiment carried out over the past fifteen years at the experimental farm of Agriculture and AgriFood Canada consisting in regular application to the soil of a wide range of antibiotics, including sulfonamides. Strain C448 demonstrates resistance for various types of sulfonamides but also the capability of using several sulfonamides antibiotics as C source for its growth. The draft genome sequence clarified that strain C448 harbors several resistance genes, including sulI and intI genes known as sulfonamide resistance genes"}
+      },
+      "STUDY_LINKS": {"STUDY_LINK": {"XREF_LINK": {
+        "DB": {"_$": "pubmed"},
+        "ID": {"_$": "23673752"}
+      }}}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258005",
+      "@alias": "ena-SUBMISSION-INRA DIJON-15-10-2013-13:06:17:348-1",
+      "@center_name": "INRA DIJON",
+      "@lab_name": "UMR Agro.cologie, P.le EcolDur"
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

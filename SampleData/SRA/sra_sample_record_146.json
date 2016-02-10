@@ -1,0 +1,36 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258617",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "Genome_sequence_variation_of_Brucella_isolated_from_wild_and_domesticated_hosts-sc-2013-10-17T12:57:00Z-2815",
+      "@lab_name": ""
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "Genome_sequence_variation_of_Brucella_isolated_from_wild_and_domesticated_hosts-sc-2013-10-17T12:57:00Z-2815",
+      "@center_name": "SC",
+      "@accession": "ERP004102",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004102"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4782"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "SC",
+          "_$": "Genome_sequence_variation_of_Brucella_isolated_from_wild_and_domesticated_hosts-sc-2013-10-17T12:57:00Z-2815"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Genome_sequence_variation_of_Brucella_isolated_from_wild_and_domesticated_hosts"},
+        "STUDY_TYPE": {"@existing_study_type": "Whole Genome Sequencing"},
+        "STUDY_ABSTRACT": {"_$": "http://www.sanger.ac.uk/resources/downloads/bacteria/"},
+        "CENTER_PROJECT_NAME": {"_$": "Genome_sequence_variation_of_Brucella_isolated_from_wild_and_domesticated_hosts"},
+        "STUDY_DESCRIPTION": {"_$": "http://www.sanger.ac.uk/resources/downloads/bacteria/ These data are part of a pre-publication release. For information on the proper use of pre-publication data shared by the Wellcome Trust Sanger Institute (including details of any publication moratoria), please see http://www.sanger.ac.uk/datasharing/"}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

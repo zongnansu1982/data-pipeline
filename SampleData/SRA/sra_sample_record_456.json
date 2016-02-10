@@ -1,0 +1,35 @@
+{
+  "SRA": {
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-IRTA-15-10-2013-12:45:24:323-648",
+      "@center_name": "IRTA",
+      "@accession": "ERP004073",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004073"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4759"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "IRTA",
+          "_$": "ena-STUDY-IRTA-15-10-2013-12:45:24:323-648"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "16SrX Spanish isolates study"},
+        "STUDY_TYPE": {"@existing_study_type": "Population Genomics"},
+        "STUDY_ABSTRACT": {"_$": "16SrX Spanish isolates study"},
+        "CENTER_PROJECT_NAME": {"_$": "16SrX Spanish isolates study"},
+        "STUDY_DESCRIPTION": {"_$": "16SrX Spanish isolates study"}
+      }
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258000",
+      "@alias": "ena-SUBMISSION-IRTA-15-10-2013-12:38:55:643-1",
+      "@center_name": "IRTA",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,36 @@
+{
+  "SRA": {
+    "STUDY_SET": {"STUDY": {
+      "@alias": "Mouse_Skin_Tumours-sc-2013-10-16T10:34:46Z-2807",
+      "@center_name": "SC",
+      "@accession": "ERP004081",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004081"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4767"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "SC",
+          "_$": "Mouse_Skin_Tumours-sc-2013-10-16T10:34:46Z-2807"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Mouse_Skin_Tumours"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "In this project we have exome sequenced a collection of mouse tumours induced using DMBA/TPA. The tumours are of different developmental stages ranging from benign papillomas to metastatic lesions. We aim to understand how the mutation spectra change as tumors progress and to identify candidate cancer driver genes."},
+        "CENTER_PROJECT_NAME": {"_$": "Mouse_Skin_Tumours"},
+        "STUDY_DESCRIPTION": {"_$": "In this project we have exome sequenced a collection of mouse tumours induced using DMBA/TPA. The tumours are of different developmental stages ranging from benign papillomas to metastatic lesions. We aim to understand how the mutation spectra change as tumors progress and to identify candidate cancer driver genes."}
+      }
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258440",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "Mouse_Skin_Tumours-sc-2013-10-16T10:34:46Z-2807",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

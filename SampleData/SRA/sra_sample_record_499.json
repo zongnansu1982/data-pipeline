@@ -1,0 +1,42 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258644",
+      "@alias": "ena-SUBMISSION-CUGB-18-10-2013-02:22:23:251-1",
+      "@center_name": "CUGB",
+      "@lab_name": "The Key Laboratory of Marine Reservoir Evolution and Hydrocarbon Accumulation Mechanism",
+      "@broker_name": "European Nucleotide Archive"
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-CUGB-18-10-2013-02:23:18:698-158",
+      "@center_name": "School of Energy Resources, China University of Geosciences (Beijing)",
+      "@accession": "ERP004114",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004114"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4793"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "CUGB",
+            "_$": "ena-STUDY-CUGB-18-10-2013-02:23:18:698-158"
+          },
+          {
+            "@namespace": "School of Energy Resources, China University of Geosciences (Beijing)",
+            "_$": "ena-STUDY-CUGB-18-10-2013-02:23:18:698-158"
+          }
+        ]
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Monitoring microbial community in wastewater from an offshore oil field before and after biotreatment"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "Based on 454 pyrosequencing of 16S rRNA gene amplicons, microbial communities in samples collected from a sewage plant for an offshore oil field were analyzed. Microbial community structure was significantly different for the samples before and after biotreatment. Specifically, before biotreatment microbes associated with the environment of oil reservoirs were dominant in the oil field wastewater including uncultured Campylobacteraceae, Desulfuromonas, Geotoga, and Anaerobaculum. While after biotreatment, uncultured Caldithrixales, uncultured Flavobacteriales and uncultured Sphingo-monadales showing close similarities with those isolates or clones from the environment associated with sea were dominant. This study provided a clear picture of microbes in the oil field wastewater, and revealed that microbes in oil field wastewater were generally related with those in the environment of oil reservoirs as well as the locations of oil fields."},
+        "CENTER_PROJECT_NAME": {"_$": "Microbial community in wastwater of oil fields"},
+        "STUDY_DESCRIPTION": {"_$": "Based on 454 pyrosequencing of 16S rRNA gene amplicons, microbial communities in samples collected from a sewage plant for an offshore oil field were analyzed. Microbial community structure was significantly different for the samples before and after biotreatment. Specifically, before biotreatment microbes associated with the environment of oil reservoirs were dominant in the oil field wastewater including uncultured Campylobacteraceae, Desulfuromonas, Geotoga, and Anaerobaculum. While after biotreatment, uncultured Caldithrixales, uncultured Flavobacteriales and uncultured Sphingo-monadales showing close similarities with those isolates or clones from the environment associated with sea were dominant. This study provided a clear picture of microbes in the oil field wastewater, and revealed that microbes in oil field wastewater were generally related with those in the environment of oil reservoirs as well as the locations of oil fields."}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

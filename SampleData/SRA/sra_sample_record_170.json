@@ -1,0 +1,42 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258475",
+      "@alias": "ena-SUBMISSION-CUGB-17-10-2013-03:53:57:616-1",
+      "@center_name": "CUGB",
+      "@lab_name": "The Key Laboratory of Marine Reservoir Evolution and Hydrocarbon Accumulation Mechanism",
+      "@broker_name": "European Nucleotide Archive"
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-CUGB-17-10-2013-03:57:14:480-45",
+      "@center_name": "School of Energy Resources, China University of Geosciences (Beijing)",
+      "@accession": "ERP004092",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004092"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4774"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "CUGB",
+            "_$": "ena-STUDY-CUGB-17-10-2013-03:57:14:480-45"
+          },
+          {
+            "@namespace": "School of Energy Resources, China University of Geosciences (Beijing)",
+            "_$": "ena-STUDY-CUGB-17-10-2013-03:57:14:480-45"
+          }
+        ]
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Potential microorganisms for prevention of paraffin precipitation in a high-temperature and high salinity oil reservoir"},
+        "STUDY_TYPE": {"@existing_study_type": "Other"},
+        "STUDY_ABSTRACT": {"_$": "Based on 454 pyrosequencing of 16S rRNA gene amplicons, microbial communities in samples collected from six positive and one negative wells during a microbial treatment designed for the prevention of paraffin precipitation were analyzed. Microbial communities\u2019 structures were significantly different for the samples from the negative well and the positive wells. Microbes affiliated with Diaphorobacter belonging to ß-Proteobacteria were predominant in the negative well. While, ?-Proteobacteria-affiliated microbes of Pseudomonas, Enterobacter and Bacillus were dominant in the positive wells. Microbial activity of hydrocarbon-degradation and microbial products of biosurfactants were proposed to be the main potential mechanisms for the microbial treatment for the prevention of paraffin precipitation. Microbes detected in the treated wells could be considered as potential candidates for investigations into microbial paraffin control."},
+        "CENTER_PROJECT_NAME": {"_$": "Microbial community of oil reservoirs"},
+        "STUDY_DESCRIPTION": {"_$": "Based on 454 pyrosequencing of 16S rRNA gene amplicons, microbial communities in samples collected from six positive and one negative wells during a microbial treatment designed for the prevention of paraffin precipitation were analyzed. Microbial communities\u2019 structures were significantly different for the samples from the negative well and the positive wells. Microbes affiliated with Diaphorobacter belonging to ß-Proteobacteria were predominant in the negative well. While, ?-Proteobacteria-affiliated microbes of Pseudomonas, Enterobacter and Bacillus were dominant in the positive wells. Microbial activity of hydrocarbon-degradation and microbial products of biosurfactants were proposed to be the main potential mechanisms for the microbial treatment for the prevention of paraffin precipitation. Microbes detected in the treated wells could be considered as potential candidates for investigations into microbial paraffin control."}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

@@ -1,0 +1,2777 @@
+{
+  "SRA": {
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "E-MTAB-1883:GM_12043_120419_1",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356365",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356365"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_12043_120419_1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_12043_120419_1",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329153",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329153"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12043_120419_1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12813_120322_7",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356366",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356366"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_12813_120322_7"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_12813_120322_7",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329155",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329155"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12813_120322_7"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12776_120322_7",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356367",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356367"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_12776_120322_7"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_12776_120322_7",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329158",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329158"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12776_120322_7"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11894_120315_1",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356368",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356368"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_11894_120315_1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_11894_120315_1",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329150",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329150"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11894_120315_1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12891_No1_110407_8",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356369",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356369"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_12891_No1_110407_8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_12891_No1_110407_8",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329160",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329160"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12891_No1_110407_8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_19239_No1_110407_8",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356370",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356370"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_19239_No1_110407_8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_19239_No1_110407_8",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329148",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329148"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_19239_No1_110407_8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11831_120315_1",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356371",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356371"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_11831_120315_1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_11831_120315_1",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329149",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329149"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11831_120315_1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12878_No1_110407_8",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356372",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356372"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_12878_No1_110407_8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_12878_No1_110407_8",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329154",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329154"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12878_No1_110407_8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_19240_No1_110407_8",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356373",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356373"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_19240_No1_110407_8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_19240_No1_110407_8",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329161",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329161"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_19240_No1_110407_8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_19238_No1_110407_8",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356374",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356374"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_19238_No1_110407_8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_19238_No1_110407_8",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329151",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329151"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_19238_No1_110407_8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11830_120419_3",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356375",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356375"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_11830_120419_3"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_11830_120419_3",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329157",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329157"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11830_120419_3"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12892_No1_110407_8",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356376",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356376"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_12892_No1_110407_8"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_12892_No1_110407_8",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329156",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329156"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12892_No1_110407_8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11840_120315_1",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356377",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356377"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_11840_120315_1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_11840_120315_1",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329159",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329159"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11840_120315_1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11881_120315_1",
+        "@run_center": "University of Geneva, Switzerland",
+        "@accession": "ERR356378",
+        "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356378"},
+          "SUBMITTER_ID": {
+            "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "_$": "E-MTAB-1883:GM_11881_120315_1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1883:GM_11881_120315_1",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERX329152",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329152"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11881_120315_1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "98"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "50"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      }
+    ]},
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "E-MTAB-1883:GM_19239_No1_110407_8",
+        "@accession": "ERX329148",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329148"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_19239_No1_110407_8"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_19239_No1_110407_8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA19239",
+            "@accession": "ERS359929",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359929"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA19239"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "19239"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA19239"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap YRI"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11831_120315_1",
+        "@accession": "ERX329149",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329149"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_11831_120315_1"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11831_120315_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA11831",
+            "@accession": "ERS359930",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359930"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA11831"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "11831"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA11831"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11894_120315_1",
+        "@accession": "ERX329150",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329150"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_11894_120315_1"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11894_120315_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA11894",
+            "@accession": "ERS359931",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359931"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA11894"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "11894"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA11894"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_19238_No1_110407_8",
+        "@accession": "ERX329151",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329151"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_19238_No1_110407_8"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_19238_No1_110407_8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA19238",
+            "@accession": "ERS359932",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359932"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA19238"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "19238"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA19238"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap YRI"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11881_120315_1",
+        "@accession": "ERX329152",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329152"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_11881_120315_1"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11881_120315_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA11881",
+            "@accession": "ERS359933",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359933"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA11881"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "11881"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA11881"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12043_120419_1",
+        "@accession": "ERX329153",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329153"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_12043_120419_1"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12043_120419_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA12043",
+            "@accession": "ERS359934",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359934"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA12043"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "12043"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA12043"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12878_No1_110407_8",
+        "@accession": "ERX329154",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329154"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_12878_No1_110407_8"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12878_No1_110407_8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA12878",
+            "@accession": "ERS359935",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359935"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA12878"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "12878"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA12878"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12813_120322_7",
+        "@accession": "ERX329155",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329155"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_12813_120322_7"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12813_120322_7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA12813",
+            "@accession": "ERS359936",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359936"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA12813"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "12813"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA12813"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12892_No1_110407_8",
+        "@accession": "ERX329156",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329156"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_12892_No1_110407_8"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12892_No1_110407_8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA12892",
+            "@accession": "ERS359937",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359937"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA12892"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "12892"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA12892"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11830_120419_3",
+        "@accession": "ERX329157",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329157"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_11830_120419_3"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11830_120419_3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA11830",
+            "@accession": "ERS359938",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359938"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA11830"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "11830"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA11830"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12776_120322_7",
+        "@accession": "ERX329158",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329158"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_12776_120322_7"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12776_120322_7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA12776",
+            "@accession": "ERS359939",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359939"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA12776"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "12776"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA12776"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_11840_120315_1",
+        "@accession": "ERX329159",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329159"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_11840_120315_1"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_11840_120315_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA11840",
+            "@accession": "ERS359940",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359940"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA11840"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "11840"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA11840"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_12891_No1_110407_8",
+        "@accession": "ERX329160",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329160"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_12891_No1_110407_8"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_12891_No1_110407_8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA12891",
+            "@accession": "ERS359941",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359941"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA12891"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "12891"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA12891"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:GM_19240_No1_110407_8",
+        "@accession": "ERX329161",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329161"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:GM_19240_No1_110407_8"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:GM_19240_No1_110407_8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing; Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1883",
+          "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "@accession": "ERP004078",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004078"},
+            "SUBMITTER_ID": {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1883:NA19240",
+            "@accession": "ERS359942",
+            "@refcenter": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS359942"},
+              "SUBMITTER_ID": {
+                "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+                "_$": "E-MTAB-1883:NA19240"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "19240"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {
+              "@NOMINAL_LENGTH": "312",
+              "@NOMINAL_SDEV": "0.0E0"
+            }},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNase treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+            "SPOT_LENGTH": {"_$": "98"},
+            "READ_SPEC": [
+              {
+                "READ_INDEX": {"_$": "0"},
+                "READ_LABEL": {"_$": "F"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Forward"},
+                "BASE_COORD": {"_$": "1"}
+              },
+              {
+                "READ_INDEX": {"_$": "1"},
+                "READ_LABEL": {"_$": "R"},
+                "READ_CLASS": {"_$": "Application Read"},
+                "READ_TYPE": {"_$": "Reverse"},
+                "BASE_COORD": {"_$": "50"}
+              }
+            ]
+          }}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "Experimental Factor: individual"},
+            "VALUE": {"_$": "NA19240"}
+          },
+          {
+            "TAG": {"_$": "Experimental Factor: population"},
+            "VALUE": {"_$": "HapMap YRI"}
+          }
+        ]}
+      }
+    ]},
+    "STUDY_SET": {"STUDY": {
+      "@alias": "E-MTAB-1883",
+      "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+      "@broker_name": "ArrayExpress",
+      "@accession": "ERP004078",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004078"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4764"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+          "_$": "E-MTAB-1883"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_TYPE": {"@existing_study_type": "Transcriptome Analysis"},
+        "STUDY_ABSTRACT": {"_$": "Transcriptome sequencing (RNA-seq) experiment of 14 human lymphoblastoid cell line samples from the 1000 Genomes sample set (http://www.1000genomes.org/). Dataset includes two parent-daughter trios (CEU and YRI populations) and additional eight unrelated individuals (CEU population). This accession contains raw and mapped RNA-seq read data, other assays in this study are available under accession XX (ChIP-seq) and YY (GRO-seq)."},
+        "CENTER_PROJECT_NAME": {"_$": "Coordinated effects of sequence variation on DNA binding, chromatin structure, and transcription."},
+        "STUDY_DESCRIPTION": {"_$": "Transcriptome sequencing (RNA-seq) experiment of 14 human lymphoblastoid cell line samples from the 1000 Genomes sample set (http://www.1000genomes.org/). Dataset includes two parent-daughter trios (CEU and YRI populations) and additional eight unrelated individuals (CEU population). This accession contains raw and mapped RNA-seq read data, other assays in this study are available under accession XX (ChIP-seq) and YY (GRO-seq)."}
+      },
+      "STUDY_LINKS": {"STUDY_LINK": {"URL_LINK": {
+        "LABEL": {"_$": "E-MTAB-1883 in ArrayExpress"},
+        "URL": {"_$": "http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1883"}
+      }}}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258020",
+      "@alias": "E-MTAB-1883",
+      "@center_name": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+      "@broker_name": "ArrayExpress",
+      "@lab_name": "ArrayExpress"
+    },
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "E-MTAB-1883:NA19239",
+        "@accession": "ERS359929",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359929"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223468"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA19239"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA19239"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA19239"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA19239"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap YRI"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "Yoruba"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA19239"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "male"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot2"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA11831",
+        "@accession": "ERS359930",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359930"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223469"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA11831"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA11831"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA11831"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA11831"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA11831"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "male"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA11894",
+        "@accession": "ERS359931",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359931"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223470"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA11894"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA11894"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA11894"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA11894"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA11894"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA19238",
+        "@accession": "ERS359932",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359932"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223471"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA19238"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA19238"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA19238"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA19238"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap YRI"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "Yoruba"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA19238"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot2"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA11881",
+        "@accession": "ERS359933",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359933"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223472"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA11881"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA11881"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA11881"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA11881"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA11881"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "male"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA12043",
+        "@accession": "ERS359934",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359934"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223473"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA12043"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA12043"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA12043"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA12043"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA12043"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "male"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA12878",
+        "@accession": "ERS359935",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359935"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223474"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA12878"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA12878"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA12878"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA12878"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA12878"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot2"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA12813",
+        "@accession": "ERS359936",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359936"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223475"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA12813"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA12813"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA12813"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA12813"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA12813"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA12892",
+        "@accession": "ERS359937",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359937"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223476"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA12892"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA12892"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA12892"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA12892"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA12892"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot2"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA11830",
+        "@accession": "ERS359938",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359938"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223477"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA11830"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA11830"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA11830"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA11830"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA11830"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA12776",
+        "@accession": "ERS359939",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359939"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223478"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA12776"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA12776"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA12776"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA12776"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA12776"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA11840",
+        "@accession": "ERS359940",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359940"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223479"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA11840"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA11840"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA11840"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA11840"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA11840"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot1"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA12891",
+        "@accession": "ERS359941",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359941"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223480"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA12891"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA12891"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA12891"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA12891"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap CEU"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "CEPH"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA12891"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "male"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot2"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1883:NA19240",
+        "@accession": "ERS359942",
+        "@center_name": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359942"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2223481"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UNIVERSITY OF GENEVA MEDICAL SCHOOL, DEPARTMENT OF GENETIC MEDICINE AND DEVELOPMENT",
+              "_$": "E-MTAB-1883:NA19240"
+            },
+            {
+              "@namespace": "University of Geneva Medical School, Department of Genetic Medicine and Development",
+              "_$": "E-MTAB-1883:NA19240"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Homo sapiens; NA19240"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "9606"},
+          "SCIENTIFIC_NAME": {"_$": "Homo sapiens"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: Lymphoblastoid cell lines were obtained from Coriell (http://ccr.coriell.org) and cultured in RPMI-1640 medium (Lonza) with 10% fetal calf serun (FCS). Frozen cells were thawed and transferred to T25 flasks containing 15 ml of medium. At a density of 0.3 x 10^6 cells/m cells were transferred to TubeSpin Bioreactor 50 tubes (TPP) in 5 ml of same medium containing 10% FCS and 0.1% Pluronic F-68 (Sigma-Aldrich). The cultures were agitated at 180 rpm with 5% CO2 and 85% humidity. When the cell density reached 2-3 x 10^6 cells/ml, the culture was diluted to 0.3 x 10^6 cells/ml and transferred to a 250-ml glass bottle. The culture was agitated at 110 rpm with 5% CO2 but no humidity. Eventually, the cells were scaled-up serially in 500-ml, 1-L, and 5-L glass bottles filled to a maximum of 40% of the nominal volume. Total RNA was extracted from flash frozen cell pellets using the TRIzol Reagent (Invitrogen) according to manufacturer's instructions. No DNAse treatment of the RNA samples was performed. Total RNA quality was assessed with Bioanalyzer RNA 6000 Nano Kit (Agilent) and RNA quantity was measured with Qubit 2.0 (Invitrogen) RNA Broad range kit according to manufacturer's instructions. Sequencing libraries were prepared with TruSeq RNA Sample Prep Kit v2 high-throughput protocol (Illumina) according to manufacturer's instructions."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Homo sapiens"}
+          },
+          {
+            "TAG": {"_$": "cell type"},
+            "VALUE": {"_$": "lymphoblastoid"}
+          },
+          {
+            "TAG": {"_$": "cell line"},
+            "VALUE": {"_$": "NA19240"}
+          },
+          {
+            "TAG": {"_$": "population"},
+            "VALUE": {"_$": "HapMap YRI"}
+          },
+          {
+            "TAG": {"_$": "population name"},
+            "VALUE": {"_$": "Yoruba"}
+          },
+          {
+            "TAG": {"_$": "individual"},
+            "VALUE": {"_$": "NA19240"}
+          },
+          {
+            "TAG": {"_$": "sex"},
+            "VALUE": {"_$": "female"}
+          },
+          {
+            "TAG": {"_$": "1000 Genomes dataset"},
+            "VALUE": {"_$": "Pilot2"}
+          }
+        ]}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

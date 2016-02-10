@@ -1,0 +1,309 @@
+{
+  "SRA": {
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:490-1",
+        "@center_name": "NCI",
+        "@accession": "ERX329213",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329213"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:490-1"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004044",
+          "@refname": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368",
+          "@refcenter": "NCI",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004044"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "rnaseq_wt_firstrun",
+            "@refcenter": "NCI",
+            "@accession": "ERS358568",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS358568"},
+              "SUBMITTER_ID": {
+                "@namespace": "NCI",
+                "_$": "rnaseq_wt_firstrun"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-2",
+        "@center_name": "NCI",
+        "@accession": "ERX329214",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329214"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-2"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004044",
+          "@refname": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368",
+          "@refcenter": "NCI",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004044"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "rnaseq_wt_secondrun",
+            "@refcenter": "NCI",
+            "@accession": "ERS358569",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS358569"},
+              "SUBMITTER_ID": {
+                "@namespace": "NCI",
+                "_$": "rnaseq_wt_secondrun"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-3",
+        "@center_name": "NCI",
+        "@accession": "ERX329215",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329215"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-3"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004044",
+          "@refname": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368",
+          "@refcenter": "NCI",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004044"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "rnaseq_rrp6d_firstrun",
+            "@refcenter": "NCI",
+            "@accession": "ERS358566",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS358566"},
+              "SUBMITTER_ID": {
+                "@namespace": "NCI",
+                "_$": "rnaseq_rrp6d_firstrun"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:493-4",
+        "@center_name": "NCI",
+        "@accession": "ERX329216",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329216"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:493-4"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP004044",
+          "@refname": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368",
+          "@refcenter": "NCI",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004044"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-STUDY-NCI-11-10-2013-16:37:38:867-368"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "rnaseq_rrp6d_secondrun",
+            "@refcenter": "NCI",
+            "@accession": "ERS358567",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS358567"},
+              "SUBMITTER_ID": {
+                "@namespace": "NCI",
+                "_$": "rnaseq_rrp6d_secondrun"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina MiSeq"}}},
+        "PROCESSING": {}
+      }
+    ]},
+    "SUBMISSION": {
+      "@accession": "ERA258469",
+      "@alias": "ena-SUBMISSION-NCI-16-10-2013-17:51:01:605-1",
+      "@center_name": "NCI",
+      "@lab_name": "Laboratory of Biochemistry and Molecular Biology (LBMB)",
+      "@broker_name": "European Nucleotide Archive"
+    },
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "ena-RUN-NCI-16-10-2013-17:56:12:490-1",
+        "@center_name": "NCI",
+        "@accession": "ERR356433",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356433"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-RUN-NCI-16-10-2013-17:56:12:490-1"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:490-1",
+          "@refcenter": "NCI",
+          "@accession": "ERX329213",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329213"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:490-1"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-NCI-16-10-2013-17:56:12:492-2",
+        "@center_name": "NCI",
+        "@accession": "ERR356434",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356434"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-RUN-NCI-16-10-2013-17:56:12:492-2"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-2",
+          "@refcenter": "NCI",
+          "@accession": "ERX329214",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329214"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-2"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-NCI-16-10-2013-17:56:12:493-3",
+        "@center_name": "NCI",
+        "@accession": "ERR356435",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356435"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-RUN-NCI-16-10-2013-17:56:12:493-3"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-3",
+          "@refcenter": "NCI",
+          "@accession": "ERX329215",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329215"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:492-3"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-NCI-16-10-2013-17:56:12:493-4",
+        "@center_name": "NCI",
+        "@accession": "ERR356436",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356436"},
+          "SUBMITTER_ID": {
+            "@namespace": "NCI",
+            "_$": "ena-RUN-NCI-16-10-2013-17:56:12:493-4"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:493-4",
+          "@refcenter": "NCI",
+          "@accession": "ERX329216",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329216"},
+            "SUBMITTER_ID": {
+              "@namespace": "NCI",
+              "_$": "ena-EXPERIMENT-NCI-16-10-2013-17:56:12:493-4"
+            }
+          }
+        }
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

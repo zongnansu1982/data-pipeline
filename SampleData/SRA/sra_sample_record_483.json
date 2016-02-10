@@ -1,0 +1,3134 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@alias": "ena-SUBMISSION-DUKE-NUS-17-10-2013-04:37:26:978-1",
+      "@center_name": "DUKE-NUS",
+      "@lab_name": "Laboratory of Computational Systems Biology and HumanGenetics, Cancer & Stem Cell Biology Program",
+      "@accession": "ERA258477"
+    },
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:355-1",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329244",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329244"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:355-1"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N1443KC",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS360444",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360444"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N1443KC"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N1443KC"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:355-2",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329245",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329245"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:355-2"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N1443KC",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS360444",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360444"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N1443KC"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N1443KC"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:355-3",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329246",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329246"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:355-3"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T1443KC",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS360445",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360445"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T1443KC"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T1443KC"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:356-4",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329247",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329247"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:356-4"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T1443KC",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS360445",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360445"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T1443KC"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T1443KC"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:356-5",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329248",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329248"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:356-5"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N1482TA",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS360443",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360443"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N1482TA"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N1482TA"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:356-6",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329249",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329249"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:356-6"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N1482TA",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS360443",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360443"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N1482TA"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N1482TA"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-7",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329250",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329250"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-7"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T1482TA",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354296",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354296"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T1482TA"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T1482TA"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-8",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329251",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329251"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-8"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T1482TA",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354296",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354296"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T1482TA"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T1482TA"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-9",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329252",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329252"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-9"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N116A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354297",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354297"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N116A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N116A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-10",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329253",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329253"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:357-10"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N116A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354297",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354297"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N116A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N116A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-11",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329254",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329254"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-11"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T116A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354298",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354298"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T116A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T116A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-12",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329255",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329255"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-12"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T116A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354298",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354298"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T116A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T116A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-13",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329256",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329256"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-13"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N229A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354299",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354299"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N229A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N229A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-14",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329257",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329257"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:358-14"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N229A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354299",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354299"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N229A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N229A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-15",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329258",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329258"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-15"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T229A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354300",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354300"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T229A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T229A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-16",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329259",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329259"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-16"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T229A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354300",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354300"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T229A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T229A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-17",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329260",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329260"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-17"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N426A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354301",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354301"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N426A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N426A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-18",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329261",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329261"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:359-18"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N426A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354301",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354301"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N426A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N426A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:360-19",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329262",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329262"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:360-19"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "N426A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354301",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354301"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "N426A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "N426A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:360-20",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329263",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329263"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:360-20"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T426A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354302",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354302"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T426A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T426A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:360-21",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329264",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329264"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:360-21"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T426A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354302",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354302"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T426A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T426A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-22",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329265",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329265"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-22"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "T426A",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354302",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354302"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "T426A"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "T426A"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-23",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329266",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329266"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-23"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4232",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354303",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354303"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4232"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4232"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-24",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329267",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329267"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-24"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4232",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354303",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354303"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4232"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4232"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-25",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329268",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329268"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:361-25"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4232",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354304",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354304"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4232"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4232"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-26",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329269",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329269"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-26"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4232",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354304",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354304"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4232"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4232"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-27",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329270",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329270"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-27"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4245",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354305",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354305"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4245"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4245"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-28",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329271",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329271"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-28"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4245",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354305",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354305"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4245"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4245"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-29",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329272",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329272"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:362-29"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4245",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354306",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354306"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4245"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4245"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:363-30",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329273",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329273"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:363-30"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4245",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354306",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354306"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4245"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4245"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:363-31",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329274",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329274"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:363-31"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4250",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354307",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354307"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4250"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4250"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:363-32",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329275",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329275"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:363-32"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4250",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354307",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354307"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4250"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4250"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-33",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329276",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329276"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-33"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4250",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354307",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354307"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4250"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4250"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-34",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329277",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329277"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-34"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4250",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354308",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354308"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4250"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4250"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-35",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329278",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329278"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-35"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4250",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354308",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354308"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4250"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4250"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-36",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329279",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329279"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:364-36"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4250",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354308",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354308"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4250"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4250"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-37",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329280",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329280"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-37"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4313",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354309",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354309"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4313"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4313"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-38",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329281",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329281"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-38"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4313",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354309",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354309"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4313"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4313"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-39",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329282",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329282"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-39"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4313",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354309",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354309"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4313"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4313"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-40",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329283",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329283"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:365-40"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4313",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354310",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354310"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4313"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4313"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:366-41",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329284",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329284"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:366-41"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4313",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354310",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354310"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4313"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4313"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:366-42",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329285",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329285"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:366-42"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4313",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354310",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354310"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4313"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4313"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:366-43",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329286",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329286"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:366-43"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4323",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354311",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354311"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4323"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4323"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-44",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329287",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329287"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-44"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4323",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354311",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354311"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4323"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4323"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-45",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329288",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329288"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-45"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "NTR4323",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354311",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354311"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "NTR4323"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "NTR4323"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-46",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329289",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329289"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-46"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4323",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354312",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354312"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4323"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4323"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-47",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329290",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329290"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:367-47"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4323",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354312",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354312"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4323"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4323"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:368-48",
+        "@center_name": "DUKE-NUS",
+        "@accession": "ERX329291",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329291"},
+          "SUBMITTER_ID": {
+            "@namespace": "DUKE-NUS",
+            "_$": "ena-EXPERIMENT-DUKE-NUS-17-10-2013-04:38:44:368-48"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@accession": "ERP003878",
+          "@refname": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2",
+          "@refcenter": "DUKE-NUS",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP003878"},
+            "SUBMITTER_ID": {
+              "@namespace": "DUKE-NUS",
+              "_$": "ena-STUDY-DUKE-NUS-12-09-2013-03:09:21:225-2"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Whole-exome capture using Agilent Sureselect V1"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TTR4323",
+            "@refcenter": "DUKE-NUS",
+            "@accession": "ERS354312",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS354312"},
+              "SUBMITTER_ID": {
+                "@namespace": "DUKE-NUS",
+                "_$": "TTR4323"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "TTR4323"},
+            "LIBRARY_STRATEGY": {"_$": "WXS"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "RANDOM"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "150"}}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

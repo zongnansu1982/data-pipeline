@@ -1,0 +1,2288 @@
+{
+  "SRA": {
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:076-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356443",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356443"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:076-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:076-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:076-1",
+          "@refcenter": "IHB",
+          "@accession": "ERX329223",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329223"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:076-1"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:077-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356444",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356444"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:077-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:077-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-2",
+          "@refcenter": "IHB",
+          "@accession": "ERX329224",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329224"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-2"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:077-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356445",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356445"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:077-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:077-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-3",
+          "@refcenter": "IHB",
+          "@accession": "ERX329225",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329225"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-3"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:077-4",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356446",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356446"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:077-4"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:077-4"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-4",
+          "@refcenter": "IHB",
+          "@accession": "ERX329226",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329226"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-4"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:078-5",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356447",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356447"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:078-5"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:078-5"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-5",
+          "@refcenter": "IHB",
+          "@accession": "ERX329227",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329227"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-5"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:078-6",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356448",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356448"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:078-6"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:078-6"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-6",
+          "@refcenter": "IHB",
+          "@accession": "ERX329228",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329228"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-6"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:079-7",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356449",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356449"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:079-7"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:079-7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-7",
+          "@refcenter": "IHB",
+          "@accession": "ERX329229",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329229"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-7"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:079-8",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356450",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356450"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:079-8"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:079-8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-8",
+          "@refcenter": "IHB",
+          "@accession": "ERX329230",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329230"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-8"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:079-9",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356451",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356451"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:079-9"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:079-9"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-9",
+          "@refcenter": "IHB",
+          "@accession": "ERX329231",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329231"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-9"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:080-10",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356452",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356452"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:080-10"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:080-10"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-10",
+          "@refcenter": "IHB",
+          "@accession": "ERX329232",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329232"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-10"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:080-11",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356453",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356453"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:080-11"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:080-11"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-11",
+          "@refcenter": "IHB",
+          "@accession": "ERX329233",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329233"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-11"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:080-12",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356454",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356454"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:080-12"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:080-12"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-12",
+          "@refcenter": "IHB",
+          "@accession": "ERX329234",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329234"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-12"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:081-13",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356455",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356455"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:081-13"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:081-13"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-13",
+          "@refcenter": "IHB",
+          "@accession": "ERX329235",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329235"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-13"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:081-14",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356456",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356456"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:081-14"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:081-14"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-14",
+          "@refcenter": "IHB",
+          "@accession": "ERX329236",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329236"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-14"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:081-15",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356457",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356457"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:081-15"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:081-15"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-15",
+          "@refcenter": "IHB",
+          "@accession": "ERX329237",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329237"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-15"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:082-16",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356458",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356458"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:082-16"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:082-16"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-16",
+          "@refcenter": "IHB",
+          "@accession": "ERX329238",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329238"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-16"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:082-17",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356459",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356459"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:082-17"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:082-17"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-17",
+          "@refcenter": "IHB",
+          "@accession": "ERX329239",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329239"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-17"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:083-18",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356460",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356460"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:083-18"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:083-18"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-18",
+          "@refcenter": "IHB",
+          "@accession": "ERX329240",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329240"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-18"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:083-19",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356461",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356461"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:083-19"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:083-19"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-19",
+          "@refcenter": "IHB",
+          "@accession": "ERX329241",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329241"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-19"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:083-20",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356462",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356462"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:083-20"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:083-20"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-20",
+          "@refcenter": "IHB",
+          "@accession": "ERX329242",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329242"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-20"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "ena-RUN-IHB-17-10-2013-03:16:08:084-21",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERR356463",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR356463"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:084-21"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "ena-RUN-IHB-17-10-2013-03:16:08:084-21"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Ion Torrent Proton sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-21",
+          "@refcenter": "IHB",
+          "@accession": "ERX329243",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329243"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-21"
+            }
+          }
+        }
+      }
+    ]},
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:076-1",
+        "@center_name": "IHB",
+        "@accession": "ERX329223",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329223"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:076-1"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TC-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360422",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360422"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "TC-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-2",
+        "@center_name": "IHB",
+        "@accession": "ERX329224",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329224"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-2"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TC-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360423",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360423"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "TC-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-3",
+        "@center_name": "IHB",
+        "@accession": "ERX329225",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329225"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-3"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "TC-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360424",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360424"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "TC-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-4",
+        "@center_name": "IHB",
+        "@accession": "ERX329226",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329226"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:077-4"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-1-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360425",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360425"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-1-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-5",
+        "@center_name": "IHB",
+        "@accession": "ERX329227",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329227"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-5"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-1-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360426",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360426"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-1-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-6",
+        "@center_name": "IHB",
+        "@accession": "ERX329228",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329228"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-6"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-1-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360427",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360427"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-1-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-7",
+        "@center_name": "IHB",
+        "@accession": "ERX329229",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329229"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:078-7"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-2-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360428",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360428"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-2-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-8",
+        "@center_name": "IHB",
+        "@accession": "ERX329230",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329230"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-8"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-2-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360429",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360429"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-2-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-9",
+        "@center_name": "IHB",
+        "@accession": "ERX329231",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329231"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-9"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-2-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360430",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360430"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-2-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-10",
+        "@center_name": "IHB",
+        "@accession": "ERX329232",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329232"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:079-10"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-3-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360431",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360431"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-3-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-11",
+        "@center_name": "IHB",
+        "@accession": "ERX329233",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329233"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-11"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-3-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360432",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360432"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-3-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-12",
+        "@center_name": "IHB",
+        "@accession": "ERX329234",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329234"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:080-12"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "CC-3-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360433",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360433"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "CC-3-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-13",
+        "@center_name": "IHB",
+        "@accession": "ERX329235",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329235"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-13"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-1-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360434",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360434"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-1-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-14",
+        "@center_name": "IHB",
+        "@accession": "ERX329236",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329236"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-14"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-1-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360435",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360435"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-1-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-15",
+        "@center_name": "IHB",
+        "@accession": "ERX329237",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329237"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:081-15"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-1-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360436",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360436"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-1-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-16",
+        "@center_name": "IHB",
+        "@accession": "ERX329238",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329238"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-16"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-2-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360437",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360437"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-2-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-17",
+        "@center_name": "IHB",
+        "@accession": "ERX329239",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329239"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-17"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-2-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360438",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360438"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-2-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-18",
+        "@center_name": "IHB",
+        "@accession": "ERX329240",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329240"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:082-18"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-2-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360439",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360439"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-2-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-19",
+        "@center_name": "IHB",
+        "@accession": "ERX329241",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329241"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-19"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-3-1",
+            "@refcenter": "IHB",
+            "@accession": "ERS360440",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360440"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-3-1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-20",
+        "@center_name": "IHB",
+        "@accession": "ERX329242",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329242"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-20"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-3-2",
+            "@refcenter": "IHB",
+            "@accession": "ERS360441",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360441"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-3-2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-21",
+        "@center_name": "IHB",
+        "@accession": "ERX329243",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329243"},
+          "SUBMITTER_ID": {
+            "@namespace": "IHB",
+            "_$": "ena-EXPERIMENT-IHB-17-10-2013-03:16:08:083-21"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+          "@refcenter": "IHB",
+          "@accession": "ERP004091",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004091"},
+            "SUBMITTER_ID": {
+              "@namespace": "IHB",
+              "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "RCC-3-3",
+            "@refcenter": "IHB",
+            "@accession": "ERS360442",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS360442"},
+              "SUBMITTER_ID": {
+                "@namespace": "IHB",
+                "_$": "RCC-3-3"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "AMPLICON"},
+            "LIBRARY_SOURCE": {"_$": "METAGENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "PCR"},
+            "LIBRARY_LAYOUT": {"SINGLE": {}}
+          }
+        },
+        "PLATFORM": {"ION_TORRENT": {"INSTRUMENT_MODEL": {"_$": "Ion Torrent Proton"}}},
+        "PROCESSING": {}
+      }
+    ]},
+    "SUBMISSION": {
+      "@accession": "ERA258474",
+      "@alias": "ena-SUBMISSION-IHB-17-10-2013-02:22:34:011-1",
+      "@center_name": "IHB",
+      "@lab_name": "Key Laboratory of Aquatic Biodiversity and Conservation"
+    },
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42",
+      "@center_name": "IHB",
+      "@accession": "ERP004091",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004091"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4773"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "IHB",
+          "_$": "ena-STUDY-IHB-17-10-2013-03:16:09:882-42"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "18s Metagenomic analyses"},
+        "STUDY_TYPE": {"@existing_study_type": "Population Genomics"},
+        "STUDY_ABSTRACT": {"_$": "Metagenomic analyses revealed rhizosphere bacterial and fungal community dynamics across Panax notoginseng death-rate gradients under continuous cropping systems"},
+        "CENTER_PROJECT_NAME": {},
+        "STUDY_DESCRIPTION": {"_$": "Metagenomic analyses revealed rhizosphere bacterial and fungal community dynamics across Panax notoginseng death-rate gradients under continuous cropping systems"}
+      }
+    }},
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "TC-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360422",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360422"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241821"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "TC-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "TC-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; TC-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "TC-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360423",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360423"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241822"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "TC-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "TC-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; TC-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "TC-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360424",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360424"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241823"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "TC-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "TC-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; TC-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-1-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360425",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360425"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241824"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-1-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-1-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-1-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-1-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360426",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360426"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241825"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-1-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-1-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-1-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-1-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360427",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360427"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241826"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-1-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-1-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-1-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-2-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360428",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360428"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241827"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-2-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-2-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-2-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-2-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360429",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360429"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241828"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-2-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-2-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-2-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-2-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360430",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360430"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241829"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-2-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-2-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-2-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-3-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360431",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360431"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241830"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-3-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-3-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-3-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-3-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360432",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360432"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241831"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-3-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-3-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-3-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "CC-3-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360433",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360433"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241832"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "CC-3-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "CC-3-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; CC-3-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-1-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360434",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360434"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241833"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-1-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-1-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-1-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-1-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360435",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360435"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241834"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-1-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-1-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-1-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-1-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360436",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360436"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241835"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-1-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-1-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-1-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-2-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360437",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360437"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241836"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-2-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-2-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-2-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-2-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360438",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360438"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241837"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-2-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-2-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-2-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-2-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360439",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360439"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241838"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-2-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-2-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-2-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-3-1",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360440",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360440"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241839"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-3-1"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-3-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-3-1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-3-2",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360441",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360441"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241840"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-3-2"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-3-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-3-2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      },
+      {
+        "@alias": "RCC-3-3",
+        "@center_name": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+        "@accession": "ERS360442",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS360442"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241841"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "IHB",
+              "_$": "RCC-3-3"
+            },
+            {
+              "@namespace": "Institute of Hydrobiology, Chinese Academy of Sciences, China",
+              "_$": "RCC-3-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "uncultured eukaryote; RCC-3-3"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "100272"},
+          "SCIENTIFIC_NAME": {"_$": "uncultured eukaryote"}
+        }
+      }
+    ]}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

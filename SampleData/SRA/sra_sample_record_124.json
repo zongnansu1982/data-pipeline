@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "SC_mskintumour5622244-sc-2013-10-21T08:46:37Z-1726394",
+      "@accession": "ERS361610",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS361610"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224980"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "SC_mskintumour5622244-sc-2013-10-21T08:46:37Z-1726394"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "SC_mskintumour5622244-sc-2013-10-21T08:46:37Z-1726394"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Mus musculus"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Mouse"},
+        "TAXON_ID": {"_$": "10090"},
+        "SCIENTIFIC_NAME": {"_$": "Mus musculus"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "male"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Mouse"}
+        }
+      ]}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258988",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "SC_mskintumour5622244-sc-2013-10-21T08:46:37Z-1726394",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

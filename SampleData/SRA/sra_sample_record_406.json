@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "baboCR34-sc-2013-10-17T13:31:17Z-1727532",
+      "@accession": "ERS360926",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360926"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224237"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "baboCR34-sc-2013-10-17T13:31:17Z-1727532"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "baboCR34-sc-2013-10-17T13:31:17Z-1727532"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Brucella abortus"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Brucella abortus"},
+        "TAXON_ID": {"_$": "235"},
+        "SCIENTIFIC_NAME": {"_$": "Brucella abortus"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "not applicable"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Brucella abortus"}
+        }
+      ]}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258623",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "baboCR34-sc-2013-10-17T13:31:17Z-1727532",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

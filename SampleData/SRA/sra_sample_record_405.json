@@ -1,0 +1,1827 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "49a",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359891",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359891"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241468"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "49a"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "49a"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "31/08/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "49b",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359892",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359892"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241469"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "49b"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "49b"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "12/09/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E5",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359893",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359893"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241470"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E5"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E5"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "04/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Touch screen Burns theatre"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E6",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359894",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359894"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241471"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E6"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E6"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "04/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Anaesthetic machine Burns theatre"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E7",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359895",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359895"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241472"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E7"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "04/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Pat Slide Burns theatre"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E8",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359896",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359896"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241473"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E8"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Stool Burns theatre"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E9",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359897",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359897"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241474"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E9"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E9"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Pseudomonas aeruginosa; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "287"},
+          "SCIENTIFIC_NAME": {"_$": "Pseudomonas aeruginosa"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "ScissorsBurns theatre"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E10",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359898",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359898"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241475"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E10"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E10"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "ECG leads Burns theatre"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E2",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359899",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359899"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241476"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E2"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Shower head Burns Isolation rm"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E3",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359900",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359900"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241477"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E3"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Shower chair Burns Isolation rm"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "E4",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359901",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359901"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241478"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "E4"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "E4"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Patient chair Burns Isolation rm"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "55",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359902",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359902"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241479"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "55"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "55"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "13/12/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "57",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359903",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359903"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241480"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "57"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "57"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "05/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Tipc"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "56",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359904",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359904"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241481"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "56"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "56"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "03/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "58",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359905",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359905"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241482"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "58"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "58"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Pseudomonas aeruginosa; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "287"},
+          "SCIENTIFIC_NAME": {"_$": "Pseudomonas aeruginosa"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "07/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Wound swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "52",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359906",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359906"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241483"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "52"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "52"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "28/11/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "54",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359907",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359907"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241484"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "54"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "54"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/12/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "53",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359908",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359908"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241485"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "53"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "53"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "09/12/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "2",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359909",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359909"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241486"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "2"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "03/08/2011"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "16",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359910",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359910"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241487"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "16"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "16"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "20/10/2011"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "20a",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359911",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359911"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241488"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "20a"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "20a"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "04/12/2011"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "14",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359912",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359912"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241489"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "14"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "14"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "12/12/2011"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "23",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359913",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359913"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241571"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "23"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "23"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Pseudomonas aeruginosa; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "287"},
+          "SCIENTIFIC_NAME": {"_$": "Pseudomonas aeruginosa"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "16/12/2011"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "unknown"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "25",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359914",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359914"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241572"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "25"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "25"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "18/01/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Site swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "26a",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359915",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359915"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241573"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "26a"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "26a"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "18/01/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "27a",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359916",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359916"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241574"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "27a"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "27a"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "16/02/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "34a",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359917",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359917"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241575"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "34a"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "34a"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "01/05/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "59",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359918",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359918"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241576"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "59"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "59"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "60",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359919",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359919"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241577"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "60"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "60"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "10/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Central venous Catheter tip"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "61",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359920",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359920"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241578"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "61"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "61"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "14/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "62",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359921",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359921"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241579"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "62"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "62"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "15/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "63",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359922",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359922"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241580"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "63"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "63"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "16/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Wound swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "64",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359923",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359923"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241581"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "64"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "64"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "26/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "65",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359924",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359924"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241582"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "65"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "65"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "28/01/2013"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "3",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359925",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359925"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241583"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "3"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "04/08/2011"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Burn swab"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "48",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359926",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359926"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241584"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "48"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "48"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "29/08/2012"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Sputum"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      },
+      {
+        "@alias": "2006 patient",
+        "@center_name": "University of Warwick - United Kingdom",
+        "@accession": "ERS359927",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS359927"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241585"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "UW",
+              "_$": "2006 patient"
+            },
+            {
+              "@namespace": "University of Warwick - United Kingdom",
+              "_$": "2006 patient"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Acinetobacter baumannii; Isolates identified as A. baumannii during an 18 month hospital outbreak"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "470"},
+          "SCIENTIFIC_NAME": {"_$": "Acinetobacter baumannii"}
+        },
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "collection_date"},
+            "VALUE": {"_$": "19/08/2006"}
+          },
+          {
+            "TAG": {"_$": "country"},
+            "VALUE": {"_$": "UK"}
+          },
+          {
+            "TAG": {"_$": "host"},
+            "VALUE": {"_$": "Human"}
+          },
+          {
+            "TAG": {"_$": "isolation_source"},
+            "VALUE": {"_$": "Chest drain"}
+          },
+          {
+            "TAG": {"_$": "lat_lon"},
+            "VALUE": {"_$": "\"52.4800, -1.9100\""}
+          }
+        ]}
+      }
+    ]},
+    "SUBMISSION": {
+      "@alias": "ena-SUBMISSION-UW-15-10-2013-15:12:51:859-1",
+      "@center_name": "UW",
+      "@lab_name": "Division of Microbiology and Infection, Warwick Medical School",
+      "@accession": "ERA258013"
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

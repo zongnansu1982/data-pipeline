@@ -1,0 +1,126 @@
+{
+  "SRA": {
+    "RUN_SET": {"RUN": {
+      "@alias": "ena-RUN-KAUST-18-10-2013-11:06:18:704-1",
+      "@center_name": "King Abdullah University of Science and Technology",
+      "@accession": "ERR357128",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERR357128"},
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "KAUST",
+            "_$": "ena-RUN-KAUST-18-10-2013-11:06:18:704-1"
+          },
+          {
+            "@namespace": "King Abdullah University of Science and Technology",
+            "_$": "ena-RUN-KAUST-18-10-2013-11:06:18:704-1"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Illumina Genome Analyzer IIx paired end sequencing"},
+      "EXPERIMENT_REF": {
+        "@refname": "ena-EXPERIMENT-KAUST-18-10-2013-11:06:18:703-1",
+        "@refcenter": "KAUST",
+        "@accession": "ERX329900",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329900"},
+          "SUBMITTER_ID": {
+            "@namespace": "KAUST",
+            "_$": "ena-EXPERIMENT-KAUST-18-10-2013-11:06:18:703-1"
+          }
+        }
+      },
+      "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+        "SPOT_LENGTH": {"_$": "202"},
+        "READ_SPEC": [
+          {
+            "READ_INDEX": {"_$": "0"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          },
+          {
+            "READ_INDEX": {"_$": "1"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Reverse"},
+            "BASE_COORD": {"_$": "102"}
+          }
+        ]
+      }},
+      "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina Genome Analyzer IIx"}}}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258751",
+      "@alias": "ena-SUBMISSION-KAUST-18-10-2013-11:01:55:293-1",
+      "@center_name": "KAUST",
+      "@lab_name": "Pathogen Genomics Laboratory"
+    },
+    "EXPERIMENT_SET": {"EXPERIMENT": {
+      "@alias": "ena-EXPERIMENT-KAUST-18-10-2013-11:06:18:703-1",
+      "@center_name": "KAUST",
+      "@accession": "ERX329900",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERX329900"},
+        "SUBMITTER_ID": {
+          "@namespace": "KAUST",
+          "_$": "ena-EXPERIMENT-KAUST-18-10-2013-11:06:18:703-1"
+        }
+      },
+      "TITLE": {},
+      "STUDY_REF": {
+        "@accession": "ERP004189",
+        "@refname": "ena-STUDY-SC-24-10-2013-09:51:43:688-9",
+        "@refcenter": "SC",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERP004189"},
+          "SUBMITTER_ID": {
+            "@namespace": "SC",
+            "_$": "ena-STUDY-SC-24-10-2013-09:51:43:688-9"
+          }
+        }
+      },
+      "DESIGN": {
+        "DESIGN_DESCRIPTION": {},
+        "SAMPLE_DESCRIPTOR": {
+          "@refname": "Eimeria maxima Weybridge",
+          "@refcenter": "KAUST",
+          "@accession": "ERS361219",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERS361219"},
+            "SUBMITTER_ID": {
+              "@namespace": "KAUST",
+              "_$": "Eimeria maxima Weybridge"
+            }
+          }
+        },
+        "LIBRARY_DESCRIPTOR": {
+          "LIBRARY_NAME": {"_$": "unspecified"},
+          "LIBRARY_STRATEGY": {"_$": "WGS"},
+          "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+          "LIBRARY_SELECTION": {"_$": "RANDOM"},
+          "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "350"}}
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+          {
+            "READ_INDEX": {"_$": "0"},
+            "READ_LABEL": {"_$": "F1"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Forward"},
+            "BASE_COORD": {"_$": "1"}
+          },
+          {
+            "READ_INDEX": {"_$": "1"},
+            "READ_LABEL": {"_$": "R2"},
+            "READ_CLASS": {"_$": "Application Read"},
+            "READ_TYPE": {"_$": "Reverse"},
+            "RELATIVE_ORDER": {"@follows_read_index": "0"}
+          }
+        ]}}
+      },
+      "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina Genome Analyzer IIx"}}},
+      "PROCESSING": {}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

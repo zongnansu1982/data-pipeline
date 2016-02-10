@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258137",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "SC_MFY5616299-sc-2013-10-16T09:18:53Z-1720019",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "SC_MFY5616299-sc-2013-10-16T09:18:53Z-1720019",
+      "@accession": "ERS360063",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360063"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2223666"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "SC_MFY5616299-sc-2013-10-16T09:18:53Z-1720019"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "SC_MFY5616299-sc-2013-10-16T09:18:53Z-1720019"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Saccharomyces cerevisiae S288c"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Saccromyces cerevisiae"},
+        "TAXON_ID": {"_$": "559292"},
+        "SCIENTIFIC_NAME": {"_$": "Saccharomyces cerevisiae S288c"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Saccromyces cerevisiae"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

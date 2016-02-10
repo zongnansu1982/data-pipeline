@@ -1,0 +1,63 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "2811STDY5623024-sc-2013-10-18T15:01:45Z-1727194",
+      "@accession": "ERS361448",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS361448"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224902"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "2811STDY5623024-sc-2013-10-18T15:01:45Z-1727194"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "2811STDY5623024-sc-2013-10-18T15:01:45Z-1727194"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Caenorhabditis elegans"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "C.elegans"},
+        "TAXON_ID": {"_$": "6239"},
+        "SCIENTIFIC_NAME": {"_$": "Caenorhabditis elegans"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "C.elegans"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Sex"},
+          "VALUE": {"_$": "not applicable"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "C.elegans"}
+        }
+      ]}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258919",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "2811STDY5623024-sc-2013-10-18T15:01:45Z-1727194",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

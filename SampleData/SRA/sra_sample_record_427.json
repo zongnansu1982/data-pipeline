@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SUBMISSION": {
+      "@accession": "ERA258550",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "36087-sc-2013-10-17T12:21:55Z-1721095",
+      "@lab_name": ""
+    },
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "36087-sc-2013-10-17T12:21:55Z-1721095",
+      "@accession": "ERS360518",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360518"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2224169"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "36087-sc-2013-10-17T12:21:55Z-1721095"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "36087-sc-2013-10-17T12:21:55Z-1721095"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Plasmodium falciparum"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Plasmodium falciparum"},
+        "TAXON_ID": {"_$": "5833"},
+        "SCIENTIFIC_NAME": {"_$": "Plasmodium falciparum"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Plasmodium falciparum"}
+        }
+      ]}
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

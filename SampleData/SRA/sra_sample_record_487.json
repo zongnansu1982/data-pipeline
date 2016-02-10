@@ -1,0 +1,4700 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "haploid",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERS361105",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361105"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241738"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "haploid"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "haploid"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Salmo salar; haploid"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8030"},
+          "SCIENTIFIC_NAME": {"_$": "Salmo salar"},
+          "COMMON_NAME": {"_$": "Atlantic salmon"}
+        },
+        "DESCRIPTION": {"_$": "haploid"}
+      },
+      {
+        "@alias": "wild",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERS361106",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361106"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241386"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "wild"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "wild"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Salmo salar; wild"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8030"},
+          "SCIENTIFIC_NAME": {"_$": "Salmo salar"},
+          "COMMON_NAME": {"_$": "Atlantic salmon"}
+        },
+        "DESCRIPTION": {"_$": "Pool of sample from the wild"}
+      },
+      {
+        "@alias": "YG2007",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERS361107",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361107"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241739"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "YG2007"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "YG2007"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Salmo salar; YG2007"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8030"},
+          "SCIENTIFIC_NAME": {"_$": "Salmo salar"},
+          "COMMON_NAME": {"_$": "Atlantic salmon"}
+        },
+        "DESCRIPTION": {"_$": "Pool of sample from the Year 2007"}
+      },
+      {
+        "@alias": "YG2008",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERS361108",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361108"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241740"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "YG2008"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "YG2008"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Salmo salar; YG2008"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8030"},
+          "SCIENTIFIC_NAME": {"_$": "Salmo salar"},
+          "COMMON_NAME": {"_$": "Atlantic salmon"}
+        },
+        "DESCRIPTION": {"_$": "Pool of sample from the Year 2008"}
+      },
+      {
+        "@alias": "YG2009",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERS361109",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361109"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241619"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "YG2009"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "YG2009"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Salmo salar; YG2008"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8030"},
+          "SCIENTIFIC_NAME": {"_$": "Salmo salar"},
+          "COMMON_NAME": {"_$": "Atlantic salmon"}
+        },
+        "DESCRIPTION": {"_$": "Pool of sample from the Year 2009"}
+      },
+      {
+        "@alias": "YG2010",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERS361110",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361110"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2241741"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "YG2010"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "YG2010"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Salmo salar; YG2010"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "8030"},
+          "SCIENTIFIC_NAME": {"_$": "Salmo salar"},
+          "COMMON_NAME": {"_$": "Atlantic salmon"}
+        },
+        "DESCRIPTION": {"_$": "Pool of sample from the Year 2010"}
+      }
+    ]},
+    "SUBMISSION": {
+      "@accession": "ERA258647",
+      "@alias": "ena-SUBMISSION-ED-17-10-2013-15:53:51:045-1",
+      "@center_name": "ED",
+      "@lab_name": "GenePool"
+    },
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-1",
+        "@center_name": "ED",
+        "@accession": "ERX329835",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329835"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-1"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-2",
+        "@center_name": "ED",
+        "@accession": "ERX329836",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329836"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-2"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-3",
+        "@center_name": "ED",
+        "@accession": "ERX329837",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329837"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-3"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-4",
+        "@center_name": "ED",
+        "@accession": "ERX329838",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329838"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-4"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2010",
+            "@refcenter": "ED",
+            "@accession": "ERS361110",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361110"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2010"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-5",
+        "@center_name": "ED",
+        "@accession": "ERX329839",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329839"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-5"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-6",
+        "@center_name": "ED",
+        "@accession": "ERX329840",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329840"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-6"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-7",
+        "@center_name": "ED",
+        "@accession": "ERX329841",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329841"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-7"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-8",
+        "@center_name": "ED",
+        "@accession": "ERX329842",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329842"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-8"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-9",
+        "@center_name": "ED",
+        "@accession": "ERX329843",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329843"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-9"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-10",
+        "@center_name": "ED",
+        "@accession": "ERX329844",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329844"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-10"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2010",
+            "@refcenter": "ED",
+            "@accession": "ERS361110",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361110"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2010"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-11",
+        "@center_name": "ED",
+        "@accession": "ERX329845",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329845"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-11"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-12",
+        "@center_name": "ED",
+        "@accession": "ERX329846",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329846"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-12"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-13",
+        "@center_name": "ED",
+        "@accession": "ERX329847",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329847"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-13"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-14",
+        "@center_name": "ED",
+        "@accession": "ERX329848",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329848"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-14"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-15",
+        "@center_name": "ED",
+        "@accession": "ERX329849",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329849"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-15"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-16",
+        "@center_name": "ED",
+        "@accession": "ERX329850",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329850"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-16"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2010",
+            "@refcenter": "ED",
+            "@accession": "ERS361110",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361110"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2010"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-17",
+        "@center_name": "ED",
+        "@accession": "ERX329851",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329851"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-17"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-18",
+        "@center_name": "ED",
+        "@accession": "ERX329852",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329852"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-18"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-19",
+        "@center_name": "ED",
+        "@accession": "ERX329853",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329853"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-19"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-20",
+        "@center_name": "ED",
+        "@accession": "ERX329854",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329854"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-20"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-21",
+        "@center_name": "ED",
+        "@accession": "ERX329855",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329855"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-21"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-22",
+        "@center_name": "ED",
+        "@accession": "ERX329856",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329856"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-22"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-23",
+        "@center_name": "ED",
+        "@accession": "ERX329857",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329857"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-23"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-24",
+        "@center_name": "ED",
+        "@accession": "ERX329858",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329858"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-24"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-25",
+        "@center_name": "ED",
+        "@accession": "ERX329859",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329859"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-25"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-26",
+        "@center_name": "ED",
+        "@accession": "ERX329860",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329860"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-26"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-27",
+        "@center_name": "ED",
+        "@accession": "ERX329861",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329861"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-27"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-28",
+        "@center_name": "ED",
+        "@accession": "ERX329862",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329862"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-28"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-29",
+        "@center_name": "ED",
+        "@accession": "ERX329863",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329863"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-29"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-30",
+        "@center_name": "ED",
+        "@accession": "ERX329864",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329864"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-30"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-31",
+        "@center_name": "ED",
+        "@accession": "ERX329865",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329865"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-31"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-32",
+        "@center_name": "ED",
+        "@accession": "ERX329866",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329866"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-32"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-33",
+        "@center_name": "ED",
+        "@accession": "ERX329867",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329867"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-33"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-34",
+        "@center_name": "ED",
+        "@accession": "ERX329868",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329868"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-34"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "haploid",
+            "@refcenter": "ED",
+            "@accession": "ERS361105",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361105"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "haploid"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-35",
+        "@center_name": "ED",
+        "@accession": "ERX329869",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329869"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-35"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "wild",
+            "@refcenter": "ED",
+            "@accession": "ERS361106",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361106"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "wild"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-36",
+        "@center_name": "ED",
+        "@accession": "ERX329870",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329870"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-36"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2007",
+            "@refcenter": "ED",
+            "@accession": "ERS361107",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361107"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2007"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-37",
+        "@center_name": "ED",
+        "@accession": "ERX329871",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329871"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-37"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2008",
+            "@refcenter": "ED",
+            "@accession": "ERS361108",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361108"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2008"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-38",
+        "@center_name": "ED",
+        "@accession": "ERX329872",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329872"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-38"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2009",
+            "@refcenter": "ED",
+            "@accession": "ERS361109",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361109"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2009"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      },
+      {
+        "@alias": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-39",
+        "@center_name": "ED",
+        "@accession": "ERX329873",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329873"},
+          "SUBMITTER_ID": {
+            "@namespace": "ED",
+            "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-39"
+          }
+        },
+        "TITLE": {},
+        "STUDY_REF": {
+          "@refname": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+          "@refcenter": "ED",
+          "@accession": "ERP004117",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004117"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Reduced representation library"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "YG2010",
+            "@refcenter": "ED",
+            "@accession": "ERS361110",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361110"},
+              "SUBMITTER_ID": {
+                "@namespace": "ED",
+                "_$": "YG2010"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "unspecified"},
+            "LIBRARY_STRATEGY": {"_$": "OTHER"},
+            "LIBRARY_SOURCE": {"_$": "GENOMIC"},
+            "LIBRARY_SELECTION": {"_$": "other"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "500"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "RRL"}
+          },
+          "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {"READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_LABEL": {"_$": "F1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_LABEL": {"_$": "R2"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "RELATIVE_ORDER": {"@follows_read_index": "0"}
+            }
+          ]}}
+        },
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}},
+        "PROCESSING": {}
+      }
+    ]},
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:611-1",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357063",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357063"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:611-1"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:611-1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-1",
+          "@refcenter": "ED",
+          "@accession": "ERX329835",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329835"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-1"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:612-2",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357064",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357064"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-2"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-2",
+          "@refcenter": "ED",
+          "@accession": "ERX329836",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329836"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:611-2"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:612-3",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357065",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357065"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-3"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-3"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-3",
+          "@refcenter": "ED",
+          "@accession": "ERX329837",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329837"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-3"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:612-4",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357066",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357066"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-4"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-4"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-4",
+          "@refcenter": "ED",
+          "@accession": "ERX329838",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329838"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-4"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:612-5",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357067",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357067"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-5"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-5"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-5",
+          "@refcenter": "ED",
+          "@accession": "ERX329839",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329839"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-5"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:612-6",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357068",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357068"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-6"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:612-6"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-6",
+          "@refcenter": "ED",
+          "@accession": "ERX329840",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329840"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:612-6"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:613-7",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357069",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357069"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-7"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-7"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-7",
+          "@refcenter": "ED",
+          "@accession": "ERX329841",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329841"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-7"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:613-8",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357070",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357070"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-8"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-8"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-8",
+          "@refcenter": "ED",
+          "@accession": "ERX329842",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329842"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-8"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:613-9",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357071",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357071"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-9"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-9"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-9",
+          "@refcenter": "ED",
+          "@accession": "ERX329843",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329843"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-9"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:613-10",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357072",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357072"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-10"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-10"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-10",
+          "@refcenter": "ED",
+          "@accession": "ERX329844",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329844"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-10"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:613-11",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357073",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357073"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-11"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:613-11"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-11",
+          "@refcenter": "ED",
+          "@accession": "ERX329845",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329845"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:613-11"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:614-12",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357074",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357074"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-12"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-12"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-12",
+          "@refcenter": "ED",
+          "@accession": "ERX329846",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329846"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-12"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:614-13",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357075",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357075"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-13"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-13"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-13",
+          "@refcenter": "ED",
+          "@accession": "ERX329847",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329847"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-13"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:614-14",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357076",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357076"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-14"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-14"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-14",
+          "@refcenter": "ED",
+          "@accession": "ERX329848",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329848"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-14"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:614-15",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357077",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357077"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-15"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:614-15"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-15",
+          "@refcenter": "ED",
+          "@accession": "ERX329849",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329849"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-15"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:615-16",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357078",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357078"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-16"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-16"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-16",
+          "@refcenter": "ED",
+          "@accession": "ERX329850",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329850"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:614-16"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:615-17",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357079",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357079"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-17"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-17"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-17",
+          "@refcenter": "ED",
+          "@accession": "ERX329851",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329851"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-17"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:615-18",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357080",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357080"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-18"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-18"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-18",
+          "@refcenter": "ED",
+          "@accession": "ERX329852",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329852"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-18"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "200"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "101"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:615-19",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357081",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357081"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-19"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-19"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-19",
+          "@refcenter": "ED",
+          "@accession": "ERX329853",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329853"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-19"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:615-20",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357082",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357082"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-20"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:615-20"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-20",
+          "@refcenter": "ED",
+          "@accession": "ERX329854",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329854"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:615-20"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:616-21",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357083",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357083"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-21"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-21"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-21",
+          "@refcenter": "ED",
+          "@accession": "ERX329855",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329855"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-21"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:616-22",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357084",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357084"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-22"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-22"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-22",
+          "@refcenter": "ED",
+          "@accession": "ERX329856",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329856"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-22"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:616-23",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357085",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357085"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-23"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-23"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-23",
+          "@refcenter": "ED",
+          "@accession": "ERX329857",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329857"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-23"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:616-24",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357086",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357086"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-24"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:616-24"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-24",
+          "@refcenter": "ED",
+          "@accession": "ERX329858",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329858"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-24"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:617-25",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357087",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357087"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-25"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-25"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-25",
+          "@refcenter": "ED",
+          "@accession": "ERX329859",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329859"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:616-25"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:617-26",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357088",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357088"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-26"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-26"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-26",
+          "@refcenter": "ED",
+          "@accession": "ERX329860",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329860"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-26"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:617-27",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357089",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357089"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-27"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-27"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-27",
+          "@refcenter": "ED",
+          "@accession": "ERX329861",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329861"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-27"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:617-28",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357090",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357090"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-28"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-28"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-28",
+          "@refcenter": "ED",
+          "@accession": "ERX329862",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329862"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-28"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:617-29",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357091",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357091"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-29"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:617-29"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-29",
+          "@refcenter": "ED",
+          "@accession": "ERX329863",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329863"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:617-29"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:618-30",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357092",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357092"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-30"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-30"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-30",
+          "@refcenter": "ED",
+          "@accession": "ERX329864",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329864"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-30"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:618-31",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357093",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357093"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-31"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-31"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-31",
+          "@refcenter": "ED",
+          "@accession": "ERX329865",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329865"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-31"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:618-32",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357094",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357094"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-32"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-32"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-32",
+          "@refcenter": "ED",
+          "@accession": "ERX329866",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329866"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-32"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:618-33",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357095",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357095"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-33"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-33"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-33",
+          "@refcenter": "ED",
+          "@accession": "ERX329867",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329867"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-33"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:618-34",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357096",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357096"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-34"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:618-34"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-34",
+          "@refcenter": "ED",
+          "@accession": "ERX329868",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329868"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:618-34"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:619-35",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357097",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357097"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-35"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-35"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-35",
+          "@refcenter": "ED",
+          "@accession": "ERX329869",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329869"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-35"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:619-36",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357098",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357098"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-36"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-36"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-36",
+          "@refcenter": "ED",
+          "@accession": "ERX329870",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329870"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-36"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:619-37",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357099",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357099"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-37"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-37"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-37",
+          "@refcenter": "ED",
+          "@accession": "ERX329871",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329871"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-37"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:619-38",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357100",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357100"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-38"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:619-38"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-38",
+          "@refcenter": "ED",
+          "@accession": "ERX329872",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329872"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-38"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      },
+      {
+        "@alias": "ena-RUN-ED-18-10-2013-08:38:44:620-39",
+        "@center_name": "University of Edinburgh",
+        "@accession": "ERR357101",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357101"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "ED",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:620-39"
+            },
+            {
+              "@namespace": "University of Edinburgh",
+              "_$": "ena-RUN-ED-18-10-2013-08:38:44:620-39"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Illumina HiSeq 2000 paired end sequencing"},
+        "EXPERIMENT_REF": {
+          "@refname": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-39",
+          "@refcenter": "ED",
+          "@accession": "ERX329873",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329873"},
+            "SUBMITTER_ID": {
+              "@namespace": "ED",
+              "_$": "ena-EXPERIMENT-ED-18-10-2013-08:38:44:619-39"
+            }
+          }
+        },
+        "SPOT_DESCRIPTOR": {"SPOT_DECODE_SPEC": {
+          "SPOT_LENGTH": {"_$": "202"},
+          "READ_SPEC": [
+            {
+              "READ_INDEX": {"_$": "0"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Forward"},
+              "BASE_COORD": {"_$": "1"}
+            },
+            {
+              "READ_INDEX": {"_$": "1"},
+              "READ_CLASS": {"_$": "Application Read"},
+              "READ_TYPE": {"_$": "Reverse"},
+              "BASE_COORD": {"_$": "102"}
+            }
+          ]
+        }},
+        "PLATFORM": {"ILLUMINA": {"INSTRUMENT_MODEL": {"_$": "Illumina HiSeq 2000"}}}
+      }
+    ]},
+    "STUDY_SET": {"STUDY": {
+      "@alias": "ena-STUDY-ED-18-10-2013-08:39:07:502-178",
+      "@center_name": "ED",
+      "@accession": "ERP004117",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004117"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4796"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "ED",
+          "_$": "ena-STUDY-ED-18-10-2013-08:39:07:502-178"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "SNP identification in Atlantic salmon using Reduced representation sequencing"},
+        "STUDY_TYPE": {"@existing_study_type": "Population Genomics"},
+        "STUDY_ABSTRACT": {"_$": "Dense single nucleotide polymorphism (SNP) genotyping arrays provide extensive information on polymorphic variation across the genome of species of interest. This can be applied to study the genetic architecture of quantitative traits and improve accuracy of selection in breeding programs. In Atlantic salmon (Salmo salar), these goals are hampered by the lack of a high-density SNP genotyping platform. Therefore, the aim of the study was to develop and test a dense salmon SNP array; the first of its kind in any aquaculture species."},
+        "CENTER_PROJECT_NAME": {"_$": "SNP identification in Atlantic salmon using Reduced representation sequencing"},
+        "STUDY_DESCRIPTION": {"_$": "Dense single nucleotide polymorphism (SNP) genotyping arrays provide extensive information on polymorphic variation across the genome of species of interest. This can be applied to study the genetic architecture of quantitative traits and improve accuracy of selection in breeding programs. In Atlantic salmon (Salmo salar), these goals are hampered by the lack of a high-density SNP genotyping platform. Therefore, the aim of the study was to develop and test a dense salmon SNP array; the first of its kind in any aquaculture species."}
+      }
+    }}
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

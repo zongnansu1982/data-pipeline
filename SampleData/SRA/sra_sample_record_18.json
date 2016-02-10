@@ -1,0 +1,611 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": [
+      {
+        "@alias": "E-MTAB-1968:ABS1P_replicate_1",
+        "@accession": "ERS361479",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361479"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2224933"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABS1P_replicate_1"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABS1P_replicate_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Coprinopsis cinerea; ABS1P_replicate_1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "5346"},
+          "SCIENTIFIC_NAME": {"_$": "Coprinopsis cinerea"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Coprinopsis cinerea"}
+          },
+          {
+            "TAG": {"_$": "developmental stage"},
+            "VALUE": {"_$": "Stage 1 primordia"}
+          },
+          {
+            "TAG": {"_$": "specimen with known storage state"},
+            "VALUE": {"_$": "frozen specimen"}
+          },
+          {
+            "TAG": {"_$": "organism part"},
+            "VALUE": {"_$": "Stage 1 primordia"}
+          },
+          {
+            "TAG": {"_$": "age"},
+            "VALUE": {"_$": "168 hour"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1968:ABVM_replicate_2",
+        "@accession": "ERS361480",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361480"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2224934"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABVM_replicate_2"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABVM_replicate_2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Coprinopsis cinerea; ABVM_replicate_2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "5346"},
+          "SCIENTIFIC_NAME": {"_$": "Coprinopsis cinerea"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Coprinopsis cinerea"}
+          },
+          {
+            "TAG": {"_$": "developmental stage"},
+            "VALUE": {"_$": "Vegetative Mycelium"}
+          },
+          {
+            "TAG": {"_$": "specimen with known storage state"},
+            "VALUE": {"_$": "frozen specimen"}
+          },
+          {
+            "TAG": {"_$": "organism part"},
+            "VALUE": {"_$": "Vegetative Mycelium"}
+          },
+          {
+            "TAG": {"_$": "age"},
+            "VALUE": {"_$": "96 hour"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1968:ABS1P_replicate_2",
+        "@accession": "ERS361481",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361481"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2224935"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABS1P_replicate_2"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABS1P_replicate_2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Coprinopsis cinerea; ABS1P_replicate_2"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "5346"},
+          "SCIENTIFIC_NAME": {"_$": "Coprinopsis cinerea"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Coprinopsis cinerea"}
+          },
+          {
+            "TAG": {"_$": "developmental stage"},
+            "VALUE": {"_$": "Stage 1 primordia"}
+          },
+          {
+            "TAG": {"_$": "specimen with known storage state"},
+            "VALUE": {"_$": "frozen specimen"}
+          },
+          {
+            "TAG": {"_$": "organism part"},
+            "VALUE": {"_$": "Stage 1 primordia"}
+          },
+          {
+            "TAG": {"_$": "age"},
+            "VALUE": {"_$": "168 hour"}
+          }
+        ]}
+      },
+      {
+        "@alias": "E-MTAB-1968:ABVM_replicate_1",
+        "@accession": "ERS361482",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERS361482"},
+          "EXTERNAL_ID": {
+            "@namespace": "BioSample",
+            "_$": "SAMEA2224936"
+          },
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABVM_replicate_1"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABVM_replicate_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "Coprinopsis cinerea; ABVM_replicate_1"},
+        "SAMPLE_NAME": {
+          "TAXON_ID": {"_$": "5346"},
+          "SCIENTIFIC_NAME": {"_$": "Coprinopsis cinerea"}
+        },
+        "DESCRIPTION": {"_$": "Protocols: The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."},
+        "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+          {
+            "TAG": {"_$": "organism"},
+            "VALUE": {"_$": "Coprinopsis cinerea"}
+          },
+          {
+            "TAG": {"_$": "developmental stage"},
+            "VALUE": {"_$": "Vegetative Mycelium"}
+          },
+          {
+            "TAG": {"_$": "specimen with known storage state"},
+            "VALUE": {"_$": "frozen specimen"}
+          },
+          {
+            "TAG": {"_$": "organism part"},
+            "VALUE": {"_$": "Vegetative Mycelium"}
+          },
+          {
+            "TAG": {"_$": "age"},
+            "VALUE": {"_$": "96 hour"}
+          }
+        ]}
+      }
+    ]},
+    "RUN_SET": {"RUN": [
+      {
+        "@alias": "E-MTAB-1968:ABS1P_replicate_2.bam",
+        "@run_center": "FGCZ",
+        "@center_name": "Institute of Microbiology, ETH Zurich",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357206",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357206"},
+          "SUBMITTER_ID": {
+            "@namespace": "Institute of Microbiology, ETH Zurich",
+            "_$": "E-MTAB-1968:ABS1P_replicate_2.bam"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1968:ABS1P_replicate_2",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERX329980",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329980"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABS1P_replicate_2"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1968:ABVM_replicate_2.bam",
+        "@run_center": "FGCZ",
+        "@center_name": "Institute of Microbiology, ETH Zurich",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357207",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357207"},
+          "SUBMITTER_ID": {
+            "@namespace": "Institute of Microbiology, ETH Zurich",
+            "_$": "E-MTAB-1968:ABVM_replicate_2.bam"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1968:ABVM_replicate_2",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERX329979",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329979"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABVM_replicate_2"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1968:ABS1P_replicate_1.bam",
+        "@run_center": "FGCZ",
+        "@center_name": "Institute of Microbiology, ETH Zurich",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357208",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357208"},
+          "SUBMITTER_ID": {
+            "@namespace": "Institute of Microbiology, ETH Zurich",
+            "_$": "E-MTAB-1968:ABS1P_replicate_1.bam"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1968:ABS1P_replicate_1",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERX329978",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329978"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABS1P_replicate_1"
+            }
+          }
+        }
+      },
+      {
+        "@alias": "E-MTAB-1968:ABVM_replicate_1.bam",
+        "@run_center": "FGCZ",
+        "@center_name": "Institute of Microbiology, ETH Zurich",
+        "@broker_name": "ArrayExpress",
+        "@accession": "ERR357209",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERR357209"},
+          "SUBMITTER_ID": {
+            "@namespace": "Institute of Microbiology, ETH Zurich",
+            "_$": "E-MTAB-1968:ABVM_replicate_1.bam"
+          }
+        },
+        "EXPERIMENT_REF": {
+          "@refname": "E-MTAB-1968:ABVM_replicate_1",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERX329981",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERX329981"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABVM_replicate_1"
+            }
+          }
+        }
+      }
+    ]},
+    "EXPERIMENT_SET": {"EXPERIMENT": [
+      {
+        "@alias": "E-MTAB-1968:ABS1P_replicate_1",
+        "@accession": "ERX329978",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329978"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABS1P_replicate_1"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABS1P_replicate_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "AB SOLiD 4 System paired end sequencing; Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1968",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERP004123",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004123"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1968:ABS1P_replicate_1",
+            "@accession": "ERS361479",
+            "@refcenter": "Institute of Microbiology, ETH Zurich",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361479"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224933"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Institute of Microbiology, ETH Zurich",
+                "_$": "E-MTAB-1968:ABS1P_replicate_1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "ABS1P_replicate_1"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "250"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB SOLiD 4 System"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: developmental stage"},
+          "VALUE": {"_$": "Stage 1 primordia"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1968:ABVM_replicate_2",
+        "@accession": "ERX329979",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329979"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABVM_replicate_2"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABVM_replicate_2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "AB SOLiD 4 System paired end sequencing; Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1968",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERP004123",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004123"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1968:ABVM_replicate_2",
+            "@accession": "ERS361480",
+            "@refcenter": "Institute of Microbiology, ETH Zurich",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361480"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224934"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Institute of Microbiology, ETH Zurich",
+                "_$": "E-MTAB-1968:ABVM_replicate_2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "ABVM_replicate_2"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "250"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB SOLiD 4 System"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: developmental stage"},
+          "VALUE": {"_$": "Vegetative Mycelium"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1968:ABS1P_replicate_2",
+        "@accession": "ERX329980",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329980"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABS1P_replicate_2"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABS1P_replicate_2"
+            }
+          ]
+        },
+        "TITLE": {"_$": "AB SOLiD 4 System paired end sequencing; Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1968",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERP004123",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004123"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1968:ABS1P_replicate_2",
+            "@accession": "ERS361481",
+            "@refcenter": "Institute of Microbiology, ETH Zurich",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361481"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224935"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Institute of Microbiology, ETH Zurich",
+                "_$": "E-MTAB-1968:ABS1P_replicate_2"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "ABS1P_replicate_2"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "250"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB SOLiD 4 System"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: developmental stage"},
+          "VALUE": {"_$": "Stage 1 primordia"}
+        }}
+      },
+      {
+        "@alias": "E-MTAB-1968:ABVM_replicate_1",
+        "@accession": "ERX329981",
+        "@center_name": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+        "@broker_name": "ArrayExpress",
+        "IDENTIFIERS": {
+          "PRIMARY_ID": {"_$": "ERX329981"},
+          "SUBMITTER_ID": [
+            {
+              "@namespace": "INSTITUTE OF MICROBIOLOGY, ETH ZURICH",
+              "_$": "E-MTAB-1968:ABVM_replicate_1"
+            },
+            {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968:ABVM_replicate_1"
+            }
+          ]
+        },
+        "TITLE": {"_$": "AB SOLiD 4 System paired end sequencing; Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+        "STUDY_REF": {
+          "@refname": "E-MTAB-1968",
+          "@refcenter": "Institute of Microbiology, ETH Zurich",
+          "@accession": "ERP004123",
+          "IDENTIFIERS": {
+            "PRIMARY_ID": {"_$": "ERP004123"},
+            "SUBMITTER_ID": {
+              "@namespace": "Institute of Microbiology, ETH Zurich",
+              "_$": "E-MTAB-1968"
+            }
+          }
+        },
+        "DESIGN": {
+          "DESIGN_DESCRIPTION": {"_$": "Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+          "SAMPLE_DESCRIPTOR": {
+            "@refname": "E-MTAB-1968:ABVM_replicate_1",
+            "@accession": "ERS361482",
+            "@refcenter": "Institute of Microbiology, ETH Zurich",
+            "IDENTIFIERS": {
+              "PRIMARY_ID": {"_$": "ERS361482"},
+              "EXTERNAL_ID": {
+                "@namespace": "BioSample",
+                "_$": "SAMEA2224936"
+              },
+              "SUBMITTER_ID": {
+                "@namespace": "Institute of Microbiology, ETH Zurich",
+                "_$": "E-MTAB-1968:ABVM_replicate_1"
+              }
+            }
+          },
+          "LIBRARY_DESCRIPTOR": {
+            "LIBRARY_NAME": {"_$": "ABVM_replicate_1"},
+            "LIBRARY_STRATEGY": {"_$": "RNA-Seq"},
+            "LIBRARY_SOURCE": {"_$": "TRANSCRIPTOMIC"},
+            "LIBRARY_SELECTION": {"_$": "cDNA"},
+            "LIBRARY_LAYOUT": {"PAIRED": {"@NOMINAL_LENGTH": "250"}},
+            "LIBRARY_CONSTRUCTION_PROTOCOL": {"_$": "The dikaryon self-compatible C. cinerea strain A43mutB43mut (AB) was grown on YMG plates (0.4% yeast extract, 1% malt extract, 50 mM glucose and 1.5% agar) at 37C in the dark for 96h and transferred for fruiting body production at 25C, 90% humidity and 12 h light/dark cycles. One to two mm AB stage 1 primordia (ABS1P) were harvested after 72 h, flash-frozen in liquid Nitrogen and stored at -80C. C. cinerea AB vegetative mycelia (ABVM) were grown in duplicate on YMG plates covered with cellophane discs for 96 h at 37C in the dark and harvested independently before being flash frozen and stored at -80C. To study the impact of the mating type locus leading to homothallism on the transcription profile of C. cinerea, A43mutB43mut and Okayama7 mycelia (ABVM24C and O7VM24C) were grown in triplicate on YMG plates covered with cellophane discs at 37C in the dark for 96 h and 120 h, respectively, and transferred to 24C for 72 h in the dark. Mycelia were harvested, flash frozen and stored at -80C. Primordia and mycelia were lyophilized and ABS1Ps were separated in two pools of 20 mg each.  From each ABVM replicate, O7VM replicate or ABS1P pool, 20 mg dry material were lysed in three FastPrep FP120 homogenization steps of 45 s at 4.5, 5.5 and 6.5 m/s in the presence of 250 mg 0.5 mm glass beads, cooling the samples for 5 min on ice between steps. RNA was extracted using 1 mL Qiazol (Qiagen) and 0.2 mL chloroform ReagentPlus (Sigma-Aldrich). The solution was centrifuged at 12000 xg for 15 min at 4C; thereafter, RNA from the resultant aqueous phase was washed on-column using the RNeasy Lipid Tissue Mini Kit (Qiagen) and eluted in 60 uL RNase-free water. Concentration and integrity of the purified RNA were determined with a Qubit (1.0) fluorometer (Life Technologies) and a Bioanalyzer 2100 (Agilent), respectively. Samples with a 260/280 nm ratio of 1.8-2.1 and a 28S/18S ratio of 1.5-2 were later used in library construction. Whole transcriptome libraries from two ABS1P pools and two ABVM replicates were produced using MicroPolyA Purist Kit (Ambion) and SOLiD Total RNA-Seq kit (Applied Biosystems). Briefly, approximately 200 ng/sample poly(A)-positive RNA were enriched using MicroPoly(A) Purist Kit from 15-20 ug total RNA. Quality and concentration of the extracted poly(A)-positive RNA were re-assessed as described above, and poly(A)-positive RNA was digested with RNase III. Ligation of the adaptor mix and reverse transcription were performed following the manufacturer instructions. cDNA libraries were size selected for 150-250 bp fragments, amplified in 15-18 PCR cycles using barcoded adaptor primers and  purified with PureLink PCR micro kit (Invitrogen). These barcoded cDNA libraries were then amplified by emulsion PCR from 0.5 pM template."}
+          }
+        },
+        "PLATFORM": {"ABI_SOLID": {"INSTRUMENT_MODEL": {"_$": "AB SOLiD 4 System"}}},
+        "EXPERIMENT_ATTRIBUTES": {"EXPERIMENT_ATTRIBUTE": {
+          "TAG": {"_$": "Experimental Factor: developmental stage"},
+          "VALUE": {"_$": "Vegetative Mycelium"}
+        }}
+      }
+    ]},
+    "STUDY_SET": {"STUDY": {
+      "@alias": "E-MTAB-1968",
+      "@center_name": "Institute of Microbiology, ETH Zurich",
+      "@broker_name": "ArrayExpress",
+      "@accession": "ERP004123",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004123"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4802"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "Institute of Microbiology, ETH Zurich",
+          "_$": "E-MTAB-1968"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+        "STUDY_TYPE": {"@existing_study_type": "Transcriptome Analysis"},
+        "STUDY_ABSTRACT": {"_$": "Sexual reproduction is an ancient trait that evolved shortly after the appearance of the first eukaryotic cell. In order to study the transcriptional circuitries driving sexual reproduction in basidiomycota, we sequenced the poly(A)-positive transcriptome of stage 1 primordia and vegetative mycelia from the self-compatible dikaryotic basidiomycete Coprinopsis cinerea A43mutB43mut. Please note Okayama7 samples not included in this submission."},
+        "CENTER_PROJECT_NAME": {"_$": "Gene expression analysis of stage 1 primordia and vegetative mycelia from Coprinopsis cinerea"},
+        "STUDY_DESCRIPTION": {"_$": "Sexual reproduction is an ancient trait that evolved shortly after the appearance of the first eukaryotic cell. In order to study the transcriptional circuitries driving sexual reproduction in basidiomycota, we sequenced the poly(A)-positive transcriptome of stage 1 primordia and vegetative mycelia from the self-compatible dikaryotic basidiomycete Coprinopsis cinerea A43mutB43mut. Please note Okayama7 samples not included in this submission."}
+      },
+      "STUDY_LINKS": {"STUDY_LINK": {"URL_LINK": {
+        "LABEL": {"_$": "E-MTAB-1968 in ArrayExpress"},
+        "URL": {"_$": "http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1968"}
+      }}}
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258950",
+      "@alias": "E-MTAB-1968",
+      "@center_name": "Institute of Microbiology, ETH Zurich",
+      "@broker_name": "European Nucleotide Archive",
+      "@lab_name": "ArrayExpress"
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

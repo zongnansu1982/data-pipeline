@@ -1,0 +1,36 @@
+{
+  "SRA": {
+    "STUDY_SET": {"STUDY": {
+      "@alias": "CGP_C_elegans_whole_genomes_PART2-sc-2013-10-16T11:52:24Z-2811",
+      "@center_name": "SC",
+      "@accession": "ERP004086",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERP004086"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioProject",
+          "_$": "PRJEB4769"
+        },
+        "SUBMITTER_ID": {
+          "@namespace": "SC",
+          "_$": "CGP_C_elegans_whole_genomes_PART2-sc-2013-10-16T11:52:24Z-2811"
+        }
+      },
+      "DESCRIPTOR": {
+        "STUDY_TITLE": {"_$": "CGP_C_elegans_whole_genomes_PART2"},
+        "STUDY_TYPE": {"@existing_study_type": "Cancer Genomics"},
+        "STUDY_ABSTRACT": {"_$": "All cancers arise due to somatically acquired mutations in their genomes which alter the function of key cancer genes. Understanding the critical mutational events underlying the development of cancer is paramount for advancing prevention, early detection and effective treatment of the disease. Extraordinary recent advances in sequencing now make it a realistic aim to sequence large numbers of cancer genomes to find somatic mutations on a massive scale."},
+        "CENTER_PROJECT_NAME": {"_$": "CGP_C_elegans_whole_genomes_PART2"},
+        "STUDY_DESCRIPTION": {"_$": "Sequencing of a series of C elegans DNA samples with various DNA repair mutations grown for 10-20 generations."}
+      }
+    }},
+    "SUBMISSION": {
+      "@accession": "ERA258446",
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "CGP_C_elegans_whole_genomes_PART2-sc-2013-10-16T11:52:24Z-2811",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

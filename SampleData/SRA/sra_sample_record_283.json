@@ -1,0 +1,59 @@
+{
+  "SRA": {
+    "SAMPLE_SET": {"SAMPLE": {
+      "@alias": "Aptima_37-sc-2013-10-16T09:18:23Z-1694824",
+      "@accession": "ERS360037",
+      "@center_name": "The Wellcome Trust Sanger Institute",
+      "IDENTIFIERS": {
+        "PRIMARY_ID": {"_$": "ERS360037"},
+        "EXTERNAL_ID": {
+          "@namespace": "BioSample",
+          "_$": "SAMEA2223640"
+        },
+        "SUBMITTER_ID": [
+          {
+            "@namespace": "SC",
+            "_$": "Aptima_37-sc-2013-10-16T09:18:23Z-1694824"
+          },
+          {
+            "@namespace": "The Wellcome Trust Sanger Institute",
+            "_$": "Aptima_37-sc-2013-10-16T09:18:23Z-1694824"
+          }
+        ]
+      },
+      "TITLE": {"_$": "Chlamydia trachomatis L2b/UCH-1/proctitis"},
+      "SAMPLE_NAME": {
+        "COMMON_NAME": {"_$": "Chlamydia trachomatis"},
+        "TAXON_ID": {"_$": "471473"},
+        "SCIENTIFIC_NAME": {"_$": "Chlamydia trachomatis L2b/UCH-1/proctitis"}
+      },
+      "SAMPLE_ATTRIBUTES": {"SAMPLE_ATTRIBUTE": [
+        {
+          "TAG": {"_$": "Strain"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "Sample Description"},
+          "VALUE": {}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Phenotype"},
+          "VALUE": {"_$": "N/A"}
+        },
+        {
+          "TAG": {"_$": "ArrayExpress-Species"},
+          "VALUE": {"_$": "Chlamydia trachomatis"}
+        }
+      ]}
+    }},
+    "SUBMISSION": {
+      "@center_name": "SC",
+      "@broker_name": "",
+      "@alias": "Aptima_37-sc-2013-10-16T09:18:23Z-1694824",
+      "@accession": "ERA258111",
+      "@lab_name": ""
+    }
+  },
+  "_@default": "",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}
