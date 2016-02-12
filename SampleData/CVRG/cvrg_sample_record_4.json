@@ -1,0 +1,29 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "oai:eddi.cvrgrid.org:11614/690"},
+      "datestamp": {"_$": "2015-07-17T20:50:24Z"},
+      "setSpec": [
+        {"_$": "com_11614_1"},
+        {"_$": "col_11614_2"}
+      ],
+      "repository": {"_$": "Electrophysiology Data Discovery Index"},
+      "setName": {"_$": "ECG"},
+      "fetchURL": {"_$": "https://eddi.cvrgrid.org/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_11614_1"},
+      "recNum": {"_$": "3"}
+    },
+    "metadata": {"oai_dc:dc": {
+      "@schemaLocation": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd",
+      "dc:title": {"_$": "Physionet Long-Term ST Database"},
+      "dc:creator": {"_$": "Moody, G B"},
+      "dc:date": [
+        {"_$": "2015-01-15T20:26:46Z"},
+        {"_$": "2015-01-15T20:26:46Z"},
+        {"_$": "2003"}
+      ],
+      "dc:identifier": {"_$": "http://hdl.handle.net/11614/690"}
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}

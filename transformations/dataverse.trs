@@ -1,0 +1,10 @@
+transform column "$.'name'" to "name";
+transform column "$.'type'" to "type";
+transform column "$.'url'" to "url";
+transform column "$.'image_url'" to "image_url";
+transform column "$.'global_id'" to "global_id";
+transform column "$.'description'" to "description";
+transform column "$.'published_at'" to "published_at";
+transform column "$.'citation'" to "citation";
+transform column "$.'authors'[*]" to "authors[]";
+

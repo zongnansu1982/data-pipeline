@@ -1,0 +1,28 @@
+{
+  "record": {
+    "header": {
+      "identifier": {"_$": "oai:eddi.cvrgrid.org:11614/647"},
+      "datestamp": {"_$": "2015-07-17T20:51:52Z"},
+      "setSpec": [
+        {"_$": "com_11614_1"},
+        {"_$": "col_11614_2"}
+      ],
+      "repository": {"_$": "Electrophysiology Data Discovery Index"},
+      "setName": {"_$": "ECG"},
+      "fetchURL": {"_$": "https://eddi.cvrgrid.org/oai/request?verb=ListRecords&metadataPrefix=oai_dc&set=com_11614_1"},
+      "recNum": {"_$": "1"}
+    },
+    "metadata": {"oai_dc:dc": {
+      "@schemaLocation": "http://www.openarchives.org/OAI/2.0/oai_dc/ http://www.openarchives.org/OAI/2.0/oai_dc.xsd",
+      "dc:title": {"_$": "Physionet ANSI/AAMI EC13 Test Waveforms"},
+      "dc:date": [
+        {"_$": "2015-01-15T16:07:53Z"},
+        {"_$": "2015-01-15T16:07:53Z"},
+        {"_$": "2002"}
+      ],
+      "dc:identifier": {"_$": "http://hdl.handle.net/11614/647"}
+    }}
+  },
+  "_@default": "http://www.openarchives.org/OAI/2.0/",
+  "_@xml": "http://www.w3.org/XML/1998/namespace"
+}
