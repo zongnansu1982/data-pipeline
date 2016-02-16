@@ -6,9 +6,9 @@ transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:page_first'.'
 transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:page_last'.'_$'" to "citation.lastPage";
 transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_PubMed'.'_$'" to "citation.PMID" apply {{ result = 'pmid:' + value }};
 transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_DOI'.'_$'" to "citation.DOI" apply {{ result = 'doi:' + value }};
-transform column "$..'PDBx:citation_author'[?(@.'@citation_id'='primary')].'@name'" to "citation.author.name[]";
-
 transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:pdbx_database_id_DOI'.'_$'" to "citation.count" apply {{ result = '0' }};
+transform column "$.'PDBx:datablock'.'PDBx:citation_authorCategory'.'PDBx:citation_author'[?(@.'@citation_id'='primary')].'@name'" to "citation.author.name[]";
+
 
 transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:formula'.'_$'" to "materialEntity[].formula";
 transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*].'PDBx:formula_weight'.'_$'" to "materialEntity[].weight";
