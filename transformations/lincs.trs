@@ -1,0 +1,53 @@
+/* Dataset Information */
+transform column "$.'datasetid'.'_$'" to "dataset.ID";
+transform column "$.'datasetname'.'_$'" to "dataset.title";
+transform column "$.'datemodified'.'_$'" to "dataset.dateModified" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+transform column "$.'datereleased'.'_$'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+transform column "$.'_version_'.'_$'" to "dataset.version";
+transform column "$.'biologicalbucket'.'_$'" to "dataset.dataType[0]";
+transform column "$.'endpointcategorization'.'_$'" to "dataset.dataType[1]";
+transform column "$.'centerdatasetid'.'_$'" to "dataset.downloadURL";
+
+/* Data Repository Information */
+transform column "$.'id'.'_$'" to "dataRepository.name" apply {{ result = 'Library of Integrated Network-Based Cellular Signatures' }};
+transform column "$.'id'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:006454' }};
+transform column "$.'id'.'_$'" to "dataRepository.homePage" apply {{ result = 'http://www.lincsproject.org' }};
+
+/* Organization Information */
+transform column "$.'centerfullname'.'_$'" to "organization.name";
+transform column "$.'centername'.'_$'" to "organization.abbreviation";
+
+/* Entity Information */
+transform column "$.'smallmolecule'[*].'_$'" to "molecularEntity.name[]";
+transform column "$.'primarycell'[*].'_$'" to "primaryCell.name[]";
+transform column "$.'protein'[*].'_$'" to "protein.name[]";
+transform column "$.'phosphoprotein'[*].'_$'" to "phosphoProtein.name[]";
+transform column "$.'cellline'[*].'_$'" to "cellLine.name[]";
+transform column "$.'antibody'[*].'_$'" to "antibody.name[]";
+transform column "$.'iPSC'[*].'_$'" to "iPSC.name[]";
+
+/* Biological Process Information */
+transform column "$.'biologicalprocess'.'_$'" to "biologicalProcess.name";
+
+/* Investigator Information */
+transform columns "$.'principalinvestigator'.'_$'", "$.'screeninglabinvestigator'.'_$'" to "person.name[]" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+/* Internal - Needs Review */
+transform column "$.'projectname'.'_$'" to "internal.projectName";
+transform column "$.'assayname'.'_$'" to "assay.name";
+transform column "$.'physicaldetection'.'_$'" to "dimension.name";
+
+
+/* Unused elements */
+/* 
+transform column "$.'id'" to "id";
+transform column "$.'path'" to "path";
+transform column "$.'centerletter'" to "centerletter";
+transform column "$.'assaydesignmethod'" to "assaydesignmethod";
+transform column "$.'technologies'" to "technologies";
+transform column "$.'assayformat'" to "assayformat";
+*/
