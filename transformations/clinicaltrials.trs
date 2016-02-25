@@ -1,4 +1,4 @@
-transform column "$.'clinical_study'.'@rank'" to "internal.rank" apply{{result = "SCR:002309"}};
+transform column "$.'clinical_study'.'@rank'" to "internal.rank" apply {{ result = 'SCR:002309' }};
 transform column "$.'clinical_study'.'required_header'.'link_text'.'_$'" to "internal.link_text";
 transform column "$.'clinical_study'.'required_header'.'url'.'_$'" to "Study.homepage";
 transform column "$.'clinical_study'.'id_info'.'org_study_id'.'_$'" to "Study.identifier";
@@ -6,18 +6,24 @@ transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "DataSet.identi
 transform column "$.'clinical_study'.'brief_title'.'_$'" to "Dataset.briefTitle";
 transform column "$.'clinical_study'.'official_title'.'_$'" to "Dataset.title";
 transform column "$.'clinical_study'.'sponsors'.'lead_sponsor'.'agency'.'_$'" to "Grant.funder";
-transform column "$.'clinical_study'.'sponsors'.'lead_sponsor'.'agency_class'.'_$'" to "Grant.funderClass"; --> not in the model
+/* not in the model */
 transform column "$.'clinical_study'.'source'.'_$'" to "Dataset.creator";
-transform column "$.'clinical_study'.'oversight_info'.'authority'.'_$'" to "clinical_study.oversight_info.authority";  --> Data monitoring committee
-transform column "$.'clinical_study'.'oversight_info'.'has_dmc'.'_$'" to "clinical_study.oversight_info.has_dmc"; --> Data monitoring committee
+/* Data monitoring committee */
+transform column "$.'clinical_study'.'oversight_info'.'authority'.'_$'" to "clinical_study.oversight_info.authority";  
+/* Data monitoring committee */
+transform column "$.'clinical_study'.'oversight_info'.'has_dmc'.'_$'" to "clinical_study.oversight_info.has_dmc";
 transform column "$.'clinical_study'.'brief_summary'.'textblock'.'_$'" to "Dataset.description";
-transform column "$.'clinical_study'.'overall_status'.'_$'" to "Study.status"; --> not in model
-transform column "$.'clinical_study'.'phase'.'_$'" to "Study.phase"; --> not in model
+/* not in the model */
+transform column "$.'clinical_study'.'overall_status'.'_$'" to "Study.status"; 
+/* not in the model */
+transform column "$.'clinical_study'.'phase'.'_$'" to "Study.phase";
 transform column "$.'clinical_study'.'study_type'.'_$'" to "Study.studyType";
 transform column "$.'clinical_study'.'condition'.'_$'" to "Disease.name";
 transform column "$.'clinical_study'.'arm_group'[*].'arm_group_label'.'_$'" to "StudyGroup.name[]";
-transform column "$.'clinical_study'.'arm_group'[*].'arm_group_type'.'_$'" to "StudyGroup.type[]"; --> not in the model
-transform column "$.'clinical_study'.'arm_group'[*].'description'.'_$'" to "StudyGroup.description[]";  --> not in the model
+/* not in the model */
+transform column "$.'clinical_study'.'arm_group'[*].'arm_group_type'.'_$'" to "StudyGroup.type[]"; 
+/* not in the model */
+transform column "$.'clinical_study'.'arm_group'[*].'description'.'_$'" to "StudyGroup.description[]";  
 transform column "$.'clinical_study'.'intervention'.'intervention_type'.'_$'" to "Treatment.title";
 transform column "$.'clinical_study'.'intervention'.'intervention_name'.'_$'" to "Treatment.agent";
 transform column "$.'clinical_study'.'intervention'.'description'.'_$'" to "Treatment.description";
@@ -25,19 +31,24 @@ transform column "$.'clinical_study'.'eligibility'.'criteria'.'textblock'.'_$'" 
 transform column "$.'clinical_study'.'eligibility'.'gender'.'_$'" to "Study.recruits.gender";
 transform column "$.'clinical_study'.'eligibility'.'minimum_age'.'_$'" to "Study.recruits.minimum_age";
 transform column "$.'clinical_study'.'eligibility'.'maximum_age'.'_$'" to "Study.recruits.maximum_age";
-In first iteration we can leave this - however, this should be added to the WG2 issue tracker as something to discuss with WG3
+/*
+In first iteration we can leave this - however, this should be added to the WG2 issue tracker as something to discuss with WG3 */
 transform column "$.'clinical_study'.'location'.'facility'.'name'.'_$'" to "Study.location.name";
 transform column "$.'clinical_study'.'location'.'facility'.'address'.'city'.'_$'" to "Study.location.city";
 transform column "$.'clinical_study'.'location'.'facility'.'address'.'zip'.'_$'" to "Study.location.zip";
 transform column "$.'clinical_study'.'location'.'facility'.'address'.'country'.'_$'" to "Study.location.country";
-transform column "$.'clinical_study'.'location_countries'.'country'.'_$'" to "Study.location.othercountries[]";
+transform column "$.'clinical_study'.'location_countries'.'country'.'_$'" to "Study.location.othercountries[0]";
+/*
 In first iteration we can leave this - however, this should be added to the WG2 issue tracker as something to discuss with WG3
 For other countries we need to turn that into a multi value array
-transform column "$.'clinical_study'.'results_reference'.'citation'.'_$'" to "Publication.citation"; -- not in the model
+*/
+transform column "$.'clinical_study'.'results_reference'.'citation'.'_$'" to "Publication.citation"; 
+/* not in the model */
 transform column "$.'clinical_study'.'verification_date'.'_$'" to "Dataset.verificationDate";
 transform column "$.'clinical_study'.'lastchanged_date'.'_$'" to "Dataset.releaseDate";
 transform column "$.'clinical_study'.'firstreceived_date'.'_$'" to "Dataset.depositionDate";
 transform column "$.'clinical_study'.'keyword'[*].'_$'" to "Dataset.keyword[]";
-
-transform column "$.'clinical_study'.'is_fda_regulated'.'_$'" to "Dataset.is_fda_regulated"; --> not in the model
-transform column "$.'clinical_study'.'has_expanded_access'.'_$'" to "Dataset.has_expanded_access"; --> not in the model
+/* not in the model */
+transform column "$.'clinical_study'.'is_fda_regulated'.'_$'" to "Dataset.is_fda_regulated"; 
+/* not in the model */
+transform column "$.'clinical_study'.'has_expanded_access'.'_$'" to "Dataset.has_expanded_access";

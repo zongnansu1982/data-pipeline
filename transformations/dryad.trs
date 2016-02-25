@@ -12,7 +12,7 @@ transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:description'.'_$'" to "d
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:type'.'_$'" to "internal.type";
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:relation'.'_$'" to "dataset.relatedDataset" apply {{ result = 'hdl:' + value[22:]}};
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:rights'.'_$'" to "dataset.license";
-transform columns "$.'record'.'metadata'.'oai_dc:dc'.'dc:identifier'[*].'_$'" to " identifiers.ID[]";
+transform columns "$.'record'.'metadata'.'oai_dc:dc'.'dc:identifier'[*].'_$'" to "identifiers.ID[]";
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:date'[0].'_$'" to "dataset.dateAccession" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:date'[1].'_$'" to "dataset.dateAvailable" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:date'[2].'_$'" to "dataset.dateIssued" apply toStandardDate("yyyy-MM-dd'T'HH:mm:ssZ");
