@@ -1,12 +1,22 @@
+/* initial identity transformation */
 transform column "$.'record'.'header'.'identifier'.'_$'" to "record.header.identifier";
 transform column "$.'record'.'header'.'datestamp'.'_$'" to "record.header.datestamp";
-transform column "$.'record'.'header'.'setSpec'[*].'_$'" to "record.header.setSpec[]"; 
+transform column "$.'record'.'header'.'setSpec'[*].'_$'" to "record.header.setSpec[]";
 transform column "$.'record'.'header'.'repository'.'_$'" to "record.header.repository";
 transform column "$.'record'.'header'.'setName'.'_$'" to "record.header.setName";
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "record.header.fetchURL";
 transform column "$.'record'.'header'.'recNum'.'_$'" to "record.header.recNum";
-transform column "$.'record'.'metadata'.'oai_dc:dc'.'@schemaLocation'" to "record.metadata.oai_dc:dc.@schemaLocation";
-transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:title'.'_$'" to "record.metadata.oai_dc:dc.dc:title";
-transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:date'[*].'_$'" to "record.metadata.oai_dc:dc.dc:date[]";
-transform column "$.'record'.'metadata'.'oai_dc:dc'.'dc:identifier'.'_$'" to "record.metadata.oai_dc:dc.dc:identifier";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'@schemaLocation'" to "record.metadata.oai_dc_eddi:dc.@schemaLocation";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:title";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_published'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:date_published";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:date_eddi-indexed'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:date_eddi-indexed";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:identifier'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:identifier";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_description'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_description";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessurl'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_accessurl";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessrestrictions'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_accessrestrictions";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_dataformat'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_dataformat";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_piname";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piemail'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_piemail";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piaffiliation'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_piaffiliation";
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_citationpub'.'_$'" to "record.metadata.oai_dc_eddi:dc.dc:eddi_citationpub";
 
