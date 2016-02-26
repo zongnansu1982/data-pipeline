@@ -1,5 +1,7 @@
 /* Dataset Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataset.ID";
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataset.downloadURL" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject/' + value }};
+
 transform columns "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Name'.'_$'", "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Title'.'_$'"  to "dataset.title" apply {{ result = value1 + ' : ' + value2; }};
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Description'.'_$'" to "dataset.description" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "dataset.dateReleased";
