@@ -1,5 +1,6 @@
 /* Dataset Information */
-transform column "$.'experiment'.'id'.'_$'" to "dataset.ID";
+transform column "$.'experiment'.'accession'.'_$'" to "dataset.ID";
+transform column "$.'experiment'.'accession'.'_$'" to "dataset.downloadURL" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-4078/' + value }};
 transform column "$.'experiment'.'name'.'_$'" to "dataset.title";
 transform column "$.'experiment'.'description'.'text'.'_$'" to "dataset.description";
 transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
