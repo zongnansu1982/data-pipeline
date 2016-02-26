@@ -1,0 +1,26 @@
+/* Dataset Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataset.ID";
+transform columns "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Name'.'_$'", "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Title'.'_$'"  to "dataset.title" apply {{ result = value1 + ' : ' + value2; }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Description'.'_$'" to "dataset.description" apply {{ result = re.compile(r'<.*?>').sub('',value) }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "dataset.dateReleased";
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'ProjectDataTypeSet'.'DataType'.'_$'" to "dataset.keywords[0]";
+
+/* Publication Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'@id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
+
+/* Organism Information */
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'OrganismName'.'_$'" to "organism[0].name";
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'Strain'.'_$'" to "organism[0].strain";
+transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'@taxID'" to "organism[0].ncbiID" apply {{ result = 'ncbitax:' + value }}; 
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'NCBI BioProject' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:004801' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:006472' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov' }};
+
