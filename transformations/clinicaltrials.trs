@@ -1,4 +1,4 @@
-transform column "$.'clinical_study'.'@rank'" to "internal.rank" apply {{ result = 'SCR:002309' }};
+transform column "$.'clinical_study'.'required_header'.'link_text'.'_$'" to "internal.rank" apply {{ result = 'SCR:002309' }};
 transform column "$.'clinical_study'.'required_header'.'link_text'.'_$'" to "internal.link_text";
 transform column "$.'clinical_study'.'required_header'.'url'.'_$'" to "study.homepage";
 transform column "$.'clinical_study'.'id_info'.'org_study_id'.'_$'" to "study.identifier";
@@ -53,6 +53,6 @@ transform column "$.'clinical_study'.'is_fda_regulated'.'_$'" to "dataset.is_fda
 /* not in the model */
 transform column "$.'clinical_study'.'has_expanded_access'.'_$'" to "dataset.has_expanded_access";
 
-transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataRepository.name" {{ result = 'ClinicalTrials.gov' }};
+transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataRepository.name" apply {{ result = 'ClinicalTrials.gov' }};
 transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:002309' }};
 transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataRepository.homepage" apply {{ result = 'https://clinicaltrials.gov' }};
