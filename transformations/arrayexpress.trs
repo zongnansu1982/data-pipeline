@@ -14,7 +14,7 @@ transform column "$.'experiment'.'arraydesign'.'name'.'_$'" to "dataAcquisition.
 transform column "$.'experiment'.'arraydesign'.'accession'.'_$'" to "dataAcquisition.ID";
 
 /* Organism Information */
-transform column "$.'experiment'.'species'.'_$'" to "organism.name";
+transform column "$.'experiment'.'species'.'_$'" to "organism[0].name";
 
 /* Citation Count Information */
 /* Will be updated by enhancer that pulls in mentions */
