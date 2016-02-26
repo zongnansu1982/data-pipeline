@@ -3,6 +3,7 @@ transform column "$.'clinical_study'.'required_header'.'link_text'.'_$'" to "int
 transform column "$.'clinical_study'.'required_header'.'url'.'_$'" to "study.homepage";
 transform column "$.'clinical_study'.'id_info'.'org_study_id'.'_$'" to "study.identifier";
 transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataset.identifier";
+transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataset.downloadURL" apply {{ result = 'https://clinicaltrials.gov/ct2/show/' + value }};
 transform column "$.'clinical_study'.'brief_title'.'_$'" to "dataset.briefTitle";
 transform column "$.'clinical_study'.'official_title'.'_$'" to "dataset.title";
 transform column "$.'clinical_study'.'sponsors'.'lead_sponsor'.'agency'.'_$'" to "grant.funder";
