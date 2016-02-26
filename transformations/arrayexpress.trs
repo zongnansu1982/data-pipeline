@@ -1,0 +1,36 @@
+/* Dataset Information */
+transform column "$.'experiment'.'accession'.'_$'" to "dataset.ID";
+transform column "$.'experiment'.'accession'.'_$'" to "dataset.downloadURL" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/experiments/' + value }};
+transform column "$.'experiment'.'name'.'_$'" to "dataset.title";
+transform column "$.'experiment'.'description'.'text'.'_$'" to "dataset.description";
+transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
+transform column "$.'experiment'.'releasedate'.'_$'" to "dataset.dateReleased";
+transform column "$.'experiment'.'submissiondate'.'_$'" to "dataset.dateSubmitted";
+transform column "$.'experiment'.'lastupdatedate'.'_$'" to "dataset.dateModified";
+transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.dataType";
+
+/* Data Collection Information */
+transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.title";
+transform column "$.'experiment'.'arraydesign'.'name'.'_$'" to "dataAcquisition.title";
+transform column "$.'experiment'.'arraydesign'.'accession'.'_$'" to "dataAcquisition.ID";
+
+/* Organism Information */
+transform column "$.'experiment'.'species'.'_$'" to "organism[0].name";
+
+/* Citation Count Information */
+/* Will be updated by enhancer that pulls in mentions */
+transform column "$.'experiment'.'id'.'_$'" to "citation.count" apply {{ result = '0' }};
+
+/* Provider Information */
+transform column "$.'experiment'.'provider'.'contact'.'_$'" to "dataset.provider";
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'ArrayExpress' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:002964' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'EBI' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:004727' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
