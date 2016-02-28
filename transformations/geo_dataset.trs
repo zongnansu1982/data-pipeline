@@ -1,0 +1,51 @@
+/* Data set Information */
+transform column "$.'subset_dataset_id'" to "dataset.ID";
+transform column "$.'dataset_title'" to "dataset.title";
+transform column "$.'dataset_description'" to "dataset.description";
+transform column "$.'dataset_update_date'" to "dataset.dateReleased" apply toStandardDate("MMM dd yyyy");
+transform column "$.'dataset_type'" to "dataset.dataType";
+
+/* Publication Information */
+transform column "$.'dataset_pubmed_id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
+transform column "$.'dataset_pubmed_id'" to "citation.count" apply {{ result = '0' }};
+
+/* Organism Information */
+transform column "$.'dataset_platform_organism'" to "organism[0].name";
+transform column "$.'dataset_sample_organism'" to "organism[1].name";
+
+/* Other Dataset Information */
+transform column "$.'subset_dataset_id'" to "identifiers.ID" apply {{ result = 'GEO:' + value }};
+
+transform column "$.'subset_sample_id'" to "study.ID[]" apply {{ result=re.split("\s*,\s*",value) }};
+
+transform column "$.'dataset_platform'" to "instrument.name";
+
+transform column "$.'dataset_technology'" to "dataAcquisition.title";
+
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Gene Expression Omnibus' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'GEO' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:007303' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/geo/' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:006472' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nih.gov/' }};
+
+
+/* Items not included */
+/*
+transform column "$.'dataset_feature_count'" to "dataset.featureCount";
+transform column "$.'dataset_reference_series'" to "dataItem.referenceSeries";
+*/
+
+
+  
+ 
+
+
+ 
+  
