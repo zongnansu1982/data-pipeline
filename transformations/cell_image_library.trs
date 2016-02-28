@@ -1,0 +1,90 @@
+/* Dataset Information */
+transform column "$.'id'" to "dataset.ID";
+transform column "$.'id'" to "dataset.title" apply {{ result = 'Cell Image Library Dataset CIL:' + value }};
+transform column "$.'imagedescription'" to "dataset.description";
+transform column "$.'id'" to "dataset.downloadURL" apply {{ result = 'http://www.cellimagelibrary.org/images/' + value }};
+transform column "$.'itemtype'" to "dataset.dataType";
+
+/* Individual Entity Information */
+transform column "$.'ncbiorganismalclassification'" to "organism[]" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+transform column "$.'celltype'" to "cell[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+transform column "$.'cellline'" to "cellline[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+transform column "$.'cellularcomponent'" to "cellularcomponent[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+
+transform columns "$.'biologicalprocess'", "$.'pathologicalprocess'"to "biologicalProcess[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+arr.extend(re.split("\s*,\s*",value2))
+result=arr
+}};
+
+/* Protocol and Acquisition Information */
+transform column "$.'parameterimaged'" to "dimension.name";
+
+transform column "$.'imagingmode'" to "dataAcquisition.title";
+
+transform column "$.'preparation'" to "treatment.title";
+transform column "$.'visualizationmethods'" to "treatment.agent";
+
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Cell Image Library' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'CIL' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:003510' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.cellimagelibrary.org/' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'American Society for Cell Biology' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'ASCB' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:010600' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://ascb.org/' }};
+
+
+/* Data import needs to be fixed */
+/*
+transform column "$.'attribution'" to "attribution";
+*/
+
+/* Data not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'preparation_id'" to "preparation_id";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'visualizationmethods_id'" to "visualizationmethods_id";
+transform column "$.'relationtointactcell_id'" to "relationtointactcell_id";
+transform column "$.'biologicalprocess_id'" to "biologicalprocess_id";
+transform column "$.'pathologicalprocess_id'" to "pathologicalprocess_id";
+transform column "$.'itemtype_id'" to "itemtype_id";
+transform column "$.'processinghistory_id'" to "processinghistory_id";
+transform column "$.'imagingmode_id'" to "imagingmode_id";
+transform column "$.'parameterimaged_id'" to "parameterimaged_id";
+transform column "$.'ncbiorganismalclassification_id'" to "ncbiorganismalclassification_id";
+transform column "$.'celltype_id'" to "celltype_id";
+transform column "$.'cellularcomponent_id'" to "cellularcomponent_id";
+transform column "$.'dimension'" to "dimension";
+transform column "$.'processinghistory'" to "processinghistory";
+transform column "$.'speciestaxaspecific'" to "speciestaxaspecific";
+transform column "$.'technicaldetails'" to "technicaldetails";
+transform column "$.'dataqualification'" to "dataqualification";
+transform column "$.'relationtointactcell'" to "relationtointactcell";
+*/
