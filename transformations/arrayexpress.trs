@@ -25,12 +25,12 @@ transform column "$.'experiment'.'id'.'_$'" to "citation.count" apply {{ result 
 transform column "$.'experiment'.'provider'.'contact'.'_$'" to "dataset.provider";
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'ArrayExpress' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:002964' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/' }};
+transform column "$.'experiment'.'id'.'_$'" to "dataRepository.name" apply {{ result = 'ArrayExpress' }};
+transform column "$.'experiment'.'id'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:002964' }};
+transform column "$.'experiment'.'id'.'_$'" to "dataRepository.homePage" apply {{ result = 'https://www.ebi.ac.uk/arrayexpress/' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'EBI' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:004727' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
+transform column "$.'experiment'.'id'.'_$'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
+transform column "$.'experiment'.'id'.'_$'" to "organization.abbreviation" apply {{ result = 'EBI' }};
+transform column "$.'experiment'.'id'.'_$'" to "organization.ID" apply {{ result = 'SCR:004727' }};
+transform column "$.'experiment'.'id'.'_$'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};

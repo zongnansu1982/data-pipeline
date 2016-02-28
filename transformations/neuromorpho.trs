@@ -1,0 +1,64 @@
+/* Dataset Information */
+transform column "$.'neuron_id'" to "dataset.ID";
+transform column "$.'neuron_name'" to "dataset.title";
+transform column "$.'neuron_name'" to "dataset.downloadURL" {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
+transform column "$.'note'" to "dataset.note";
+
+/* Other Dataset Information */
+transform column "$.'article'.'pmid'" to "publication.ID" apply {{ result = 'pmid:' + value }};
+
+/* Organism Information */
+transform column "$.'species'" to "organism.name";
+transform column "$.'gender'" to "organism.gender";
+transform column "$.'strain_name'" to "organism.strain";
+
+/* Dimension Information */
+transform column "$.'max_age'" to "dimension[0].name" apply {{ result = 'age' }};
+transform column "$.'max_weight'" to "dimension[1].name" apply {{ result = 'weight' }};
+transform column "$.'soma_surface'" to "dimension[2].name" apply {{ result = 'soma surface area' }};
+transform column "$.'surface'" to "dimension[3].name" apply {{ result = 'surface area' }};
+transform column "$.'volume'" to "dimension[4].name" apply {{ result = 'volume' }};
+
+/* Cell Information */
+transform column "$.'neuron_class'" to "cell[0].name";
+transform column "$.'class1'" to "cell[1].name";
+transform column "$.'class3'" to "cell[2].name";
+
+/* Anatomical Information
+transform column "$.'region1'" to "anatomicalPart[0].name";
+transform column "$.'region2'" to "anatomicalPart[1].name";
+transform column "$.'region3'" to "anatomicalPart[2].name";
+
+/* Protocol Information */ 
+transform column "$.'expercond'" to "studyGroup.name";
+
+transform column "$.'stain'" to "treatment.title";
+
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'NeuroMorpho.Org' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'NeuroMorpho' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:002145' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://neuromorpho.org/' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'George Mason University' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'GMU' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011213' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.gmu.edu/' }};
+
+
+/* Items not included */
+/*
+transform column "$.'article'.'e_uid'" to "article.e_uid";
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'article'.'article_id'" to "article.article_id";
+transform column "$.'age_scale'" to "age_scale";
+transform column "$.'min_age'" to "min_age";
+transform column "$.'min_weight'" to "min_weight";
+transform column "$.'png_url'" to "png_url";
+transform column "$.'age_class'" to "age_class";
+transform column "$.'url_reference'" to "url_reference";
+transform column "$.'article'.'neuron_id'" to "article.neuron_id";
+transform column "$.'scientific_name'" to "scientific_name";
+*/

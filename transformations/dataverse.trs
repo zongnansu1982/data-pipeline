@@ -1,10 +1,29 @@
-transform column "$.'name'" to "name";
-transform column "$.'type'" to "type";
-transform column "$.'url'" to "url";
-transform column "$.'image_url'" to "image_url";
-transform column "$.'global_id'" to "global_id";
-transform column "$.'description'" to "description";
-transform column "$.'published_at'" to "published_at";
-transform column "$.'citation'" to "citation";
-transform column "$.'authors'[*]" to "authors[]";
+/* Dataset Information */
+transform column "$.'global_id'" to "dataset.id";
+transform column "$.'name'" to "dataset.title";
+transform column "$.'description'" to "dataset.description";
+transform column "$.'url'" to "dataset.downloadURL";
 
+/* Other Dataset Information */
+transform column "$.'published_at'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+
+transform column "$.'citation'" to "publication.description";
+
+transform column "$.'authors'[*]" to "person.name[]";
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Dataverse Network Project ' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'DataVerse' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:001997' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://thedata.org/' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'Harvard University' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011273' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.harvard.edu/' }};
+
+/* Items not included */
+/*
+transform column "$.'type'" to "type";
+transform column "$.'image_url'" to "image_url";
+*/

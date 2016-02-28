@@ -1,0 +1,20 @@
+/* Dataset Information */
+transform column "$.'GemmaDsId'" to "dataset.ID";
+transform column "$.'Name'" to "dataset.title";
+transform column "$.'Description'" to "dataset.description";
+transform column "$.'taxon'" to "organism[0].name";
+transform columns "$.'Source'" , "$.'SourceAccession'" to "identifiers[0].ID" apply {{ result = value1 + ':' + value2 }};
+
+transform column "$.'GemmaDsId'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Gemma' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:008007' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.chibi.ubc.ca/Gemma' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'University of British Columbia' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'UBC' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011614' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ubc.ca/' }};
+
