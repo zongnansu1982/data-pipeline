@@ -16,13 +16,13 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubm
 transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'Target'.'Organism'.'@taxID'" to "organism[0].ncbiID" apply {{ result = 'ncbitax:' + value }}; 
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'NCBI BioProject' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:004801' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataRepository.name" apply {{ result = 'NCBI BioProject' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataRepository.ID" apply {{ result = 'SCR:004801' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/bioproject' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:006472' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.ID" apply {{ result = 'SCR:006472' }};
+transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov' }};
 
