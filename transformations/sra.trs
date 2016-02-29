@@ -1,44 +1,79 @@
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'@accession'" to "Dataset.Identifier";
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'@center_name'" to "Dataset.creator";
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'@broker_name'" to "Dataset.storedIn";
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "Dataset.Identifier";
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'IDENTIFIERS'.'EXTERNAL_ID'.'@namespace'" to "Dataset.title";
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'SAMPLE_NAME'.'TAXON_ID'.'_$'" to "Organism.Identifier";
-transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'SAMPLE_NAME'.'SCIENTIFIC_NAME'.'_$'" to "Organism.name";
+/* Dataset Information */
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'@accession'" to "dataset.ID";
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "dataset.ID";
+transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "dataset.ID";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@accession'" to "dataset.ID";
+
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'@center_name'" to "dataset.creator";
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@center_name'" to "dataset.creator";
+transform column "$.'SRA'.'SUBMISSION'.'@center_name'" to "dataset.creator";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@center_name'" to "dataset.creator";
+
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'IDENTIFIERS'.'EXTERNAL_ID'.'@namespace'" to "dataset.title";
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'@broker_name'" to "dataset.storedIn";
+
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'STUDY_LINKS'.'STUDY_LINK'.'URL_LINK'.'URL'.'_$'" to "dataset.downloadURL";
+
+/* Organism Information */
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'SAMPLE_NAME'.'TAXON_ID'.'_$'" to "organism[0].ID";
+transform column "$.'SRA'.'SAMPLE_SET'.'SAMPLE'[*].'SAMPLE_NAME'.'SCIENTIFIC_NAME'.'_$'" to "organism[0].name";
+
+/* Study Information */
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@accession'" to "study.ID";
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "study.ID";
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'@accession'" to "study.ID";
+
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'@center_name'" to "study.performedBy";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'SAMPLE_DESCRIPTOR'.'@refcenter'" to "study.performedBy";
+
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'DESCRIPTOR'.'STUDY_TYPE'.'@existing_study_type'" to "study.studyType";
+
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'DESCRIPTOR'.'CENTER_PROJECT_NAME'.'_$'" to "study.title";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'DESIGN_DESCRIPTION'.'_$'" to "study.title";
+
+/* Activity Information */
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'@accession'" to "activity.ID";
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "activity.ID";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "activity.ID";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'STUDY_REF'.'@accession'" to "activity.ID";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'STUDY_REF'.'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "activity.ID";
+
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'@refcenter'" to "activity.performedBy";
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "activity.performedBy";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'STUDY_REF'.'@refcenter'" to "activity.performedBy";
+
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'TITLE'.'_$'" to "activity.title";
+
+/* Person Information */
+transform column "$.'SRA'.'SUBMISSION'.'@lab_name'" to "person.affilliation";
+
+/* Publication Information */
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'DESCRIPTOR'.'STUDY_TITLE'.'_$'" to "publication.title";
+
+/* Other Information */
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_STRATEGY'.'_$'" to "biologicalProcess.name";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_SOURCE'.'_$'" to "material.name";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_SELECTION'.'_$'" to "material.derivesFrom";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_CONSTRUCTION_PROTOCOL'.'_$'" to "material.hasCharateristic";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'PLATFORM'.'ILLUMINA'.'INSTRUMENT_MODEL'.'_$'" to "instrument.name";
+
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'NCBI Sequence Read Archive ' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'SRA' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:004891' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/sra' }};
+
+/* Organization Information */
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@broker_name'" to "organization.name";
+transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "organization.name";
+transform column "$.'SRA'.'SUBMISSION'.'@broker_name'" to "organization.name";
+transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'@broker_name'" to "organization.name";
+transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'SAMPLE_DESCRIPTOR'.'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "organization.name";
+
+/* Unused elements */
+/*
 transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@run_center'" to "SRA.RUN_SET.RUN[].@run_center";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@center_name'" to "Dataset.creator";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@broker_name'" to "Organization.name";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@accession'" to "study.Identifier";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "study.Identifier";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "Organization.name";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'@refcenter'" to "Activity.performedBy";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'@accession'" to "Activity.Identifier";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "Activity.Identifier";
-transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'EXPERIMENT_REF'.'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "Activity.performedBy";
-transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "Dataset.identifier";
 transform column "$.'SRA'.'SUBMISSION'.'@alias'" to "SRA.SUBMISSION.@alias";
-transform column "$.'SRA'.'SUBMISSION'.'@center_name'" to "Dataset.creator";
-transform column "$.'SRA'.'SUBMISSION'.'@broker_name'" to "Organization.name";
-transform column "$.'SRA'.'SUBMISSION'.'@lab_name'" to "Person.affilliation";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'@center_name'" to "Study.performedBy";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'@broker_name'" to "Organization.name";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'@accession'" to "Study.identifier";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'DESCRIPTOR'.'STUDY_TITLE'.'_$'" to "Publication.title";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'DESCRIPTOR'.'STUDY_TYPE'.'@existing_study_type'" to "Study.studyType";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'DESCRIPTOR'.'CENTER_PROJECT_NAME'.'_$'" to "Study.title";
-transform column "$.'SRA'.'STUDY_SET'.'STUDY'.'STUDY_LINKS'.'STUDY_LINK'.'URL_LINK'.'URL'.'_$'" to "Dataset.downloadURL";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@accession'" to "Dataset.identifier";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@center_name'" to "Dataset.creator";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "Activity.identifier";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'TITLE'.'_$'" to "Activity.title";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'STUDY_REF'.'@refcenter'" to "Activity.performedBy";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'STUDY_REF'.'@accession'" to "Activity.identifier";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'STUDY_REF'.'IDENTIFIERS'.'PRIMARY_ID'.'_$'" to "Activity.identifier";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'DESIGN_DESCRIPTION'.'_$'" to "Study.name";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'SAMPLE_DESCRIPTOR'.'@refcenter'" to "Study.performedBy";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'SAMPLE_DESCRIPTOR'.'IDENTIFIERS'.'SUBMITTER_ID'.'@namespace'" to "Organization.name";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_STRATEGY'.'_$'" to "Biological Process.name";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_SOURCE'.'_$'" to "Material.name";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_SELECTION'.'_$'" to "Material.derivesFrom";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'LIBRARY_DESCRIPTOR'.'LIBRARY_CONSTRUCTION_PROTOCOL'.'_$'" to "Material.hasCharateristic";
-transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'PLATFORM'.'ILLUMINA'.'INSTRUMENT_MODEL'.'_$'" to "Instrument.name";
+*/
+
