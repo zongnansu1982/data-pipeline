@@ -66,16 +66,16 @@ transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_
 */
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Protein Data Bank' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'PDB' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:012820' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.rcsb.org/pdb/' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.name" apply {{ result = 'Protein Data Bank' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.abbreviation" apply {{ result = 'PDB' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.ID" apply {{ result = 'SCR:012820' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "dataRepository.homePage" apply {{ result = 'http://www.rcsb.org/pdb/' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'Worldwide Protein Data Bank ' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'wwPDB' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:006555' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.wwpdb.org' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.name" apply {{ result = 'Worldwide Protein Data Bank ' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.abbreviation" apply {{ result = 'wwPDB' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.ID" apply {{ result = 'SCR:006555' }};
+transform column "$..'PDBx:entryCategory'.'PDBx:entry'.'@id'" to "organization.homePage" apply {{ result = 'http://www.wwpdb.org' }};
 
 /* Items not included */
 /*
