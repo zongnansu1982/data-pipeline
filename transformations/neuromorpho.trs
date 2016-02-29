@@ -21,14 +21,14 @@ transform column "$.'neuron_id'" to "dimension[3].name" apply {{ result = 'surfa
 transform column "$.'neuron_id'" to "dimension[4].name" apply {{ result = 'volume' }};
 
 /* Cell Information */
-transform column "$.'cell_class'" to "cell[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
+transform column "$.'cell_class'" to "cell.name[]" apply {{
+arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-/* Anatomical Information
-transform column "$.'brain_region'" to "anatomicalPart[].name" apply {{
-arr=re.split("\s*,\s*",value1,)
+/* Anatomical Information */
+transform column "$.'brain_region'" to "anatomicalPart.name[]" apply {{
+arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
