@@ -24,16 +24,16 @@ transform column "$.'dataset_technology'" to "dataAcquisition.title";
 
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Gene Expression Omnibus' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'GEO' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:007303' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/geo/' }};
+transform column "$.'dataset_title'" to "dataRepository.name" apply {{ result = 'Gene Expression Omnibus' }};
+transform column "$.'dataset_title'" to "dataRepository.abbreviation" apply {{ result = 'GEO' }};
+transform column "$.'dataset_title'" to "dataRepository.ID" apply {{ result = 'SCR:007303' }};
+transform column "$.'dataset_title'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/geo/' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:006472' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nih.gov/' }};
+transform column "$.'dataset_title'" to "organization.name" apply {{ result = 'National Center for Biotechnology Information' }};
+transform column "$.'dataset_title'" to "organization.abbreviation" apply {{ result = 'NCBI' }};
+transform column "$.'dataset_title'" to "organization.ID" apply {{ result = 'SCR:006472' }};
+transform column "$.'dataset_title'" to "organization.homePage" apply {{ result = 'http://www.ncbi.nih.gov/' }};
 
 
 /* Items not included */
