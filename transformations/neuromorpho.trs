@@ -1,7 +1,7 @@
 /* Dataset Information */
 transform column "$.'neuron_id'" to "dataset.ID";
 transform column "$.'neuron_name'" to "dataset.title";
-transform column "$.'neuron_name'" to "dataset.downloadURL" {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
+transform column "$.'neuron_name'" to "dataset.downloadURL" apply {{ result = 'http://neuromorpho.org/neuron_info.jsp?neuron_name=' + value }};
 transform column "$.'note'" to "dataset.note";
 
 /* Other Dataset Information */
