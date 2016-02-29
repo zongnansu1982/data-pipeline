@@ -5,29 +5,32 @@ transform column "$.'neuron_name'" to "dataset.downloadURL" {{ result = 'http://
 transform column "$.'note'" to "dataset.note";
 
 /* Other Dataset Information */
-transform column "$.'article'.'pmid'" to "publication.ID" apply {{ result = 'pmid:' + value }};
+transform column "$.'article'.'pmid'" to "publication.ID";
 
 /* Organism Information */
 transform column "$.'species'" to "organism.name";
 transform column "$.'gender'" to "organism.gender";
 transform column "$.'strain_name'" to "organism.strain";
+transform column "$.'scientific_name'" to "organism.scientificName";
 
 /* Dimension Information */
-transform column "$.'max_age'" to "dimension[0].name" apply {{ result = 'age' }};
-transform column "$.'max_weight'" to "dimension[1].name" apply {{ result = 'weight' }};
-transform column "$.'soma_surface'" to "dimension[2].name" apply {{ result = 'soma surface area' }};
-transform column "$.'surface'" to "dimension[3].name" apply {{ result = 'surface area' }};
-transform column "$.'volume'" to "dimension[4].name" apply {{ result = 'volume' }};
+transform column "$.'neuron_id'" to "dimension[0].name" apply {{ result = 'age' }};
+transform column "$.'neuron_id'" to "dimension[1].name" apply {{ result = 'weight' }};
+transform column "$.'neuron_id'" to "dimension[2].name" apply {{ result = 'soma surface area' }};
+transform column "$.'neuron_id'" to "dimension[3].name" apply {{ result = 'surface area' }};
+transform column "$.'neuron_id'" to "dimension[4].name" apply {{ result = 'volume' }};
 
 /* Cell Information */
-transform column "$.'neuron_class'" to "cell[0].name";
-transform column "$.'class1'" to "cell[1].name";
-transform column "$.'class3'" to "cell[2].name";
+transform column "$.'cell_class'" to "cell[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+result=arr
+}};
 
 /* Anatomical Information
-transform column "$.'region1'" to "anatomicalPart[0].name";
-transform column "$.'region2'" to "anatomicalPart[1].name";
-transform column "$.'region3'" to "anatomicalPart[2].name";
+transform column "$.'brain_region'" to "anatomicalPart[].name" apply {{
+arr=re.split("\s*,\s*",value1,)
+result=arr
+}};
 
 /* Protocol Information */ 
 transform column "$.'expercond'" to "studyGroup.name";
