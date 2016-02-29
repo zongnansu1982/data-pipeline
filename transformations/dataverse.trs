@@ -1,5 +1,5 @@
 /* Dataset Information */
-transform column "$.'global_id'" to "dataset.id";
+transform column "$.'global_id'" to "dataset.ID";
 transform column "$.'name'" to "dataset.title";
 transform column "$.'description'" to "dataset.description";
 transform column "$.'url'" to "dataset.downloadURL";
