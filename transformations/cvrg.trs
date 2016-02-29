@@ -13,16 +13,16 @@ transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piname'.'_$'" 
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_piaffiliation'.'_$'" to "person.affiliation";
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'CardioVascular Research Grid' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'CVRG' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:004472' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.cvrgrid.org/' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.name" apply {{ result = 'CardioVascular Research Grid' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.abbreviation" apply {{ result = 'CVRG' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.ID" apply {{ result = 'SCR:004472' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "dataRepository.homePage" apply {{ result = 'http://www.cvrgrid.org/' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'Johns Hopkins University' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'JHU' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:010247' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.jhu.edu/' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.name" apply {{ result = 'Johns Hopkins University' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.abbreviation" apply {{ result = 'JHU' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.ID" apply {{ result = 'SCR:010247' }};
+transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "organization.homePage" apply {{ result = 'http://www.jhu.edu/' }};
 
 /* Items requiring some special formatting/review */
 /*
