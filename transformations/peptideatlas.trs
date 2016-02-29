@@ -1,0 +1,20 @@
+/* initial transform */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'acc'" to "acc";
+transform column "$.'name'" to "name";
+transform column "$.'summary'" to "summary";
+transform column "$.'title'" to "title";
+transform column "$.'char'" to "char";
+transform column "$.'tag'" to "tag";
+transform column "$.'instrument'" to "instrument";
+transform column "$.'pmid'" to "pmid";
+transform column "$.'pmid_display'" to "pmid_display";
+transform column "$.'treatment'" to "treatment";
+transform column "$.'growth'" to "growth";
+transform column "$.'digestion'" to "digestion";
+transform column "$.'extract'" to "extract";
+transform column "$.'separation'" to "separation";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

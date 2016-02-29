@@ -1,0 +1,20 @@
+{
+  "e_uid": "PAe000151",
+  "acc": "PAe000151",
+  "name": "Yeast",
+  "summary": "gricat\nGalactose vs. raffinose ICAT experiment\r\nPublished in Trey's thesis",
+  "title": "gricat",
+  "char": "BY4741 and nine mutants: gal1∆, gal2∆, gal3∆, gal4∆, gal5∆, gal6∆, gal7∆, gal10∆, gal80∆, Wild-type (wt) and nine genetically altered yeast strains were examined, each with a complete deletion of one of the nine GAL genes: transport (gal2∆), enzymatic (gal1∆, gal5∆, gal7∆, or gal10∆), or regulatory (gal3∆, gal4∆, gal6∆, or gal80∆).These strains were perturbed environmentally by growth in the presence (+gal) or absence(-gal) of 2% galactose, with 2% raffinose provided in both media. Strains were derived from the wild-type haploid MATa strain BY4741 (ATCC #201388, MATa his3∆1 leu2∆0 met15∆0 ura3∆0). The mutants gal1∆, gal3∆, gal5∆, gal7∆, and gal10∆ were constructed by complete replacement of the corresponding genes with kanR using the loxP-kanR-loxP cassette, while gal2∆, gal4∆, gal6∆, and gal80∆ were obtained from the Saccharomyces Genome Deletion Project and were constructed analogously. Strains gal2∆gal80∆ and gal4∆gal80∆ were obtained by mating and sporulation of the single-deletion mutants; gal1∆gal10∆ (#R4146) was a generous gift from C. Roberts of Rosetta Inpharmatics.",
+  "tag": "gricat",
+  "instrument": "LTQ",
+  "pmid": "11340206",
+  "pmid_display": "PMID:11340206",
+  "treatment": "",
+  "growth": "Yeast were inoculated in 100 ml of either GAL inducing \"+gal\" media (1% yeast extract, 2% peptone,2% rafÞnose, 2% galactose) or noninducing \"-gal\" media (1% yeast extract, 2% peptone, 2% rafÞnose). Cultures were grown overnight at 30°C to a density of 1 to 2 OD\u2086\u2080\u2080, washed in 5 ml H\u2082O, and snap-frozen.",
+  "digestion": "Equal amounts of protein extracts from wt+gal (galactose utilization) and wt\u2013gal cultures were labeled with isotopically heavy and normal ICAT reagents, respectively, then combined and digested with trypsin.",
+  "extract": "Protein extracts were desalted (Biorad 10DG columns) in 50 mM tris 8.3, 1 mM EDTA, and 0.05% SDS. The ICAT method was applied to 300 µg of protein from each extract, with the following modification. After trypsin digestion, peptides were fractionated on a 2.1 mm by 200 mm polySULFOETHYL A column (PolyLC) by running a salt gradient from 0 to 25% Buffer B (5 mM KH\u2083PO\u2084, pH 3.0, 350 mM KCl, 25% CH\u2083CN) over 30 min, followed by 25 to 100% Buffer B over 20 min at 0.2 ml/min.",
+  "separation": "Labeled peptides were isolated from each cation-exchange-chromatography, fraction by monomeric avidin (Pierce) affnity chromatography.",
+  "v_uid": "PAe000151",
+  "v_uuid": "2102fce4-34d9-5f8c-a2e0-1af44c3b69ce",
+  "v_lastmodified": ""
+}

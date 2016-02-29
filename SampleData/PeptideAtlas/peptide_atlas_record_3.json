@@ -1,0 +1,20 @@
+{
+  "e_uid": "PAe000187",
+  "acc": "PAe000187",
+  "name": "Halobacterium",
+  "summary": "enrichment for specialized purple membrane proteins, cell culture #3; Goo et al., unpublished data.\nYoung Ah Goo ICAT experiments - yagpm3_2 directory",
+  "title": "youngah_yagpm3_2",
+  "char": "Halobacterium sp. NRC-1 (ATCC700922)",
+  "tag": "youngah_yagpm3_2",
+  "instrument": "LCQ DECA",
+  "pmid": "12872007",
+  "pmid_display": "PMID:12872007",
+  "treatment": "",
+  "growth": "Strain Halobacterium sp. NRC-1 (ATCC700922) was cultured at 37°C in basal salt medium containing 1% peptone (Oxoid, Hampshire, U.K.) and trace metals as previously described in Oesterhelt et al., Methods Enzymol. 31, 1974, 667\u2013678.",
+  "digestion": "One hundred micrograms of proteins were digested with 2µg of trypsin (Promega, Madison, WI) in 50 mM sodium bicarbonate (pH 8.3) at 37°C overnight. Soluble proteins were lyophilized after digestion. Membrane proteins were digested in the presence of 0.5% SDS to aid solubilization. After the protease reaction, SDS was removed by precipitating proteins with 70% acetone or by chromatography using a cation exchange cartridge (OASIS MCX; Waters, Milford, MA) according to manufacturer\u2019s procedure. The proteins were lyophilized and stored at -80°C and resuspended in 100µL of 0.4% acetic solution prior to mass spectrometer analysis.",
+  "extract": "Preparation of Membrane and soluble-cytoplasmic proteins were isolated using a protocol modified from a halophiles laboratory manual and Oesterhelt (Oesterhelt et al., 1974, Methods Enzymol. 31, 667\u2013678; DasSarma et al, 1995, Archaea: A Laboratory Manual: Halophiles, Cold Spring Harbor Laboratory Press, Plainview, NY). One liter of Halobacterium sp. NRC-1 culture was grown to OD\u2086\u2080\u2080= ~2.0 and pelleted by centrifugation at 7,500 rpm at 4°C for 10 min. Pellets were resuspended in 20ml basal salt solution containing 0.5 mg each of DNaseI and RNaseA and 1 mM of proteinase inhibitor, phenylmethylsulfonyl fluoride (PMSF). Cells were lysed by osmotic shock against a 40× excess of deionized water within a dialysis tubing bag (Spectra/Por® membrane MWCO: 3,500; Spectrum, Rancho Dominguez, CA). Cell debris was removed by centrifugation at 10,000× g for 30 min. The remaining cell lysates were then separated into the soluble and membrane fractions by ultracentrifugation at 53,000× g for 2 h. The membrane fraction, a pellet at the bottom of the tube, and the soluble fraction, the aqueous supernatant portion, were then collected. The membrane was loaded on top of 30% sucrose cushion and ultracentrifuged at 53,000× g at 10°C overnight. The membrane fraction was collected and washed three times in 10ml basal salt solution using a hand-held electrical homogenizer (Tissue-Tearor; Fisher, Pittsburgh, PA). Membrane proteins were then collected by centrifugation at 53,000 × g for 2 h at 10°C. The pellet was resuspended in residual basal salt solution and then transferred to a microcentrifuge tube. The residual aqueousbasal salt solution was removed by a brief spin at 14,000 rpm. The soluble protein fraction was dialyzed against five changes of 100× volume of deionized water at 4°C to reduce the salt concentration that in excess might inhibit the protease reaction and mass spectrometry analysis.",
+  "separation": "",
+  "v_uid": "PAe000187",
+  "v_uuid": "c5fea97a-874e-547d-8001-f68201dffebc",
+  "v_lastmodified": ""
+}
