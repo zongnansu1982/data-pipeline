@@ -36,16 +36,16 @@ transform column "$.'stain'" to "treatment.title";
 
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'NeuroMorpho.Org' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'NeuroMorpho' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:002145' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://neuromorpho.org/' }};
+transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'NeuroMorpho.Org' }};
+transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'NeuroMorpho' }};
+transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:002145' }};
+transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://neuromorpho.org/' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'George Mason University' }};
-transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'GMU' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011213' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.gmu.edu/' }};
+transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'George Mason University' }};
+transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'GMU' }};
+transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:011213' }};
+transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.gmu.edu/' }};
 
 
 /* Items not included */
