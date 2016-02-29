@@ -9,9 +9,9 @@ transform column "$.'endpointcategorization'" to "dataset.dataType[1]";
 transform column "$.'centerdatasetid'" to "dataset.downloadURL";
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Library of Integrated Network-Based Cellular Signatures' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:006454' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.lincsproject.org' }};
+transform column "$.'datasetid'" to "dataRepository.name" apply {{ result = 'Library of Integrated Network-Based Cellular Signatures' }};
+transform column "$.'datasetid'" to "dataRepository.ID" apply {{ result = 'SCR:006454' }};
+transform column "$.'datasetid'" to "dataRepository.homePage" apply {{ result = 'http://www.lincsproject.org' }};
 
 /* Organization Information */
 transform column "$.'centerfullname'" to "organization.name";
