@@ -59,10 +59,10 @@ transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'PLATFORM'.'ILLUMINA'
 
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'NCBI Sequence Read Archive ' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'SRA' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:004891' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/sra' }};
+transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "dataRepository.name" apply {{ result = 'NCBI Sequence Read Archive ' }};
+transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "dataRepository.abbreviation" apply {{ result = 'SRA' }};
+transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "dataRepository.ID" apply {{ result = 'SCR:004891' }};
+transform column "$.'SRA'.'SUBMISSION'.'@accession'" to "dataRepository.homePage" apply {{ result = 'http://www.ncbi.nlm.nih.gov/sra' }};
 
 /* Organization Information */
 transform column "$.'SRA'.'RUN_SET'.'RUN'[*].'@broker_name'" to "organization.name";
