@@ -12,15 +12,15 @@ transform column "$.'citation'" to "publication.description";
 transform column "$.'authors'[*]" to "person.name[]";
 
 /* Data Repository Information */
-transform column "$.'id'" to "dataRepository.name" apply {{ result = 'Dataverse Network Project ' }};
-transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'DataVerse' }};
-transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:001997' }};
-transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://thedata.org/' }};
+transform column "$.'global_id'" to "dataRepository.name" apply {{ result = 'Dataverse Network Project ' }};
+transform column "$.'global_id'" to "dataRepository.abbreviation" apply {{ result = 'DataVerse' }};
+transform column "$.'global_id'" to "dataRepository.ID" apply {{ result = 'SCR:001997' }};
+transform column "$.'global_id'" to "dataRepository.homePage" apply {{ result = 'http://thedata.org/' }};
 
 /* Organization Information */
-transform column "$.'id'" to "organization.name" apply {{ result = 'Harvard University' }};
-transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011273' }};
-transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.harvard.edu/' }};
+transform column "$.'global_id'" to "organization.name" apply {{ result = 'Harvard University' }};
+transform column "$.'global_id'" to "organization.ID" apply {{ result = 'SCR:011273' }};
+transform column "$.'global_id'" to "organization.homePage" apply {{ result = 'http://www.harvard.edu/' }};
 
 /* Items not included */
 /*
