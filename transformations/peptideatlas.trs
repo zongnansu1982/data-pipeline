@@ -1,20 +1,42 @@
-/* initial transform */
+/* Dataset Information */
+transform column "$.'acc'" to "dataset.id";
+transform column "$.'title'" to "dataset.title";
+transform column "$.'acc'" to "dataset.downloadURL" apply {{ result = 'ftp://ftp.peptideatlas.org/pub/PeptideAtlas/Repository/' + value }};
+transform column "$.'summary'" to "dataset.description";
+
+/* Publication Information */
+transform column "$.'pmid'" to "pmid" apply {{ result = 'pmid:' + value }};
+
+/* Organism Information */
+transform column "$.'name'" to "organism[0].name";
+transform column "$.'char'" to "organism[0].strain";
+
+
+/* Instrument Information */
+transform column "$.'instrument'" to "instrument.name";
+
+/* Protocol Information */
+transform columns "$.'treatment'" , "$.'growth'" , "$.'digestion'" , "$.'extract'" , "$.'separation'" to "treatment.description" apply 
+{{ result = 'Treatment: ' + value1 + '; Growth: ' + value2 + '; Digestion: ' + value3 + '; Extraction: ' + value4 + '; Separation: ' + value5 }};
+
+/* Data Repository Information */
+transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'PeptideAtlas' }};
+transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:006783' }};
+transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://www.peptideatlas.org/' }};
+
+/* Organization Information */
+transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'Institute for Systems Biology' }};
+transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'ISB' }};
+transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:011305' }};
+transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.systemsbiology.org/' }};
+
+
+/* Items not included */
+/*
 transform column "$.'e_uid'" to "e_uid";
-transform column "$.'acc'" to "acc";
-transform column "$.'name'" to "name";
-transform column "$.'summary'" to "summary";
-transform column "$.'title'" to "title";
-transform column "$.'char'" to "char";
-transform column "$.'tag'" to "tag";
-transform column "$.'instrument'" to "instrument";
-transform column "$.'pmid'" to "pmid";
-transform column "$.'pmid_display'" to "pmid_display";
-transform column "$.'treatment'" to "treatment";
-transform column "$.'growth'" to "growth";
-transform column "$.'digestion'" to "digestion";
-transform column "$.'extract'" to "extract";
-transform column "$.'separation'" to "separation";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+transform column "$.'pmid_display'" to "pmid_display";
+transform column "$.'tag'" to "tag";
+*/
