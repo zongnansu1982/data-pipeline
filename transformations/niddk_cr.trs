@@ -1,17 +1,44 @@
 /* initial identity transformation */
+transform column "$.'acronym'" to "dataset.ID";
+transform column "$.'name'" to "dataset.title";
+transform column "$.'acronym'" to "dataset.downloadURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
+
+/* Disease Information */
+transform column "$.'conditions'" to "disease[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+transform column "$.'dialysis_studies'" to "treatment.title" apply {{result='dialysis' if value.lower() == 'yes' else '' }};
+
+/* Organism Information */
+transform column "$.'studynum'" to "organism[0].name" apply {{ result = 'human' }};
+transform column "$.'studynum'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
+
+/* Data Repository Information */
+transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'NIDDK Central Repository' }};
+transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'NIDDK CDR' }};
+transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:006542' }};
+transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'https://www.niddkrepository.org/' }};
+
+/* Organization Information */
+transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
+transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
+transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:012895' }};
+transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
+
+
+/* Items not included */
+/*
 transform column "$.'e_uid'" to "e_uid";
-transform column "$.'name'" to "name";
-transform column "$.'url'" to "url";
-transform column "$.'acronym'" to "acronym";
-transform column "$.'conditions'" to "conditions";
-transform column "$.'dialysis_studies'" to "dialysis_studies";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+
 transform column "$.'duration'" to "duration";
 transform column "$.'has_genotype_data'" to "has_genotype_data";
 transform column "$.'has_genotype_data_in_dbgap'" to "has_genotype_data_in_dbgap";
 transform column "$.'has_image_data'" to "has_image_data";
 transform column "$.'has_specimens'" to "has_specimens";
 transform column "$.'has_study_datasets'" to "has_study_datasets";
-transform column "$.'v_uid'" to "v_uid";
-transform column "$.'v_uuid'" to "v_uuid";
-transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+*/
