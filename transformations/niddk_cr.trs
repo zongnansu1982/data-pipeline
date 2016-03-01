@@ -12,20 +12,20 @@ result=arr
 transform column "$.'dialysis_studies'" to "treatment.title" apply {{result='dialysis' if value.lower() == 'yes' else '' }};
 
 /* Organism Information */
-transform column "$.'studynum'" to "organism[0].name" apply {{ result = 'human' }};
-transform column "$.'studynum'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
+transform column "$.'name'" to "organism[0].name" apply {{ result = 'human' }};
+transform column "$.'name'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
 
 /* Data Repository Information */
-transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'NIDDK Central Repository' }};
-transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'NIDDK CDR' }};
-transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:006542' }};
-transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'https://www.niddkrepository.org/' }};
+transform column "$.'name'" to "dataRepository.name" apply {{ result = 'NIDDK Central Repository' }};
+transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'NIDDK CDR' }};
+transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:006542' }};
+transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'https://www.niddkrepository.org/' }};
 
 /* Organization Information */
-transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
-transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
-transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:012895' }};
-transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
+transform column "$.'name'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
+transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
+transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:012895' }};
+transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
 
 
 /* Items not included */
