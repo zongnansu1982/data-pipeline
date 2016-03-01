@@ -1,13 +1,40 @@
 /* initial identity transformation */
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'studynum'" to "studynum";
-transform column "$.'investigator'" to "investigator";
-transform column "$.'study_title'" to "study_title";
+transform column "$.'studynum'" to "dataset.ID";
+transform column "$.'study_title'" to "dataset.title";
+transform column "$.'study_description'" to "dataset.description";
+transform column "$.'studynum'" to "dataset.downloadURL" apply {{ result = 'http://ctndisseminationlibrary.org/protocols/' + value }};
+
 transform column "$.'release_date'" to "release_date";
-transform column "$.'study_description'" to "study_description";
-transform column "$.'keywords'" to "keywords";
+
+transform column "$.'keywords'" to "dataset.keywords[]" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+transform column "$.'investigator'" to "dataset.creator";
 transform column "$.'url'" to "url";
+
+/* Organism Information */
+transform column "$.'studynum'" to "organism[0].name" apply {{ result = 'human' }};
+transform column "$.'studynum'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
+
+/* Data Repository Information */
+transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'Clinical Trials Network Data Share' }};
+transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'CTN' }};
+transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:002002' }};
+transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://datashare.nida.nih.gov/' }};
+
+/* Organization Information */
+transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'National Institute on Drug Abuse ' }};
+transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'NIDA' }};
+transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:011440' }};
+transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.nida.nih.gov/' }};
+
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+*/
