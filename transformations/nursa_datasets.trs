@@ -1,0 +1,15 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'dataset_id'" to "dataset_id";
+transform column "$.'title'" to "title";
+transform column "$.'technique'" to "technique";
+transform column "$.'investigator'" to "investigator";
+transform column "$.'doi'" to "doi";
+transform column "$.'moreinfo_url'" to "moreinfo_url";
+transform column "$.'summary'" to "summary";
+transform column "$.'project'" to "project";
+transform column "$.'contributors'" to "contributors";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

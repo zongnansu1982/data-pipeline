@@ -1,0 +1,17 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'name'" to "name";
+transform column "$.'url'" to "url";
+transform column "$.'acronym'" to "acronym";
+transform column "$.'conditions'" to "conditions";
+transform column "$.'dialysis_studies'" to "dialysis_studies";
+transform column "$.'duration'" to "duration";
+transform column "$.'has_genotype_data'" to "has_genotype_data";
+transform column "$.'has_genotype_data_in_dbgap'" to "has_genotype_data_in_dbgap";
+transform column "$.'has_image_data'" to "has_image_data";
+transform column "$.'has_specimens'" to "has_specimens";
+transform column "$.'has_study_datasets'" to "has_study_datasets";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

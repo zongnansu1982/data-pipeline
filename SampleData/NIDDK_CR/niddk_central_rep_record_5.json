@@ -1,0 +1,17 @@
+{
+  "e_uid": "DAC",
+  "name": "Dialysis Access Consortium (DAC)",
+  "url": "https://www.niddkrepository.org/studies/dac/",
+  "acronym": "DAC",
+  "conditions": "Kidney Diseases",
+  "dialysis_studies": "None",
+  "duration": "None",
+  "has_genotype_data": "None",
+  "has_genotype_data_in_dbgap": "None",
+  "has_image_data": "None",
+  "has_specimens": "Internal Use Only",
+  "has_study_datasets": "No",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

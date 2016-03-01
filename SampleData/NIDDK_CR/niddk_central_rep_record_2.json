@@ -1,0 +1,17 @@
+{
+  "e_uid": "HEMO",
+  "name": "Hemodialysis Study",
+  "url": "https://www.niddkrepository.org/studies/hemo/",
+  "acronym": "HEMO",
+  "conditions": "Kidney Diseases, Renal Insfficiency, Chronic",
+  "dialysis_studies": "No",
+  "duration": "1993 - 1994 for pilot, 03/1995 - 12/2001 for trial",
+  "has_genotype_data": "No",
+  "has_genotype_data_in_dbgap": "None",
+  "has_image_data": "No",
+  "has_specimens": "Specimens Available for Request",
+  "has_study_datasets": "Yes",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

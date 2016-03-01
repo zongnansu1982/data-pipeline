@@ -1,0 +1,17 @@
+{
+  "e_uid": "ICDB",
+  "name": "Interstitial Cystitis cohort study",
+  "url": "https://www.niddkrepository.org/studies/icdb/",
+  "acronym": "ICDB",
+  "conditions": "Cystitis, Interstitial, Urinary Bladder Diseases, Urogenital Diseases",
+  "dialysis_studies": "No",
+  "duration": "1993 \u2014 1997",
+  "has_genotype_data": "No",
+  "has_genotype_data_in_dbgap": "None",
+  "has_image_data": "Yes",
+  "has_specimens": "Specimens Available for Request",
+  "has_study_datasets": "Yes",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

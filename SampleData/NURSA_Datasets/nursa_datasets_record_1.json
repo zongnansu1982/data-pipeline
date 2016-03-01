@@ -1,0 +1,15 @@
+{
+  "e_uid": "10.1621/datasets.05006",
+  "dataset_id": "10.1621/datasets.05006",
+  "title": "Proteomic analysis of nuclear receptor coregulator complexes: II",
+  "technique": "Affinity Purification",
+  "investigator": "O'Malley, B",
+  "doi": "10.1621/datasets.05006",
+  "moreinfo_url": "datasets.cfm?doi=10.1621/datasets.05006",
+  "summary": "This dataset is a HeLa cell affinity purification-based profile of interacting factors for nuclear receptor coregulators.",
+  "project": "NURSA Phase II | Proteomics Resource",
+  "contributors": "Anna Malovannaya, Yehua Li, Yaroslava Bulynko, Sung-Yun Jung, Yi Wang, Jung SY, Wei J, Rainer B. Lanz, Bert O\u2019Malley, Jun Qin",
+  "v_uid": "10.1621/datasets.05006",
+  "v_uuid": "2c1d7464-2e2a-5356-9315-4bd1c8f42895",
+  "v_lastmodified": ""
+}

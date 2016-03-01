@@ -1,0 +1,17 @@
+{
+  "e_uid": "CPCRN",
+  "name": "Chronic Prostatitis Collaborative Research Network Cohort Study",
+  "url": "https://www.niddkrepository.org/studies/cpcrn/",
+  "acronym": "CPCRN",
+  "conditions": "Prostatic Diseases, Urogenital Diseases",
+  "dialysis_studies": "No",
+  "duration": "1997 \u2013 2002",
+  "has_genotype_data": "No",
+  "has_genotype_data_in_dbgap": "None",
+  "has_image_data": "No",
+  "has_specimens": "No Specimens",
+  "has_study_datasets": "Yes",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

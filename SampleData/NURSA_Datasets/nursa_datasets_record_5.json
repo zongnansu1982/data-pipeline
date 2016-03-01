@@ -1,0 +1,15 @@
+{
+  "e_uid": "10.1621/datasets.02002",
+  "dataset_id": "10.1621/datasets.02002",
+  "title": "Circadian expression patterns of nuclear receptors",
+  "technique": "Q-PCR",
+  "investigator": "Evans, R",
+  "doi": "10.1621/datasets.02002",
+  "moreinfo_url": "datasets.cfm?doi=10.1621/datasets.02002",
+  "summary": "This interactive dataset is a Q-PCR based profile of the circadian expression patterns of nuclear receptors in 4 metabolically active tissues in the mouse: liver, skeletal muscle, brown adipose tissue and white adipose tissue",
+  "project": "Bridging Strand A | Project 1",
+  "contributors": "Yang X, Downes M, Yu R, Bookout AL, He W, Straume M, Mangelsdorf DJ and Evans RM",
+  "v_uid": "10.1621/datasets.02002",
+  "v_uuid": "9e4f3888-5742-5df9-919f-017458b34d53",
+  "v_lastmodified": ""
+}

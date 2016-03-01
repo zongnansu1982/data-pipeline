@@ -1,0 +1,13 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'studynum'" to "studynum";
+transform column "$.'investigator'" to "investigator";
+transform column "$.'study_title'" to "study_title";
+transform column "$.'release_date'" to "release_date";
+transform column "$.'study_description'" to "study_description";
+transform column "$.'keywords'" to "keywords";
+transform column "$.'url'" to "url";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+
