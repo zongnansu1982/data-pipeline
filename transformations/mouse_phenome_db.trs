@@ -20,16 +20,16 @@ transform column "$.'strainpanel'" to "organism[0].scientificName" apply {{ resu
 transform column "$.'strainpanel'" to "organism[0].strain";
 
 /* Data Repository Information */
-transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'Mouse Phenome Database' }};
-transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'MPD' }};
-transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:003212' }};
-transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://phenome.jax.org/' }};
+transform column "$.'title'" to "dataRepository.name" apply {{ result = 'Mouse Phenome Database' }};
+transform column "$.'title'" to "dataRepository.abbreviation" apply {{ result = 'MPD' }};
+transform column "$.'title'" to "dataRepository.ID" apply {{ result = 'SCR:003212' }};
+transform column "$.'title'" to "dataRepository.homePage" apply {{ result = 'http://phenome.jax.org/' }};
 
 /* Organization Information */
-transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'Jackson Laboratory' }};
-transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'JAX' }};
-transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:004633' }};
-transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.jax.org/index.html' }};
+transform column "$.'title'" to "organization.name" apply {{ result = 'Jackson Laboratory' }};
+transform column "$.'title'" to "organization.abbreviation" apply {{ result = 'JAX' }};
+transform column "$.'title'" to "organization.ID" apply {{ result = 'SCR:004633' }};
+transform column "$.'title'" to "organization.homePage" apply {{ result = 'http://www.jax.org/index.html' }};
 
 
 /* Items not included */
