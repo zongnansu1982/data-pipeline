@@ -1,20 +1,47 @@
-/* initial identity transformation */
+/* Dataset Information */
+transform column "$.'dataset_id'" to "dataset.ID";
+transform column "$.'title'" to "dataset.title";
+transform column "$.'datasettype'" to "dataset.dataType";
+transform column "$.'dataset_symbol'" to "dataset.downloadURL" apply {{ result = 'http://phenome.jax.org/db/q?rtn=projects/details&sym=' + value }};
+transform column "$.'description'" to "dataset.description";
+transform column "$.'nstrains'" to "dataset.size";
+transform column "$.'gender'" to "dataset.gender";
+
+/* Dimension Information */
+transform column "$.'dataset_measurements'" to "dimension[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+
+/* Organism Information */
+transform column "$.'strainpanel'" to "organism[0].name" apply {{ result = 'mouse' }};
+transform column "$.'strainpanel'" to "organism[0].scientificName" apply {{ result = 'mus musculus' }};
+transform column "$.'strainpanel'" to "organism[0].strain";
+
+/* Data Repository Information */
+transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'Mouse Phenome Database' }};
+transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'MPD' }};
+transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:003212' }};
+transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://phenome.jax.org/' }};
+
+/* Organization Information */
+transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'Jackson Laboratory' }};
+transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'JAX' }};
+transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:004633' }};
+transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://www.jax.org/index.html' }};
+
+
+/* Items not included */
+/*
 transform column "$.'e_uid'" to "e_uid";
-transform column "$.'dataset_id'" to "dataset_id";
-transform column "$.'dataset_symbol'" to "dataset_symbol";
-transform column "$.'url'" to "url";
-transform column "$.'title'" to "title";
-transform column "$.'dataset_measurements'" to "dataset_measurements";
-transform column "$.'specific_categories'" to "specific_categories";
-transform column "$.'broad_categories'" to "broad_categories";
-transform column "$.'reference'" to "reference";
-transform column "$.'datasettype'" to "datasettype";
-transform column "$.'description'" to "description";
-transform column "$.'dataset_granularity'" to "dataset_granularity";
-transform column "$.'strainpanel'" to "strainpanel";
-transform column "$.'nstrains'" to "nstrains";
-transform column "$.'gender'" to "gender";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
+transform column "$.'url'" to "url";
 
+transform column "$.'specific_categories'" to "specific_categories";
+transform column "$.'broad_categories'" to "broad_categories";
+transform column "$.'reference'" to "reference";
+transform column "$.'dataset_granularity'" to "dataset_granularity";
+*/
