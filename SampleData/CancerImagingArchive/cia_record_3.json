@@ -1,0 +1,15 @@
+{
+  "e_uid": "NSCLC Radiogenomics",
+  "last_update": "2013/02/28",
+  "collection_name": "NSCLC Radiogenomics",
+  "submission_status": "Ongoing; first batch complete",
+  "subjects_available": "26",
+  "modalities": "PET, CT",
+  "anatomical_sites": "Chest",
+  "supporting_data_available": "Genomics data hosted at NCBI Gene Expression Omnibus.",
+  "site_names": "Stanford",
+  "access": "Public",
+  "v_uid": "NSCLC Radiogenomics",
+  "v_uuid": "a0552f8b-a880-587c-96fd-e54a7ff4cb78",
+  "v_lastmodified": ""
+}

@@ -1,0 +1,18 @@
+{
+  "e_uid": "PXD001565",
+  "dataset_identifier": "PXD001565",
+  "title": "Evaluation of phospho-tyrosine antibodies for label-free phosphoproteomics",
+  "repos": "PRIDE",
+  "species": "Homo sapiens",
+  "instrument": "Q Exactive",
+  "publication": "van der Mijn et al. (2015)",
+  "publication_link": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/25890253\">van der Mijn et al. (2015)<\/a>",
+  "primary_submitter": "Sander Piersma",
+  "labhead": "Connie Ramona Jimenez",
+  "announcement_date": "2015-12-09",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001565",
+  "keywords": "Human; label-free; single-shot; phosphoproteomics; phosphotyrosine; pTyr IP; glioblastoma; U87; Technical",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

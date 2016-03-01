@@ -1,0 +1,20 @@
+{
+  "e_uid": "MPD:475",
+  "dataset_id": "MPD:475",
+  "dataset_symbol": "Poon1",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Poon1",
+  "title": "Cell proliferation in the rostral migratory stream of 9 inbred mouse strains",
+  "dataset_measurements": "BrdU+ cells of rostral migratory stream",
+  "specific_categories": "brain--morphology--size",
+  "broad_categories": "brain;morphology;size",
+  "reference": "2013 Poon A, Goldowitz D",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "classical",
+  "nstrains": "9",
+  "gender": "male and female",
+  "v_uid": "MPD:475",
+  "v_uuid": "1c0308fc-652e-564c-8a63-a2ac1758120f",
+  "v_lastmodified": ""
+}

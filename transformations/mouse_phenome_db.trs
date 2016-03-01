@@ -1,0 +1,20 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'dataset_id'" to "dataset_id";
+transform column "$.'dataset_symbol'" to "dataset_symbol";
+transform column "$.'url'" to "url";
+transform column "$.'title'" to "title";
+transform column "$.'dataset_measurements'" to "dataset_measurements";
+transform column "$.'specific_categories'" to "specific_categories";
+transform column "$.'broad_categories'" to "broad_categories";
+transform column "$.'reference'" to "reference";
+transform column "$.'datasettype'" to "datasettype";
+transform column "$.'description'" to "description";
+transform column "$.'dataset_granularity'" to "dataset_granularity";
+transform column "$.'strainpanel'" to "strainpanel";
+transform column "$.'nstrains'" to "nstrains";
+transform column "$.'gender'" to "gender";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

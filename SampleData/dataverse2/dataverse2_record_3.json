@@ -1,0 +1,252 @@
+{
+  "id": 4464,
+  "identifier": "CD-0077",
+  "persistentUrl": "http://hdl.handle.net/1902.29/CD-0077",
+  "protocol": "hdl",
+  "authority": "1902.29",
+  "latestVersion": {
+    "id": 464,
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "versionNote": "Initial version",
+    "productionDate": "Production Date",
+    "lastUpdateTime": "2014-12-13T07:42:12Z",
+    "releaseTime": "2007-11-30T00:00:00Z",
+    "createTime": "2007-12-07T15:04:12Z",
+    "metadataBlocks": {"citation": {
+      "displayName": "Citation Metadata",
+      "fields": [
+        {
+          "typeName": "title",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Tiger Line 1992. North Carolina (Surry-Yancey) South Carolina."
+        },
+        {
+          "typeName": "subtitle",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "CD-ROM version"
+        },
+        {
+          "typeName": "otherId",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{
+            "otherIdAgency": {
+              "typeName": "otherIdAgency",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "odum"
+            },
+            "otherIdValue": {
+              "typeName": "otherIdValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "CD-0077"
+            }
+          }]
+        },
+        {
+          "typeName": "author",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {"authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "U.S. Bureau of the Census"
+            }},
+            {"authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "U.S. Department of Commerce"
+            }}
+          ]
+        },
+        {
+          "typeName": "datasetContact",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"datasetContactEmail": {
+            "typeName": "datasetContactEmail",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "N/A"
+          }}]
+        },
+        {
+          "typeName": "dsDescription",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"dsDescriptionValue": {
+            "typeName": "dsDescriptionValue",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This CD consists of the Tiger/Line files corresponding to North Carolina (Surry to Yancey Counties) and South Carolina. The TIGER/Line files contain information which describes the points, lines, and areas on Census Bureau maps. The files are extracts of selected geographic and cartographic data from the Census Bureau's Census TIGERTM (Topologically Integrated Geographic Encoding and Referencing) System which is used to support mapping and other geographic activities of its decennial census a\nnd sample survey programs. The TIGER/Line files provide information on streets, rivers, railroads, and other line features, where they intersect and the areas they enclose, in a form that can be processed by a computer. TIGER/Line records contain latitude/longitude coordinates, codes identifying census geographic areas, and address ranges and ZIP CodesR. While these files contain geographic data, they are not maps or geographic information systems by themselves. Users must first import or reformat the data into an application system or software. TIGER/Line, 1992 replaces the earlier version -- TIGER/Line Files, 1990. TIGER/Line, 1992 extends the address range and ZIP Code coverage by\n60 percent, identifies several new geographic areas, and includes viewing software. New Address Ranges and ZIP Codes -- Additional potential address ranges and ZIP Codes have been added based upon a match with the 1990 Census master address list. This expands the coverage to include over 80 million residential addresses (earlier versions covered only about 50 million addresses). New Geographic Areas -- TIGER/Line, 1992 adds codes for new geographic areas such as congressional districts (as of the 103rd Congress), 1990 Urbanized Areas, school districts, and new cities and towns incorporated since the 1990 Census. Viewing Software - LandViewTM, a public domain software developed by the Environmental Protection Agency, is added to this newest version of TIGER/Line. Up to 14 separate files, each corresponding to a TIGER/Line, 1992 record type, are provided for each county. A st Directory and individual cty Subdirectories (where st = Federal Information Processing Standard [FIPS] State Code and cty = FIPS County Code) are used to store the county file sets on the disc.\n<\/p><p>Note to Users: This CD is part of a collection located in the Data Archive of the Odum Institute for Research in Social Science, at the University of North Carolina at Chapel Hill. The collection is located in Room 10, Manning Hall. Users may check the CDs out subscribing to the honor system. Items can be checked out for a period of two weeks. Loan forms are located adjacent to the collection.<\/p>"
+          }}]
+        },
+        {
+          "typeName": "keyword",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "TIGER"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "North Carolina"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "South Carolina"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Geographic"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "GIS"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "MAPS"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            }
+          ]
+        },
+        {
+          "typeName": "topicClassification",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{
+            "topicClassValue": {
+              "typeName": "topicClassValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Census"
+            },
+            "topicClassVocab": {
+              "typeName": "topicClassVocab",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "ODUM:MAIN.HEADING"
+            }
+          }]
+        },
+        {
+          "typeName": "notesText",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Subject: Study Level Error Note, Notes: These files contain data gathered from the 1990 Decennial Census of Population and Housing.; Subject: null  Type: ODUM:CODEBOOK.NUMBER  Notes: 14-1-NC2/SC-TIGER-1992-CD;"
+        },
+        {
+          "typeName": "producer",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"producerName": {
+            "typeName": "producerName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Census Bureau"
+          }}]
+        },
+        {
+          "typeName": "productionDate",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "1993"
+        },
+        {
+          "typeName": "productionPlace",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Washington, DC"
+        },
+        {
+          "typeName": "distributor",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"distributorName": {
+            "typeName": "distributorName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Odum Institute"
+          }}]
+        },
+        {
+          "typeName": "kindOfData",
+          "multiple": true,
+          "typeClass": "primitive",
+          "value": ["Numeric (Summary statistics)"]
+        }
+      ]
+    }},
+    "files": []
+  }
+}

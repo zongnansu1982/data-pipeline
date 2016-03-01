@@ -1,0 +1,14 @@
+{
+  "e_uid": "http://physionet.org/physiobank/database/cebsdb/",
+  "section": "",
+  "name": "CEBS Database",
+  "url": "http://physionet.org/physiobank/database/cebsdb/",
+  "class": "archival copies of raw data that support published research, contributed by authors or journals",
+  "description": "CEBS Database.  Combined measurement of ECG,  Breathing, and Seismocardiograms Database (CEBSDB). A dataset of 60 records  from 20 volunteers. Each record contains two ECGs, a respiration, and a  seismocardiogram signals.",
+  "reference_name": "García-González, M.A.; Argelagós-Palau, A.; Fernández-Chimeno, M.; Ramos-Castro, J., \n&ldquo;A comparison of heartbeat detectors for the seismocardiogram,&rdquo; \nComputing in Cardiology Conference (CinC), 2013 \n\n\n\nGarcía-González, M.A.; Argelagós-Palau, A.; Fernández-Chimeno, M.; Ramos-Castro, J., \n&ldquo;Differences in QRS Locations due to ECG Lead: Relationship with Breathing&rdquo;, \nXIII Mediterranean Conference on Medical and Biological Engineering and Computing 2013, \nIFMBE Proceedings Volume 41, 2014, pp 962-964 Sept. 2013\nDOI: 10.1007/978-3-319-00846-2_238",
+  "reference_link": "",
+  "pmid": "",
+  "v_uid": "http://physionet.org/physiobank/database/cebsdb/",
+  "v_uuid": "85ac7472-5091-59e8-b54a-336d2fc051fd",
+  "v_lastmodified": "2016-02-18 14:11:04.609688"
+}

@@ -1,0 +1,15 @@
+{
+  "e_uid": "LIDC-IDRI",
+  "last_update": "2012/03/21",
+  "collection_name": "LIDC-IDRI",
+  "submission_status": "Completedd on 2011/06/16 Updated 2012-03-21 to correct XML associated with patient LIDC-IDRI-0101 ",
+  "subjects_available": "1,010",
+  "modalities": "CT, X-ray (digital radiography, computed radiography)",
+  "anatomical_sites": "Chest",
+  "supporting_data_available": "XML annotations included with the images when downloaded from TCIA. Documentation on usage available on Lung Image Database Consortium Research Group page.",
+  "site_names": "LIDC",
+  "access": "Public",
+  "v_uid": "LIDC-IDRI",
+  "v_uuid": "69afa222-3c0f-58f4-819a-92f3c7ad6db6",
+  "v_lastmodified": ""
+}

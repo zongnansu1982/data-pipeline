@@ -1,0 +1,259 @@
+{
+  "id": 4465,
+  "identifier": "D-31465",
+  "persistentUrl": "http://hdl.handle.net/1902.29/D-31465",
+  "protocol": "hdl",
+  "authority": "1902.29",
+  "latestVersion": {
+    "id": 465,
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "versionNote": "Initial version",
+    "productionDate": "Production Date",
+    "lastUpdateTime": "2014-12-13T09:01:45Z",
+    "releaseTime": "2007-11-30T00:00:00Z",
+    "createTime": "2008-03-11T22:40:19Z",
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Political and Economic Situation in Lima, Peru, June, 1993"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "odum"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D-31465"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "odum:extended"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "49-01-PEAPOYO093-62006-ROPER-93"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Apoyo S.A."
+            }}]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"datasetContactEmail": {
+              "typeName": "datasetContactEmail",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "N/A"
+            }}]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"dsDescriptionValue": {
+              "typeName": "dsDescriptionValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "<p>This study examined the political and economic situation in Lima, Peru. Issues addressed include main problems in Lima, the economic situation of the family and how it has changed in the past six months, Presidential re-election, terrorism, and the Shining Path. Demographic data gathered include sex, education, past voting behavior, household composition, and ownership of luxury items.<\/p>"
+            }}]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Economic conditions"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ODUM:INDEX.TERMS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Terrorism"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ODUM:INDEX.TERMS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Shining Path"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ODUM:INDEX.TERMS"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{
+              "topicClassValue": {
+                "typeName": "topicClassValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "International studies"
+              },
+              "topicClassVocab": {
+                "typeName": "topicClassVocab",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:MAIN.HEADING"
+              }
+            }]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Subject: Study Level Error Note, Notes: The survey used a probability sample of adults residents of Lima, Peru; Subject: null  Type: ODUM:ACCESS.CATEGORY  Notes: II;"
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"producerName": {
+              "typeName": "producerName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Apoyo S.A."
+            }}]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "1993"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Lima, Peru"
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"distributorName": {
+              "typeName": "distributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Odum Institute"
+            }}]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": ["Numeric"]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "fields": [{
+          "typeName": "geographicCoverage",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"otherGeographicCoverage": {
+            "typeName": "otherGeographicCoverage",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Peru"
+          }}]
+        }]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "roper_p620693_cdbk.pdf",
+        "version": 1,
+        "datasetVersionId": 465,
+        "datafile": {
+          "id": 2520009,
+          "name": "roper_p620693_cdbk.pdf",
+          "contentType": "application/pdf",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/roper_p620693_cdbk.pdf?fileId=14333",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "roper_p620693_data",
+        "version": 1,
+        "datasetVersionId": 465,
+        "datafile": {
+          "id": 2520010,
+          "name": "roper_p620693_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/roper_p620693_data?fileId=14332",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      }
+    ]
+  }
+}

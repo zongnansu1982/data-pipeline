@@ -1,0 +1,765 @@
+{
+  "id": 4458,
+  "identifier": "CAPS-BONUS1",
+  "persistentUrl": "http://hdl.handle.net/1902.29/CAPS-BONUS1",
+  "protocol": "hdl",
+  "authority": "1902.29",
+  "latestVersion": {
+    "id": 458,
+    "versionState": "RELEASED",
+    "productionDate": "Production Date",
+    "lastUpdateTime": "2015-04-07T19:30:58Z",
+    "createTime": "2015-04-07T19:30:58Z",
+    "metadataBlocks": {"citation": {
+      "displayName": "Citation Metadata",
+      "fields": [
+        {
+          "typeName": "title",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "CAPS Bonus Games 1-3 (CAPS-BONUS1 CAPS-BONUS2 CAPS-BONUS3 and CAPS-BONUS4 modules)"
+        },
+        {
+          "typeName": "otherId",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {
+              "otherIdAgency": {
+                "typeName": "otherIdAgency",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "odum"
+              },
+              "otherIdValue": {
+                "typeName": "otherIdValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "CAPS-BONUS1"
+              }
+            },
+            {
+              "otherIdAgency": {
+                "typeName": "otherIdAgency",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "odum:extended"
+              },
+              "otherIdValue": {
+                "typeName": "otherIdValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "CAPS-BONUS1 CAPS-BONUS2 CAPS-BONUS3 CAPS-BONUS4"
+              }
+            }
+          ]
+        },
+        {
+          "typeName": "author",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"authorName": {
+            "typeName": "authorName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "N/A"
+          }}]
+        },
+        {
+          "typeName": "datasetContact",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"datasetContactEmail": {
+            "typeName": "datasetContactEmail",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "N/A"
+          }}]
+        },
+        {
+          "typeName": "dsDescription",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"dsDescriptionValue": {
+            "typeName": "dsDescriptionValue",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>THIS UNIT PROVIDES 3 COUNTERBALANCED OPTIONS ON BONUS $ RATIOS AND RECIPIENT GROUP SIZE. -- -IN VS. OUT GROUP -- -ENHANCED OUTGROUP DESCRIPTION<\/p><p>Generosity vs. Reciprocity and Ingroup vs. Outgroup This situation has elements of the classic prisoner's dilemma game: if everyone cooperates in choices where the give option is greater than the take option then each is better off than if all defect or take. But each person gains the most in these situations by taking, because regardless of the\nothers' choices, the defector always gains an additional $1. The ideal situation from a short term financial view point is to hope the others give and then take yourself. From a long term perspective it is better for all to give.\n<\/p><p>This experiment, with counterbalanced condition assignments will be run 3 times during the semester.<\/p><p>Each participant was given three choices. They could take $1 for themselves or give a specified amount to be split to the others in their partnership, team, or department. The give amount was either $.90, $1.20, or $1.50. The combinations of group size and money to give were counterbalanced on group size and in ascending or descending order of money to give.<\/p><p>Each participant wa\ns in one of two reciprocity conditions maintained throughout the BONUS1 to BONUS3 sequence in CAPS/88. In the reciprocity condition they were told the others in the group to whom they could give were being given the same choice. In the generosity conditi\non no comment was made about the possibility of reciprocity. Respondents in CAPS Division A were in the reciprocity and Division B in the generosity condition.\n<\/p><p>In addition, each participant was in one of two other conditions. The group to whom they could give was either their own partner, team or department (ingroup) or one, three or fifteen individuals from the other division (outgroup). The individuals in the outgroup were people they were unlikely to have any contact with during the CAPS term. Rs in CAPS teams A and D were in the ingroup and teams B and C in the outgroup condition.<\/p><p>In CAPS/87 this unit was BONUS4, except that groupsize\norder and amount orders have been changed to produce a more counterbalanced design.\n<\/p><p>See codebook for additional information<\/p>"
+          }}]
+        },
+        {
+          "typeName": "keyword",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Decision making"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Reciprocity"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Generosity"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Altruism"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Free rider problem"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Social dilemma"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Bonus"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Group size"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Relative benefit Ingroup"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            }
+          ]
+        },
+        {
+          "typeName": "publication",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"publicationCitation": {
+            "typeName": "publicationCitation",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "No published reference."
+          }}]
+        },
+        {
+          "typeName": "productionDate",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "1988"
+        },
+        {
+          "typeName": "productionPlace",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Chapel Hill, NC"
+        },
+        {
+          "typeName": "distributor",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"distributorName": {
+            "typeName": "distributorName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Odum Institute"
+          }}]
+        }
+      ]
+    }},
+    "files": [
+      {
+        "description": "",
+        "label": "caps_1987_bonus1_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493113,
+          "name": "caps_1987_bonus1_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus1_data?fileId=2649",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus1_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493118,
+          "name": "caps_1987_bonus1_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus1_freqjcl?fileId=2662",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus1_sas.export",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493104,
+          "name": "caps_1987_bonus1_sas.export",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus1_sas.export?fileId=2644",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus1_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493128,
+          "name": "caps_1987_bonus1_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus1_source?fileId=2651",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus1_spss.portable",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493129,
+          "name": "caps_1987_bonus1_spss.portable",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus1_spss.portable?fileId=2635",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus1_spss.tab",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493112,
+          "name": "caps_1987_bonus1_spss.tab",
+          "contentType": "text/tab-separated-values",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus1_spss.tab?fileId=2653",
+          "originalFileFormat": "",
+          "originalFormatLabel": "UNKNOWN",
+          "UNF": "UNF:3:1DQruCOne+OkX6U0aA+Aag==",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus2_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493110,
+          "name": "caps_1987_bonus2_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus2_data?fileId=2655",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus2_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493126,
+          "name": "caps_1987_bonus2_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus2_freqjcl?fileId=2639",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus2_sas.export",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493101,
+          "name": "caps_1987_bonus2_sas.export",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus2_sas.export?fileId=2638",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus2_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493119,
+          "name": "caps_1987_bonus2_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus2_source?fileId=2643",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus2_spss.portable",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493122,
+          "name": "caps_1987_bonus2_spss.portable",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus2_spss.portable?fileId=2665",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus2_spss.tab",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493123,
+          "name": "caps_1987_bonus2_spss.tab",
+          "contentType": "text/tab-separated-values",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus2_spss.tab?fileId=2652",
+          "originalFileFormat": "",
+          "originalFormatLabel": "UNKNOWN",
+          "UNF": "UNF:3:xkJJOASsX+P0Gzx0oNaemg==",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus3_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493120,
+          "name": "caps_1987_bonus3_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus3_data?fileId=2657",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus3_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493106,
+          "name": "caps_1987_bonus3_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus3_freqjcl?fileId=2656",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus3_sas.export",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493105,
+          "name": "caps_1987_bonus3_sas.export",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus3_sas.export?fileId=2659",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus3_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493099,
+          "name": "caps_1987_bonus3_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus3_source?fileId=2664",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus3_spss.portable",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493130,
+          "name": "caps_1987_bonus3_spss.portable",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus3_spss.portable?fileId=2636",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus3_spss.tab",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493121,
+          "name": "caps_1987_bonus3_spss.tab",
+          "contentType": "text/tab-separated-values",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus3_spss.tab?fileId=2650",
+          "originalFileFormat": "",
+          "originalFormatLabel": "UNKNOWN",
+          "UNF": "UNF:3:z1JuDMMIdVSv8C2icheZ2g==",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus4_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493116,
+          "name": "caps_1987_bonus4_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus4_data?fileId=2661",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus4_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493114,
+          "name": "caps_1987_bonus4_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus4_freqjcl?fileId=2660",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus4_sas.export",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493111,
+          "name": "caps_1987_bonus4_sas.export",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus4_sas.export?fileId=2648",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus4_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493109,
+          "name": "caps_1987_bonus4_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus4_source?fileId=2637",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus4_spss.portable",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493108,
+          "name": "caps_1987_bonus4_spss.portable",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus4_spss.portable?fileId=2640",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1987_bonus4_spss.tab",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493100,
+          "name": "caps_1987_bonus4_spss.tab",
+          "contentType": "text/tab-separated-values",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1987_bonus4_spss.tab?fileId=2663",
+          "originalFileFormat": "",
+          "originalFormatLabel": "UNKNOWN",
+          "UNF": "UNF:3:5GwyC4xThCioZze+uYC+Gw==",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus1_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493103,
+          "name": "caps_1988_bonus1_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus1_data?fileId=2647",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus1_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493098,
+          "name": "caps_1988_bonus1_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus1_freqjcl?fileId=2634",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus1_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493124,
+          "name": "caps_1988_bonus1_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus1_source?fileId=2654",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus2_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493127,
+          "name": "caps_1988_bonus2_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus2_data?fileId=2646",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus2_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493107,
+          "name": "caps_1988_bonus2_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus2_freqjcl?fileId=2633",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus2_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493125,
+          "name": "caps_1988_bonus2_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus2_source?fileId=2642",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus3_data",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493117,
+          "name": "caps_1988_bonus3_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus3_data?fileId=2641",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus3_freqjcl",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493115,
+          "name": "caps_1988_bonus3_freqjcl",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus3_freqjcl?fileId=2658",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "caps_1988_bonus3_source",
+        "version": 1,
+        "datasetVersionId": 458,
+        "datafile": {
+          "id": 1493102,
+          "name": "caps_1988_bonus3_source",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/caps_1988_bonus3_source?fileId=2645",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      }
+    ]
+  }
+}

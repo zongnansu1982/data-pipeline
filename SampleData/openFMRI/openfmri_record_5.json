@@ -1,0 +1,15 @@
+{
+  "e_uid": "ds000051",
+  "title": "Cross-language repetition priming",
+  "id": "ds000051",
+  "description": "<p>Native Spanish speakers who were proficient in English performed an abstract-concrete judgment with single Spanish or English words. &nbsp;Each item was repeated once, either in the same language or in the other language.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000051",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4ebd44cd88360\">1 abstract/concrete judgment: bilingual<\/a>",
+  "pubmed_id": "",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds000051",
+  "v_uuid": "e29a9740-7479-523c-bb29-ecd66882cec9",
+  "v_lastmodified": ""
+}

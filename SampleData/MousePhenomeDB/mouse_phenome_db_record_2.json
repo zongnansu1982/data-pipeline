@@ -1,0 +1,20 @@
+{
+  "e_uid": "MPD:232",
+  "dataset_id": "MPD:232",
+  "dataset_symbol": "Yuan2a",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Yuan2a",
+  "title": "Aging study: Lifespan and survival curves for 33 inbred strains of mice",
+  "dataset_measurements": "median lifespan",
+  "specific_categories": "longevity--lifespan",
+  "broad_categories": "longevity;lifespan",
+  "reference": "2007 Yuan R, Paigen B",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "strain averages",
+  "strainpanel": "classical",
+  "nstrains": "31",
+  "gender": "male and female",
+  "v_uid": "MPD:232",
+  "v_uuid": "5426e856-e5ce-58a1-934c-c4eb7be8d038",
+  "v_lastmodified": ""
+}

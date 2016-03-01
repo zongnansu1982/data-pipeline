@@ -1,0 +1,15 @@
+/* initial transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'title'" to "title";
+transform column "$.'id'" to "id";
+transform column "$.'description'" to "description";
+transform column "$.'link'" to "link";
+transform column "$.'cognitive_task_seq_name'" to "cognitive_task_seq_name";
+transform column "$.'pubmed_id'" to "pubmed_id";
+transform column "$.'organism'" to "organism";
+transform column "$.'assay'" to "assay";
+transform column "$.'nifid'" to "nifid";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

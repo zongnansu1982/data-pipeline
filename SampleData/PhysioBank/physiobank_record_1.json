@@ -1,0 +1,14 @@
+{
+  "e_uid": "http://physionet.org/physiobank/database/tremordb/",
+  "section": "",
+  "name": "Effect of Deep Brain Stimulation on\nParkinsonian Tremor",
+  "url": "http://physionet.org/physiobank/database/tremordb/",
+  "class": "archival copies of raw data that support published research, contributed by authors or journals",
+  "description": "Effect of Deep Brain Stimulation onParkinsonian Tremor.  Rest tremor velocity in the index finger of 16subjects with Parkinson's disease, who receive chronic high frequencyelectrical deep brain stimulation.",
+  "reference_name": "",
+  "reference_link": "",
+  "pmid": "",
+  "v_uid": "http://physionet.org/physiobank/database/tremordb/",
+  "v_uuid": "e8a1f2e8-7b20-554c-b302-a648bc7e1cd1",
+  "v_lastmodified": "2016-02-18 14:11:04.609688"
+}

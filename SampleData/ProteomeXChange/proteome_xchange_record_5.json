@@ -1,0 +1,18 @@
+{
+  "e_uid": "PXD001450",
+  "dataset_identifier": "PXD001450",
+  "title": "Characterization and quantification of chicken eggshell proteins during pivotal events of shell calcification",
+  "repos": "PRIDE",
+  "species": "Gallus gallus",
+  "instrument": "LTQ Orbitrap Velos",
+  "publication": "Marie et al. (2015)",
+  "publication_link": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/26049031\">Marie et al. (2015)<\/a>",
+  "primary_submitter": "G HARICHAUX",
+  "labhead": "Joel GAUTRON",
+  "announcement_date": "2015-06-09",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD001450",
+  "keywords": "Chicken; eggshell; organic matrix; LC-MS/MS; proteins; quantification; Biological",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

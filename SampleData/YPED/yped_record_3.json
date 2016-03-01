@@ -1,0 +1,16 @@
+{
+  "e_uid": "Thermo PTM Peptides 2014",
+  "project_name": "Thermo PTM Peptides 2014",
+  "description": "ABRF 2010-2011 PTM Standards",
+  "pubmedid": "",
+  "displaypmid": "",
+  "project_url": "ViewSeriesMenu.do?series_id=4669&series_name=Thermo+PTM+Peptides+2014",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=E572188F197DEAC8E91FE0B2ACF1C7A5?series_id=4669&series_name=Thermo+PTM+Peptides+2014",
+  "samples": 8,
+  "analysis_type": "LCMS",
+  "organisms": "Other",
+  "pi": "ABRF Colangelo",
+  "v_uid": "Thermo PTM Peptides 2014",
+  "v_uuid": "7b008b84-c0a2-53fa-af75-76665fa36b65",
+  "v_lastmodified": ""
+}

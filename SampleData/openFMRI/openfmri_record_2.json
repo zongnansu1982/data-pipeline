@@ -1,0 +1,15 @@
+{
+  "e_uid": "ds000017",
+  "title": "Classification learning and stop-signal (1 year test-retest)",
+  "id": "ds000017",
+  "description": "<p>A group of eight subjects performed two tasks (selective stop-signal and probabilistic classification) on two different occasions separated by about one year. &nbsp;ds000017A reflects data from timepoint 1 and&nbsp;ds000017B reflects data from timepoint 2.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000017",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4cacf22a22d80\">1 Probabilistic classification task<\/a>, <a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4cacf3fbc503b\">2 selective stop signal task<\/a>",
+  "pubmed_id": "",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds000017",
+  "v_uuid": "ab05a143-2e25-5d8e-a41e-745310d9d6d8",
+  "v_lastmodified": ""
+}

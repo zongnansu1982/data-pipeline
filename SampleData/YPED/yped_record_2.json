@@ -1,0 +1,16 @@
+{
+  "e_uid": "Synaptic protein changes in alpha-beta-gamma synuclein knockout mice",
+  "project_name": "Synaptic protein changes in alpha-beta-gamma synuclein knockout mice",
+  "description": "Synaptic proteome analysis on brains of wild-type and alpha-beta-gamma synuclein knock-out mice. Samples were analyzed by DIGE and iTRAQ.",
+  "pubmedid": "23184946",
+  "displaypmid": "PMID:23184946",
+  "project_url": "ViewSeriesMenu.do?series_id=4265&series_name=Synaptic+protein+changes+in+alpha-beta-gamma+synuclein+knockout+mice",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=E572188F197DEAC8E91FE0B2ACF1C7A5?series_id=4265&series_name=Synaptic+protein+changes+in+alpha-beta-gamma+synuclein+knockout+mice",
+  "samples": 11,
+  "analysis_type": "DIGE, ITRAQ4plex",
+  "organisms": "Mus musculus",
+  "pi": "Sreeganga Chandra",
+  "v_uid": "Synaptic protein changes in alpha-beta-gamma synuclein knockout mice",
+  "v_uuid": "30fdb04a-15c4-58fe-b5b7-ecca3774c4c3",
+  "v_lastmodified": ""
+}

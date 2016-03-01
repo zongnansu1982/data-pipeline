@@ -1,0 +1,16 @@
+{
+  "e_uid": "ABRF 2011 sPRG - Round One",
+  "project_name": "ABRF 2011 sPRG - Round One",
+  "description": "51 phospho, nitro, methyl, sulfo synthetic peptides from ABRF  Proteomics Standards Research Group 2011-2012 Study.",
+  "pubmedid": "",
+  "displaypmid": "",
+  "project_url": "ViewSeriesMenu.do?series_id=921&series_name=ABRF+2011+sPRG+-+Round+One",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=874C0CE9BA3D2207E991DE23A47012D9?series_id=921&series_name=ABRF+2011+sPRG+-+Round+One",
+  "samples": 1,
+  "analysis_type": "TargetedProteomics",
+  "organisms": "",
+  "pi": "ABRF Colangelo",
+  "v_uid": "ABRF 2011 sPRG - Round One",
+  "v_uuid": "f6d947c8-bc54-5638-8148-b74048226f3f",
+  "v_lastmodified": ""
+}

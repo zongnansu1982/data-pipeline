@@ -1,0 +1,15 @@
+{
+  "e_uid": "ds000110",
+  "title": "Incidental encoding task (Posner Cueing Paradigm)",
+  "id": "ds000110",
+  "description": "<p>Subjects were scanned while incidentally encoding a series of visually presented real objects and greebles (meaningless objects) in a variant of the Posner cueing paradigm. Subjects covertly shifted their attention to the left or right of fixation, as cued by a centrally-presented arrow prior to item onset, and made a real object versus greeble judgment about the stimulus appearing in the cued or uncued location. Items appeared in the uncued location with a probability of .18. Subjects performed an unscanned memory test following encoding, in which they indicated their memory for old and new real objects using the following four responses: high confident old, low confident old, low confident new, high confident new. For trials in which subjects responded with one of the two old responses, a source memory judgment about the location (left or right side of the screen) of the object at study followed the recognition judgment.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000110",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_50df0dd9d0b6f\">1 Incidental encoding task<\/a>",
+  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/21880922\">PMID:21880922<\/a>",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds000110",
+  "v_uuid": "2ffdca15-bb62-501c-9c2c-a98ef039f9bd",
+  "v_lastmodified": ""
+}

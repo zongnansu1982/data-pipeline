@@ -1,0 +1,15 @@
+{
+  "e_uid": "ds000114",
+  "title": "A test-retest fMRI dataset for motor, language and spatial attention functions.",
+  "id": "ds000114",
+  "description": "<p>A test-retest dataset was acquired to validate fMRI tasks used in pre-surgical planning. In particular, five task-related fMRI time series (finger, foot and lip movement, overt verb generation, covert verb generation, overt word repetition, and landmark tasks) were used to investigate which protocols gave reliable single-subject results. Ten healthy participants in their fifties were scanned twice using an identical protocol 2-3 days apart. In addition to the fMRI sessions, high-angular resolution diffusion tensor MRI (DTI), and high-resolution 3D T1-weighted volume scans were acquired.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000114",
+  "cognitive_task_seq_name": "",
+  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/23628139\">PMID:23628139<\/a>",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds000114",
+  "v_uuid": "0739c37a-3092-5a42-9ec2-b4c4ad7908b1",
+  "v_lastmodified": ""
+}

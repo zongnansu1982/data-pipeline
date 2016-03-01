@@ -1,0 +1,15 @@
+{
+  "e_uid": "National Lung Screening Trial (NLST)",
+  "last_update": "2013/03/01",
+  "collection_name": "National Lung Screening Trial (NLST)",
+  "submission_status": "Completed",
+  "subjects_available": "26,254",
+  "modalities": "CT",
+  "anatomical_sites": "Chest",
+  "supporting_data_available": "Learn more on the National Lung Screening Trial (NLST) Public Access page.",
+  "site_names": "LSS, ACRIN",
+  "access": "Limited",
+  "v_uid": "National Lung Screening Trial (NLST)",
+  "v_uuid": "f7d55fa3-badb-5886-a64e-19dba0463836",
+  "v_lastmodified": ""
+}

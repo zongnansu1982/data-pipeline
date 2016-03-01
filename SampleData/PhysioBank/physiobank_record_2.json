@@ -1,0 +1,14 @@
+{
+  "e_uid": "http://physionet.org/physiobank/database/mghdb/",
+  "section": "",
+  "name": "MGH/MF Waveform Database",
+  "url": "http://physionet.org/physiobank/database/mghdb/",
+  "class": "completed reference databases",
+  "description": "MGH/MF Waveform Database.  This is a collection of 250 recordings of 3-lead ECGs, ABP, PAP, CVP, respiration, and airway CO2 signals from patients in critical care units; some recordings include intra-cranial, left atrial, ventricular and intra-aortic pressure waveforms.  A Patient Guide provides additional information for each recording.",
+  "reference_name": "Welch JP, Ford PJ, Teplick RS, Rubsamen RM.\nThe Massachusetts General Hospital-Marquette Foundation Hemodynamic and\nElectrocardiographic Database -- Comprehensive collection of critical\ncare waveforms.\nJ Clinical Monitoring 7(1):96-97 (1991).",
+  "reference_link": "",
+  "pmid": "",
+  "v_uid": "http://physionet.org/physiobank/database/mghdb/",
+  "v_uuid": "99f7f2c2-e192-5dc5-aeea-8578a1121811",
+  "v_lastmodified": "2016-02-18 14:11:04.609688"
+}

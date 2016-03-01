@@ -1,0 +1,18 @@
+{
+  "e_uid": "PXD000098",
+  "dataset_identifier": "PXD000098",
+  "title": "Label-free quantification of Leptospira (Ludwig et al.)",
+  "repos": "PeptideAtlas",
+  "species": "Leptospira interrogans",
+  "instrument": "TSQ Vantage",
+  "publication": "Ludwig et al. (2012)",
+  "publication_link": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/22101334\">Ludwig et al. (2012)<\/a>",
+  "primary_submitter": "Christina Ludwig",
+  "labhead": "Ruedi Aebersold",
+  "announcement_date": "2012-12-11",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000098",
+  "keywords": "selected reaction monitoring; SRM; targeted",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

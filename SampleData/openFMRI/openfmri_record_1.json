@@ -1,0 +1,15 @@
+{
+  "e_uid": "ds000005",
+  "title": "Mixed-gambles task",
+  "id": "ds000005",
+  "description": "<p>Subjects were presented with mixed (gain/loss) gambles, and decided whether they would accept each gamble. &nbsp;No outcomes of these gambles were presented during scanning, but after the scan three gambles were selected at random and played for real money.<\/p>",
+  "link": "https://openfmri.org/dataset/ds000005",
+  "cognitive_task_seq_name": "<a class=\"external\" target=\"_blank\" href=\"http://www.cognitiveatlas.org/id/trm_4cacee4a1d875\">1 mixed gambles task<\/a>",
+  "pubmed_id": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/17255512\">PMID:17255512<\/a>",
+  "organism": "human",
+  "assay": "MRI",
+  "nifid": "nlx_144048",
+  "v_uid": "ds000005",
+  "v_uuid": "c7ef38f4-01ac-5aee-aaa4-aefb5fabe717",
+  "v_lastmodified": ""
+}

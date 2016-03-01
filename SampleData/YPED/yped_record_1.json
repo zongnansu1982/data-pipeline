@@ -1,0 +1,16 @@
+{
+  "e_uid": "Proteomic and functional analyses Acinetobacter baumannii",
+  "project_name": "Proteomic and functional analyses Acinetobacter baumannii",
+  "description": "Biofilm formation is one of the main causes for the persistence of Acinetobacter baumannii, a pathogen associated with severe infections and outbreaks in hospitals. Here, we performed comparative proteomic analyses (2D-DIGE and MALDI-TOF/TOF & iTRAQ/SCX-LC-MS/MS) of cells at three different conditions: exponential, late stationary phase and biofilms. These results were compared with alterations in the proteome resulting from exposure to a biofilm inhibitory compound (salicylate). Using this multiple-approach strategy, proteomic patterns showed a unique lifestyle for A. baumannii biofilms and novel associated proteins. Several cell surface proteins (like CarO, OmpA, OprD-like, DcaP-like, PstS, LysM, Omp33), as well as those involved in histidine metabolism (like Urocanase) were found to be implicated in biofilm formation, this being confirmed by gene disruption. Although L-His uptake triggered biofilms efficiently in wild-type A. baumannii, no effect was observed in Urocanase and OmpA mutants, while a slight increase was observed in a CarO deficient strain. We conclude that Urocanase plays a crucial role in histidine metabolism leading to biofilm formation and that OmpA and CarO can act as channels for L-His uptake. Finally, we propose a model in which novel proteins are suggested for the first time as targets for preventing the formation of A. baumannii biofilms.",
+  "pubmedid": "21612302",
+  "displaypmid": "PMID:21612302",
+  "project_url": "ViewSeriesMenu.do?series_id=1205&series_name=Proteomic+and+functional+analyses+Acinetobacter+baumannii",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=E572188F197DEAC8E91FE0B2ACF1C7A5?series_id=1205&series_name=Proteomic+and+functional+analyses+Acinetobacter+baumannii",
+  "samples": 1,
+  "analysis_type": "ITRAQ8plex",
+  "organisms": "Other",
+  "pi": "German Bou",
+  "v_uid": "Proteomic and functional analyses Acinetobacter baumannii",
+  "v_uuid": "498b6675-6c57-5277-b9ee-3ea1b73045a0",
+  "v_lastmodified": ""
+}

@@ -1,0 +1,328 @@
+{
+  "id": 4471,
+  "identifier": "D-33516",
+  "persistentUrl": "http://hdl.handle.net/1902.29/D-33516",
+  "protocol": "hdl",
+  "authority": "1902.29",
+  "latestVersion": {
+    "id": 471,
+    "versionState": "RELEASED",
+    "distributionDate": "2006",
+    "productionDate": "Production Date",
+    "lastUpdateTime": "2015-04-07T19:31:03Z",
+    "createTime": "2015-04-07T19:31:03Z",
+    "metadataBlocks": {
+      "citation": {
+        "displayName": "Citation Metadata",
+        "fields": [
+          {
+            "typeName": "title",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Buckeye State Poll, June 2000"
+          },
+          {
+            "typeName": "otherId",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "odum"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "D-33516"
+                }
+              },
+              {
+                "otherIdAgency": {
+                  "typeName": "otherIdAgency",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "odum:extended"
+                },
+                "otherIdValue": {
+                  "typeName": "otherIdValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "NNSP-OH-BSP-061"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "author",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"authorName": {
+              "typeName": "authorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Center for Survey Research, The Ohio State University"
+            }}]
+          },
+          {
+            "typeName": "datasetContact",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"datasetContactEmail": {
+              "typeName": "datasetContactEmail",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "N/A"
+            }}]
+          },
+          {
+            "typeName": "dsDescription",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"dsDescriptionValue": {
+              "typeName": "dsDescriptionValue",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "<p>This survey focuses on personal finances, with a strong emphasis on perception of the economy. Continues lines of questioning credit card use and debt of any kind, including mortgages, bank loans, and installment loans. Also surveys opinions concerning the future of Ohio, voting behavior, and candidate preference for the upcoming 2000 election. Additional queries into telephone service, level of educational attainment, and political affiliation.<\/p>"
+            }}]
+          },
+          {
+            "typeName": "keyword",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Demographic Data"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ODUM:INDEX.TERMS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Election 2000"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ODUM:INDEX.TERMS"
+                }
+              },
+              {
+                "keywordValue": {
+                  "typeName": "keywordValue",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "Personal Finances"
+                },
+                "keywordVocabulary": {
+                  "typeName": "keywordVocabulary",
+                  "multiple": false,
+                  "typeClass": "primitive",
+                  "value": "ODUM:INDEX.TERMS"
+                }
+              }
+            ]
+          },
+          {
+            "typeName": "topicClassification",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{
+              "topicClassValue": {
+                "typeName": "topicClassValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Omnibus and Public Opinion Poll"
+              },
+              "topicClassVocab": {
+                "typeName": "topicClassVocab",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:MAIN.HEADING"
+              }
+            }]
+          },
+          {
+            "typeName": "notesText",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Subject: Study Level Error Note, Notes: Telephone survey.; Universe: Ohio residents of voting age.; Subject: STANDARD DEPOSIT TERMS 1.0  Type: DATAPASS:TERMS:STANDARD:1.0  Notes: This study was deposited under the terms of the Data-PASS standard deposit terms. A copy of the usage agreement is included in the file section of this study.;"
+          },
+          {
+            "typeName": "producer",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"producerName": {
+              "typeName": "producerName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Center for Survey Research, The Ohio State University"
+            }}]
+          },
+          {
+            "typeName": "productionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2000"
+          },
+          {
+            "typeName": "productionPlace",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Columbus, OH"
+          },
+          {
+            "typeName": "distributor",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [
+              {"distributorName": {
+                "typeName": "distributorName",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Odum Institute"
+              }},
+              {"distributorName": {
+                "typeName": "distributorName",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Odum Institute for Research in Social Science, University of North Carolina"
+              }}
+            ]
+          },
+          {
+            "typeName": "distributionDate",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "2006"
+          },
+          {
+            "typeName": "timePeriodCovered",
+            "multiple": true,
+            "typeClass": "compound",
+            "value": [{"timePeriodCoveredStart": {
+              "typeName": "timePeriodCoveredStart",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "2000-06"
+            }}]
+          },
+          {
+            "typeName": "kindOfData",
+            "multiple": true,
+            "typeClass": "primitive",
+            "value": ["Numeric (Survey)"]
+          }
+        ]
+      },
+      "geospatial": {
+        "displayName": "Geospatial Metadata",
+        "fields": [{
+          "typeName": "geographicCoverage",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"otherGeographicCoverage": {
+            "typeName": "otherGeographicCoverage",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Ohio"
+          }}]
+        }]
+      }
+    },
+    "files": [
+      {
+        "description": "",
+        "label": "nnsp_ohio_bsp_jun00_data",
+        "version": 1,
+        "datasetVersionId": 471,
+        "datafile": {
+          "id": 1565109,
+          "name": "nnsp_ohio_bsp_jun00_data",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/nnsp_ohio_bsp_jun00_data?fileId=26523",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "nnsp_ohio_bsp_jun00_quest.pdf",
+        "version": 1,
+        "datasetVersionId": 471,
+        "datafile": {
+          "id": 1565112,
+          "name": "nnsp_ohio_bsp_jun00_quest.pdf",
+          "contentType": "application/pdf",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/nnsp_ohio_bsp_jun00_quest.pdf?fileId=26524",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "nnsp_ohio_bsp_jun00_sas.export",
+        "version": 1,
+        "datasetVersionId": 471,
+        "datafile": {
+          "id": 1565110,
+          "name": "nnsp_ohio_bsp_jun00_sas.export",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/nnsp_ohio_bsp_jun00_sas.export?fileId=26526",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "nnsp_ohio_bsp_jun00_spss.portable",
+        "version": 1,
+        "datasetVersionId": 471,
+        "datafile": {
+          "id": 1565111,
+          "name": "nnsp_ohio_bsp_jun00_spss.portable",
+          "contentType": "application/octet-stream",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/nnsp_ohio_bsp_jun00_spss.portable?fileId=26522",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "nnsp_ohio_bsp_jun00_spss.tab",
+        "version": 1,
+        "datasetVersionId": 471,
+        "datafile": {
+          "id": 1565108,
+          "name": "nnsp_ohio_bsp_jun00_spss.tab",
+          "contentType": "text/tab-separated-values",
+          "filename": "http://arc.irss.unc.edu/dvn/dv/odvn/FileDownload/nnsp_ohio_bsp_jun00_spss.tab?fileId=26525",
+          "originalFileFormat": "",
+          "originalFormatLabel": "UNKNOWN",
+          "UNF": "UNF:3:TRWhfb37z56yCr8I34MsTQ==",
+          "md5": "",
+          "description": ""
+        }
+      }
+    ]
+  }
+}

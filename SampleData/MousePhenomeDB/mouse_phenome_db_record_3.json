@@ -1,0 +1,20 @@
+{
+  "e_uid": "MPD:478",
+  "dataset_id": "MPD:478",
+  "dataset_symbol": "Rosen1",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Rosen1",
+  "title": "Midsagittal area of the corpus callosum in 76 BXD recombinant inbred strains of mice",
+  "dataset_measurements": "corpus callosum area;corpus callosum area (adjusted)",
+  "specific_categories": "brain--morphology--size",
+  "broad_categories": "brain;morphology;size",
+  "reference": "2012 Rosen GD",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "BXD",
+  "nstrains": "78",
+  "gender": "male and female",
+  "v_uid": "MPD:478",
+  "v_uuid": "a65797ce-b732-5997-9f1f-aad5da58dc8c",
+  "v_lastmodified": ""
+}

@@ -1,0 +1,16 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'project_name'" to "project_name";
+transform column "$.'description'" to "description";
+transform column "$.'pubmedid'" to "pubmedid";
+transform column "$.'displaypmid'" to "displaypmid";
+transform column "$.'project_url'" to "project_url";
+transform column "$.'project_link_url'" to "project_link_url";
+transform column "$.'samples'" to "samples";
+transform column "$.'analysis_type'" to "analysis_type";
+transform column "$.'organisms'" to "organisms";
+transform column "$.'pi'" to "pi";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

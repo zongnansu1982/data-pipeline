@@ -1,0 +1,20 @@
+{
+  "e_uid": "MPD:296",
+  "dataset_id": "MPD:296",
+  "dataset_symbol": "Eumorphia7",
+  "url": "http://phenome.jax.org/db/q?rtn=projects/details&sym=Eumorphia7",
+  "title": "Serum immunoglobulin concentrations in 6 inbred strains of mice",
+  "dataset_measurements": "immunoglobulin A (serum IgA);immunoglobulin G1 (serum IgG1);immunoglobulin G2a (serum IgG2a);immunoglobulin G2b (serum IgG2b);immunoglobulin G3 (serum IgG3);immunoglobulin M (serum IgM)",
+  "specific_categories": "immune system--immunoglobulins",
+  "broad_categories": "immune system;immunoglobulins",
+  "reference": "Eumorphia / Europhenome 2008 Eumorphia / Europhenome",
+  "datasettype": "phenotype strain survey",
+  "description": "",
+  "dataset_granularity": "individual mice",
+  "strainpanel": "classical",
+  "nstrains": "6",
+  "gender": "male and female",
+  "v_uid": "MPD:296",
+  "v_uuid": "4e7964f5-857f-56cb-a497-f649a7f638b8",
+  "v_lastmodified": ""
+}

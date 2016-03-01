@@ -1,0 +1,346 @@
+{
+  "id": 4461,
+  "identifier": "H-831004",
+  "persistentUrl": "http://hdl.handle.net/1902.29/H-831004",
+  "protocol": "hdl",
+  "authority": "1902.29",
+  "latestVersion": {
+    "id": 461,
+    "versionNumber": 1,
+    "versionMinorNumber": 0,
+    "versionState": "RELEASED",
+    "versionNote": "Initial version",
+    "distributionDate": "1985",
+    "productionDate": "Production Date",
+    "lastUpdateTime": "2014-12-13T09:15:51Z",
+    "releaseTime": "2008-01-08T00:00:00Z",
+    "createTime": "2008-03-12T00:28:04Z",
+    "metadataBlocks": {"citation": {
+      "displayName": "Citation Metadata",
+      "fields": [
+        {
+          "typeName": "title",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Harris 1983 Top Business Leaders Survey, study no. 831004"
+        },
+        {
+          "typeName": "otherId",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {
+              "otherIdAgency": {
+                "typeName": "otherIdAgency",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "odum"
+              },
+              "otherIdValue": {
+                "typeName": "otherIdValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "H-831004"
+              }
+            },
+            {
+              "otherIdAgency": {
+                "typeName": "otherIdAgency",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "odum:extended"
+              },
+              "otherIdValue": {
+                "typeName": "otherIdValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Harris study no. 831004"
+              }
+            }
+          ]
+        },
+        {
+          "typeName": "author",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"authorName": {
+            "typeName": "authorName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Louis Harris and Associates, Inc."
+          }}]
+        },
+        {
+          "typeName": "datasetContact",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"datasetContactEmail": {
+            "typeName": "datasetContactEmail",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "N/A"
+          }}]
+        },
+        {
+          "typeName": "dsDescription",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"dsDescriptionValue": {
+            "typeName": "dsDescriptionValue",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "<p>This telephone survey of top business leaders in the U.S. focuses on the economy<\/p><p>Additional variables include future of the economy, the GNP, questions about respondents own businesses, inflation, borrowing and the trade deficit<\/p>"
+          }}]
+        },
+        {
+          "typeName": "keyword",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Economy"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Business"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Inflation"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            },
+            {
+              "keywordValue": {
+                "typeName": "keywordValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Trade"
+              },
+              "keywordVocabulary": {
+                "typeName": "keywordVocabulary",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:INDEX.TERMS"
+              }
+            }
+          ]
+        },
+        {
+          "typeName": "topicClassification",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {
+              "topicClassValue": {
+                "typeName": "topicClassValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Economics--Business leaders--Survey"
+              },
+              "topicClassVocab": {
+                "typeName": "topicClassVocab",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:MAIN.HEADING"
+              }
+            },
+            {
+              "topicClassValue": {
+                "typeName": "topicClassValue",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "Public opinion"
+              },
+              "topicClassVocab": {
+                "typeName": "topicClassVocab",
+                "multiple": false,
+                "typeClass": "primitive",
+                "value": "ODUM:PUBLIC.OPINION.POLLS"
+              }
+            }
+          ]
+        },
+        {
+          "typeName": "notesText",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "Subject: Study Level Error Note, Notes: The respondents of this Harris telephone survey were drawn from a list of chief executives and chief financial officers of the nation's 1200 largest corporations; Subject: null  Type: ODUM:ACCESS.CATEGORY  Notes: I; Subject: null  Type: ODUM:CODEBOOK.NUMBER  Notes: H-8310-04;"
+        },
+        {
+          "typeName": "producer",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [{"producerName": {
+            "typeName": "producerName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Louis Harris and Associates, Inc."
+          }}]
+        },
+        {
+          "typeName": "productionDate",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "1983-03"
+        },
+        {
+          "typeName": "productionPlace",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "New York, NY"
+        },
+        {
+          "typeName": "distributor",
+          "multiple": true,
+          "typeClass": "compound",
+          "value": [
+            {"distributorName": {
+              "typeName": "distributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Odum Institute"
+            }},
+            {"distributorName": {
+              "typeName": "distributorName",
+              "multiple": false,
+              "typeClass": "primitive",
+              "value": "Louis Harris Data Center"
+            }}
+          ]
+        },
+        {
+          "typeName": "distributionDate",
+          "multiple": false,
+          "typeClass": "primitive",
+          "value": "1985"
+        },
+        {
+          "typeName": "kindOfData",
+          "multiple": true,
+          "typeClass": "primitive",
+          "value": ["Numeric (survey)"]
+        },
+        {
+          "typeName": "series",
+          "multiple": false,
+          "typeClass": "compound",
+          "value": {"seriesName": {
+            "typeName": "seriesName",
+            "multiple": false,
+            "typeClass": "primitive",
+            "value": "Harris public opinion survey"
+          }}
+        }
+      ]
+    }},
+    "files": [
+      {
+        "description": "",
+        "label": "harris_s831004_colbin",
+        "version": 1,
+        "datasetVersionId": 461,
+        "datafile": {
+          "id": 2520621,
+          "name": "harris_s831004_colbin",
+          "contentType": "application/octet-stream",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/harris_s831004_colbin?fileId=20774",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "harris_s831004_quest.pdf",
+        "version": 1,
+        "datasetVersionId": 461,
+        "datafile": {
+          "id": 2520620,
+          "name": "harris_s831004_quest.pdf",
+          "contentType": "application/pdf",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/harris_s831004_quest.pdf?fileId=20776",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "harris_s831004_sascode",
+        "version": 1,
+        "datasetVersionId": 461,
+        "datafile": {
+          "id": 2520622,
+          "name": "harris_s831004_sascode",
+          "contentType": "application/octet-stream",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/harris_s831004_sascode?fileId=20772",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "harris_s831004_sas.export",
+        "version": 1,
+        "datasetVersionId": 461,
+        "datafile": {
+          "id": 2520623,
+          "name": "harris_s831004_sas.export",
+          "contentType": "application/octet-stream",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/harris_s831004_sas.export?fileId=41118",
+          "originalFormatLabel": "UNKNOWN",
+          "md5": "",
+          "description": ""
+        }
+      },
+      {
+        "description": "",
+        "label": "harris_s831004_spss.tab",
+        "version": 1,
+        "datasetVersionId": 461,
+        "datafile": {
+          "id": 2520624,
+          "name": "harris_s831004_spss.tab",
+          "contentType": "text/tab-separated-values",
+          "filename": "http://irss-arc1/dvn/dv/odvn/FileDownload/harris_s831004_spss.tab?fileId=41119",
+          "originalFileFormat": "",
+          "originalFormatLabel": "UNKNOWN",
+          "UNF": "UNF:3:bKQ/xEUdzNhOyijSfoE1Pw==",
+          "md5": "",
+          "description": ""
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "e_uid": "PXD002383",
+  "dataset_identifier": "PXD002383",
+  "title": "Human Proteome Dataset Hek293, k652 and HeLa cell lines",
+  "repos": "PRIDE",
+  "species": "Homo sapiens",
+  "instrument": "Q Exactive",
+  "publication": "Pending",
+  "publication_link": "Pending",
+  "primary_submitter": "Henrik Zauber",
+  "labhead": "Prof. Dr. Matthias Selbach",
+  "announcement_date": "2015-07-08",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD002383",
+  "keywords": "Hek293; k652; HeLa; Biomedical; Biological",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

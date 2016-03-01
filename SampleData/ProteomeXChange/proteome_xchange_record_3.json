@@ -1,0 +1,18 @@
+{
+  "e_uid": "PXD000132",
+  "dataset_identifier": "PXD000132",
+  "title": "Analysis of lung cancer cell lines GLC1 and GLC1 M13",
+  "repos": "PRIDE",
+  "species": "Homo sapiens",
+  "instrument": "instrument model: ultraflex TOF/TOF; Bruker Daltonics flex series",
+  "publication": "Poschmann et al. (2013)",
+  "publication_link": "<a class=\"external\" target=\"_blank\" href=\"http://www.ncbi.nlm.nih.gov/pubmed/23651173\">Poschmann et al. (2013)<\/a>",
+  "primary_submitter": "Gereon Poschmann",
+  "labhead": "",
+  "announcement_date": "2013-07-26",
+  "dataset_url": "http://proteomecentral.proteomexchange.org/cgi/GetDataset?ID=PXD000132",
+  "keywords": "SCLC; MALDI; classic and variant; cancer",
+  "v_uid": "",
+  "v_uuid": "",
+  "v_lastmodified": ""
+}

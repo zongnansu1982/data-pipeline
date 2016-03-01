@@ -1,0 +1,15 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'last_update'" to "last_update";
+transform column "$.'collection_name'" to "collection_name";
+transform column "$.'submission_status'" to "submission_status";
+transform column "$.'subjects_available'" to "subjects_available";
+transform column "$.'modalities'" to "modalities";
+transform column "$.'anatomical_sites'" to "anatomical_sites";
+transform column "$.'supporting_data_available'" to "supporting_data_available";
+transform column "$.'site_names'" to "site_names";
+transform column "$.'access'" to "access";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

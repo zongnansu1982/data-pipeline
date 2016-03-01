@@ -1,0 +1,14 @@
+/* initial identity transformation */
+transform column "$.'e_uid'" to "e_uid";
+transform column "$.'section'" to "section";
+transform column "$.'name'" to "name";
+transform column "$.'url'" to "url";
+transform column "$.'class'" to "class";
+transform column "$.'description'" to "description";
+transform column "$.'reference_name'" to "reference_name";
+transform column "$.'reference_link'" to "reference_link";
+transform column "$.'pmid'" to "pmid";
+transform column "$.'v_uid'" to "v_uid";
+transform column "$.'v_uuid'" to "v_uuid";
+transform column "$.'v_lastmodified'" to "v_lastmodified";
+

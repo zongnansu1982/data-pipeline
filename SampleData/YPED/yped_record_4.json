@@ -1,0 +1,16 @@
+{
+  "e_uid": "VEGFR3::YFP-Proteomic",
+  "project_name": "VEGFR3::YFP-Proteomic",
+  "description": "These are protein identifications from various experimental conditions of SVZ cells.  Proteomics analyses were carried out on a LTQ-Orbitrap mass spectrometer.",
+  "pubmedid": "",
+  "displaypmid": "",
+  "project_url": "ViewSeriesMenu.do?series_id=805&series_name=VEGFR3%3a%3aYFP-Proteomic",
+  "project_link_url": "ViewSeriesMenu.do;jsessionid=E572188F197DEAC8E91FE0B2ACF1C7A5?series_id=805&series_name=VEGFR3%3a%3aYFP-Proteomic",
+  "samples": 12,
+  "analysis_type": "LCMS",
+  "organisms": "Other",
+  "pi": "Jean Leon Thomas",
+  "v_uid": "VEGFR3::YFP-Proteomic",
+  "v_uuid": "afbb19a9-42f4-51e8-91f5-5081bbc23b89",
+  "v_lastmodified": ""
+}

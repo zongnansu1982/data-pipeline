@@ -1,0 +1,15 @@
+{
+  "e_uid": "Prostate-3T",
+  "last_update": "2013/05/31",
+  "collection_name": "Prostate-3T",
+  "submission_status": "Ongoing",
+  "subjects_available": "64",
+  "modalities": "MR",
+  "anatomical_sites": "Prostate",
+  "supporting_data_available": "3D Segmentations provided as part of NCI-ISBI 2013 Challenge - Automated Segmentation of Prostate Structures (NRRD) and NCI-MICCAI 2013 Challenge - Automated Segmentation of Prostate Structures (MHA).",
+  "site_names": "Radboud",
+  "access": "Public",
+  "v_uid": "Prostate-3T",
+  "v_uuid": "f633fa6f-d385-5ed1-9ec9-0e44fb79cde6",
+  "v_lastmodified": ""
+}
