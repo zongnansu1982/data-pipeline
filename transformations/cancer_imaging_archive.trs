@@ -1,15 +1,56 @@
 /* initial identity transformation */
+transform column "$.'collection_name'" to "dataset.ID";
+transform column "$.'collection_name'" to "dataset.title";
+transform column "$.'collection_name'" to "dataset.downloadURL" apply {{ result = 'https://wiki.cancerimagingarchive.net/display/Public/' + value }};
+transform column "$.'submission_status'" to "dataset.status";
+transform column "$.'access'" to "dataset.license";
+transform column "$.'subjects_available'" to "dataset.size";
+
+transform column "$.'last_update'" to "dataset.dateLastUpdate" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
+
+transform column "$.'supporting_data_available'" to "dataset.relatedDataset";
+
+/* Anatomical Information */
+transform column "$.'anatomical_sites'" to "anatomicalPart[].name" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+/* Data Acquisition Modalities */
+transform column "$.'modalities'" to "dataAcquisition[].title" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+/* Site Information */
+transform column "$.'site_names'" to "dataset.creator[]" apply {{
+arr=re.split("\s*,\s*",value,)
+result=arr
+}};
+
+
+/* Other Information */
+transform column "$.'collection_name'" to "disease[0].name" apply {{ result = 'cancer' }};
+transform column "$.'collection_name'" to "organism[0].name" apply {{ result = 'human' }};
+transform column "$.'collection_name'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
+
+/* Data Repository Information */
+transform column "$.'neuron_id'" to "dataRepository.name" apply {{ result = 'The Cancer Imaging Archive ' }};
+transform column "$.'neuron_id'" to "dataRepository.abbreviation" apply {{ result = 'TCIA' }};
+transform column "$.'neuron_id'" to "dataRepository.ID" apply {{ result = 'SCR:008927' }};
+transform column "$.'neuron_id'" to "dataRepository.homePage" apply {{ result = 'http://www.cancerimagingarchive.net' }};
+
+/* Organization Information */
+transform column "$.'neuron_id'" to "organization.name" apply {{ result = 'Frederick National Laboratory for Cancer Research' }};
+transform column "$.'neuron_id'" to "organization.abbreviation" apply {{ result = 'FNLCR' }};
+transform column "$.'neuron_id'" to "organization.ID" apply {{ result = 'SCR:011245' }};
+transform column "$.'neuron_id'" to "organization.homePage" apply {{ result = 'http://frederick.cancer.gov/' }};
+
+
+/* Items not included */
+/*
 transform column "$.'e_uid'" to "e_uid";
-transform column "$.'last_update'" to "last_update";
-transform column "$.'collection_name'" to "collection_name";
-transform column "$.'submission_status'" to "submission_status";
-transform column "$.'subjects_available'" to "subjects_available";
-transform column "$.'modalities'" to "modalities";
-transform column "$.'anatomical_sites'" to "anatomical_sites";
-transform column "$.'supporting_data_available'" to "supporting_data_available";
-transform column "$.'site_names'" to "site_names";
-transform column "$.'access'" to "access";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+*/
