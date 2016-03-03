@@ -6,10 +6,9 @@ transform column "$.'Study'.'@accession'" to "dataset.version";
 transform column "$.'Study'.'@createDate'" to "dataset.dateDeposited";
 transform column "$.'Study'.'@modDate'" to "dataset.dateModified"; 
 
-
 transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.keywords";
 
-/* Syudy Information */
+/* Study Information */
 transform column "$.'Study'.'Configuration'.'StudyURLs'.'Url'[*].'@url'" to "study.downloadURL.Url[]";
 
 transform column "$.'Study'.'Configuration'.'StudyTypes'.'StudyType'.'_$'" to "study.studyType";
