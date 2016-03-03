@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-import requests, bs4, time, Queue, threading
+import requests, bs4, time, Queue, threading, os
 
 totalEntries = 0
 q = Queue.Queue()
@@ -21,8 +21,10 @@ def writeHTML():
             # Every home page starts with this text followed by the page's id number
             noIdPage = "https://ndar.nih.gov/edit_collection.html?id="
             entry = requests.get(noIdPage + item)
-
-            f = open("Data From Labs HTML/Entry" + item + ".html", "w")
+            directory = "Data From Labs HTML"
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+            f = open(directory + "/Entry" + item + ".html", "w")
 
             for line in entry:
                 f.write(line)

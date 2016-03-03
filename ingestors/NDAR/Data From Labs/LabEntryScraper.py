@@ -2,7 +2,7 @@
 import TableSearches
 import bs4
 import json
-
+import os
 
 # Gets the next section of information based on this page's structure
 # i.e. Collection Title, Investigators, etc.
@@ -175,8 +175,11 @@ def scrape(queue):
             final[filename] = pageDict
             jFile = json.dumps(final, sort_keys=True, indent=4, separators=(',', ':'))
 
+            directory = "Data From Labs JSON"
+            if not os.path.exists(directory):
+                os.makedirs(directory)
 
-            file = open("Data From Labs JSON/" + filename + ".json", 'w')
+            file = open(directory + "/" + filename + ".json", 'w')
             for line in jFile:
                 file.write(line)
 

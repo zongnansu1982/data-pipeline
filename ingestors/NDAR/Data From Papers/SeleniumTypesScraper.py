@@ -1,9 +1,5 @@
 from selenium import webdriver
 
-
-
-
-
 # gets all checked values from a category and adds them to a dictionary
 def getChecked(td):
 
@@ -40,7 +36,7 @@ def scrape(idNumber):
      "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/53 "
      "(KHTML, like Gecko) Chrome/15.0.87")
 
-    path_to_phantomjs = 'C:/Users/Ted/node_modules/phantomjs/lib/phantom/bin/phantomjs'
+    path_to_phantomjs = 'phantomjs/lib/phantom/bin/phantomjs'
     driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
     studyType = None
     try:
