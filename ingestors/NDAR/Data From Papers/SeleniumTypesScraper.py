@@ -79,11 +79,10 @@ def scrape(idNumber):
     for elm in typeDict.keys():
         if len(typeDict[elm]) == 0:
             del typeDict[elm]
+    driver.close()
     return typeDict
 
 
 
 
-    driver.close()
 
-scrape("289")

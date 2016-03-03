@@ -135,11 +135,9 @@ def run():
 
     totalEntries = len(os.listdir("Data From Papers HTML"))
     for index, i in enumerate(os.listdir("Data From Papers HTML")):
-        if index == 0:
-            q.put(i.split(".")[0])
+        q.put(i.split(".")[0])
 
     q.join()
 
     print "Done."
 
-run()
