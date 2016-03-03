@@ -40,12 +40,14 @@ result = value1.lower() + ':' + value2
 }};
 
 /* Organism Information */
-transform columns "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_genus'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_genus'.'_$'" to "organism[].genus";
-transform columns "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_species'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_species'.'_$'" to "organism[].species";
-transform columns "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_strain'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_strain'.'_$'" to "organism[].strain";
-transform columns "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_ncbi_taxonomy_id'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_ncbi_taxonomy_id'.'_$'" to "organism[].ncbiID" apply {{ result = 'ncbitax:' + value }};
-transform columns "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_scientific_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_scientific_name'.'_$'" to "organism[].scientificName";
-transform columns "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_common_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_common_name'.'_$'" to "organism[].name";
+
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_genus'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_genus'.'_$'" to "organism[].genus";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_species'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:host_org_species'.'_$'" to "organism[].species";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:gene_src_strain'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_strain'.'_$'" to "organism[].strain";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_ncbi_taxonomy_id'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_ncbi_taxonomy_id'.'_$'" to "organism[].ncbiID" apply {{ result = 'ncbitax:' + value }};
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_scientific_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_scientific_name'.'_$'" to "organism[].scientificName";
+transform union "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_common_name'.'_$'", "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_host_org_common_name'.'_$'" to "organism[].name";
+
 
 /* Old Style Organism */
 /*
