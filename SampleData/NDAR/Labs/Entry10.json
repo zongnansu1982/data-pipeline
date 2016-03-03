@@ -1,0 +1,653 @@
+{
+    "Entry10":{
+        "Associated Studies":[
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"A draft publication is in progress.\r\n\r\nGitHub repository with code for working with NDAR Data is available here: https://github.com/chaselgrove/ndar\r\n\r\n**Note this study is ongoing; additional may be added.**",
+                "Number of Subjects  Collection / Total":"126 / 356",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using NITRC-CE"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\r\n\r\n**NOTE: This study is ongoing; additional data my be available in the future.**\r\n\r\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\r\n\r\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
+                "Number of Subjects  Collection / Total":"126 / 1540",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using C-PAC pipeline and ANTs"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Using the National Database for Autism Research cloud platform, MRI data were analyzed using neuroimaging pipelines that included packages available as part of the Neuroimaging Informatics Tools and Resources Clearinghouse (NITRC) Computational Environment to derive standardized measures of MR image quality.  Time series QA was performed according to Friedman, et al. (http://www.ncbi.nlm.nih.gov/pubmed/16952468) providing values for Signal to Noise Ratio that can be compared to other subjects.",
+                "Number of Subjects  Collection / Total":"107 / 356",
+                "State":"Shared",
+                "Study Name":"Derivation of Quality Measures for Time-Series Images by Neuroimaging Pipelines"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Using the National Database for Autism Research cloud platform, MRI data were analyzed using neuroimaging pipelines that included packages available as part of the Neuroimaging Informatics Tools and Resources Clearinghouse (NITRC) Computational Environment to derive standardized measures of MR image quality.  Structural QA was performed according to Haselgrove, et al (http://journal.frontiersin.org/Journal/10.3389/fninf.2014.00052/abstract) to provide values for Signal to Noise (SNR) and Contrast to Noise (CNR) Ratios that can be compared between subjects within NDAR and between other public data releases.",
+                "Number of Subjects  Collection / Total":"127 / 425",
+                "State":"Shared",
+                "Study Name":"Derivation of Quality Measures for Structural Images by Neuroimaging Pipelines"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"LONI utilized de-identified data from NDAR's cloud and a LONI Pipeline (pipeline.loni.usc.edu) processing workflow to perform a secondary structural MRI examination. The workflow used in this study pulls data from and provided by NDAR to an instance on the LONI compute cluster, aligns data to a standard orientation using FSLreorient2stsd, and undergoes further image processing to eventually identify, extract, and analyze cortical and sub-cortical structures in different MRI brain volumes. Two methods were used for this image processing: the first uses Freesurfer Recon_All to extract brain cortical parcellation and surfaces, align the data to an atlas, and identify, and analyze regions of interest; the second uses FSL to extract the brain (BET), align the data to an atlas, and extract ROIs including sub-cortical regions using FSL FIRST. The second method also uses Freesurfer (mri_segstats) to perform statistical analysis of these ROIs. Lastly, the LONI Pipeline workflow updates and returns the data processed and extracted by Freesurfer and FSL as a miNDAR back to NDAR's cloud storage instance.  These results can be used to assess quality control or be used to perform post-hoc comparisons of cortical and sub-cortical brain architecture between subject types.  See also, Torgerson et al. (2015) Brain Imaging and Behavior, for additional details on using LONI Pipeline to access and process NDAR data.",
+                "Number of Subjects  Collection / Total":"125 / 780",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted  by NDAR using LONI Workflows"
+            }
+        ],
+        "Collection Phase":"Closed",
+        "Collection State":"Shared",
+        "Data Expected":[
+            {
+                "Data Expected":"ADI-R",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"225",
+                "Subjects Submitted":"290",
+                "Targeted Enrollment":"303"
+            },
+            {
+                "Data Expected":"ADOS",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"170",
+                "Subjects Submitted":"288",
+                "Targeted Enrollment":"411"
+            },
+            {
+                "Data Expected":"Behavior Rating Inventory of Executive Function (BRIEF)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"130"
+            },
+            {
+                "Data Expected":"Childrens Yale-Brown OC Scale (CY-BOCS)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"153"
+            },
+            {
+                "Data Expected":"Clinical Evaluation of Language Fundamentals (CELF)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"174"
+            },
+            {
+                "Data Expected":"Demographics",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"125"
+            },
+            {
+                "Data Expected":"Early Social Communication Scales (ESCS)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"72"
+            },
+            {
+                "Data Expected":"Genetic Test",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"22",
+                "Subjects Submitted":"22",
+                "Targeted Enrollment":"551"
+            },
+            {
+                "Data Expected":"Imaging (Structural, fMRI, DTI, PET, microscopy)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"161",
+                "Subjects Submitted":"161",
+                "Targeted Enrollment":"172"
+            },
+            {
+                "Data Expected":"Interpersonal Reactivity Index",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"137"
+            },
+            {
+                "Data Expected":"Intervention History",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"125"
+            },
+            {
+                "Data Expected":"MacArthur Bates Communicative Development Inventory",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"97"
+            },
+            {
+                "Data Expected":"Medical History",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"201",
+                "Subjects Submitted":"216",
+                "Targeted Enrollment":"167"
+            },
+            {
+                "Data Expected":"Mullen Scales of Early Learning",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"75",
+                "Subjects Submitted":"102",
+                "Targeted Enrollment":"109"
+            },
+            {
+                "Data Expected":"Parenting Stress Index (PSI)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"71"
+            },
+            {
+                "Data Expected":"Peabody Picture Vocabulary Test, Fourth Edition",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"158"
+            },
+            {
+                "Data Expected":"Physical Exam",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"193",
+                "Subjects Submitted":"210",
+                "Targeted Enrollment":"172"
+            },
+            {
+                "Data Expected":"Repetitive Behavior Scale - Revised (RBS-R)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"270"
+            },
+            {
+                "Data Expected":"Reynell Developmental Language Scales",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"71"
+            },
+            {
+                "Data Expected":"Social Communication Questionnaire (SCQ)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"136"
+            },
+            {
+                "Data Expected":"Social Responsiveness Scale (SRS)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"675"
+            },
+            {
+                "Data Expected":"Stanford Binet",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"25",
+                "Subjects Submitted":"29",
+                "Targeted Enrollment":"11"
+            },
+            {
+                "Data Expected":"Vineland (Parent and Caregiver)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"259",
+                "Subjects Submitted":"259",
+                "Targeted Enrollment":"421"
+            },
+            {
+                "Data Expected":"Wechsler Abbreviated Scale of Intelligence (WASI)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"116"
+            },
+            {
+                "Data Expected":"Wechsler Adult Intelligence Scale",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"3"
+            },
+            {
+                "Data Expected":"Wechsler Intelligence Scale for Children",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"66",
+                "Subjects Submitted":"66",
+                "Targeted Enrollment":"108"
+            },
+            {
+                "Data Expected":"Wechsler Preschool Primary Scale Intelligence (WPPSI)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"17"
+            },
+            {
+                "Data Expected":"genomics/omics (microarray, sequencing, aCGH, gene regulation, GWAS, Mass Spectrometry, CHiP, gene expression, genotyping)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"180",
+                "Subjects Submitted":"180",
+                "Targeted Enrollment":"551"
+            },
+            {
+                "Data Expected":"Test of Pragmatic Language-2 (TOPL-2)",
+                "Initial Share":"05/15/2011",
+                "Initial Submission":"01/15/2011",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"20"
+            },
+            {
+                "Data Expected":"ABC Community",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"36"
+            },
+            {
+                "Data Expected":"Abnormal Involuntary Movement Scale (AIMS)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"36"
+            },
+            {
+                "Data Expected":"Child Behavior Checklist (CBCL)",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"174"
+            },
+            {
+                "Data Expected":"Child and Adolescent Symptom Inventory (CASI)",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"36"
+            },
+            {
+                "Data Expected":"Clinical Global Impression (CGI)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"36"
+            },
+            {
+                "Data Expected":"DAS-II: Differential Ability Scales",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"71"
+            },
+            {
+                "Data Expected":"Interpersonal Competence Scale (ICS)",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"114"
+            },
+            {
+                "Data Expected":"Parenting Daily Hassles",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"72"
+            },
+            {
+                "Data Expected":"Screen for Childhood Anxiety Related Emotional Disorders (SCARED)",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"11"
+            },
+            {
+                "Data Expected":"Sensory Profile",
+                "Initial Share":"11/30/2012",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"65"
+            },
+            {
+                "Data Expected":"Simpson-Angus Rating Scale (SAS)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"36"
+            },
+            {
+                "Data Expected":"Structured Play Assessment",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"72"
+            },
+            {
+                "Data Expected":"EEG",
+                "Initial Share":"11/15/2014",
+                "Initial Submission":"07/15/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"72"
+            },
+            {
+                "Data Expected":"M-CHAT",
+                "Initial Share":"11/15/2014",
+                "Initial Submission":"07/15/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"184"
+            },
+            {
+                "Data Expected":"Research Subject and Pedigree",
+                "Initial Share":"05/13/2015",
+                "Initial Submission":"05/13/2015",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"186"
+            }
+        ],
+        "Data Source":"NDAR",
+        "Description":"ACE Projects:   1) PI Sigman - Infant Sibs.  2) PI Geschwind - Genetics.  3) PI Dapretto  - Mirror neuron and imaging.  4) PI Kasari - Optimizing outcomes for toddlers.  5) PI McCracken - Understanding repetitive behaviors.    ARRA:  PI Bookheimer - Neural and Phenotypic Correlates of Autism Risk Genes",
+        "Experiments":[
+            {
+                "Created Date":"07/30/2012",
+                "ID":"65",
+                "Name":"SNP genotypes Illumina 370k",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E215EE96DDFDBB4322866299561BBA5A.node1?experimentId=65&showSingle=true"
+            },
+            {
+                "Created Date":"08/20/2012",
+                "ID":"67",
+                "Name":"SNP genotypes Illumina Omni-1: 2010-139, 2010-043, 2011-005",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E215EE96DDFDBB4322866299561BBA5A.node1?experimentId=67&showSingle=true"
+            },
+            {
+                "Created Date":"08/20/2012",
+                "ID":"68",
+                "Name":"SNP genotypes Illumina OmniExpress: 2011-015",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E215EE96DDFDBB4322866299561BBA5A.node1?experimentId=68&showSingle=true"
+            }
+        ],
+        "Funding Sources":[
+            {
+                "Funding Source Name":"NIH - Extramural",
+                "Funding Source URL":"None"
+            }
+        ],
+        "Grant Information":[
+            {
+                "End Date":"07/31/2012",
+                "Organization":"UNIVERSITY OF CALIFORNIA LOS ANGELES",
+                "Project Number":"P50HD055784",
+                "Project Title":"Determinants of Social, Communicative, and Other Core Deficits in Autism",
+                "Start Date":"08/06/2007",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277520"
+            },
+            {
+                "End Date":"08/31/2011",
+                "Organization":"UNIVERSITY OF CALIFORNIA LOS ANGELES",
+                "Project Number":"R01HD065280",
+                "Project Title":"Neural and Phenotypic Correlates of Autism Risk Genes",
+                "Start Date":"09/30/2009",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7844429"
+            }
+        ],
+        "Investigators":"Sigman M, Geschwind D, Bookheimer S",
+        "Publications":[
+            {
+                "Authors":"Kasari C, Gulsrud A, Paparella T, Hellemann G, Berry K",
+                "Date":"June 2015",
+                "Journal":"Journal of consulting and clinical psychology",
+                "PubMed ID":"25822242",
+                "Study":"Create Study",
+                "Title":"Randomized comparative efficacy study of parent-mediated interventions for toddlers with autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25822242"
+            },
+            {
+                "Authors":"Bucan M, Abrahams BS, Wang K, Glessner JT, Herman EI, Sonnenblick LI, Alvarez Retuerto AI, Imielinski M, Hadley D, Bradfield JP, Kim C, Gidaya NB, Lindquist I, Hutman T, Sigman M, Kustanovich V, Lajonchere CM, Singleton A, Kim J, Wassink TH, McMahon WM, Owley T, Sweeney JA, Coon H, Nurnberger JI, et al.",
+                "Date":"June 2009",
+                "Journal":"PLoS genetics",
+                "PubMed ID":"19557195",
+                "Study":"Create Study",
+                "Title":"Genome-wide analyses of exonic copy number variants in a family-based study point to novel autism susceptibility genes.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19557195"
+            },
+            {
+                "Authors":"Wang K, Zhang H, Ma D, Bucan M, Glessner JT, Abrahams BS, Salyakina D, Imielinski M, Bradfield JP, Sleiman PM, Kim CE, Hou C, Frackelton E, Chiavacci R, Takahashi N, Sakurai T, Rappaport E, Lajonchere CM, Munson J, Estes A, Korvatska O, Piven J, Sonnenblick LI, Alvarez Retuerto AI, Herman EI, et al.",
+                "Date":"May 28, 2009",
+                "Journal":"Nature",
+                "PubMed ID":"19404256",
+                "Study":"Create Study",
+                "Title":"Common genetic variants on 5p14.1 associate with autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19404256"
+            },
+            {
+                "Authors":"Loat CS, Curran S, Lewis CM, Duvall J, Geschwind D, Bolton P, Craig IW",
+                "Date":"October 2008",
+                "Journal":"Genes, brain, and behavior",
+                "PubMed ID":"19125863",
+                "Study":"Create Study",
+                "Title":"Methyl-CpG-binding protein 2 polymorphisms and vulnerability to autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19125863"
+            }
+        ],
+        "Relevant Publications":[
+            {
+                "Authors":"Kasari C, Gulsrud A, Paparella T, Hellemann G, Berry K",
+                "Date":"June 2015",
+                "Journal":"Journal of consulting and clinical psychology",
+                "PubMed ID":"25822242",
+                "Study":"Create Study",
+                "Title":"Randomized comparative efficacy study of parent-mediated interventions for toddlers with autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25822242"
+            },
+            {
+                "Authors":"Bucan M, Abrahams BS, Wang K, Glessner JT, Herman EI, Sonnenblick LI, Alvarez Retuerto AI, Imielinski M, Hadley D, Bradfield JP, Kim C, Gidaya NB, Lindquist I, Hutman T, Sigman M, Kustanovich V, Lajonchere CM, Singleton A, Kim J, Wassink TH, McMahon WM, Owley T, Sweeney JA, Coon H, Nurnberger JI, et al.",
+                "Date":"June 2009",
+                "Journal":"PLoS genetics",
+                "PubMed ID":"19557195",
+                "Study":"Create Study",
+                "Title":"Genome-wide analyses of exonic copy number variants in a family-based study point to novel autism susceptibility genes.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19557195"
+            },
+            {
+                "Authors":"Wang K, Zhang H, Ma D, Bucan M, Glessner JT, Abrahams BS, Salyakina D, Imielinski M, Bradfield JP, Sleiman PM, Kim CE, Hou C, Frackelton E, Chiavacci R, Takahashi N, Sakurai T, Rappaport E, Lajonchere CM, Munson J, Estes A, Korvatska O, Piven J, Sonnenblick LI, Alvarez Retuerto AI, Herman EI, et al.",
+                "Date":"May 28, 2009",
+                "Journal":"Nature",
+                "PubMed ID":"19404256",
+                "Study":"Create Study",
+                "Title":"Common genetic variants on 5p14.1 associate with autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19404256"
+            },
+            {
+                "Authors":"Loat CS, Curran S, Lewis CM, Duvall J, Geschwind D, Bolton P, Craig IW",
+                "Date":"October 2008",
+                "Journal":"Genes, brain, and behavior",
+                "PubMed ID":"19125863",
+                "Study":"Create Study",
+                "Title":"Methyl-CpG-binding protein 2 polymorphisms and vulnerability to autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19125863"
+            }
+        ],
+        "Shared Data":[
+            {
+                "Number of Subjects":"290",
+                "Title":"Autism Diagnostic Interview, Revised (ADI-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"4",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS) - Module 4",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"3",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 1",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"37",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"148",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 3",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"211",
+                "Title":"CHARGE Medical History",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"193",
+                "Title":"CHARGE Physical Exam",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"180",
+                "Title":"Genomics Sample",
+                "Type":"Genomics"
+            },
+            {
+                "Number of Subjects":"180",
+                "Title":"Genomics Subject",
+                "Type":"Genomics"
+            },
+            {
+                "Number of Subjects":"161",
+                "Title":"Image",
+                "Type":"Imaging"
+            },
+            {
+                "Number of Subjects":"22",
+                "Title":"Karyotype",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"161",
+                "Title":"Modified CHARGE Family Medical History (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"101",
+                "Title":"Mullen Scales of Early Learning",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"29",
+                "Title":"Stanford-Binet Intelligence Scales, Fifth Edition (SB5)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"257",
+                "Title":"Vineland-II - Parent and Caregiver Rating Form (2005)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"65",
+                "Title":"Wechsler Intelligence Scale for Children - IV [part 2]",
+                "Type":"Clinical Assessments"
+            }
+        ],
+        "Title":"UCLA Sigman/Bookheimer ACE and ARRA"
+    }
+}

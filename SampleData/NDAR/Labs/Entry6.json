@@ -1,0 +1,624 @@
+{
+    "Entry6":{
+        "Associated Studies":[
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Presence of an autism spectrum disorder is a risk factor for development of self-injurious behaviour (SIB) exhibited by individuals with developmental disorders. The most salient SIB risk factors historically studied within developmental disorders are level of intellectual disability, communication deficits and presence of specific genetic disorders. Recent SIB research has expanded the search for risk factors to include less commonly studied variables for people with developmental disorders: negative affect, hyperactivity and impulsivity.",
+                "Number of Subjects  Collection / Total":"1 / 611",
+                "State":"Shared",
+                "Study Name":"Predictors of self-injurious behaviour exhibited by individuals with autism spectrum disorder"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\r\n\r\n**NOTE: This study is ongoing; additional data my be available in the future.**\r\n\r\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\r\n\r\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
+                "Number of Subjects  Collection / Total":"73 / 1540",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using C-PAC pipeline and ANTs"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Previous behavioral studies have shown that individuals with autism are less hindered by interference from global processing during the performance of lower-level perceptual tasks, such as finding embedded figures. The primary goal of this study was to examine the brain manifestation of such atypicality in high-functioning autism using fMRI. Fifteen participants with high-functioning autism and fifteen age- and IQ-matched typical controls were asked to perform a lower-level perceptual line-counting task in the presence of a distracting depiction of a 3-D object, in which participants counted whether there were more red or more green contours (In a contrasting 3-D task, participants judged whether the same 3-D stimulus objects (but without color in any contours) depicted a possible or impossible 3-D object). We hypothesized that individuals with autism would be less likely than controls to process the global 3-D information (and would hence show fewer neural signs of such interfering 3-D processing) during the lower-level line-counting task. The fMRI results revealed that in the line-counting task, the autism group did not show the increased medial frontal activity (relative to the possibility task), or the increased functional connectivity between the medial frontal region and posterior visual-spatial regions, demonstrated by the control group. Both findings are indices of lesser effort and difficulty in the line-counting task for the autism group than for the control group, attributed to less interference from the 3-D processing in the autism group. In addition, in the line-counting task, the control group showed a positive correlation between a measure of spatial ability (Vandenberg scores) and activation in the medial frontal region, suggesting that more spatially able control participants did more suppression of the irrelevant 3-D background information in order to focus on the line-counting task. The findings collectively indicate that the global 3-D structure of the figure had a smaller effect, if any, on local processing in the group with autism compared to the control group. The results from this study provide the first direct neural evidence of reduced global-to-local interference in autism.",
+                "Number of Subjects  Collection / Total":"30 / 30",
+                "State":"Shared",
+                "Study Name":"Autonomy of lower-level perception from global processing in autism: evidence from brain activation and functional connectivity."
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Using the National Database for Autism Research cloud platform, MRI data were analyzed using neuroimaging pipelines that included packages available as part of the Neuroimaging Informatics Tools and Resources Clearinghouse (NITRC) Computational Environment to derive standardized measures of MR image quality.  Time series QA was performed according to Friedman, et al. (http://www.ncbi.nlm.nih.gov/pubmed/16952468) providing values for Signal to Noise Ratio that can be compared to other subjects.",
+                "Number of Subjects  Collection / Total":"75 / 356",
+                "State":"Shared",
+                "Study Name":"Derivation of Quality Measures for Time-Series Images by Neuroimaging Pipelines"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Individuals with high-functioning autism sometimes exhibit intact or superior performance on visuospatial tasks, in contrast to impaired functioning in other domains such as language comprehension, executive tasks, and social functions. The goal of the current study was to investigate the neural bases of preserved visuospatial processing in high-functioning autism from the perspective of the cortical underconnectivity theory. We used a combination of behavioral, functional magnetic resonance imaging, functional connectivity, and corpus callosum morphometric methodological tools. Thirteen participants with high-functioning autism and 13 controls (age-, IQ-, and gender-matched) were scanned while performing an Embedded Figures Task. Despite the ability of the autism group to attain behavioral performance comparable to the control group, the brain imaging results revealed several group differences consistent with the cortical underconnectivity account of autism. First, relative to controls, the autism group showed less activation in the left dorsolateral prefrontal and inferior parietal areas and more activation in visuospatial (bilateral superior parietal extending to inferior parietal and right occipital) areas. Second, the autism group demonstrated lower functional connectivity between higher-order working memory/executive areas and visuospatial regions (between frontal and parietal-occipital). Third, the size of the corpus callosum (an index of anatomical connectivity) was positively correlated with frontal-posterior (parietal and occipital) functional connectivity in the autism group. Thus, even in the visuospatial domain, where preserved performance among people with autism is observed, the neuroimaging signatures of cortical underconnectivity persist.",
+                "Number of Subjects  Collection / Total":"26 / 26",
+                "State":"Shared",
+                "Study Name":"Cortical underconnectivity coupled with preserved visuospatial cognition in autism: Evidence from an fMRI study of an embedded figures task."
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"A draft publication is in progress.\r\n\r\nGitHub repository with code for working with NDAR Data is available here: https://github.com/chaselgrove/ndar\r\n\r\n**Note this study is ongoing; additional may be added.**",
+                "Number of Subjects  Collection / Total":"73 / 356",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using NITRC-CE"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"This functional magnetic resonance imaging study compared the neural activation patterns of 18 high-functioning individuals with autism and 18 IQ-matched neurotypical control participants as they learned to perform a social judgment task. Participants learned to identify liars among pairs of computer-animated avatars uttering the same sentence but with different facial and vocal expressions, namely those that have previously been associated with lying versus truth-telling. Despite showing a behavioral learning effect similar to the control group, the autism group did not show the same pattern of decreased activation in cortical association areas as they learned the task. Furthermore, the autism group showed a significantly smaller increase in interregion synchronization of activation (functional connectivity) with learning than did the control group. Finally, the autism group had decreased structural connectivity as measured by corpus callosum size, and this measure was reliably related to functional connectivity measures. The findings suggest that cortical underconnectivity in autism may constrain the ability of the brain to rapidly adapt during learning.",
+                "Number of Subjects  Collection / Total":"35 / 35",
+                "State":"Shared",
+                "Study Name":"Distinctive Neural Processes during Learning in Autism"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Using the National Database for Autism Research cloud platform, MRI data were analyzed using neuroimaging pipelines that included packages available as part of the Neuroimaging Informatics Tools and Resources Clearinghouse (NITRC) Computational Environment to derive standardized measures of MR image quality.  Structural QA was performed according to Haselgrove, et al (http://journal.frontiersin.org/Journal/10.3389/fninf.2014.00052/abstract) to provide values for Signal to Noise (SNR) and Contrast to Noise (CNR) Ratios that can be compared between subjects within NDAR and between other public data releases.",
+                "Number of Subjects  Collection / Total":"73 / 425",
+                "State":"Shared",
+                "Study Name":"Derivation of Quality Measures for Structural Images by Neuroimaging Pipelines"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"In analyzing data from the National Database for Autism Research, we examine revising the Social Communication Questionnaire (SCQ), a commonly used screening instrument for Autism Spectrum Disorder. A combination of Item Response Theory and Mokken scaling techniques were utilized to achieve this and abbreviated scoring of the SCQ is suggested. The psychometric sensitivity of this abbreviated SCQ was examined via bootstrapped Receiver Operator Characteristic (ROC) curve analyses. Additionally, we examined the sensitivity of the abbreviated and total scaled SCQ as it relates to a potential diagnosis of Social (Pragmatic) Communication Disorder (SCD). As SCD is a new disorder introduced with the fifth edition of the Diagnostic and Statistical Manual (DSM-5), we identified individuals with potential diagnosis of SCD among individuals with ASD via mixture modeling techniques using the same NDAR data. These analyses revealed two classes or clusters of individuals when considering the two core areas of impairment among individuals with ASD: social communication and restricted, repetitive patterns of behavior.",
+                "Number of Subjects  Collection / Total":"106 / 1021",
+                "State":"Shared",
+                "Study Name":"Revising the Social Communication Questionnaire scoring procedures for Autism Spectrum Disorder and potential Social Communication Disorder"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Personal pronouns, such as 'I' and 'you', require a speaker/listener to continuously re-map their reciprocal relation to their referent, depending on who is saying the pronoun. This process, called 'deictic shifting', may underlie the incorrect production of these pronouns, or 'pronoun reversals', such as referring to oneself with the pronoun 'you', which has been reported in children with autism. The underlying neural basis of deictic shifting, however, is not understood, nor has the processing of pronouns been studied in adults with autism. The present study compared the brain activation pattern and functional connectivity (synchronization of activation across brain areas) of adults with high-functioning autism and control participants using functional magnetic resonance imaging in a linguistic perspective-taking task that required deictic shifting. The results revealed significantly diminished frontal (right anterior insula) to posterior (precuneus) functional connectivity during deictic shifting in the autism group, as well as reliably slower and less accurate behavioural responses. A comparison of two types of deictic shifting revealed that the functional connectivity between the right anterior insula and precuneus was lower in autism while answering a question that contained the pronoun 'you', querying something about the participant's view, but not when answering a query about someone else's view. In addition to the functional connectivity between the right anterior insula and precuneus being lower in autism, activation in each region was atypical, suggesting over reliance on individual regions as a potential compensation for the lower level of collaborative interregional processing. These findings indicate that deictic shifting constitutes a challenge for adults with high-functioning autism, particularly when reference to one's self is involved, and that the functional collaboration of two critical nodes, right anterior insula and precuneus, may play a critical role for deictic shifting by supporting an attention shift between oneself and others.",
+                "Number of Subjects  Collection / Total":"30 / 30",
+                "State":"Shared",
+                "Study Name":"The neural basis of deictic shifting in linguistic perspective-taking in high-functioning autism"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Scientific Abstract\nThe Social Communication Questionnaire (SCQ) assesses communication skills and social functioning in screening for symptoms of autism-spectrum disorder (ASD). The SCQ is recommended for individuals between 4 to 40 years with a cutoff score of 15 for referral. Mixed findings have been reported regarding the recommended cutoff score\u2019s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus an individual as not at-risk for ASD (specificity). Based on a sample from the National Database for Autism Research (n=344; age: 1.58 to 25.92 years old), the present study examined the SCQ\u2019s sensitivity versus specificity across a range of ages. We recommend that the cutoff scores for the SCQ be re-evaluated with age as a consideration.\nLay Abstract\nThe age neutrality of the Social Communication Questionnaire (SCQ) was examined as a common screener for ASD. Mixed findings have been reported regarding the recommended cutoff score\u2019s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus accurately classifying an individual as not at-risk for ASD (specificity). With a sample from the National Database for Autism Research, the present study examined the SCQ\u2019s sensitivity versus specificity. Analyses indicated that the actual sensitivity and specificity scores were lower than initially reported by the creators of the SCQ.",
+                "Number of Subjects  Collection / Total":"6 / 339",
+                "State":"Shared",
+                "Study Name":"The Sensitivity and Specificity of the Social Communication Questionnaire for  Autism Spectrum Disorder with Respect to Age"
+            }
+        ],
+        "Collection Phase":"Closed",
+        "Collection State":"Shared",
+        "Data Expected":[
+            {
+                "Data Expected":"ADI-R",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"184",
+                "Subjects Submitted":"237",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"ADOS",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"370",
+                "Subjects Submitted":"455",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Demographics",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"1,035",
+                "Subjects Submitted":"1,039",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Medical History",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"425",
+                "Subjects Submitted":"428",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Mullen Scales of Early Learning",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"106",
+                "Subjects Submitted":"141",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Physical Exam",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"299",
+                "Subjects Submitted":"301",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Research Subject and Pedigree",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"813",
+                "Subjects Submitted":"813",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Social Communication Questionnaire (SCQ)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"249",
+                "Subjects Submitted":"325",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Social Responsiveness Scale (SRS)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"136",
+                "Subjects Submitted":"175",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Vineland (Parent and Caregiver)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"304",
+                "Subjects Submitted":"406",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Wechsler Abbreviated Scale of Intelligence (WASI)",
+                "Initial Share":"11/15/2008",
+                "Initial Submission":"07/15/2008",
+                "Status":"Approved",
+                "Subjects Shared":"351",
+                "Subjects Submitted":"463",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Benton Facial Recognition Test (BFRT)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"354",
+                "Subjects Submitted":"354",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Child Behavior Checklist (CBCL)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"90",
+                "Subjects Submitted":"129",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Childrens Communication Checklist-2 (CCC-2)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"102",
+                "Subjects Submitted":"102",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Childrens Memory Scale (CMS)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"158",
+                "Subjects Submitted":"158",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Clinical Evaluation of Language Fundamentals (CELF)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"23",
+                "Subjects Submitted":"33",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Finger Tapping Test",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"366",
+                "Subjects Submitted":"366",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Grooved Pegboard Test",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"361",
+                "Subjects Submitted":"361",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Imaging (Structural, fMRI, DTI, PET, microscopy)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"75",
+                "Subjects Submitted":"75",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Laterality Dominance",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"458",
+                "Subjects Submitted":"458",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"M-CHAT",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"76",
+                "Subjects Submitted":"94",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"MacArthur Bates Communicative Development Inventory",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"92",
+                "Subjects Submitted":"92",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"NEO Personality Inventory (NEO PI-R)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"61",
+                "Subjects Submitted":"61",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Reading the Mind in the Eyes",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"380",
+                "Subjects Submitted":"380",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Test of Language Competence - Expanded Edition (TLC-E)",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"349",
+                "Subjects Submitted":"349",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Theory of Mind",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"220",
+                "Subjects Submitted":"220",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Twenty Questions Task",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"37",
+                "Subjects Submitted":"37",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Wide Range Achievement Test",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"459",
+                "Subjects Submitted":"459",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"Woodcock-Johnson Tests of Cognitive Abilities and Achievement",
+                "Initial Share":"11/15/2012",
+                "Initial Submission":"09/01/2012",
+                "Status":"Approved",
+                "Subjects Shared":"37",
+                "Subjects Submitted":"37",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"genomics/omics (microarray, sequencing, aCGH, gene regulation, GWAS, Mass Spectrometry, CHiP, gene expression, genotyping)",
+                "Initial Share":"11/30/2013",
+                "Initial Submission":"07/31/2013",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"1,977"
+            },
+            {
+                "Data Expected":"EEG",
+                "Initial Share":"11/15/2014",
+                "Initial Submission":"07/15/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"1,977"
+            }
+        ],
+        "Data Source":"NDAR",
+        "Description":"This center focuses on elucidating fundamental information processing and neurobiological mechanisms causing autism with studies of infant siblings, first-diagnosed toddlers, and groups of children, adolescents, and adults with and without autism. Project I: Development of Categorization  Knowledge in Low  Functioning Autism focuses on the earliest manifestations of autism and information processing mechanisms underlying social and cognitive symptoms. Project II: Disturbances of Affective Contact: Development of Brain Mechanisms for Emotion Processing focuses on how individuals with autism experience, understand and regulate emotion; genetic influences are also considered; Project III: Systems Connectivity  Activation: Imaging Studies of Language  focuses on delineating disturbances in functional brain connectivity underlying the impaired processing of information and innovative machine-learning studies of how the brain identifies and categorizes words.",
+        "Experiments":[
+            {
+                "ID":"No records found.",
+                "URL":"https://ndar.nih.gov/study.html;jsessionid=6C75CE0880BF6607FE1DF7220374DF77.node1?new=true&pmid=26484826&collectionId=6"
+            }
+        ],
+        "Funding Sources":[
+            {
+                "Funding Source Name":"NIH - Extramural",
+                "Funding Source URL":"None"
+            }
+        ],
+        "Grant Information":[
+            {
+                "End Date":"07/31/2012",
+                "Organization":"UNIVERSITY OF PITTSBURGH AT PITTSBURGH",
+                "Project Number":"P50HD055748",
+                "Project Title":"Biological and Information Processing Mechanisms Underlying Autism",
+                "Start Date":"08/06/2007",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277432"
+            }
+        ],
+        "Investigators":"Nancy Minshew, M.D.Mark Strauss, Ph.D.Kevin Pelphrey, Ph.D.Marcel Just, Ph.D.Thomas Mitchell, Ph.D.Diane Williams, Ph.D.",
+        "Publications":[
+            {
+                "Authors":"Schipul SE, Just MA",
+                "Date":"January 15, 2016",
+                "Journal":"NeuroImage",
+                "PubMed ID":"26484826",
+                "Study":"Create Study",
+                "Title":"Diminished neural adaptation during implicit learning in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26484826"
+            },
+            {
+                "Authors":"Campbell SB, Leezenbaum NB, Mahoney AS, Day TN, Schmidt EN",
+                "Date":"November 2015",
+                "Journal":"Autism : the international journal of research and practice",
+                "PubMed ID":"25432506",
+                "Study":"Create Study",
+                "Title":"Social engagement with parents in 11-month-old siblings at high and low genetic risk for autism spectrum disorder.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25432506"
+            }
+        ],
+        "Relevant Publications":[
+            {
+                "Authors":"Schipul SE, Just MA",
+                "Date":"January 15, 2016",
+                "Journal":"NeuroImage",
+                "PubMed ID":"26484826",
+                "Study":"Create Study",
+                "Title":"Diminished neural adaptation during implicit learning in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26484826"
+            },
+            {
+                "Authors":"Campbell SB, Leezenbaum NB, Mahoney AS, Day TN, Schmidt EN",
+                "Date":"November 2015",
+                "Journal":"Autism : the international journal of research and practice",
+                "PubMed ID":"25432506",
+                "Study":"Create Study",
+                "Title":"Social engagement with parents in 11-month-old siblings at high and low genetic risk for autism spectrum disorder.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25432506"
+            }
+        ],
+        "Shared Data":[
+            {
+                "Number of Subjects":"237",
+                "Title":"Autism Diagnostic Interview, Revised (ADI-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"219",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS) - Module 4",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"102",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 1",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"76",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"110",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 3",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"354",
+                "Title":"Benton Facial Recognition Test",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"33",
+                "Title":"CELF-4 Clinical Eval of Lang Fundamentals, 4th ed",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"415",
+                "Title":"CHARGE Family Characteristics Questionnaire",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"315",
+                "Title":"CHARGE Medical History",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"299",
+                "Title":"CHARGE Physical Exam",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"128",
+                "Title":"Child Behavior Checklist (CBCL) 6-18",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"102",
+                "Title":"Children's Communication Checklist - 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"34",
+                "Title":"Children's Memory Scale (CMS) - Ages 5 to 8",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"126",
+                "Title":"Children's Memory Scale (CMS) - Ages 9 to 16",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"1035",
+                "Title":"Demographics - Pittsburgh",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"366",
+                "Title":"Finger Tapping Test",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"361",
+                "Title":"Grooved Pegboard Test",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"75",
+                "Title":"Image",
+                "Type":"Imaging"
+            },
+            {
+                "Number of Subjects":"458",
+                "Title":"Laterality Dominance",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"94",
+                "Title":"M-CHAT",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"88",
+                "Title":"MacArthur-Bates CDI  - Words and Gestures Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"67",
+                "Title":"MacArthur-Bates CDI - Words and Sentences Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"415",
+                "Title":"Modified CHARGE Family Medical History (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"141",
+                "Title":"Mullen Scales of Early Learning",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"61",
+                "Title":"NEO Five-Factor Inventory Form S Adult",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"380",
+                "Title":"Reading the Mind in the Eyes Task (RMET)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"813",
+                "Title":"Research Subject",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"325",
+                "Title":"Social Communication Questionnaire (SCQ) - Lifetime",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"175",
+                "Title":"Social Responsiveness Scale (SRS)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"349",
+                "Title":"Test of Language Competence  Expanded Edition",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"220",
+                "Title":"Theory of Mind John and Mary",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"220",
+                "Title":"Theory of Mind Peter and Jane",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"220",
+                "Title":"Theory of Mind Sally and Anne",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"37",
+                "Title":"Twenty Questions Task",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"406",
+                "Title":"Vineland-II - Parent and Caregiver Rating Form (2005)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"463",
+                "Title":"Wechsler Abbreviated Scale of Intelligence (WASI)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"459",
+                "Title":"Wide Range Achievement Test 4 (WRAT4)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"37",
+                "Title":"Woodcock Johnson Tests of Cognitive Abilities and Tests of Achievement",
+                "Type":"Clinical Assessments"
+            }
+        ],
+        "Title":"Biological and Information Processing Mechanisms Underlying Autism"
+    }
+}

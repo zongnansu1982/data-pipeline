@@ -1,0 +1,432 @@
+{
+    "Entry8":{
+        "Collection Phase":"Closed",
+        "Collection State":"Shared",
+        "Data Expected":[
+            {
+                "Data Expected":"ABC Community",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"ADI-R",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"115",
+                "Subjects Submitted":"132",
+                "Targeted Enrollment":"696"
+            },
+            {
+                "Data Expected":"ADOS",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"149",
+                "Subjects Submitted":"168",
+                "Targeted Enrollment":"948"
+            },
+            {
+                "Data Expected":"DAS-II: Differential Ability Scales",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"13",
+                "Subjects Submitted":"14",
+                "Targeted Enrollment":"76"
+            },
+            {
+                "Data Expected":"Dysmorphology Exam",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"216"
+            },
+            {
+                "Data Expected":"Genetic Test",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"98",
+                "Subjects Submitted":"98",
+                "Targeted Enrollment":"732"
+            },
+            {
+                "Data Expected":"Imaging (Structural, fMRI, DTI, PET, microscopy)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"Intervention History",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"131",
+                "Subjects Submitted":"131",
+                "Targeted Enrollment":"948"
+            },
+            {
+                "Data Expected":"Leiter International Performance Scale-Revised (Leiter-R)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"MacArthur Bates Communicative Development Inventory",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"201",
+                "Subjects Submitted":"201",
+                "Targeted Enrollment":"580"
+            },
+            {
+                "Data Expected":"Medical History",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"175",
+                "Subjects Submitted":"175",
+                "Targeted Enrollment":"797"
+            },
+            {
+                "Data Expected":"Mullen Scales of Early Learning",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"152",
+                "Subjects Submitted":"199",
+                "Targeted Enrollment":"796"
+            },
+            {
+                "Data Expected":"Physical Exam",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"90",
+                "Subjects Submitted":"90",
+                "Targeted Enrollment":"948"
+            },
+            {
+                "Data Expected":"Preschool Language Scale (PLS)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"103",
+                "Subjects Submitted":"103",
+                "Targeted Enrollment":"180"
+            },
+            {
+                "Data Expected":"Repetitive Behavior Scale - Revised (RBS-R)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"Research Subject and Pedigree",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"Social Communication Questionnaire (SCQ)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"20",
+                "Subjects Submitted":"21",
+                "Targeted Enrollment":"796"
+            },
+            {
+                "Data Expected":"Social Responsiveness Scale (SRS)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"33",
+                "Subjects Submitted":"33",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"Vineland (Parent and Caregiver)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"180",
+                "Subjects Submitted":"188",
+                "Targeted Enrollment":"948"
+            },
+            {
+                "Data Expected":"genomics/omics (microarray, sequencing, aCGH, gene regulation, GWAS, Mass Spectrometry, CHiP, gene expression, genotyping)",
+                "Initial Share":"11/15/2009",
+                "Initial Submission":"07/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"216"
+            },
+            {
+                "Data Expected":"Benton Facial Recognition Test (BFRT)",
+                "Initial Share":"07/31/2014",
+                "Initial Submission":"03/31/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"Clinical Evaluation of Language Fundamentals (CELF)",
+                "Initial Share":"07/31/2014",
+                "Initial Submission":"03/31/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"200"
+            },
+            {
+                "Data Expected":"Communication and Symbolic Behavior Scales (CSBS)",
+                "Initial Share":"07/31/2014",
+                "Initial Submission":"03/31/2014",
+                "Status":"Approved",
+                "Subjects Shared":"195",
+                "Subjects Submitted":"195",
+                "Targeted Enrollment":"732"
+            },
+            {
+                "Data Expected":"Reynell Developmental Language Scales",
+                "Initial Share":"07/31/2014",
+                "Initial Submission":"03/31/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"Victoria-Yale Face Processing Battery",
+                "Initial Share":"07/31/2014",
+                "Initial Submission":"03/31/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"152"
+            },
+            {
+                "Data Expected":"EEG",
+                "Initial Share":"11/15/2014",
+                "Initial Submission":"07/15/2014",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"0",
+                "Targeted Enrollment":"532"
+            },
+            {
+                "Data Expected":"Eye Tracking",
+                "Initial Share":"05/13/2015",
+                "Initial Submission":"05/13/2015",
+                "Status":"Approved",
+                "Subjects Shared":"122",
+                "Subjects Submitted":"122",
+                "Targeted Enrollment":"122"
+            },
+            {
+                "Data Expected":"Wechsler Intelligence Scale for Children",
+                "Initial Share":"05/13/2015",
+                "Initial Submission":"05/13/2015",
+                "Status":"Approved",
+                "Subjects Shared":"15",
+                "Subjects Submitted":"15",
+                "Targeted Enrollment":"15"
+            }
+        ],
+        "Data Source":"NDAR",
+        "Description":"The Yale ACE consists of 5 project areas and 3 core resources. Projects I, II, and III focus on the same cohort of 12- to 24-month old infants with ASD followed up longitudinally. Project IV involves structural and functional neuroimaging protocols on a group of 10-year-olds with ASD who were extensively characterized at the age of 2 and 4 years. Project V includes cytogenetic studies of the infants evaluated in Projects I, II, and III, and the ASD children evaluated in Project IV. The Administrative Core is charged with planning, oversight, and management of the Yale ACE. The Assessment Core ensures that all project areas have access to well-characterized patients, family members and control populations, from a behavioral/phenotypic standpoint and from a medical/pediatric and genetics standpoint. The Data Management and Analysis provides data management and data analytic expertise across projects.",
+        "Experiments":[
+            {
+                "Created Date":"09/19/2014",
+                "ID":"165",
+                "Name":"Caregiver stimuli",
+                "Status":"Approved",
+                "Type":"Eye Tracking",
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=6D0176219EBFF512618F2ED25A4819C6.node1?id=165"
+            }
+        ],
+        "Funding Sources":[
+            {
+                "Funding Source Name":"NIH - Extramural",
+                "Funding Source URL":"None"
+            }
+        ],
+        "Grant Information":[
+            {
+                "End Date":"03/31/2013",
+                "Organization":"YALE UNIVERSITY",
+                "Project Number":"P50MH081756",
+                "Project Title":"Mechanisms of Social Engagement in Autism Spectrum Disorders",
+                "Start Date":"04/01/2008",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277372"
+            }
+        ],
+        "Investigators":"Fred Volkmar",
+        "Publications":[
+            {
+                "PubMed ID":"No records found."
+            }
+        ],
+        "Relevant Publications":[
+            {
+                "PubMed ID":"No records found."
+            }
+        ],
+        "Shared Data":[
+            {
+                "Number of Subjects":"132",
+                "Title":"Autism Diagnostic Interview, Revised (ADI-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"144",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 1",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"63",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"26",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 3",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"169",
+                "Title":"CHARGE Family Characteristics Questionnaire",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"175",
+                "Title":"CHARGE Medical History",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"90",
+                "Title":"CHARGE Physical Exam",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"15",
+                "Title":"CPEA STAART WISC 4",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"195",
+                "Title":"CSBS DP Behavior Sample",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"14",
+                "Title":"DAS-II: Differential Ability Scales 2nd Ed. School Age",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"5",
+                "Title":"DAS-II:Differential Ability Scales 2nd Ed. Early Years",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"122",
+                "Title":"Eye Tracking Subject-Experiment",
+                "Type":"Imaging"
+            },
+            {
+                "Number of Subjects":"131",
+                "Title":"Intervention History Full Version",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"98",
+                "Title":"Karyotype",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"157",
+                "Title":"MacArthur-Bates CDI  - Words and Gestures Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"59",
+                "Title":"MacArthur-Bates CDI - Words and Sentences Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"143",
+                "Title":"Modified CHARGE Family Medical History (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"49",
+                "Title":"Modified CHARGE Family Medical History (rev July 2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"199",
+                "Title":"Mullen Scales of Early Learning",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"166",
+                "Title":"NIMH Medical History Questionnaire",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"103",
+                "Title":"Preschool Language Scale, Fourth Edition (PLS-4)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"2",
+                "Title":"Social Communication Questionnaire (SCQ) - Current Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"21",
+                "Title":"Social Communication Questionnaire (SCQ) - Lifetime",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"33",
+                "Title":"Social Responsiveness Scale (SRS) - Adult/Self Version",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"49",
+                "Title":"Vineland-II - Parent and Caregiver Rating Form (2005)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"141",
+                "Title":"Vineland-II - Survey Form (2005)",
+                "Type":"Clinical Assessments"
+            }
+        ],
+        "Title":"Yale Autism Center of Excellence: Mechanisms of Social Engagement in the Autism Spectrum Disorders"
+    }
+}

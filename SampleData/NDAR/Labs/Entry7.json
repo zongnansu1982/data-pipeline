@@ -1,0 +1,57 @@
+{
+    "Entry7":{
+        "Collection Phase":"Closed",
+        "Collection State":"Shared",
+        "Data Source":"NDAR",
+        "Description":"AGRE is a DNA repository and family registry, housing a database of genotypic and phenotypic information that is available to autism researchers worldwide.",
+        "Experiments":[
+            {
+                "ID":"No records found.",
+                "URL":"https://ndar.nih.gov#"
+            }
+        ],
+        "Funding Sources":[
+            {
+                "Funding Source Name":"NIH - Extramural",
+                "Funding Source URL":"None"
+            }
+        ],
+        "Grant Information":[
+            {
+                "End Date":"05/31/2012",
+                "Organization":"UNIVERSITY OF SOUTHERN CALIFORNIA",
+                "Project Number":"U24MH081810",
+                "Project Title":"Center for Genomic and Phenomic Studies in Autism",
+                "Start Date":"09/28/2007",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7347923"
+            },
+            {
+                "End Date":"01/31/2013",
+                "Organization":"UNIVERSITY OF CALIFORNIA LOS ANGELES",
+                "Project Number":"R01MH081754",
+                "Project Title":"A Comprehensive Approach to Identification of Autism Susceptibility Genes",
+                "Start Date":"04/01/2008",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277354"
+            }
+        ],
+        "Investigators":"Clara Lajonchere and Dan Geschwind",
+        "Publications":[
+            {
+                "PubMed ID":"No records found."
+            }
+        ],
+        "Relevant Publications":[
+            {
+                "PubMed ID":"No records found."
+            }
+        ],
+        "Shared Data":[
+            {
+                "Number of Subjects":"224",
+                "Title":"Karyotype",
+                "Type":"Clinical Assessments"
+            }
+        ],
+        "Title":"A Comprehensive Approach to Identification of Autism Susceptibility Genes with the AGRE Center for Genomic and Phenomic Studies in Autism"
+    }
+}

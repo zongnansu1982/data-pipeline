@@ -1,0 +1,75 @@
+{
+    "Abstract":"The Autism Genome Project (AGP) Consortium represents more than 50 centers in North America and Europe. In an ongoing effort, the international AGP Consortium is collecting ASD families for ongoing genetic studies. The first phase of this initiative involved examining genetic linkage and chromosomal rearrangements in 1,168 families having at least two ASD individuals (PMID: 17322880). In this second phase of the project, we collected more families and genotyped them to examine for Copy Number Variation (CNVs) and SNPs affecting risk for ASD",
+    "Cohorts":{
+        "Control - Parents ( 2,933 )":{
+            "Age":"0 to 1,200 months",
+            "Gender":"Both"
+        },
+        "Test - Non-verbal ( 483 )":{
+            "Age":"0 to 1,200 months",
+            "Gender":"Both"
+        },
+        "Test - Verbal subjects ( 1,000 )":{
+            "Age":"0 to 1,200 months",
+            "Gender":"Both"
+        }
+    },
+    "DOI":"10.15154/1165652",
+    "Data Use":"Primary Analysis",
+    "Investigators":"Scherer S, Devlin B",
+    "Measures":[
+        {
+            "Data Structure":"Genomics Sample - V03",
+            "Elements":[
+                [
+                    "experiment_id",
+                    "Primary"
+                ],
+                [
+                    "data_file1",
+                    "Primary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_sample03"
+        },
+        {
+            "Data Structure":"Genomics Subject - V02",
+            "Elements":[
+                [
+                    "phenotype",
+                    "Secondary"
+                ],
+                [
+                    "phenotype_description",
+                    "Secondary"
+                ],
+                [
+                    "adi_dx",
+                    "Secondary"
+                ],
+                [
+                    "ados_dx",
+                    "Secondary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_subject02"
+        }
+    ],
+    "Results":[
+        "Genotype Calls",
+        "Genotype Calls, part 2"
+    ],
+    "Types":{
+        "Arms/Comparison":{
+            "Genomics":[
+                "Control",
+                "Study Cohort"
+            ]
+        },
+        "Description":{
+            "Primary Purpose":[
+                "Diagnostic"
+            ]
+        }
+    }
+}

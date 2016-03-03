@@ -1,0 +1,482 @@
+{
+    "Entry9":{
+        "Collection Phase":"Closed",
+        "Collection State":"Shared",
+        "Data Expected":[
+            {
+                "Data Expected":"ADI-R",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"73",
+                "Subjects Submitted":"73",
+                "Targeted Enrollment":"70"
+            },
+            {
+                "Data Expected":"ADOS",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"711",
+                "Subjects Submitted":"781",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Communication and Symbolic Behavior Scales (CSBS)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"590",
+                "Subjects Submitted":"590",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Imaging (Structural, fMRI, DTI, PET, microscopy)",
+                "Initial Share":"10/30/2014",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"0",
+                "Subjects Submitted":"364",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"MacArthur Bates Communicative Development Inventory",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"705",
+                "Subjects Submitted":"705",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Medical History",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"432",
+                "Subjects Submitted":"517",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Mullen Scales of Early Learning",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"594",
+                "Subjects Submitted":"782",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Physical Exam",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"607",
+                "Subjects Submitted":"607",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Research Subject and Pedigree",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"776",
+                "Subjects Submitted":"776",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"Vineland (Parent and Caregiver)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"568",
+                "Subjects Submitted":"721",
+                "Targeted Enrollment":"394"
+            },
+            {
+                "Data Expected":"genomics/omics (microarray, sequencing, aCGH, gene regulation, GWAS, Mass Spectrometry, CHiP, gene expression, genotyping)",
+                "Initial Share":"10/30/2014",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"217",
+                "Subjects Submitted":"217",
+                "Targeted Enrollment":"394"
+            }
+        ],
+        "Data Source":"NDAR",
+        "Description":"Behavioral data from the UCSD Autism Center of Excellence.  This first data deposit will include Mullen Scales of Early Learning Scores from infants ages 12-36 months who are part of the ACE.  Infants represent those at risk for an ASD, language delay (LD) and developmental delay (DD).  Normal control data will be deposited as well.",
+        "Experiments":[
+            {
+                "Created Date":"01/07/2014",
+                "ID":"116",
+                "Name":"Gene Expression Analysis WG-6",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?experimentId=116&showSingle=true"
+            },
+            {
+                "Created Date":"07/25/2014",
+                "ID":"155",
+                "Name":"Resting",
+                "Status":"Approved",
+                "Type":"fMRI",
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?id=155"
+            },
+            {
+                "Created Date":"07/25/2014",
+                "ID":"156",
+                "Name":"Speech",
+                "Status":"Approved",
+                "Type":"fMRI",
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?id=156"
+            },
+            {
+                "Created Date":"07/25/2014",
+                "ID":"157",
+                "Name":"Social Orienting",
+                "Status":"Approved",
+                "Type":"fMRI",
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?id=157"
+            },
+            {
+                "Created Date":"07/25/2014",
+                "ID":"158",
+                "Name":"Word Language",
+                "Status":"Approved",
+                "Type":"fMRI",
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?id=158"
+            },
+            {
+                "Created Date":"07/25/2014",
+                "ID":"159",
+                "Name":"Emotion",
+                "Status":"Approved",
+                "Type":"fMRI",
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?id=159"
+            },
+            {
+                "Created Date":"08/08/2014",
+                "ID":"163",
+                "Name":"Gene Expression Analysis HT-12",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B963BC8CAA1FB5E8822A0C974A3FEA6C.node1?experimentId=163&showSingle=true"
+            }
+        ],
+        "Funding Sources":[
+            {
+                "Funding Source Name":"NIH - Extramural",
+                "Funding Source URL":"None"
+            }
+        ],
+        "Grant Information":[
+            {
+                "End Date":"07/31/2012",
+                "Organization":"UNIVERSITY OF CALIFORNIA SAN DIEGO",
+                "Project Number":"P50MH081755",
+                "Project Title":"Biomarkers of Autism at 12 months: From Brain Overgrowth to Genes",
+                "Start Date":"08/06/2007",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277408"
+            }
+        ],
+        "Investigators":"Eric Courchesne, Karen Pierce and others.",
+        "Publications":[
+            {
+                "Authors":"Solso S, Xu R, Proudfoot J, Hagler DJ, Campbell K, Venkatraman V, Carter Barnes C, Ahrens-Barbeau C, Pierce K, Dale A, Eyler L, Courchesne E",
+                "Date":"July 4, 2015",
+                "Journal":"Biological psychiatry",
+                "PubMed ID":"26300272",
+                "Study":"Create Study",
+                "Title":"Diffusion Tensor Imaging Provides Evidence of Possible Axonal Overconnectivity in Frontal Lobes in Autism Spectrum Disorder Toddlers.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26300272"
+            },
+            {
+                "Authors":"Lombardo MV, Pierce K, Eyler LT, Carter Barnes C, Ahrens-Barbeau C, Solso S, Campbell K, Courchesne E",
+                "Date":"April 22, 2015",
+                "Journal":"Neuron",
+                "PubMed ID":"25864635",
+                "Study":"Create Study",
+                "Title":"Different functional neural substrates for good and poor language outcome in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25864635"
+            },
+            {
+                "Authors":"Pramparo T, Pierce K, Lombardo MV, Carter Barnes C, Marinero S, Ahrens-Barbeau C, Murray SS, Lopez L, Xu R, Courchesne E",
+                "Date":"April 2015",
+                "Journal":"JAMA psychiatry",
+                "PubMed ID":"25739104",
+                "Study":"Create Study",
+                "Title":"Prediction of autism by translation and immune/inflammation coexpressed genes in toddlers from pediatric community practices.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25739104"
+            },
+            {
+                "Authors":"Holland D, Desikan RS, Dale AM, McEvoy LK",
+                "Date":"December 2013",
+                "Journal":"AJNR. American journal of neuroradiology",
+                "PubMed ID":"23828104",
+                "Study":"Create Study",
+                "Title":"Higher rates of decline for women and apolipoprotein E epsilon4 carriers.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23828104"
+            },
+            {
+                "Authors":"Glatt SJ, Tsuang MT, Winn M, Chandler SD, Collins M, Lopez L, Weinfeld M, Carter C, Schork N, Pierce K, Courchesne E",
+                "Date":"September 2012",
+                "Journal":"Journal of the American Academy of Child and Adolescent Psychiatry",
+                "PubMed ID":"22917206",
+                "Study":"Create Study",
+                "Title":"Blood-based gene expression signatures of infants and toddlers with autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/22917206"
+            },
+            {
+                "Authors":"Dinstein I, Pierce K, Eyler L, Solso S, Malach R, Behrmann M, Courchesne E",
+                "Date":"June 23, 2011",
+                "Journal":"Neuron",
+                "PubMed ID":"21689606",
+                "Study":"Create Study",
+                "Title":"Disrupted neural synchronization in toddlers with autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21689606"
+            },
+            {
+                "Authors":"Pierce K, Carter C, Weinfeld M, Desmond J, Hazin R, Bjork R, Gallagher N",
+                "Date":"September 2011",
+                "Journal":"The Journal of pediatrics",
+                "PubMed ID":"21524759",
+                "Study":"Create Study",
+                "Title":"Detecting, studying, and treating autism early: the one-year well-baby check-up approach.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21524759"
+            },
+            {
+                "Authors":"Jacob S, Brune CW, Badner JA, Ernstrom K, Courchesne E, Lord C, Leventhal BL, Cook EH, Kim SJ",
+                "Date":"August 2011",
+                "Journal":"Psychiatric genetics",
+                "PubMed ID":"21085054",
+                "Study":"Create Study",
+                "Title":"Family-based association testing of glutamate transporter genes in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21085054"
+            },
+            {
+                "Authors":"Courchesne E, Campbell K, Solso S",
+                "Date":"March 22, 2011",
+                "Journal":"Brain research",
+                "PubMed ID":"20920490",
+                "Study":"Create Study",
+                "Title":"Brain growth across the life span in autism: age-specific changes in anatomical pathology.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20920490"
+            },
+            {
+                "Authors":"Schumann CM, Bloss CS, Barnes CC, Wideman GM, Carper RA, Akshoomoff N, Pierce K, Hagler D, Schork N, Lord C, Courchesne E",
+                "Date":"March 24, 2010",
+                "Journal":"The Journal of neuroscience : the official journal of the Society for Neuroscience",
+                "PubMed ID":"20335478",
+                "Study":"Create Study",
+                "Title":"Longitudinal magnetic resonance imaging study of cortical development through early childhood in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20335478"
+            },
+            {
+                "Authors":"Pierce K, Glatt SJ, Liptak GS, McIntyre LL",
+                "Date":"2009 Jul-Sep",
+                "Journal":"Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+                "PubMed ID":"19758535",
+                "Study":"Create Study",
+                "Title":"The power and promise of identifying autism early: insights from the search for clinical and biological markers.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19758535"
+            },
+            {
+                "Authors":"Schumann CM, Barnes CC, Lord C, Courchesne E",
+                "Date":"November 15, 2009",
+                "Journal":"Biological psychiatry",
+                "PubMed ID":"19726029",
+                "Study":"Create Study",
+                "Title":"Amygdala enlargement in toddlers with autism related to severity of social and communication impairments.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19726029"
+            }
+        ],
+        "Relevant Publications":[
+            {
+                "Authors":"Solso S, Xu R, Proudfoot J, Hagler DJ, Campbell K, Venkatraman V, Carter Barnes C, Ahrens-Barbeau C, Pierce K, Dale A, Eyler L, Courchesne E",
+                "Date":"July 4, 2015",
+                "Journal":"Biological psychiatry",
+                "PubMed ID":"26300272",
+                "Study":"Create Study",
+                "Title":"Diffusion Tensor Imaging Provides Evidence of Possible Axonal Overconnectivity in Frontal Lobes in Autism Spectrum Disorder Toddlers.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26300272"
+            },
+            {
+                "Authors":"Lombardo MV, Pierce K, Eyler LT, Carter Barnes C, Ahrens-Barbeau C, Solso S, Campbell K, Courchesne E",
+                "Date":"April 22, 2015",
+                "Journal":"Neuron",
+                "PubMed ID":"25864635",
+                "Study":"Create Study",
+                "Title":"Different functional neural substrates for good and poor language outcome in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25864635"
+            },
+            {
+                "Authors":"Pramparo T, Pierce K, Lombardo MV, Carter Barnes C, Marinero S, Ahrens-Barbeau C, Murray SS, Lopez L, Xu R, Courchesne E",
+                "Date":"April 2015",
+                "Journal":"JAMA psychiatry",
+                "PubMed ID":"25739104",
+                "Study":"Create Study",
+                "Title":"Prediction of autism by translation and immune/inflammation coexpressed genes in toddlers from pediatric community practices.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25739104"
+            },
+            {
+                "Authors":"Holland D, Desikan RS, Dale AM, McEvoy LK",
+                "Date":"December 2013",
+                "Journal":"AJNR. American journal of neuroradiology",
+                "PubMed ID":"23828104",
+                "Study":"Create Study",
+                "Title":"Higher rates of decline for women and apolipoprotein E epsilon4 carriers.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23828104"
+            },
+            {
+                "Authors":"Glatt SJ, Tsuang MT, Winn M, Chandler SD, Collins M, Lopez L, Weinfeld M, Carter C, Schork N, Pierce K, Courchesne E",
+                "Date":"September 2012",
+                "Journal":"Journal of the American Academy of Child and Adolescent Psychiatry",
+                "PubMed ID":"22917206",
+                "Study":"Create Study",
+                "Title":"Blood-based gene expression signatures of infants and toddlers with autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/22917206"
+            },
+            {
+                "Authors":"Dinstein I, Pierce K, Eyler L, Solso S, Malach R, Behrmann M, Courchesne E",
+                "Date":"June 23, 2011",
+                "Journal":"Neuron",
+                "PubMed ID":"21689606",
+                "Study":"Create Study",
+                "Title":"Disrupted neural synchronization in toddlers with autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21689606"
+            },
+            {
+                "Authors":"Pierce K, Carter C, Weinfeld M, Desmond J, Hazin R, Bjork R, Gallagher N",
+                "Date":"September 2011",
+                "Journal":"The Journal of pediatrics",
+                "PubMed ID":"21524759",
+                "Study":"Create Study",
+                "Title":"Detecting, studying, and treating autism early: the one-year well-baby check-up approach.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21524759"
+            },
+            {
+                "Authors":"Jacob S, Brune CW, Badner JA, Ernstrom K, Courchesne E, Lord C, Leventhal BL, Cook EH, Kim SJ",
+                "Date":"August 2011",
+                "Journal":"Psychiatric genetics",
+                "PubMed ID":"21085054",
+                "Study":"Create Study",
+                "Title":"Family-based association testing of glutamate transporter genes in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21085054"
+            },
+            {
+                "Authors":"Courchesne E, Campbell K, Solso S",
+                "Date":"March 22, 2011",
+                "Journal":"Brain research",
+                "PubMed ID":"20920490",
+                "Study":"Create Study",
+                "Title":"Brain growth across the life span in autism: age-specific changes in anatomical pathology.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20920490"
+            },
+            {
+                "Authors":"Schumann CM, Bloss CS, Barnes CC, Wideman GM, Carper RA, Akshoomoff N, Pierce K, Hagler D, Schork N, Lord C, Courchesne E",
+                "Date":"March 24, 2010",
+                "Journal":"The Journal of neuroscience : the official journal of the Society for Neuroscience",
+                "PubMed ID":"20335478",
+                "Study":"Create Study",
+                "Title":"Longitudinal magnetic resonance imaging study of cortical development through early childhood in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20335478"
+            },
+            {
+                "Authors":"Pierce K, Glatt SJ, Liptak GS, McIntyre LL",
+                "Date":"2009 Jul-Sep",
+                "Journal":"Annals of clinical psychiatry : official journal of the American Academy of Clinical Psychiatrists",
+                "PubMed ID":"19758535",
+                "Study":"Create Study",
+                "Title":"The power and promise of identifying autism early: insights from the search for clinical and biological markers.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19758535"
+            },
+            {
+                "Authors":"Schumann CM, Barnes CC, Lord C, Courchesne E",
+                "Date":"November 15, 2009",
+                "Journal":"Biological psychiatry",
+                "PubMed ID":"19726029",
+                "Study":"Create Study",
+                "Title":"Amygdala enlargement in toddlers with autism related to severity of social and communication impairments.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19726029"
+            }
+        ],
+        "Shared Data":[
+            {
+                "Number of Subjects":"607",
+                "Title":"ACE Subject Physical Exam",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"73",
+                "Title":"Autism Diagnostic Interview, Revised (ADI-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"610",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS) Toddler",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"318",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 1",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"238",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"590",
+                "Title":"CSBS DP Infant-Toddler Checklist",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"217",
+                "Title":"Genomics Sample",
+                "Type":"Genomics"
+            },
+            {
+                "Number of Subjects":"217",
+                "Title":"Genomics Subject",
+                "Type":"Genomics"
+            },
+            {
+                "Number of Subjects":"477",
+                "Title":"Height and Weight",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"596",
+                "Title":"MacArthur-Bates CDI  - Words and Gestures Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"462",
+                "Title":"MacArthur-Bates CDI - Words and Sentences Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"517",
+                "Title":"Modified CHARGE Family Medical History (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"782",
+                "Title":"Mullen Scales of Early Learning",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"776",
+                "Title":"Research Subject",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"721",
+                "Title":"Vineland-II - Parent and Caregiver Rating Form (2005)",
+                "Type":"Clinical Assessments"
+            }
+        ],
+        "Title":"Biomarkers of Autism at 12 Months: From Brain Overgrowth to Genes"
+    }
+}

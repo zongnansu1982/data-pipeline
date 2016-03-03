@@ -1,0 +1,35 @@
+{
+    "Abstract":"Autism spectrum disorder (ASD), a neurodevelopmental disorder affecting nearly 1 in 88 children, is thought to result from aberrant brain connectivity. Remarkably, there have been no systematic attempts to characterize whole-brain connectivity in children with ASD. Here, we use neuroimaging to show that there are more instances of greater functional connectivity in the brains of children with ASD in comparison to those of typically developing children. Hyperconnectivity in ASD was observed at the whole-brain and subsystems levels, across long- and short-range connections, and was associated with higher levels of fluctuations in regional brain signals. Brain hyperconnectivity predicted symptom severity in ASD, such that children with greater functional connectivity exhibited more severe social deficits. We replicated these findings in two additional independent cohorts, demonstrating again that at earlier ages, the brain of children with ASD is largely functionally hyperconnected in ways that contribute to social dysfunction. Our findings provide unique insights into brain mechanisms underlying childhood autism.",
+    "Cohorts":{
+        "Baseline - ASD Subjects ( 32 )":{
+            "Age":"84 to 167 months",
+            "Gender":"Both"
+        },
+        "Control - Non-ASD Subjects ( 4 )":{
+            "Age":"84 to 167 months",
+            "Gender":"Both"
+        },
+        "Test - Phenotype Unknown ( 35 )":{
+            "Age":"84 to 167 months",
+            "Gender":"Both"
+        }
+    },
+    "DOI":"10.15154/1223791",
+    "Data Use":"Secondary Analysis",
+    "Investigators":"Menon, Vinod; Superkar, K; Uddin, LQ; Khouzam, A; Phillips, J; Gaillard, WD; Kenworthy, LE; Yerys, BE; Vaidya, CJ",
+    "Measures":[
+        {
+            "Data Structure":"Image - V02",
+            "Elements":[
+                [
+                    "image_file",
+                    "Primary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=image02"
+        }
+    ],
+    "Results":[
+        "Paper in Cell Reports"
+    ]
+}

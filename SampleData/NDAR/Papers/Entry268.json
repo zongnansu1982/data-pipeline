@@ -1,0 +1,205 @@
+{
+    "Abstract":"The objectives of this study were to characterize gastrointestinal dysfunction (GID) in autism spectrum disorder (ASD), to examine parental reports of GID relative to evaluations by pediatric gastroenterologists, and to explore factors associated with GID in ASD. One hundred twenty-one children were recruited into three groups: co-occurring ASD and GID, ASD without GID, and GID without ASD. A pediatric gastroenterologist evaluated both GID groups. Parents in all three groups completed questionnaires about their child`s behavior and GI symptoms, and a dietary journal. Functional constipation was the most common type of GID in children with ASD (85.0%). Parental report of any GID was highly concordant with a clinical diagnosis of any GID (92.1%). Presence of GID in children with ASD was not associated with distinct dietary habits or medication status. Odds of constipation were associated with younger age, increased social impairment, and lack of expressive language (adjusted odds ratio in nonverbal children: 11.98, 95% confidence interval 2.54-56.57). This study validates parental concerns for GID in children with ASD, as parents were sensitive to the existence, although not necessarily the nature, of GID. The strong association between constipation and language impairment highlights the need for vigilance by health-care providers to detect and treat GID in children with ASD. Medications and diet, commonly thought to contribute to GID in ASD, were not associated with GID status. These findings are consistent with a hypothesis that GID in ASD represents pleiotropic expression of genetic risk factors.",
+    "Cohorts":{
+        "Control - ASD-only ( 44 )":{
+            "Age":"60 to 215 months",
+            "Gender":"Both"
+        },
+        "Control - GID-only ( 28 )":{
+            "Age":"60 to 215 months",
+            "Gender":"Both"
+        },
+        "Test - ASD-GID ( 40 )":{
+            "Age":"60 to 215 months",
+            "Gender":"Both"
+        }
+    },
+    "DOI":"10.15154/1163508",
+    "Data Use":"Primary Analysis",
+    "Documents":"Article published in Autism Research",
+    "Investigators":"Levitt P; Gorrindo P, Williams KC, Lee EB, Walker LS, McGrew SG",
+    "Measures":[
+        {
+            "Data Structure":"Autism Diagnostic Observation Schedule (ADOS) - Module 4 - V02",
+            "Elements":[
+                [
+                    "scoresumm_atotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_btotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_abtotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_adosdiag",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_overalldiag",
+                    "Secondary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados4_200102"
+        },
+        {
+            "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 1 - V02",
+            "Elements":[
+                [
+                    "scoresumm_atotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_btotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_abtotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_adosdiag",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_overalldiag",
+                    "Secondary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados1_200102"
+        },
+        {
+            "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 2 - V02",
+            "Elements":[
+                [
+                    "scoresumm_atotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_btotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_abtotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_adosdiag",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_overalldiag",
+                    "Secondary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados2_200102"
+        },
+        {
+            "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 3 - V02",
+            "Elements":[
+                [
+                    "scoresumm_atotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_btotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_abtotal",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_adosdiag",
+                    "Secondary"
+                ],
+                [
+                    "scoresumm_overalldiag",
+                    "Secondary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados3_200102"
+        },
+        {
+            "Data Structure":"Diet Diary - V02",
+            "Status":"Secondary",
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=diet_diary02"
+        },
+        {
+            "Data Structure":"Questionnaire on Pediatric GI Symptoms: Rome III Parent - V01",
+            "Status":"Primary",
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=qpgs_iii_parent01"
+        },
+        {
+            "Data Structure":"Social Responsiveness Scale (SRS) - V02",
+            "Elements":[
+                [
+                    "male_tscore1",
+                    "Primary"
+                ],
+                [
+                    "male_tscore2",
+                    "Primary"
+                ],
+                [
+                    "male_tscore3",
+                    "Primary"
+                ],
+                [
+                    "male_tscore4",
+                    "Primary"
+                ],
+                [
+                    "male_tscore5",
+                    "Primary"
+                ],
+                [
+                    "male_tscoreall",
+                    "Primary"
+                ],
+                [
+                    "female_tscore1",
+                    "Primary"
+                ],
+                [
+                    "female_tscore2",
+                    "Primary"
+                ],
+                [
+                    "female_tscore3",
+                    "Primary"
+                ],
+                [
+                    "female_tscore4",
+                    "Primary"
+                ],
+                [
+                    "female_tscore5",
+                    "Primary"
+                ],
+                [
+                    "female_tscoreall",
+                    "Primary"
+                ],
+                [
+                    "phenotype",
+                    "Primary"
+                ]
+            ],
+            "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=srs02"
+        }
+    ],
+    "Results":[
+        "Results published in Autism Res, Apr 2012"
+    ],
+    "Types":{
+        "Arms/Comparison":{
+            "Behavioral":[
+                "Behavioral"
+            ]
+        }
+    }
+}

@@ -1,0 +1,804 @@
+{
+    "Entry1":{
+        "Associated Studies":[
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Presence of an autism spectrum disorder is a risk factor for development of self-injurious behaviour (SIB) exhibited by individuals with developmental disorders. The most salient SIB risk factors historically studied within developmental disorders are level of intellectual disability, communication deficits and presence of specific genetic disorders. Recent SIB research has expanded the search for risk factors to include less commonly studied variables for people with developmental disorders: negative affect, hyperactivity and impulsivity.",
+                "Number of Subjects  Collection / Total":"324 / 611",
+                "State":"Shared",
+                "Study Name":"Predictors of self-injurious behaviour exhibited by individuals with autism spectrum disorder"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\r\n\r\n**NOTE: This study is ongoing; additional data my be available in the future.**\r\n\r\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\r\n\r\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
+                "Number of Subjects  Collection / Total":"2 / 1540",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using C-PAC pipeline and ANTs"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"Scientific Abstract\nThe Social Communication Questionnaire (SCQ) assesses communication skills and social functioning in screening for symptoms of autism-spectrum disorder (ASD). The SCQ is recommended for individuals between 4 to 40 years with a cutoff score of 15 for referral. Mixed findings have been reported regarding the recommended cutoff score\u2019s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus an individual as not at-risk for ASD (specificity). Based on a sample from the National Database for Autism Research (n=344; age: 1.58 to 25.92 years old), the present study examined the SCQ\u2019s sensitivity versus specificity across a range of ages. We recommend that the cutoff scores for the SCQ be re-evaluated with age as a consideration.\nLay Abstract\nThe age neutrality of the Social Communication Questionnaire (SCQ) was examined as a common screener for ASD. Mixed findings have been reported regarding the recommended cutoff score\u2019s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus accurately classifying an individual as not at-risk for ASD (specificity). With a sample from the National Database for Autism Research, the present study examined the SCQ\u2019s sensitivity versus specificity. Analyses indicated that the actual sensitivity and specificity scores were lower than initially reported by the creators of the SCQ.",
+                "Number of Subjects  Collection / Total":"3 / 339",
+                "State":"Shared",
+                "Study Name":"The Sensitivity and Specificity of the Social Communication Questionnaire for  Autism Spectrum Disorder with Respect to Age"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"In analyzing data from the National Database for Autism Research, we examine revising the Social Communication Questionnaire (SCQ), a commonly used screening instrument for Autism Spectrum Disorder. A combination of Item Response Theory and Mokken scaling techniques were utilized to achieve this and abbreviated scoring of the SCQ is suggested. The psychometric sensitivity of this abbreviated SCQ was examined via bootstrapped Receiver Operator Characteristic (ROC) curve analyses. Additionally, we examined the sensitivity of the abbreviated and total scaled SCQ as it relates to a potential diagnosis of Social (Pragmatic) Communication Disorder (SCD). As SCD is a new disorder introduced with the fifth edition of the Diagnostic and Statistical Manual (DSM-5), we identified individuals with potential diagnosis of SCD among individuals with ASD via mixture modeling techniques using the same NDAR data. These analyses revealed two classes or clusters of individuals when considering the two core areas of impairment among individuals with ASD: social communication and restricted, repetitive patterns of behavior.",
+                "Number of Subjects  Collection / Total":"277 / 1021",
+                "State":"Shared",
+                "Study Name":"Revising the Social Communication Questionnaire scoring procedures for Autism Spectrum Disorder and potential Social Communication Disorder"
+            },
+            {
+                "Data Use":"Primary Analysis",
+                "Description":"LONI utilized de-identified data from NDAR's cloud and a LONI Pipeline (pipeline.loni.usc.edu) processing workflow to perform a secondary structural MRI examination. The workflow used in this study pulls data from and provided by NDAR to an instance on the LONI compute cluster, aligns data to a standard orientation using FSLreorient2stsd, and undergoes further image processing to eventually identify, extract, and analyze cortical and sub-cortical structures in different MRI brain volumes. Two methods were used for this image processing: the first uses Freesurfer Recon_All to extract brain cortical parcellation and surfaces, align the data to an atlas, and identify, and analyze regions of interest; the second uses FSL to extract the brain (BET), align the data to an atlas, and extract ROIs including sub-cortical regions using FSL FIRST. The second method also uses Freesurfer (mri_segstats) to perform statistical analysis of these ROIs. Lastly, the LONI Pipeline workflow updates and returns the data processed and extracted by Freesurfer and FSL as a miNDAR back to NDAR's cloud storage instance.  These results can be used to assess quality control or be used to perform post-hoc comparisons of cortical and sub-cortical brain architecture between subject types.  See also, Torgerson et al. (2015) Brain Imaging and Behavior, for additional details on using LONI Pipeline to access and process NDAR data.",
+                "Number of Subjects  Collection / Total":"2 / 780",
+                "State":"Shared",
+                "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted  by NDAR using LONI Workflows"
+            }
+        ],
+        "Collection Phase":"Closed",
+        "Collection State":"Shared",
+        "Data Expected":[
+            {
+                "Data Expected":"ADI-R",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"215",
+                "Subjects Submitted":"276",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Imaging (Structural, fMRI, DTI, PET, microscopy)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"58",
+                "Subjects Submitted":"58",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Medical History",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"243",
+                "Subjects Submitted":"253",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Ravens Coloured Progressive Matrices (CPM)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"10",
+                "Subjects Submitted":"10",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Repetitive Behavior Scale - Revised (RBS-R)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"233",
+                "Subjects Submitted":"312",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Research Subject and Pedigree",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"256",
+                "Subjects Submitted":"256",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Social Communication Questionnaire (SCQ)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"231",
+                "Subjects Submitted":"297",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Social Responsiveness Scale (SRS)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"238",
+                "Subjects Submitted":"239",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"Vineland (Parent and Caregiver)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"199",
+                "Subjects Submitted":"258",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"genomics/omics (microarray, sequencing, aCGH, gene regulation, GWAS, Mass Spectrometry, CHiP, gene expression, genotyping)",
+                "Initial Share":"05/15/2009",
+                "Initial Submission":"01/15/2009",
+                "Status":"Approved",
+                "Subjects Shared":"253",
+                "Subjects Submitted":"537",
+                "Targeted Enrollment":"680"
+            },
+            {
+                "Data Expected":"ABC Community",
+                "Initial Share":"05/15/2011",
+                "Initial Submission":"01/15/2011",
+                "Status":"Approved",
+                "Subjects Shared":"220",
+                "Subjects Submitted":"285",
+                "Targeted Enrollment":"427"
+            },
+            {
+                "Data Expected":"ADOS",
+                "Initial Share":"12/31/2012",
+                "Initial Submission":"08/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"306",
+                "Subjects Submitted":"306",
+                "Targeted Enrollment":"144"
+            },
+            {
+                "Data Expected":"Broad Autism Phenotype Questionnaire (BAPQ)",
+                "Initial Share":"12/31/2012",
+                "Initial Submission":"08/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"355",
+                "Subjects Submitted":"356",
+                "Targeted Enrollment":"138"
+            },
+            {
+                "Data Expected":"Childhood Routines Inventory (CRI)",
+                "Initial Share":"12/31/2012",
+                "Initial Submission":"08/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"145",
+                "Subjects Submitted":"189",
+                "Targeted Enrollment":"355"
+            },
+            {
+                "Data Expected":"Clinical Evaluation of Language Fundamentals (CELF)",
+                "Initial Share":"12/31/2012",
+                "Initial Submission":"08/31/2012",
+                "Status":"Approved",
+                "Subjects Shared":"69",
+                "Subjects Submitted":"90",
+                "Targeted Enrollment":"409"
+            },
+            {
+                "Data Expected":"Children's Scale of Hostility and Aggression: Reactive/Proactive",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"48",
+                "Subjects Submitted":"48",
+                "Targeted Enrollment":"48"
+            },
+            {
+                "Data Expected":"Clinical Global Impression (CGI)",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"41",
+                "Subjects Submitted":"41",
+                "Targeted Enrollment":"41"
+            },
+            {
+                "Data Expected":"DAS-II: Differential Ability Scales",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"183",
+                "Subjects Submitted":"231",
+                "Targeted Enrollment":"250"
+            },
+            {
+                "Data Expected":"Demographics",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"208",
+                "Subjects Submitted":"263",
+                "Targeted Enrollment":"350"
+            },
+            {
+                "Data Expected":"Expressive One-Word Picture Vocabulary Test (2000)",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"121",
+                "Subjects Submitted":"154",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Genetic Test",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"243",
+                "Subjects Submitted":"243",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Mullen Scales of Early Learning",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"21",
+                "Subjects Submitted":"29",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Obsessive-Compulsive Inventory - Revised (OCI-R)",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"38",
+                "Subjects Submitted":"48",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Peabody Picture Vocabulary Test, Fourth Edition",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"148",
+                "Subjects Submitted":"188",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Physical Exam",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"252",
+                "Subjects Submitted":"252",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Preschool Language Scale (PLS)",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"14",
+                "Subjects Submitted":"18",
+                "Targeted Enrollment":"80"
+            },
+            {
+                "Data Expected":"Tanner Sexual Maturity Scale",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"195",
+                "Subjects Submitted":"195",
+                "Targeted Enrollment":"195"
+            },
+            {
+                "Data Expected":"Wechsler Abbreviated Scale of Intelligence (WASI)",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"87",
+                "Subjects Submitted":"105",
+                "Targeted Enrollment":"110"
+            },
+            {
+                "Data Expected":"Wechsler Adult Intelligence Scale",
+                "Initial Share":"04/15/2013",
+                "Initial Submission":"01/15/2013",
+                "Status":"Approved",
+                "Subjects Shared":"2",
+                "Subjects Submitted":"2",
+                "Targeted Enrollment":"2"
+            }
+        ],
+        "Data Source":"NDAR",
+        "Description":"The UIC ACE was focused on the genetics, neurobiology, cognitive and affective processes, and pharmacology of insistence on sameness (IS) in autism spectrum disorders (ASD). A large sample of children with self-reported autism spectrum disorder will be screened by the Assessment Core for further screening by administration of the ADI-R to the parents. Profanes meeting ADI-R criteria for autistic disorder will be recruited for further study if they are also classified by the ADI-R IS items as high (N=150) or low IS (N=100). In addition, high IS subjects will need to score 15 or more on the sum of two IS factors on the RBS-R to avoid floor effects for the pharmacogenetic trial. These 250 subjects will all be included in project I, Genetics of Serotonin in Autism: Neurochemical and Clinical Endophenotypes, along with 225 previously studied subjects and their parents for a total of 475 trios. This project will study 25 serotonin- related genes for association with autism and with IS more specifically. Resequencing of strong candidate genes will be conducted with all of the subjects in the pharmacogenetic project (III) and with the low IS subjects in project II. In addition, the 250 subjects will have serotonin measures collected for analysis with genetic and phenotype measures. In Project II: Translational Studies of Cognitive, Affective and Neurochemical Processes Underlying Insistence on Sameness in Autism, fMRI studies of IS will be conducted on 50 high IS subjects also in Project III, 50 low IS subjects (also in Project I) and 50 control subjects. In addition, rat studies in which parallel behavioral and neurochemical approaches will be used. Project III: The Pharmacogenetics of Treatment for Insistence on Sameness in Autism has been designed to replicate and extend a preliminary study of escitalopram treatment of IS related irritability in ASD. Project IV: Autism-Associated Serotonin Transporter (SERT) Mutations will provide characterization of mutations previously found to be associated with high IS behaviors in subjects with autism.",
+        "Experiments":[
+            {
+                "Created Date":"09/04/2011",
+                "ID":"51",
+                "Name":"Illumina SNP/CNV array",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=51&showSingle=true"
+            },
+            {
+                "Created Date":"09/04/2011",
+                "ID":"52",
+                "Name":"Illumina SNP/CNV array - Omni 1",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=52&showSingle=true"
+            },
+            {
+                "Created Date":"04/06/2015",
+                "ID":"292",
+                "Name":"5-HTTLPR",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=292&showSingle=true"
+            },
+            {
+                "Created Date":"12/08/2015",
+                "ID":"409",
+                "Name":"UIC ACE CIDR",
+                "Status":"Approved",
+                "Type":"Omics",
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=409&showSingle=true"
+            }
+        ],
+        "Funding Sources":[
+            {
+                "Funding Source Name":"NIH - Extramural",
+                "Funding Source URL":"None"
+            }
+        ],
+        "Grant Information":[
+            {
+                "End Date":"07/31/2012",
+                "Organization":"UNIVERSITY OF ILLINOIS AT CHICAGO",
+                "Project Number":"P50HD055751",
+                "Project Title":"ACE: Translational Studies of Insistence on Sameness in Autism",
+                "Start Date":"08/06/2007",
+                "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277376"
+            }
+        ],
+        "Investigators":"Ed Cook",
+        "Publications":[
+            {
+                "Authors":"Najjar F, Owley T, Mosconi MW, Jacob S, Hur K, Guter SJ, Sweeney JA, Gibbons RD, Cook EH, Bishop JR",
+                "Date":"August 2015",
+                "Journal":"Journal of child and adolescent psychopharmacology",
+                "PubMed ID":"26262902",
+                "Study":"Create Study",
+                "Title":"Pharmacogenetic Study of Serotonin Transporter and 5HT2A Genotypes in Autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26262902"
+            },
+            {
+                "Authors":"Farmer C, Butter E, Mazurek MO, Cowan C, Lainhart J, Cook EH, Dewitt MB, Aman M",
+                "Date":"April 2015",
+                "Journal":"Autism : the international journal of research and practice",
+                "PubMed ID":"24497627",
+                "Study":"Create Study",
+                "Title":"Aggression in children with autism spectrum disorders and a clinic-referred comparison group.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/24497627"
+            },
+            {
+                "Authors":"Takarae Y, Luna B, Minshew NJ, Sweeney JA",
+                "Date":"January 2014",
+                "Journal":"Journal of the International Neuropsychological Society : JINS",
+                "PubMed ID":"24365486",
+                "Study":"Create Study",
+                "Title":"Visual motion processing and visual sensorimotor control in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/24365486"
+            },
+            {
+                "Authors":"Hamilton PJ, Campbell NG, Sharma S, Erreger K, Herborg Hansen F, Saunders C, Belovich AN, , Sahai MA, Cook EH, Gether U, McHaourab HS, Matthies HJ, Sutcliffe JS, Galli ADaly MJGibbs RABoerwinkle EBuxbaum JDCook EHDevlin BLim ETNeale BMRoeder KSabo ASchellenberg GDStevens CSutcliffe JS",
+                "Date":"December 2013",
+                "Journal":"Molecular psychiatry",
+                "PubMed ID":"23979605",
+                "Study":"Create Study",
+                "Title":"De novo mutation in the dopamine transporter gene associates dopamine dysfunction with autism spectrum disorder.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23979605"
+            },
+            {
+                "Authors":"Levin-Decanini T, Maltman N, Francis SM, Guter S, Anderson GM, Cook EH, Jacob S",
+                "Date":"December 2013",
+                "Journal":"Autism research : official journal of the International Society for Autism Research",
+                "PubMed ID":"23956104",
+                "Study":"Create Study",
+                "Title":"Parental broader autism subphenotypes in ASD affected families: relationship to gender, child's symptoms, SSRI treatment, and platelet serotonin.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23956104"
+            },
+            {
+                "Authors":"D'Cruz AM, Ragozzino ME, Mosconi MW, Shrestha S, Cook EH, Sweeney JA",
+                "Date":"March 2013",
+                "Journal":"Neuropsychology",
+                "PubMed ID":"23527643",
+                "Study":"Create Study",
+                "Title":"Reduced behavioral flexibility in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23527643"
+            },
+            {
+                "Authors":"Lim ET, Raychaudhuri S, Sanders SJ, Stevens C, Sabo A, MacArthur DG, Neale BM, Kirby A, Ruderfer DM, Fromer M, Lek M, Liu L, Flannick J, Ripke S, Nagaswamy U, Muzny D, Reid JG, Hawes A, Newsham I, Wu Y, Lewis L, Dinh H, Gross S, Wang LS, Lin CF, et al.",
+                "Date":"January 23, 2013",
+                "Journal":"Neuron",
+                "PubMed ID":"23352160",
+                "Study":"Create Study",
+                "Title":"Rare complete knockouts in humans: population distribution and significant role in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23352160"
+            },
+            {
+                "Authors":"Hammock E, Veenstra-VanderWeele J, Yan Z, Kerr TM, Morris M, Anderson GM, Carter CS, Cook EH, Jacob S",
+                "Date":"July 2012",
+                "Journal":"Journal of the American Academy of Child and Adolescent Psychiatry",
+                "PubMed ID":"22721594",
+                "Study":"Create Study",
+                "Title":"Examining autism spectrum disorders by biomarkers: example from the oxytocin and serotonin systems.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/22721594"
+            },
+            {
+                "Authors":"Davis LK, Maltman N, Mosconi MW, Macmillan C, Schmitt L, Moore K, Francis SM, Jacob S, Sweeney JA, Cook EH",
+                "Date":"July 2012",
+                "Journal":"American journal of medical genetics. Part A",
+                "PubMed ID":"22678932",
+                "Study":"Create Study",
+                "Title":"Rare inherited A2BP1 deletion in a proband with autism and developmental hemiparesis.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/22678932"
+            },
+            {
+                "Authors":"Kim SJ, Silva RM, Flores CG, Jacob S, Guter S, Valcante G, Zaytoun AM, Cook EH, Badner JA",
+                "Date":"2011",
+                "Journal":"Molecular autism",
+                "PubMed ID":"21609426",
+                "Study":"Create Study",
+                "Title":"A quantitative association study of SLC25A12 and restricted repetitive behavior traits in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21609426"
+            },
+            {
+                "Authors":"Owley T, Brune CW, Salt J, Walton L, Guter S, Ayuyao N, Gibbons RD, Leventhal BL, Cook EH",
+                "Date":"February 2010",
+                "Journal":"Autism research : official journal of the International Society for Autism Research",
+                "PubMed ID":"20020537",
+                "Study":"Create Study",
+                "Title":"A pharmacogenetic study of escitalopram in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20020537"
+            }
+        ],
+        "Relevant Publications":[
+            {
+                "Authors":"Najjar F, Owley T, Mosconi MW, Jacob S, Hur K, Guter SJ, Sweeney JA, Gibbons RD, Cook EH, Bishop JR",
+                "Date":"August 2015",
+                "Journal":"Journal of child and adolescent psychopharmacology",
+                "PubMed ID":"26262902",
+                "Study":"Create Study",
+                "Title":"Pharmacogenetic Study of Serotonin Transporter and 5HT2A Genotypes in Autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26262902"
+            },
+            {
+                "Authors":"Farmer C, Butter E, Mazurek MO, Cowan C, Lainhart J, Cook EH, Dewitt MB, Aman M",
+                "Date":"April 2015",
+                "Journal":"Autism : the international journal of research and practice",
+                "PubMed ID":"24497627",
+                "Study":"Create Study",
+                "Title":"Aggression in children with autism spectrum disorders and a clinic-referred comparison group.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/24497627"
+            },
+            {
+                "Authors":"Takarae Y, Luna B, Minshew NJ, Sweeney JA",
+                "Date":"January 2014",
+                "Journal":"Journal of the International Neuropsychological Society : JINS",
+                "PubMed ID":"24365486",
+                "Study":"Create Study",
+                "Title":"Visual motion processing and visual sensorimotor control in autism.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/24365486"
+            },
+            {
+                "Authors":"Hamilton PJ, Campbell NG, Sharma S, Erreger K, Herborg Hansen F, Saunders C, Belovich AN, , Sahai MA, Cook EH, Gether U, McHaourab HS, Matthies HJ, Sutcliffe JS, Galli ADaly MJGibbs RABoerwinkle EBuxbaum JDCook EHDevlin BLim ETNeale BMRoeder KSabo ASchellenberg GDStevens CSutcliffe JS",
+                "Date":"December 2013",
+                "Journal":"Molecular psychiatry",
+                "PubMed ID":"23979605",
+                "Study":"Create Study",
+                "Title":"De novo mutation in the dopamine transporter gene associates dopamine dysfunction with autism spectrum disorder.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23979605"
+            },
+            {
+                "Authors":"Levin-Decanini T, Maltman N, Francis SM, Guter S, Anderson GM, Cook EH, Jacob S",
+                "Date":"December 2013",
+                "Journal":"Autism research : official journal of the International Society for Autism Research",
+                "PubMed ID":"23956104",
+                "Study":"Create Study",
+                "Title":"Parental broader autism subphenotypes in ASD affected families: relationship to gender, child's symptoms, SSRI treatment, and platelet serotonin.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23956104"
+            },
+            {
+                "Authors":"D'Cruz AM, Ragozzino ME, Mosconi MW, Shrestha S, Cook EH, Sweeney JA",
+                "Date":"March 2013",
+                "Journal":"Neuropsychology",
+                "PubMed ID":"23527643",
+                "Study":"Create Study",
+                "Title":"Reduced behavioral flexibility in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23527643"
+            },
+            {
+                "Authors":"Lim ET, Raychaudhuri S, Sanders SJ, Stevens C, Sabo A, MacArthur DG, Neale BM, Kirby A, Ruderfer DM, Fromer M, Lek M, Liu L, Flannick J, Ripke S, Nagaswamy U, Muzny D, Reid JG, Hawes A, Newsham I, Wu Y, Lewis L, Dinh H, Gross S, Wang LS, Lin CF, et al.",
+                "Date":"January 23, 2013",
+                "Journal":"Neuron",
+                "PubMed ID":"23352160",
+                "Study":"Create Study",
+                "Title":"Rare complete knockouts in humans: population distribution and significant role in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/23352160"
+            },
+            {
+                "Authors":"Hammock E, Veenstra-VanderWeele J, Yan Z, Kerr TM, Morris M, Anderson GM, Carter CS, Cook EH, Jacob S",
+                "Date":"July 2012",
+                "Journal":"Journal of the American Academy of Child and Adolescent Psychiatry",
+                "PubMed ID":"22721594",
+                "Study":"Create Study",
+                "Title":"Examining autism spectrum disorders by biomarkers: example from the oxytocin and serotonin systems.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/22721594"
+            },
+            {
+                "Authors":"Davis LK, Maltman N, Mosconi MW, Macmillan C, Schmitt L, Moore K, Francis SM, Jacob S, Sweeney JA, Cook EH",
+                "Date":"July 2012",
+                "Journal":"American journal of medical genetics. Part A",
+                "PubMed ID":"22678932",
+                "Study":"Create Study",
+                "Title":"Rare inherited A2BP1 deletion in a proband with autism and developmental hemiparesis.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/22678932"
+            },
+            {
+                "Authors":"Kim SJ, Silva RM, Flores CG, Jacob S, Guter S, Valcante G, Zaytoun AM, Cook EH, Badner JA",
+                "Date":"2011",
+                "Journal":"Molecular autism",
+                "PubMed ID":"21609426",
+                "Study":"Create Study",
+                "Title":"A quantitative association study of SLC25A12 and restricted repetitive behavior traits in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/21609426"
+            },
+            {
+                "Authors":"Owley T, Brune CW, Salt J, Walton L, Guter S, Ayuyao N, Gibbons RD, Leventhal BL, Cook EH",
+                "Date":"February 2010",
+                "Journal":"Autism research : official journal of the International Society for Autism Research",
+                "PubMed ID":"20020537",
+                "Study":"Create Study",
+                "Title":"A pharmacogenetic study of escitalopram in autism spectrum disorders.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20020537"
+            }
+        ],
+        "Shared Data":[
+            {
+                "Number of Subjects":"287",
+                "Title":"Aberrant Behavior Checklist (ABC) - Community",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"277",
+                "Title":"Autism Diagnostic Interview, Revised (ADI-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"52",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS) - Module 1 (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"31",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS) - Module 2 (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"66",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS) - Module 4",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"44",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 1",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"31",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"139",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 3",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"157",
+                "Title":"Autism Diagnostic Observation Schedule (ADOS)- Module 3 (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"52",
+                "Title":"Autism Diagnostic Observation Schedule, 2nd Edition (ADOS-2) - Module 1",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"31",
+                "Title":"Autism Diagnostic Observation Schedule, 2nd Edition (ADOS-2) - Module 2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"157",
+                "Title":"Autism Diagnostic Observation Schedule, 2nd Edition (ADOS-2) - Module 3",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"64",
+                "Title":"Autism Diagnostic Observation Schedule, 2nd Edition (ADOS-2) - Module 4",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"355",
+                "Title":"Broad Autism Phenotype Questionnaire (BAPQ)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"13",
+                "Title":"CELF Preschool-2",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"76",
+                "Title":"CELF-4 Clinical Eval of Lang Fundamentals, 4th ed",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"198",
+                "Title":"CHARGE Family Characteristics Questionnaire",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"247",
+                "Title":"CHARGE Medical History",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"253",
+                "Title":"CHARGE Physical Exam",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"189",
+                "Title":"Childhood Routines Inventory (CRI)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"48",
+                "Title":"Children's Scale of Hostility and Aggression: Reactive/Proactive",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"41",
+                "Title":"Clinical Global Impression (CGI)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"165",
+                "Title":"DAS-II: Differential Ability Scales 2nd Ed. School Age",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"70",
+                "Title":"DAS-II:Differential Ability Scales 2nd Ed. Early Years",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"265",
+                "Title":"Demographics",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"154",
+                "Title":"Expressive One-Word Picture Vocabulary Test (2000)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"179",
+                "Title":"Genomics Sample",
+                "Type":"Genomics"
+            },
+            {
+                "Number of Subjects":"528",
+                "Title":"Genomics Subject",
+                "Type":"Genomics"
+            },
+            {
+                "Number of Subjects":"58",
+                "Title":"Image",
+                "Type":"Imaging"
+            },
+            {
+                "Number of Subjects":"243",
+                "Title":"Karyotype",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"201",
+                "Title":"Modified CHARGE Family Medical History (2007)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"30",
+                "Title":"Mullen Scales of Early Learning",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"47",
+                "Title":"Obsessive-Compulsive Inventory - Revised (OCI-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"153",
+                "Title":"Peabody Picture Vocabulary Test, Fourth Edition-Form A",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"36",
+                "Title":"Peabody Picture Vocabulary Test, Fourth Edition-Form B",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"18",
+                "Title":"Preschool Language Scale, Fourth Edition (PLS-4)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"10",
+                "Title":"Ravens Coloured Progressive Matrices (CPM)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"313",
+                "Title":"Repetitive Behavior Scale - Revised (RBS-R)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"256",
+                "Title":"Research Subject",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"238",
+                "Title":"SRS-2. Adult, Preschool and School Age",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"29",
+                "Title":"Social Communication Questionnaire (SCQ) - Current Form",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"270",
+                "Title":"Social Communication Questionnaire (SCQ) - Lifetime",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"196",
+                "Title":"Social Responsiveness Scale (SRS)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"50",
+                "Title":"Social Responsiveness Scale (SRS) - Adult/Self Version",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"195",
+                "Title":"Tanner Sexual Maturity Scale",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"259",
+                "Title":"Vineland-II - Survey Form (2005)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"106",
+                "Title":"Wechsler Abbreviated Scale of Intelligence (WASI)",
+                "Type":"Clinical Assessments"
+            },
+            {
+                "Number of Subjects":"2",
+                "Title":"Wechsler Adult Intelligence Scale Fourth Edition [part 1]",
+                "Type":"Clinical Assessments"
+            }
+        ],
+        "Title":"UIC ACE: Translational Studies of Insistence on Sameness in Autism"
+    }
+}
