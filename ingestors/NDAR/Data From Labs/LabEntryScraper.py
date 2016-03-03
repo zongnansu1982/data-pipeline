@@ -13,7 +13,7 @@ def getNext(start):
 # or the grant information table
 
 
-
+# Function used to scrape data
 def scrape(queue):
     while True:
         filename = queue.get()
@@ -34,7 +34,7 @@ def scrape(queue):
             # Get <tr> that holds the title
             start = table.find('td', {'class' : 'labelColumn'}).parent
 
-
+            # Gets several tables from the webpage to be scraped later
             title = start.find_next('td').find_next('td').text.strip().encode('utf-8')
             investigators = getNext(start)
             description = getNext(start)
@@ -42,35 +42,24 @@ def scrape(queue):
             collectionPhase = getNext(start)
             collectionState = getNext(start)
 
-
-
             fundingSourcesTable = table.find_next_sibling('span').extract()
             if fundingSourcesTable.find_next('tr', {'class' : 'tableHeader'}) is not None:
                 fundingSourcesTable.find_next('tr', {'class' : 'tableHeader'}).find_next('th').find_next('th').find_next('th').extract()
 
-
             suppDocsTable = table.find_next_sibling('span').extract()
-
 
             grantTable = table.find_next_sibling('span').extract()
 
-
             clinicalTrialsTable = table.find_next_sibling('span').extract()
 
-
             experimentsTable = soup.find('tbody', {'id' : 'experiment-table_data'})
-
 
             tab3 = soup.find('div', {'id' : 'tab-3'})
             sharedDataTable = tab3.find_next('table')
 
-
             publicationTable = soup.find('thead', {'id' : 'publication-table_head'})
 
-
             relevantPubTable = soup.find('thead', {'id' : 'relevant-publication-table_head'})
-
-
 
             # Slightly different than other tables because it uses values instead of text
             dataExpectedTable = soup.find('tbody', {'id' : 'data-expected-table_data'})
@@ -114,13 +103,8 @@ def scrape(queue):
                             print "Col was None for " , filename ," with rowInfo " , rowInfo
                             rowDict["No records found."] = ""
 
-
-
                         info.append(rowDict)
                         row = row.find_next_sibling('tr')
-
-
-
 
             studiesTable = soup.find('div', {'id' : 'tab-7'}).find_next('table')
 
