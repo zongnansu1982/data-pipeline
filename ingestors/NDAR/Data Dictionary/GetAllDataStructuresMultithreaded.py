@@ -1,4 +1,4 @@
-import requests, json, xml.etree.ElementTree as ET, threading, Queue, os, ast
+import requests, json, threading, Queue, os, ast
 
 
 # Recursively removes any empty elements or lists from the structure dictionary
