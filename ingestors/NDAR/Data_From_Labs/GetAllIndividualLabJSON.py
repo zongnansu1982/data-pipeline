@@ -11,7 +11,7 @@ def run():
         t.daemon = True
         t.start()
 
-    for index, i in enumerate(os.listdir("Data From Labs HTML")):
+    for index, i in enumerate(os.listdir("Data_From_Labs_HTML")):
         q.put(i.split(".")[0])
 
     q.join()

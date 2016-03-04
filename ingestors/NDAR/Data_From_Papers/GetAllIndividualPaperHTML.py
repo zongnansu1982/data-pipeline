@@ -29,7 +29,7 @@ def run():
 
     for index in range(len(pageIDs)):
         entry = requests.get(noIdPage + pageIDs[index].text)
-        directory = "Data From Papers HTML"
+        directory = "Data_From_Papers_HTML"
         if not os.path.exists(directory):
             os.makedirs(directory)
         f = open(directory + "/Entry" + pageIDs[index].text + ".html", "w")

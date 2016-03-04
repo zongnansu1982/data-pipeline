@@ -16,13 +16,13 @@ def scrape(queue):
         filename = queue.get()
         try:
             #print "Getting webpage from file..."
-            f = "Data From Papers HTML/" + filename + ".html"
+            f = "Data_From_Papers_HTML/" + filename + ".html"
             page = open(f, "r").read()
 
             #print "Generating soup..."
             soup = bs4.BeautifulSoup(page, "html.parser")
             entryDict = {}
-
+            entryDict["Title"] = soup.find('div', {'class':'id-wrapper'}).find_next('label').text
             leftTable = soup.find('div', {'class' : 'study-summary-wrapper study-left-wrapper'})
             entryDict["Investigators"] = getNextChunk(leftTable)
             entryDict["Abstract"] = getNextChunk(leftTable)
@@ -32,8 +32,11 @@ def scrape(queue):
             try:
                 resultTD = leftTable.find_next('tr').extract().find_next('td').find_next('td')
                 while True:
-                    resultLink = str(resultTD.find_next('div').extract().text.strip())
-                    resultList.append(resultLink)
+                    resultDict = {}
+                    resultDict["URL"] = str(resultTD.find_next('div').find_next('a')['href'])
+                    resultDict["Title"] = str(resultTD.find_next('div').extract().text.strip())
+                    resultList.append(resultDict)
+
             except:
                 pass
 
@@ -102,7 +105,11 @@ def scrape(queue):
             entryDict["Measures"] = measuresList
 
             # Gets the id number of the entry
-            typeDict = SeleniumTypesScraper.scrape(filename[5:])
+            try:
+                typeDict = SeleniumTypesScraper.scrape(filename[5:])
+            except AttributeError:
+                pass
+
 
             if len(typeDict) > 0:
                 entryDict["Types"] = typeDict
@@ -110,7 +117,7 @@ def scrape(queue):
             entryDict['ResourceURL'] = "https://ndar.nih.gov/study.html?id=" + filter(str.isdigit, filename)
 
             jFile = json.dumps(entryDict, sort_keys=True, indent=4, separators=(',',':'))
-            directory = "Data From Papers JSON"
+            directory = "Data_From_Papers_JSON"
             if not os.path.exists(directory):
                 os.makedirs(directory)
             file = open(directory + "/" + filename + ".json", 'w')
@@ -137,9 +144,10 @@ def run():
         t.daemon = True
         t.start()
     global totalEntries
-
-    totalEntries = len(os.listdir("Data From Papers HTML"))
-    for index, i in enumerate(os.listdir("Data From Papers HTML")):
+    directory = "Data_From_Papers_HTML"
+    totalEntries = len(os.listdir(directory))
+    for index, i in enumerate(os.listdir(directory)):
+        #if i.split(".")[0] == "TESTFILE":
         q.put(i.split(".")[0])
 
     q.join()

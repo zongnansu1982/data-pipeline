@@ -1,5 +1,5 @@
 from selenium import webdriver
-import os
+import os, sys
 # gets all checked values from a category and adds them to a dictionary
 def getChecked(td):
 
@@ -38,9 +38,23 @@ def scrape(idNumber):
 
 
     diri = os.path.dirname(__file__)
-    path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
-    driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
+
+
+    if sys.platform == 'win32':
+        path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs.exe')
+        driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
+    elif sys.platform == 'linux2':
+        path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
+        driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
+    else:
+        raise Exception("This operating system is not handled yet.")
+
+
+
+
+
     studyType = None
+    typeDict = {}
     try:
 
         driver.get("https://ndar.nih.gov/study.html?id=" + idNumber)
@@ -56,9 +70,9 @@ def scrape(idNumber):
         print "Couldn't find study type."
         return -1
 
+    typeDict["Study Type"] = studyType
 
 
-    typeDict = {}
     tds = elem.find_elements_by_xpath(".//td")
     for element in tds:
         #checkDict[control] = genomicsID
@@ -81,5 +95,8 @@ def scrape(idNumber):
     for elm in typeDict.keys():
         if len(typeDict[elm]) == 0:
             del typeDict[elm]
-    driver.close()
+    if driver:
+        driver.close()
+
     return typeDict
+

@@ -19,7 +19,7 @@ def scrape(queue):
         filename = queue.get()
         try:
             #print "Getting webpage from file..."
-            f = "Data From Labs HTML/" + filename + ".html"
+            f = "Data_From_Labs_HTML/" + filename + ".html"
             page = open(f, "r").read()
 
             #print "Generating soup..."
@@ -161,7 +161,7 @@ def scrape(queue):
             final['Entry'] = pageDict
             jFile = json.dumps(final, sort_keys=True, indent=4, separators=(',', ':'))
 
-            directory = "Data From Labs JSON"
+            directory = "Data_From_Labs_JSON"
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
