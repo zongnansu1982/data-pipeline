@@ -8,6 +8,9 @@ def cleanDict(d):
         if len(d[elm]) == 0:
             del d[elm]
 
+def getNextChunk(table):
+    return table.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
+
 def scrape(queue):
     while True:
         filename = queue.get()
@@ -21,8 +24,8 @@ def scrape(queue):
             entryDict = {}
 
             leftTable = soup.find('div', {'class' : 'study-summary-wrapper study-left-wrapper'})
-            entryDict["Investigators"] = leftTable.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
-            entryDict["Abstract"] = leftTable.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
+            entryDict["Investigators"] = getNextChunk(leftTable)
+            entryDict["Abstract"] = getNextChunk(leftTable)
 
             #TODO: Get link, but need login info
             resultList = []
@@ -35,9 +38,9 @@ def scrape(queue):
                 pass
 
             entryDict["Results"] = resultList
-            entryDict["Documents"] = leftTable.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
-            entryDict["DOI"] = leftTable.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
-            entryDict["Data Use"] = leftTable.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
+            entryDict["Documents"] = getNextChunk(leftTable)
+            entryDict["DOI"] = getNextChunk(leftTable)
+            entryDict["Data Use"] = getNextChunk(leftTable)
 
             cleanDict(entryDict)
 

@@ -1,7 +1,7 @@
 import LabEntryScraper
 import os, threading, Queue
 
-
+# Opens multiple threads to scrape data from each html page
 def run():
     q = Queue.Queue()
 

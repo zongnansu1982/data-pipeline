@@ -1,0 +1,658 @@
+{
+    "status": "Published", 
+    "title": "Axis 1 Diagnoses ", 
+    "dataType": "Clinical Assessments", 
+    "sources": [
+        "RDoC"
+    ], 
+    "shortName": "a1d01", 
+    "categories": [
+        "Diagnostic"
+    ], 
+    "dataElements": [
+        {
+            "name": "subjectkey", 
+            "description": "The NDAR Global Unique Identifier (GUID) for research subject", 
+            "required": "Required", 
+            "valueRange": "NDAR*", 
+            "dataElementId": 1, 
+            "position": 1, 
+            "type": "GUID", 
+            "id": 2082767
+        }, 
+        {
+            "name": "src_subject_id", 
+            "description": "Subject ID how it's defined in lab/project", 
+            "required": "Required", 
+            "dataElementId": 2, 
+            "position": 2, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2082768
+        }, 
+        {
+            "name": "interview_date", 
+            "description": "Date on which the interview/genetic test/sampling/imaging was completed. MM/DD/YYYY", 
+            "required": "Required", 
+            "dataElementId": 3, 
+            "notes": "Required field", 
+            "position": 3, 
+            "type": "Date", 
+            "id": 2082769
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "interview_age", 
+            "description": "Age in months at the time of the interview/test/sampling/imaging.", 
+            "required": "Required", 
+            "valueRange": "0 :: 1260", 
+            "dataElementId": 4, 
+            "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month.", 
+            "position": 4, 
+            "type": "Integer", 
+            "id": 2082770
+        }, 
+        {
+            "name": "gender", 
+            "description": "Gender", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Male"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Female"
+                    ], 
+                    "key": "F"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "F"
+                }
+            ], 
+            "valueRange": "M;F; T", 
+            "dataElementId": 10, 
+            "notes": "M = Male; F = Female; T= Transgender", 
+            "position": 5, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2082771
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d1", 
+            "description": "Bipolar I Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291089, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 6, 
+            "type": "Integer", 
+            "id": 2082772
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d2", 
+            "description": "Bipolar II Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291058, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 7, 
+            "type": "Integer", 
+            "id": 2082773
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d3", 
+            "description": "Other Bipolar Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291061, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 8, 
+            "type": "Integer", 
+            "id": 2082774
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d4", 
+            "description": "Major Depressive Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291096, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 9, 
+            "type": "Integer", 
+            "id": 2082775
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d5", 
+            "description": "Dysthymic Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291057, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 10, 
+            "type": "Integer", 
+            "id": 2082776
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d6", 
+            "description": "Depressive Disorder NOS", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291097, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 11, 
+            "type": "Integer", 
+            "id": 2082777
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d7", 
+            "description": "Mood Disorder Due to Med Cond", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291070, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 12, 
+            "type": "Integer", 
+            "id": 2082778
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d8", 
+            "description": "Substance-Induced Mood Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291077, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 13, 
+            "type": "Integer", 
+            "id": 2082779
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d9", 
+            "description": "Schizophrenia", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291082, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 14, 
+            "type": "Integer", 
+            "id": 2082780
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d10", 
+            "description": "Schizophreniform Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291075, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 15, 
+            "type": "Integer", 
+            "id": 2082781
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d11", 
+            "description": "Schizoaffective Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291060, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 16, 
+            "type": "Integer", 
+            "id": 2082782
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d12", 
+            "description": "Delusional Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291079, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 17, 
+            "type": "Integer", 
+            "id": 2082783
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d13", 
+            "description": "Brief Psychotic Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291086, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 18, 
+            "type": "Integer", 
+            "id": 2082784
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d14", 
+            "description": "Psychotic Disorder Due to Med Cond", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291064, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 19, 
+            "type": "Integer", 
+            "id": 2082785
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d15", 
+            "description": "Substance-Induced Psychotic Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291100, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 20, 
+            "type": "Integer", 
+            "id": 2082786
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d16", 
+            "description": "Psychotic Disorder NOS", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291066, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 21, 
+            "type": "Integer", 
+            "id": 2082787
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d17", 
+            "description": "Alcohol Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291083, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 22, 
+            "type": "Integer", 
+            "id": 2082788
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d18", 
+            "description": "Sedative-Hypnotic-Anxiolytic Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291067, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 23, 
+            "type": "Integer", 
+            "id": 2082789
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d19", 
+            "description": "Cannabis Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291059, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 24, 
+            "type": "Integer", 
+            "id": 2082790
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d20", 
+            "description": "Stimulants Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291073, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 25, 
+            "type": "Integer", 
+            "id": 2082791
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d21", 
+            "description": "Opioid Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291081, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 26, 
+            "type": "Integer", 
+            "id": 2082792
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d22", 
+            "description": "Cocaine Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291090, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 27, 
+            "type": "Integer", 
+            "id": 2082793
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d23", 
+            "description": "Hallucinogens PCP Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291099, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 28, 
+            "type": "Integer", 
+            "id": 2082794
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d24", 
+            "description": "Poly Drug Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291068, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 29, 
+            "type": "Integer", 
+            "id": 2082795
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d25", 
+            "description": "Other Abuse/Dependence", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291063, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 30, 
+            "type": "Integer", 
+            "id": 2082796
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d26", 
+            "description": "Panic Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291087, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 31, 
+            "type": "Integer", 
+            "id": 2082797
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d27", 
+            "description": "Agoraphobia", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291080, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 32, 
+            "type": "Integer", 
+            "id": 2082798
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d28", 
+            "description": "Separation Anxiety", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291062, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 33, 
+            "type": "Integer", 
+            "id": 2082799
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d29", 
+            "description": "Social Phobia", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291065, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 34, 
+            "type": "Integer", 
+            "id": 2082800
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d30", 
+            "description": "Specific Phobia", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291072, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 35, 
+            "type": "Integer", 
+            "id": 2082801
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d31", 
+            "description": "OCD", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291095, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 36, 
+            "type": "Integer", 
+            "id": 2082802
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d32", 
+            "description": "PTSD", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291074, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 37, 
+            "type": "Integer", 
+            "id": 2082803
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d33", 
+            "description": "GAD", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291054, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 38, 
+            "type": "Integer", 
+            "id": 2082804
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d34", 
+            "description": "Anxiety Due to MED CON", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291085, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 39, 
+            "type": "Integer", 
+            "id": 2082805
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d35", 
+            "description": "Substance-Induced Anxiety Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291091, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 40, 
+            "type": "Integer", 
+            "id": 2082806
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d36", 
+            "description": "Anxiety NOS", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291055, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 41, 
+            "type": "Integer", 
+            "id": 2082807
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d37", 
+            "description": "Somatization Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291056, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 42, 
+            "type": "Integer", 
+            "id": 2082808
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d38", 
+            "description": "Pain Diosrder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291098, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 43, 
+            "type": "Integer", 
+            "id": 2082809
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d39", 
+            "description": "Undifferentiated Somatoform Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291093, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 44, 
+            "type": "Integer", 
+            "id": 2082810
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d40", 
+            "description": "Hypochondriasis", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291071, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 45, 
+            "type": "Integer", 
+            "id": 2082811
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d41", 
+            "description": "Body Dysmorphic Disorder", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291094, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 46, 
+            "type": "Integer", 
+            "id": 2082812
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d42", 
+            "description": "AN", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291076, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 47, 
+            "type": "Integer", 
+            "id": 2082813
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d43", 
+            "description": "BN", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291088, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 48, 
+            "type": "Integer", 
+            "id": 2082814
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d44", 
+            "description": "BED", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291078, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 49, 
+            "type": "Integer", 
+            "id": 2082815
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d45", 
+            "description": "EDNOS", 
+            "required": "Recommended", 
+            "valueRange": "1::3", 
+            "dataElementId": 1291092, 
+            "notes": "Positive Diagnosis = 3; Intermediate Diagnosis = 2; Negative Diagnosis = 1", 
+            "position": 50, 
+            "type": "Integer", 
+            "id": 2082816
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d46", 
+            "description": "Mood Disorder", 
+            "required": "Recommended", 
+            "valueRange": "0;1", 
+            "dataElementId": 1291069, 
+            "notes": "Positive Mood Disorder DX = 1; Negative Mood Disorder DX = 0", 
+            "position": 51, 
+            "type": "Integer", 
+            "id": 2082817
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a1d47", 
+            "description": "Anxiety Disorder", 
+            "required": "Recommended", 
+            "valueRange": "0;1", 
+            "dataElementId": 1291084, 
+            "notes": "Positive Mood Disorder DX = 1; Negative Mood Disorder DX = 0", 
+            "position": 52, 
+            "type": "Integer", 
+            "id": 2082818
+        }
+    ]
+}

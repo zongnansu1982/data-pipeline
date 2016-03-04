@@ -1,0 +1,270 @@
+{
+    "status": "Published", 
+    "title": "Autism Behavior Checklist", 
+    "dataType": "Clinical Assessments", 
+    "publishDate": 1354832252877, 
+    "sources": [
+        "NDAR"
+    ], 
+    "shortName": "abc01", 
+    "categories": [
+        "Questionnaire"
+    ], 
+    "dataElements": [
+        {
+            "name": "subjectkey", 
+            "description": "The NDAR Global Unique Identifier (GUID) for research subject", 
+            "required": "Required", 
+            "valueRange": "NDAR*", 
+            "dataElementId": 1, 
+            "position": 1, 
+            "type": "GUID", 
+            "id": 2039668
+        }, 
+        {
+            "name": "src_subject_id", 
+            "description": "Subject ID how it's defined in lab/project", 
+            "required": "Required", 
+            "dataElementId": 2, 
+            "position": 2, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2039669
+        }, 
+        {
+            "name": "interview_date", 
+            "description": "Date on which the interview/genetic test/sampling/imaging was completed. MM/DD/YYYY", 
+            "required": "Required", 
+            "dataElementId": 3, 
+            "notes": "Required field", 
+            "position": 3, 
+            "type": "Date", 
+            "id": 2039670
+        }, 
+        {
+            "name": "interview_age", 
+            "description": "Age in months at the time of the interview/test/sampling/imaging.", 
+            "required": "Required", 
+            "valueRange": "0 :: 1260", 
+            "dataElementId": 4, 
+            "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month.", 
+            "position": 4, 
+            "type": "Integer", 
+            "id": 2039671
+        }, 
+        {
+            "name": "gender", 
+            "description": "Gender", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "Male"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "F"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Female"
+                    ], 
+                    "key": "F"
+                }
+            ], 
+            "valueRange": "M;F; T", 
+            "dataElementId": 10, 
+            "notes": "M = Male; F = Female; T= Transgender", 
+            "position": 5, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2039672
+        }, 
+        {
+            "name": "abc01", 
+            "description": "Encopresis when previously toilet trained", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262401, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 6, 
+            "type": "Integer", 
+            "id": 2039673
+        }, 
+        {
+            "name": "abc02", 
+            "description": "Enuresis when previously toilet trained", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262402, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 7, 
+            "type": "Integer", 
+            "id": 2039674
+        }, 
+        {
+            "name": "abc03", 
+            "description": "Oral sensory seeking behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262403, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 8, 
+            "type": "Integer", 
+            "id": 2039675
+        }, 
+        {
+            "name": "abc04", 
+            "description": "Oral sensory defensive behaviours", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262404, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 9, 
+            "type": "Integer", 
+            "id": 2039676
+        }, 
+        {
+            "name": "abc05", 
+            "description": "Tactile seeking behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262405, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 10, 
+            "type": "Integer", 
+            "id": 2039677
+        }, 
+        {
+            "name": "abc06", 
+            "description": "Tactile defensive behaviors related to previously non-aversive objects", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262406, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 11, 
+            "type": "Integer", 
+            "id": 2039678
+        }, 
+        {
+            "name": "abc07", 
+            "description": "Proprioceptive seeking behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262407, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 12, 
+            "type": "Integer", 
+            "id": 2039679
+        }, 
+        {
+            "name": "abc08", 
+            "description": "Proprioceptive defensive behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262408, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 13, 
+            "type": "Integer", 
+            "id": 2039680
+        }, 
+        {
+            "name": "abc09", 
+            "description": "Increases in echolalia", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262409, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 14, 
+            "type": "Integer", 
+            "id": 2039681
+        }, 
+        {
+            "name": "abc10", 
+            "description": "Increased anxiety under normal conditions", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262410, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 15, 
+            "type": "Integer", 
+            "id": 2039682
+        }, 
+        {
+            "name": "abc11", 
+            "description": "Increase in self-regulatory behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262411, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 16, 
+            "type": "Integer", 
+            "id": 2039683
+        }, 
+        {
+            "name": "abc12", 
+            "description": "Increase in self-injurious behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262412, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 17, 
+            "type": "Integer", 
+            "id": 2039684
+        }, 
+        {
+            "name": "abc13", 
+            "description": "Increased sensitivity to visual or auditory stimuli", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262413, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 18, 
+            "type": "Integer", 
+            "id": 2039685
+        }, 
+        {
+            "name": "abc14", 
+            "description": "Perseveration on new items/ or topics related to sex and/or sexual activity", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262414, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 19, 
+            "type": "Integer", 
+            "id": 2039686
+        }, 
+        {
+            "name": "abc15", 
+            "description": "Increased difficulties with everyday transitions", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262415, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 20, 
+            "type": "Integer", 
+            "id": 2039687
+        }, 
+        {
+            "name": "abc16", 
+            "description": "Other behaviors", 
+            "required": "Recommended", 
+            "valueRange": "0; 1", 
+            "dataElementId": 1262416, 
+            "notes": "0 = No; 1 = Yes", 
+            "position": 21, 
+            "type": "Integer", 
+            "id": 2039688
+        }
+    ]
+}

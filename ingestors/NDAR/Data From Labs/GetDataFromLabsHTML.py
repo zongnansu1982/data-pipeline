@@ -1,8 +1,9 @@
 import requests
 from datetime import date
 
-def run():
 
+# This function gets the Data From Labs page from NDAR and saves its html file
+def run():
     page = requests.get('https://ndar.nih.gov/data_from_labs.html')
 
     f = open("DataFromLabs.html", "w")

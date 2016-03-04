@@ -1,11 +1,4 @@
-import requests, json, xml.etree.ElementTree as ET, threading, Queue
-
-
-xmlPage = open('DataStructures.xml', 'r')
-
-tree = ET.parse(xmlPage)
-root = tree.getroot()
-totalFiles = len(root)
+import requests, json, threading, Queue, os, ast
 
 
 # Recursively removes any empty elements or lists from the structure dictionary
@@ -32,20 +25,34 @@ def writeJson():
             # Remove blank elements
             clean(loaded)
 
-            f = open("Data Dictionary JSON/" + item + ".json", 'w')
+            directory = "Data Dictionary JSON"
+            if not os.path.exists(directory):
+                os.makedirs(directory)
+
+            f = open(directory + "/" + item + ".json", 'w')
             f.write(json.dumps(loaded, indent=4))
             f.close()
             global totalFiles
             totalFiles -= 1
             print "Finished writing ", item, ",", totalFiles, "files remain."
 
-
-
             q.task_done()
         except Exception as e:
             print item, " failed!\n", type(e)
             totalFiles -= 1
 
+
+page = requests.get('https://ndar.nih.gov/api/datadictionary/v2/datastructure/')
+
+elements = page.text.split('"shortName":"')
+
+shortNames = []
+for elem in elements:
+    shortNames.append(str(elem.split('"')[0]))
+
+del shortNames[0]
+
+totalFiles = len(shortNames)
 
 q = Queue.Queue()
 
@@ -55,7 +62,7 @@ for i in range(maxThreads):
     t.daemon = True
     t.start()
 
-for index, child in enumerate(root):
-    q.put(child[0].text)
+for index, name in enumerate(shortNames):
+    q.put(name)
 
 q.join()
