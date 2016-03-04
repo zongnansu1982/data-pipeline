@@ -25,7 +25,7 @@ def writeJson():
             # Remove blank elements
             clean(loaded)
 
-            directory = "Data Dictionary JSON"
+            directory = "Data_Dictionary_JSON"
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
