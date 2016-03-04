@@ -155,7 +155,7 @@ def scrape(queue):
             if len(ST) > 0:
                 pageDict["Associated Studies"] = ST
 
-            pageDict['ResourceURL'] = "https://ndar.nih.gov/edit_collection.html?id=" + filename[-1:]
+            pageDict['ResourceURL'] = "https://ndar.nih.gov/edit_collection.html?id=" + filter(str.isdigit, filename)
 
             final = {}
             final['Entry'] = pageDict

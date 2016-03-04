@@ -107,6 +107,8 @@ def scrape(queue):
             if len(typeDict) > 0:
                 entryDict["Types"] = typeDict
 
+            entryDict['ResourceURL'] = "https://ndar.nih.gov/study.html?id=" + filter(str.isdigit, filename)
+
             jFile = json.dumps(entryDict, sort_keys=True, indent=4, separators=(',',':'))
             directory = "Data From Papers JSON"
             if not os.path.exists(directory):
@@ -143,4 +145,3 @@ def run():
     q.join()
 
     print "Done."
-
