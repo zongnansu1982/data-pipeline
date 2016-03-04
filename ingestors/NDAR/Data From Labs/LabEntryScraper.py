@@ -171,8 +171,10 @@ def scrape(queue):
             if len(ST) > 0:
                 pageDict["Associated Studies"] = ST
 
+            pageDict['ResourceURL'] = "https://ndar.nih.gov/edit_collection.html?id=" + filename[-1:]
+
             final = {}
-            final[filename] = pageDict
+            final['Entry'] = pageDict
             jFile = json.dumps(final, sort_keys=True, indent=4, separators=(',', ':'))
 
             directory = "Data From Labs JSON"

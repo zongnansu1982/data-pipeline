@@ -1,5 +1,5 @@
 {
-    "Entry10":{
+    "Entry":{
         "Associated Studies":[
             {
                 "Data Use":"Primary Analysis",
@@ -446,7 +446,7 @@
                 "Name":"SNP genotypes Illumina 370k",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E215EE96DDFDBB4322866299561BBA5A.node1?experimentId=65&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B8650125482D3DDEFBE4DD5277C7505F.node1?experimentId=65&showSingle=true"
             },
             {
                 "Created Date":"08/20/2012",
@@ -454,7 +454,7 @@
                 "Name":"SNP genotypes Illumina Omni-1: 2010-139, 2010-043, 2011-005",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E215EE96DDFDBB4322866299561BBA5A.node1?experimentId=67&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B8650125482D3DDEFBE4DD5277C7505F.node1?experimentId=67&showSingle=true"
             },
             {
                 "Created Date":"08/20/2012",
@@ -462,7 +462,7 @@
                 "Name":"SNP genotypes Illumina OmniExpress: 2011-015",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E215EE96DDFDBB4322866299561BBA5A.node1?experimentId=68&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B8650125482D3DDEFBE4DD5277C7505F.node1?experimentId=68&showSingle=true"
             }
         ],
         "Funding Sources":[
@@ -566,6 +566,7 @@
                 "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19125863"
             }
         ],
+        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=0",
         "Shared Data":[
             {
                 "Number of Subjects":"290",

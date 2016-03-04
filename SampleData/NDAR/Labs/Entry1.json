@@ -1,5 +1,5 @@
 {
-    "Entry1":{
+    "Entry":{
         "Associated Studies":[
             {
                 "Data Use":"Primary Analysis",
@@ -311,7 +311,7 @@
                 "Name":"Illumina SNP/CNV array",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=51&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=41E608E8197B1438006EF190020EBFD8.node1?experimentId=51&showSingle=true"
             },
             {
                 "Created Date":"09/04/2011",
@@ -319,7 +319,7 @@
                 "Name":"Illumina SNP/CNV array - Omni 1",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=52&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=41E608E8197B1438006EF190020EBFD8.node1?experimentId=52&showSingle=true"
             },
             {
                 "Created Date":"04/06/2015",
@@ -327,7 +327,7 @@
                 "Name":"5-HTTLPR",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=292&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=41E608E8197B1438006EF190020EBFD8.node1?experimentId=292&showSingle=true"
             },
             {
                 "Created Date":"12/08/2015",
@@ -335,7 +335,7 @@
                 "Name":"UIC ACE CIDR",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=D7CB40747CD0AE52A925E3A3430D4044.node1?experimentId=409&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=41E608E8197B1438006EF190020EBFD8.node1?experimentId=409&showSingle=true"
             }
         ],
         "Funding Sources":[
@@ -557,6 +557,7 @@
                 "URL":"http://www.ncbi.nlm.nih.gov/pubmed/20020537"
             }
         ],
+        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=1",
         "Shared Data":[
             {
                 "Number of Subjects":"287",

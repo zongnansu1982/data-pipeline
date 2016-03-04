@@ -1,5 +1,5 @@
 {
-    "Entry8":{
+    "Entry":{
         "Collection Phase":"Closed",
         "Collection State":"Shared",
         "Data Expected":[
@@ -265,7 +265,7 @@
                 "Name":"Caregiver stimuli",
                 "Status":"Approved",
                 "Type":"Eye Tracking",
-                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=6D0176219EBFF512618F2ED25A4819C6.node1?id=165"
+                "URL":"https://ndar.nih.gov/experiment.html;jsessionid=EBD13C8E56711CE88C135FAB1B5E07D7.node1?id=165"
             }
         ],
         "Funding Sources":[
@@ -295,6 +295,7 @@
                 "PubMed ID":"No records found."
             }
         ],
+        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=8",
         "Shared Data":[
             {
                 "Number of Subjects":"132",

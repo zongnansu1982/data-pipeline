@@ -1,5 +1,5 @@
 {
-    "Entry6":{
+    "Entry":{
         "Associated Studies":[
             {
                 "Data Use":"Primary Analysis",
@@ -367,7 +367,7 @@
         "Experiments":[
             {
                 "ID":"No records found.",
-                "URL":"https://ndar.nih.gov/study.html;jsessionid=6C75CE0880BF6607FE1DF7220374DF77.node1?new=true&pmid=26484826&collectionId=6"
+                "URL":"https://ndar.nih.gov/study.html;jsessionid=2564AD23222F336A1108BB84DB776B2B.node1?new=true&pmid=26484826&collectionId=6"
             }
         ],
         "Funding Sources":[
@@ -427,6 +427,7 @@
                 "URL":"http://www.ncbi.nlm.nih.gov/pubmed/25432506"
             }
         ],
+        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=6",
         "Shared Data":[
             {
                 "Number of Subjects":"237",

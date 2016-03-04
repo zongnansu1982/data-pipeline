@@ -1,5 +1,5 @@
 {
-    "Entry7":{
+    "Entry":{
         "Collection Phase":"Closed",
         "Collection State":"Shared",
         "Data Source":"NDAR",
@@ -45,6 +45,7 @@
                 "PubMed ID":"No records found."
             }
         ],
+        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=7",
         "Shared Data":[
             {
                 "Number of Subjects":"224",
