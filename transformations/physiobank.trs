@@ -1,14 +1,34 @@
-/* initial identity transformation */
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'section'" to "section";
-transform column "$.'name'" to "name";
-transform column "$.'url'" to "url";
-transform column "$.'class'" to "class";
-transform column "$.'description'" to "description";
-transform column "$.'reference_name'" to "reference_name";
+/* Dataset Information */
+transform column "$.'name'" to "dataset.title";
+transform column "$.'url'" to "dataset.downloadURL";
+transform column "$.'description'" to "dataset.description";
+transform column "$.'class'" to "dataset.dataType";
+
+transform column "$.'reference_name'" to "publication.name";
+
+/* Data Repository Information */
+transform column "$.'name'" to "dataRepository.name" apply {{ result = 'Physiobank' }};
+transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'Physiobank' }};
+transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:006949' }};
+transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'http://physionet.org/physiobank/' }};
+
+/* Organization Information */
+transform column "$.'name'" to "organization.name" apply {{ result = 'PhysioNet' }};
+transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'PhysioNet' }};
+transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:007345' }};
+transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://www.physionet.org/' }};
+
+/* Items requiring some special formatting/review */
+/*
 transform column "$.'reference_link'" to "reference_link";
 transform column "$.'pmid'" to "pmid";
+*/
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+transform column "$.'section'" to "section";
+*/

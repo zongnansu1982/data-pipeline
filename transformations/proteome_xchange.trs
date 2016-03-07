@@ -1,17 +1,50 @@
-/* initial identity transformation */
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'dataset_identifier'" to "dataset_identifier";
-transform column "$.'title'" to "title";
-transform column "$.'repos'" to "repos";
-transform column "$.'species'" to "species";
-transform column "$.'instrument'" to "instrument";
-transform column "$.'publication'" to "publication";
+/* Dataset Information */
+transform column "$.'dataset_identifier'" to "dataset.ID";
+transform column "$.'title'" to "dataset.title";
+transform column "$.'repos'" to "dataset.storedIn";
+
+transform column "$.'dataset_url'" to "dataset.downloadURL";
+
+transform column "$.'keywords'" to "keywords" apply {{
+arr=re.split("\s*;\s*",value,)
+result=arr
+}};
+
+transform column "$.'announcement_date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
+
+/* Publication Information */
+transform column "$.'publication'" to "publication.name";
+
+/* Person Information */
+transform column "$.'primary_submitter'" to "person[0].name";
+transform column "$.'labhead'" to "person[1].name";
+
+/* Additional Information */
+transform column "$.'species'" to "organism[0].name";
+transform column "$.'instrument'" to "instrument.name";
+
+/* Data Repository Information */
+transform column "$.'name'" to "dataRepository.name" apply {{ result = 'ProteomeXchange' }};
+transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'ProteomeXchange' }};
+transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:004055' }};
+transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'http://www.proteomexchange.org/' }};
+
+/* Organization Information */
+transform column "$.'name'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
+transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'EBI' }};
+transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:004727' }};
+transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
+
+/* Items requiring some special formatting/review */
+/*
 transform column "$.'publication_link'" to "publication_link";
-transform column "$.'primary_submitter'" to "primary_submitter";
-transform column "$.'labhead'" to "labhead";
-transform column "$.'announcement_date'" to "announcement_date";
-transform column "$.'dataset_url'" to "dataset_url";
-transform column "$.'keywords'" to "keywords";
+
+*/
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
+*/

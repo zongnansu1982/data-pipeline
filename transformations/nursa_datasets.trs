@@ -1,15 +1,38 @@
-/* initial identity transformation */
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'dataset_id'" to "dataset_id";
-transform column "$.'title'" to "title";
-transform column "$.'technique'" to "technique";
-transform column "$.'investigator'" to "investigator";
-transform column "$.'doi'" to "doi";
-transform column "$.'moreinfo_url'" to "moreinfo_url";
-transform column "$.'summary'" to "summary";
-transform column "$.'project'" to "project";
+/* Dataset Information */
+transform column "$.'dataset_id'" to "dataset.ID";
+transform column "$.'title'" to "dataset.title";
+transform column "$.'summary'" to "dataset.description";
+transform column "$.'doi'" to "dataset.downloadURL" apply {{ result = 'https://nursa.org/nursa/datasets/dataset.jsf?doi=' + value }};
+
+/* Data Acquisition Information */
+transform column "$.'technique'" to "dataAcquisition.title";
+
+/* Additional Information */
+transform column "$.'project'" to "study.title";
+transform column "$.'investigator'" to "person.name";
+
+/* Data Repository Information */
+transform column "$.'dataset_id'" to "dataRepository.name" apply {{ result = 'Nuclear Receptor Signaling Atlas' }};
+transform column "$.'dataset_id'" to "dataRepository.abbreviation" apply {{ result = 'NURSA' }};
+transform column "$.'dataset_id'" to "dataRepository.ID" apply {{ result = 'SCR:003287' }};
+transform column "$.'dataset_id'" to "dataRepository.homePage" apply {{ result = 'http://www.nursa.org/' }};
+
+/* Organization Information */
+transform column "$.'dataset_id'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
+transform column "$.'dataset_id'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
+transform column "$.'dataset_id'" to "organization.ID" apply {{ result = 'SCR:012895' }};
+transform column "$.'dataset_id'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
+
+/* Items requiring some special formatting/review */
+/*
 transform column "$.'contributors'" to "contributors";
+*/
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+transform column "$.'moreinfo_url'" to "moreinfo_url";
+*/

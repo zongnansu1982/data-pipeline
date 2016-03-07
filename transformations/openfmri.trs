@@ -1,15 +1,37 @@
-/* initial transformation */
-transform column "$.'e_uid'" to "e_uid";
-transform column "$.'title'" to "title";
-transform column "$.'id'" to "id";
-transform column "$.'description'" to "description";
-transform column "$.'link'" to "link";
+/* Dataset Information */
+transform column "$.'title'" to "dataset.title";
+transform column "$.'id'" to "dataset.id";
+transform column "$.'description'" to "dataset.description";
+transform column "$.'link'" to "dataset.downloadURL";
+
+/* Additional Information */
+transform column "$.'organism'" to "organism[0].name";
+
+transform column "$.'assay'" to "dataAcquisition.title";
+
+/* Data Repository Information */
+transform column "$.'id'" to "dataRepository.name" apply {{ result = 'OpenfMRI' }};
+transform column "$.'id'" to "dataRepository.abbreviation" apply {{ result = 'OpenfMRI' }};
+transform column "$.'id'" to "dataRepository.ID" apply {{ result = 'SCR:005031' }};
+transform column "$.'id'" to "dataRepository.homePage" apply {{ result = 'http://openfmri.org/' }};
+
+/* Organization Information */
+transform column "$.'id'" to "organization.name" apply {{ result = 'Stanford University' }};
+transform column "$.'id'" to "organization.abbreviation" apply {{ result = 'Stanford' }};
+transform column "$.'id'" to "organization.ID" apply {{ result = 'SCR:011538' }};
+transform column "$.'id'" to "organization.homePage" apply {{ result = 'http://www.stanford.edu/' }};
+
+/* Items requiring some special formatting/review */
+/*
 transform column "$.'cognitive_task_seq_name'" to "cognitive_task_seq_name";
 transform column "$.'pubmed_id'" to "pubmed_id";
-transform column "$.'organism'" to "organism";
-transform column "$.'assay'" to "assay";
-transform column "$.'nifid'" to "nifid";
+*/
+
+/* Items not included */
+/*
+transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+transform column "$.'nifid'" to "nifid";
+*/
