@@ -5,7 +5,7 @@ transform column "$.'repos'" to "dataset.storedIn";
 
 transform column "$.'dataset_url'" to "dataset.downloadURL";
 
-transform column "$.'keywords'" to "keywords" apply {{
+transform column "$.'keywords'" to "keywords[]" apply {{
 arr=re.split("\s*;\s*",value,)
 result=arr
 }};
@@ -24,16 +24,16 @@ transform column "$.'species'" to "organism[0].name";
 transform column "$.'instrument'" to "instrument.name";
 
 /* Data Repository Information */
-transform column "$.'name'" to "dataRepository.name" apply {{ result = 'ProteomeXchange' }};
-transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'ProteomeXchange' }};
-transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:004055' }};
-transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'http://www.proteomexchange.org/' }};
+transform column "$.'title'" to "dataRepository.name" apply {{ result = 'ProteomeXchange' }};
+transform column "$.'title'" to "dataRepository.abbreviation" apply {{ result = 'ProteomeXchange' }};
+transform column "$.'title'" to "dataRepository.ID" apply {{ result = 'SCR:004055' }};
+transform column "$.'title'" to "dataRepository.homePage" apply {{ result = 'http://www.proteomexchange.org/' }};
 
 /* Organization Information */
-transform column "$.'name'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
-transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'EBI' }};
-transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:004727' }};
-transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
+transform column "$.'title'" to "organization.name" apply {{ result = 'European Bioinformatics Institute' }};
+transform column "$.'title'" to "organization.abbreviation" apply {{ result = 'EBI' }};
+transform column "$.'title'" to "organization.ID" apply {{ result = 'SCR:004727' }};
+transform column "$.'title'" to "organization.homePage" apply {{ result = 'http://www.ebi.ac.uk/' }};
 
 /* Items requiring some special formatting/review */
 /*

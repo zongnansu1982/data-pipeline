@@ -13,16 +13,16 @@ transform column "$.'analysis_type'" to "dataAcquisition.title";
 
 
 /* Data Repository Information */
-transform column "$.'name'" to "dataRepository.name" apply {{ result = 'Yale Protein Expression Database' }};
-transform column "$.'name'" to "dataRepository.abbreviation" apply {{ result = 'YPED' }};
-transform column "$.'name'" to "dataRepository.ID" apply {{ result = 'SCR:001436' }};
-transform column "$.'name'" to "dataRepository.homePage" apply {{ result = 'http://medicine.yale.edu/keck/nida/yped.aspx' }};
+transform column "$.'project_name'" to "dataRepository.name" apply {{ result = 'Yale Protein Expression Database' }};
+transform column "$.'project_name'" to "dataRepository.abbreviation" apply {{ result = 'YPED' }};
+transform column "$.'project_name'" to "dataRepository.ID" apply {{ result = 'SCR:001436' }};
+transform column "$.'project_name'" to "dataRepository.homePage" apply {{ result = 'http://medicine.yale.edu/keck/nida/yped.aspx' }};
 
 /* Organization Information */
-transform column "$.'name'" to "organization.name" apply {{ result = 'Yale School of Medicine' }};
-transform column "$.'name'" to "organization.abbreviation" apply {{ result = 'Yale' }};
-transform column "$.'name'" to "organization.ID" apply {{ result = 'SCR:006339' }};
-transform column "$.'name'" to "organization.homePage" apply {{ result = 'http://medicine.yale.edu/index.aspx' }};
+transform column "$.'project_name'" to "organization.name" apply {{ result = 'Yale School of Medicine' }};
+transform column "$.'project_name'" to "organization.abbreviation" apply {{ result = 'Yale' }};
+transform column "$.'project_name'" to "organization.ID" apply {{ result = 'SCR:006339' }};
+transform column "$.'project_name'" to "organization.homePage" apply {{ result = 'http://medicine.yale.edu/index.aspx' }};
 
 /* Items requiring some special formatting/review */
 /*
