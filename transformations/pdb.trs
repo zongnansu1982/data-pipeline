@@ -33,7 +33,7 @@ transform column "$.'PDBx:datablock'.'PDBx:chem_compCategory'.'PDBx:chem_comp'[*
 
 transform column "$.'PDBx:datablock'.'PDBx:entity_src_genCategory'.'PDBx:entity_src_gen'[*].'PDBx:pdbx_gene_src_gene'.'_$'" to "gene[].name";
 
-/* Identifier Information
+/* Identifier Information */
 transform columns "$.'PDBx:datablock'.'PDBx:database_2Category'.'PDBx:database_2'[*].'@database_id'",
  "$.'PDBx:datablock'.'PDBx:database_2Category'.'PDBx:database_2'[*].'@database_code'"  to "identifiers[].ID" apply {{
 result = value1.lower() + ':' + value2

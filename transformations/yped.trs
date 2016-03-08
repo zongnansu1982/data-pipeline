@@ -1,16 +1,40 @@
 /* initial identity transformation */
+transform column "$.'project_name'" to "dataset.id";
+transform column "$.'project_name'" to "dataset.title";
+transform column "$.'project_url'" to "dataset.downloadURL" apply {{ result = 'http://yped.med.yale.edu/repository/' + value }};
+transform column "$.'description'" to "dataset.description";
+transform column "$.'samples'" to "dataset.size";
+
+/* Additional Information */
+transform column "$.'pubmedid'" to "publication.pmid" apply {{ result = 'pmid:' + value }};
+transform column "$.'organisms'" to "organism.name";
+transform column "$.'pi'" to "person.name";
+transform column "$.'analysis_type'" to "dataAcquisition.title";
+
+
+/* Data Repository Information */
+transform column "$.'project_name'" to "dataRepository.name" apply {{ result = 'Yale Protein Expression Database' }};
+transform column "$.'project_name'" to "dataRepository.abbreviation" apply {{ result = 'YPED' }};
+transform column "$.'project_name'" to "dataRepository.ID" apply {{ result = 'SCR:001436' }};
+transform column "$.'project_name'" to "dataRepository.homePage" apply {{ result = 'http://medicine.yale.edu/keck/nida/yped.aspx' }};
+
+/* Organization Information */
+transform column "$.'project_name'" to "organization.name" apply {{ result = 'Yale School of Medicine' }};
+transform column "$.'project_name'" to "organization.abbreviation" apply {{ result = 'Yale' }};
+transform column "$.'project_name'" to "organization.ID" apply {{ result = 'SCR:006339' }};
+transform column "$.'project_name'" to "organization.homePage" apply {{ result = 'http://medicine.yale.edu/index.aspx' }};
+
+/* Items requiring some special formatting/review */
+/*
+
+*/
+
+/* Items not included */
+/*
 transform column "$.'e_uid'" to "e_uid";
-transform column "$.'project_name'" to "project_name";
-transform column "$.'description'" to "description";
-transform column "$.'pubmedid'" to "pubmedid";
-transform column "$.'displaypmid'" to "displaypmid";
-transform column "$.'project_url'" to "project_url";
-transform column "$.'project_link_url'" to "project_link_url";
-transform column "$.'samples'" to "samples";
-transform column "$.'analysis_type'" to "analysis_type";
-transform column "$.'organisms'" to "organisms";
-transform column "$.'pi'" to "pi";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-
+transform column "$.'displaypmid'" to "displaypmid";
+transform column "$.'project_link_url'" to "project_link_url";
+*/
