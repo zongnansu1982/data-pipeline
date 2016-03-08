@@ -1,19 +1,22 @@
 {
     "Abstract":"The objectives of this study were to characterize gastrointestinal dysfunction (GID) in autism spectrum disorder (ASD), to examine parental reports of GID relative to evaluations by pediatric gastroenterologists, and to explore factors associated with GID in ASD. One hundred twenty-one children were recruited into three groups: co-occurring ASD and GID, ASD without GID, and GID without ASD. A pediatric gastroenterologist evaluated both GID groups. Parents in all three groups completed questionnaires about their child`s behavior and GI symptoms, and a dietary journal. Functional constipation was the most common type of GID in children with ASD (85.0%). Parental report of any GID was highly concordant with a clinical diagnosis of any GID (92.1%). Presence of GID in children with ASD was not associated with distinct dietary habits or medication status. Odds of constipation were associated with younger age, increased social impairment, and lack of expressive language (adjusted odds ratio in nonverbal children: 11.98, 95% confidence interval 2.54-56.57). This study validates parental concerns for GID in children with ASD, as parents were sensitive to the existence, although not necessarily the nature, of GID. The strong association between constipation and language impairment highlights the need for vigilance by health-care providers to detect and treat GID in children with ASD. Medications and diet, commonly thought to contribute to GID in ASD, were not associated with GID status. These findings are consistent with a hypothesis that GID in ASD represents pleiotropic expression of genetic risk factors.",
-    "Cohorts":{
-        "Control - ASD-only ( 44 )":{
+    "Cohorts":[
+        {
             "Age":"60 to 215 months",
-            "Gender":"Both"
+            "Gender":"Both",
+            "Type":"Control - ASD-only ( 44 )"
         },
-        "Control - GID-only ( 28 )":{
+        {
             "Age":"60 to 215 months",
-            "Gender":"Both"
+            "Gender":"Both",
+            "Type":"Control - GID-only ( 28 )"
         },
-        "Test - ASD-GID ( 40 )":{
+        {
             "Age":"60 to 215 months",
-            "Gender":"Both"
+            "Gender":"Both",
+            "Type":"Test - ASD-GID ( 40 )"
         }
-    },
+    ],
     "DOI":"10.15154/1163508",
     "Data Use":"Primary Analysis",
     "Documents":"Article published in Autism Research",
@@ -192,14 +195,22 @@
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=srs02"
         }
     ],
+    "ResourceURL":"https://ndar.nih.gov/study.html?id=268",
     "Results":[
-        "Results published in Autism Res, Apr 2012"
+        {
+            "Title":"Results published in Autism Res, Apr 2012",
+            "URL":"http://onlinelibrary.wiley.com/doi/10.1002/aur.237/full"
+        }
     ],
+    "Title":"Gastrointestinal Dysfunction in Autism: Parental Report, Clinical Evaluation, and Associated Factors #268",
     "Types":{
         "Arms/Comparison":{
             "Behavioral":[
                 "Behavioral"
             ]
-        }
-    }
+        },
+        "Study Type":"Controlled Study"
+    },
+    "identifier":"268",
+    "identifierScheme":"An identifier for these studies is the number given to it on the NDAR website.  For example, the entry with identifier '1' would represent the data found at 'https://ndar.nih.gov/study.html?id=1'"
 }
