@@ -1,4 +1,4 @@
-Instructions:
+# Instructions:
   1. Install the "requests" library: http://docs.python-requests.org/en/master/user/install/#install
     
   2. Run the "Run_All.py" script
