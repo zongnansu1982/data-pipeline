@@ -1,4 +1,4 @@
-import requests, json, threading, Queue, os, ast
+import requests, json, threading, Queue, os, ast, time
 
 
 # Recursively removes any empty elements or lists from the structure dictionary
@@ -27,6 +27,12 @@ def writeJson():
             p = requests.get('https://ndar.nih.gov/api/datadictionary/v2/datastructure/' + item)
             datastructure = p.text
             loaded = json.loads(datastructure)
+
+            for elem in loaded['dataElements']:
+                if loaded['publishDate'] is not None:
+                    elem['publishDate'] = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(float(loaded['publishDate']) / 1000))
+
+
 
             # Remove blank elements
             clean(loaded)
@@ -63,8 +69,10 @@ elements = page.text.split('"shortName":"')
 shortNames = []
 for elem in elements:
     shortNames.append(str(elem.split('"')[0]))
-
 del shortNames[0]
+
+
+
 
 totalFiles = len(shortNames)
 
@@ -79,6 +87,8 @@ for i in range(maxThreads):
 
 # Adds all entries to the queue to be converted to JSON files
 for index, name in enumerate(shortNames):
-    q.put(name)
+    if index < 5:
+        q.put(name)
 
 q.join()
+

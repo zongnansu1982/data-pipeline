@@ -6,13 +6,12 @@ def getBWTableInfo(table):
     headers = []
     h = table.find('tr', {'class' : "tableHeader"})
     if h is None:
-
         return info
+
     h = h.find_next('th')
     while h is not None:
         headers.append(str(h.text))
         h = h.find_next('th')
-
 
     row = table.find_next('tr')
 

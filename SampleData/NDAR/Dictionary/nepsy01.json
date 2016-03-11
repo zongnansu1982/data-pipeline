@@ -1,0 +1,1752 @@
+{
+    "status": "Published", 
+    "title": "A Developmental NEuroPSYchological Assessment (NEPSY-II)", 
+    "dataType": "Clinical Assessments", 
+    "publishDate": 1389375747502, 
+    "sources": [
+        "NDAR"
+    ], 
+    "shortName": "nepsy01", 
+    "categories": [
+        "Cognitive"
+    ], 
+    "dataElements": [
+        {
+            "name": "subjectkey", 
+            "description": "The NDAR Global Unique Identifier (GUID) for research subject", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "NDAR*", 
+            "dataElementId": 1, 
+            "position": 1, 
+            "type": "GUID", 
+            "id": 2062076
+        }, 
+        {
+            "name": "src_subject_id", 
+            "description": "Subject ID how it's defined in lab/project", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 2, 
+            "position": 2, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2062077, 
+            "aliases": [
+                "id"
+            ]
+        }, 
+        {
+            "name": "interview_date", 
+            "description": "Date on which the interview/genetic test/sampling/imaging was completed. MM/DD/YYYY", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 3, 
+            "notes": "Required field", 
+            "position": 3, 
+            "type": "Date", 
+            "id": 2062078, 
+            "aliases": [
+                "date"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "interview_age", 
+            "description": "Age in months at the time of the interview/test/sampling/imaging.", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0 :: 1260", 
+            "dataElementId": 4, 
+            "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month.", 
+            "position": 4, 
+            "type": "Integer", 
+            "id": 2062079
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gender", 
+            "description": "Gender", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "F"
+                }, 
+                {
+                    "values": [
+                        "Male"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Female"
+                    ], 
+                    "key": "F"
+                }
+            ], 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "M;F; T", 
+            "dataElementId": 10, 
+            "notes": "M = Male; F = Female; T= Transgender", 
+            "position": 5, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2062080
+        }, 
+        {
+            "name": "grade", 
+            "description": "Current Grade", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 8307, 
+            "position": 6, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2062081
+        }, 
+        {
+            "name": "test_reason", 
+            "description": "Reason for Testing", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 6988, 
+            "position": 7, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2062082
+        }, 
+        {
+            "name": "handedness", 
+            "description": "handedness", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "L"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "R"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "B"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "B"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "L"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "R"
+                }
+            ], 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "R;L;B;999", 
+            "dataElementId": 1237477, 
+            "notes": "R = Right; L = Left; B = Both", 
+            "position": 8, 
+            "size": 29, 
+            "type": "String", 
+            "id": 2062083
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc1", 
+            "description": "Affect Recognition 1 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275017, 
+            "position": 9, 
+            "type": "Integer", 
+            "id": 2062084
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc2", 
+            "description": "Affect Recognition 2 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275018, 
+            "position": 10, 
+            "type": "Integer", 
+            "id": 2062085
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc3", 
+            "description": "Affect Recognition 3 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275019, 
+            "position": 11, 
+            "type": "Integer", 
+            "id": 2062086
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc4", 
+            "description": "Affect Recognition 4 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275020, 
+            "position": 12, 
+            "type": "Integer", 
+            "id": 2062087
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc5", 
+            "description": "Affect Recognition 5 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275021, 
+            "position": 13, 
+            "type": "Integer", 
+            "id": 2062088
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc6", 
+            "description": "Affect Recognition 6 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275022, 
+            "position": 14, 
+            "type": "Integer", 
+            "id": 2062089
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc7", 
+            "description": "Affect Recognition 7 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275023, 
+            "position": 15, 
+            "type": "Integer", 
+            "id": 2062090
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc8", 
+            "description": "Affect Recognition 8 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275024, 
+            "position": 16, 
+            "type": "Integer", 
+            "id": 2062091
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc9", 
+            "description": "Affect Recognition 9 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275025, 
+            "position": 17, 
+            "type": "Integer", 
+            "id": 2062092
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc10", 
+            "description": "Affect Recognition 10 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275026, 
+            "position": 18, 
+            "type": "Integer", 
+            "id": 2062093
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc11", 
+            "description": "Affect Recognition 11 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275027, 
+            "position": 19, 
+            "type": "Integer", 
+            "id": 2062094
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc12", 
+            "description": "Affect Recognition 12 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275028, 
+            "position": 20, 
+            "type": "Integer", 
+            "id": 2062095
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc13", 
+            "description": "Affect Recognition 13 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275029, 
+            "position": 21, 
+            "type": "Integer", 
+            "id": 2062096
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc14", 
+            "description": "Affect Recognition 14 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275030, 
+            "position": 22, 
+            "type": "Integer", 
+            "id": 2062097
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc15", 
+            "description": "Affect Recognition 15 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275031, 
+            "position": 23, 
+            "type": "Integer", 
+            "id": 2062098
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc16", 
+            "description": "Affect Recognition 16 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275032, 
+            "position": 24, 
+            "type": "Integer", 
+            "id": 2062099
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc17", 
+            "description": "Affect Recognition 17 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275033, 
+            "position": 25, 
+            "type": "Integer", 
+            "id": 2062100
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc18", 
+            "description": "Affect Recognition 18 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275034, 
+            "position": 26, 
+            "type": "Integer", 
+            "id": 2062101
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc19", 
+            "description": "Affect Recognition 19 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275035, 
+            "position": 27, 
+            "type": "Integer", 
+            "id": 2062102
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc20", 
+            "description": "Affect Recognition 20 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275036, 
+            "position": 28, 
+            "type": "Integer", 
+            "id": 2062103
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc21", 
+            "description": "Affect Recognition 21 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275037, 
+            "position": 29, 
+            "type": "Integer", 
+            "id": 2062104
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc22", 
+            "description": "Affect Recognition 22 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275038, 
+            "position": 30, 
+            "type": "Integer", 
+            "id": 2062105
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc23", 
+            "description": "Affect Recognition 23 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275039, 
+            "position": 31, 
+            "type": "Integer", 
+            "id": 2062106
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc24", 
+            "description": "Affect Recognition 24 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275040, 
+            "position": 32, 
+            "type": "Integer", 
+            "id": 2062107
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc25", 
+            "description": "Affect Recognition 25 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275041, 
+            "position": 33, 
+            "type": "Integer", 
+            "id": 2062108
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc26", 
+            "description": "Affect Recognition 26 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275042, 
+            "position": 34, 
+            "type": "Integer", 
+            "id": 2062109
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc27", 
+            "description": "Affect Recognition 27 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275043, 
+            "position": 35, 
+            "type": "Integer", 
+            "id": 2062110
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc28", 
+            "description": "Affect Recognition 28 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275044, 
+            "position": 36, 
+            "type": "Integer", 
+            "id": 2062111
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc29", 
+            "description": "Affect Recognition 29 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275045, 
+            "position": 37, 
+            "type": "Integer", 
+            "id": 2062112
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc30", 
+            "description": "Affect Recognition 30 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275046, 
+            "position": 38, 
+            "type": "Integer", 
+            "id": 2062113
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc31", 
+            "description": "Affect Recognition 31 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275047, 
+            "position": 39, 
+            "type": "Integer", 
+            "id": 2062114
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc32", 
+            "description": "Affect Recognition 32 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275048, 
+            "position": 40, 
+            "type": "Integer", 
+            "id": 2062115
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc33", 
+            "description": "Affect Recognition 33 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275049, 
+            "position": 41, 
+            "type": "Integer", 
+            "id": 2062116
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc34", 
+            "description": "Affect Recognition 34 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275050, 
+            "position": 42, 
+            "type": "Integer", 
+            "id": 2062117
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "afrec_sc35", 
+            "description": "Affect Recognition 35 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275051, 
+            "position": 43, 
+            "type": "Integer", 
+            "id": 2062118
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "beh_spontscom", 
+            "description": "Behavioral Observations Spontaneous Comments Total", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275052, 
+            "position": 44, 
+            "type": "Integer", 
+            "id": 2062119
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "ar_totscore", 
+            "description": "AR Total Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::35", 
+            "dataElementId": 1275053, 
+            "notes": "5-6 Max=25; 7-16 Max=35", 
+            "position": 45, 
+            "type": "Integer", 
+            "id": 2062120, 
+            "aliases": [
+                "artotal"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "ar_scaled", 
+            "description": "AR Scaled Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "1::19", 
+            "dataElementId": 1275054, 
+            "position": 46, 
+            "type": "Integer", 
+            "id": 2062121, 
+            "aliases": [
+                "ar_ss"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "h_tothaper", 
+            "description": "Total Happy (H) Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::9", 
+            "dataElementId": 1275055, 
+            "notes": "5-6 Max=5; 7-16 Max=9", 
+            "position": 47, 
+            "type": "Integer", 
+            "id": 2062122, 
+            "aliases": [
+                "happyerrors"
+            ]
+        }, 
+        {
+            "name": "h_haperr_perc", 
+            "description": "Happy Errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275056, 
+            "position": 48, 
+            "size": 25, 
+            "type": "String", 
+            "id": 2062123, 
+            "aliases": [
+                "happy_pr"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "s_totsader", 
+            "description": "Total Sad (S) Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::14", 
+            "dataElementId": 1275057, 
+            "notes": "5-6 Max=7; 7-16 Max=14", 
+            "position": 49, 
+            "type": "Integer", 
+            "id": 2062124, 
+            "aliases": [
+                "saderrors"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "s_saderperc", 
+            "description": "Sad Errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275058, 
+            "position": 50, 
+            "type": "Integer", 
+            "id": 2062125, 
+            "aliases": [
+                "sad_pr"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "n_totneuter", 
+            "description": "Total Neutral (N) Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::15", 
+            "dataElementId": 1275059, 
+            "notes": "5-6 Max=8; 7-16 Max=15", 
+            "position": 51, 
+            "type": "Integer", 
+            "id": 2062126, 
+            "aliases": [
+                "neutralerrors"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "n_neuterperc", 
+            "description": "Neutral Errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275060, 
+            "position": 52, 
+            "type": "Integer", 
+            "id": 2062127, 
+            "aliases": [
+                "neutral_pr"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "f_totfearer", 
+            "description": "Total Fear (F) Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::14", 
+            "dataElementId": 1275061, 
+            "notes": "5-6 Max=6; 7-16 Max=14", 
+            "position": 53, 
+            "type": "Integer", 
+            "id": 2062128, 
+            "aliases": [
+                "fearerrors"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "f_fearerperc", 
+            "description": "Fear errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275062, 
+            "position": 54, 
+            "type": "Integer", 
+            "id": 2062129, 
+            "aliases": [
+                "fear_pr"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a_totanger", 
+            "description": "Total Angry (A) Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::14", 
+            "dataElementId": 1275063, 
+            "notes": "5-6 Max=7; 7-16 Max=14", 
+            "position": 55, 
+            "type": "Integer", 
+            "id": 2062130, 
+            "aliases": [
+                "angryerrors"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "a_angerperc", 
+            "description": "Angry Errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275064, 
+            "position": 56, 
+            "type": "Integer", 
+            "id": 2062131, 
+            "aliases": [
+                "angry_pr"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "d_totdisger", 
+            "description": "Total Disgust (D) Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::11", 
+            "dataElementId": 1275065, 
+            "notes": "5-6 Max=4; 7-16 Max=11", 
+            "position": 57, 
+            "type": "Integer", 
+            "id": 2062132, 
+            "aliases": [
+                "disgusterrors"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "d_disgerperc", 
+            "description": "Disgust Errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275066, 
+            "position": 58, 
+            "type": "Integer", 
+            "id": 2062133, 
+            "aliases": [
+                "disgust_pr"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc1", 
+            "description": "Memory for Faces 1 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275067, 
+            "position": 59, 
+            "type": "Integer", 
+            "id": 2062134
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc2", 
+            "description": "Memory for Faces 2 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275068, 
+            "position": 60, 
+            "type": "Integer", 
+            "id": 2062135
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc3", 
+            "description": "Memory for Faces 3 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275069, 
+            "position": 61, 
+            "type": "Integer", 
+            "id": 2062136
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc4", 
+            "description": "Memory for Faces 4 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275070, 
+            "position": 62, 
+            "type": "Integer", 
+            "id": 2062137
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc5", 
+            "description": "Memory for Faces 5 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275071, 
+            "position": 63, 
+            "type": "Integer", 
+            "id": 2062138
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc6", 
+            "description": "Memory for Faces 6 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275072, 
+            "position": 64, 
+            "type": "Integer", 
+            "id": 2062139
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc7", 
+            "description": "Memory for Faces 7 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275073, 
+            "position": 65, 
+            "type": "Integer", 
+            "id": 2062140
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc8", 
+            "description": "Memory for Faces 8 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275074, 
+            "position": 66, 
+            "type": "Integer", 
+            "id": 2062141
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc9", 
+            "description": "Memory for Faces 9 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275075, 
+            "position": 67, 
+            "type": "Integer", 
+            "id": 2062142
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc10", 
+            "description": "Memory for Faces 10 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275076, 
+            "position": 68, 
+            "type": "Integer", 
+            "id": 2062143
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc11", 
+            "description": "Memory for Faces 11 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275077, 
+            "position": 69, 
+            "type": "Integer", 
+            "id": 2062144
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc12", 
+            "description": "Memory for Faces 12 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275078, 
+            "position": 70, 
+            "type": "Integer", 
+            "id": 2062145
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc13", 
+            "description": "Memory for Faces 13 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275079, 
+            "position": 71, 
+            "type": "Integer", 
+            "id": 2062146
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc14", 
+            "description": "Memory for Faces 14 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275080, 
+            "position": 72, 
+            "type": "Integer", 
+            "id": 2062147
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc15", 
+            "description": "Memory for Faces 15 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275081, 
+            "position": 73, 
+            "type": "Integer", 
+            "id": 2062148
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memface_sc16", 
+            "description": "Memory for Faces 16 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275082, 
+            "position": 74, 
+            "type": "Integer", 
+            "id": 2062149
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc1", 
+            "description": "Memory for Faces Delayed 1 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275083, 
+            "position": 75, 
+            "type": "Integer", 
+            "id": 2062150
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc2", 
+            "description": "Memory for Faces Delayed 2 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275084, 
+            "position": 76, 
+            "type": "Integer", 
+            "id": 2062151
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc3", 
+            "description": "Memory for Faces Delayed 3 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275085, 
+            "position": 77, 
+            "type": "Integer", 
+            "id": 2062152
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc4", 
+            "description": "Memory for Faces Delayed 4 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275086, 
+            "position": 78, 
+            "type": "Integer", 
+            "id": 2062153
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc5", 
+            "description": "Memory for Faces Delayed 5 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275087, 
+            "position": 79, 
+            "type": "Integer", 
+            "id": 2062154
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc6", 
+            "description": "Memory for Faces Delayed 6 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275088, 
+            "position": 80, 
+            "type": "Integer", 
+            "id": 2062155
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc7", 
+            "description": "Memory for Faces Delayed 7 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275089, 
+            "position": 81, 
+            "type": "Integer", 
+            "id": 2062156
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc8", 
+            "description": "Memory for Faces Delayed 8 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275090, 
+            "position": 82, 
+            "type": "Integer", 
+            "id": 2062157
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc9", 
+            "description": "Memory for Faces Delayed 9 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275091, 
+            "position": 83, 
+            "type": "Integer", 
+            "id": 2062158
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc10", 
+            "description": "Memory for Faces Delayed 10 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275092, 
+            "position": 84, 
+            "type": "Integer", 
+            "id": 2062159
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc11", 
+            "description": "Memory for Faces Delayed 11 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275093, 
+            "position": 85, 
+            "type": "Integer", 
+            "id": 2062160
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc12", 
+            "description": "Memory for Faces Delayed 12 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275094, 
+            "position": 86, 
+            "type": "Integer", 
+            "id": 2062161
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc13", 
+            "description": "Memory for Faces Delayed 13 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275095, 
+            "position": 87, 
+            "type": "Integer", 
+            "id": 2062162
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc14", 
+            "description": "Memory for Faces Delayed 14 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275096, 
+            "position": 88, 
+            "type": "Integer", 
+            "id": 2062163
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc15", 
+            "description": "Memory for Faces Delayed 15 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275097, 
+            "position": 89, 
+            "type": "Integer", 
+            "id": 2062164
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "memfad_sc16", 
+            "description": "Memory for Faces Delayed 16 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275098, 
+            "position": 90, 
+            "type": "Integer", 
+            "id": 2062165
+        }, 
+        {
+            "name": "stoptime", 
+            "description": "Stop time", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275099, 
+            "position": 91, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2062166
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "mf_totscore", 
+            "description": "MF Total Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::16; 999", 
+            "dataElementId": 1275100, 
+            "notes": "999= missing/NA", 
+            "position": 92, 
+            "type": "Integer", 
+            "id": 2062167
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "mf_scaled", 
+            "description": "MF  Scaled Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "1::19; 999", 
+            "dataElementId": 1275101, 
+            "notes": "999= missing/NA", 
+            "position": 93, 
+            "type": "Integer", 
+            "id": 2062168
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "mfd_totscore", 
+            "description": "MFD Total Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::16; 999", 
+            "dataElementId": 1275102, 
+            "notes": "999= missing/NA", 
+            "position": 94, 
+            "type": "Integer", 
+            "id": 2062169
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "mfd_scaled", 
+            "description": "MFD  Scaled Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "1::19; 999", 
+            "dataElementId": 1275103, 
+            "notes": "999= missing/NA", 
+            "position": 95, 
+            "type": "Integer", 
+            "id": 2062170
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "mfvsmfd_scaled", 
+            "description": "MF vs. MFD Contrast Scaled score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275104, 
+            "position": 96, 
+            "type": "Integer", 
+            "id": 2062171
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc1", 
+            "description": "Theory of Mind 1 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275105, 
+            "position": 97, 
+            "type": "Integer", 
+            "id": 2062172
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc2", 
+            "description": "Theory of Mind 2 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275106, 
+            "position": 98, 
+            "type": "Integer", 
+            "id": 2062173
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc3", 
+            "description": "Theory of Mind 3 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::2", 
+            "dataElementId": 1275107, 
+            "position": 99, 
+            "type": "Integer", 
+            "id": 2062174
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc4", 
+            "description": "Theory of Mind 4 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::2", 
+            "dataElementId": 1275108, 
+            "position": 100, 
+            "type": "Integer", 
+            "id": 2062175
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc5", 
+            "description": "Theory of Mind 5 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275109, 
+            "position": 101, 
+            "type": "Integer", 
+            "id": 2062176
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc6", 
+            "description": "Theory of Mind 6 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275110, 
+            "position": 102, 
+            "type": "Integer", 
+            "id": 2062177
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc7", 
+            "description": "Theory of Mind 7 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::2", 
+            "dataElementId": 1275111, 
+            "position": 103, 
+            "type": "Integer", 
+            "id": 2062178
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc8", 
+            "description": "Theory of Mind 8 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275112, 
+            "position": 104, 
+            "type": "Integer", 
+            "id": 2062179
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc9", 
+            "description": "Theory of Mind 9 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::2", 
+            "dataElementId": 1275113, 
+            "position": 105, 
+            "type": "Integer", 
+            "id": 2062180
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc10", 
+            "description": "Theory of Mind 10 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275114, 
+            "position": 106, 
+            "type": "Integer", 
+            "id": 2062181
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc11", 
+            "description": "Theory of Mind 11 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275115, 
+            "position": 107, 
+            "type": "Integer", 
+            "id": 2062182
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc12", 
+            "description": "Theory of Mind 12 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275116, 
+            "position": 108, 
+            "type": "Integer", 
+            "id": 2062183
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc13", 
+            "description": "Theory of Mind 13 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275117, 
+            "position": 109, 
+            "type": "Integer", 
+            "id": 2062184
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc14", 
+            "description": "Theory of Mind 14 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::3", 
+            "dataElementId": 1275118, 
+            "position": 110, 
+            "type": "Integer", 
+            "id": 2062185
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc15", 
+            "description": "Theory of Mind 15 score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::2", 
+            "dataElementId": 1275119, 
+            "position": 111, 
+            "type": "Integer", 
+            "id": 2062186
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "tm_verbalscore", 
+            "description": "TM Verbal Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::22; 999", 
+            "dataElementId": 1275120, 
+            "notes": "999= missing/NA", 
+            "position": 112, 
+            "type": "Integer", 
+            "id": 2062187
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "tm_verbalperc", 
+            "description": "TM Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275121, 
+            "notes": "999= missing/NA", 
+            "position": 113, 
+            "type": "Integer", 
+            "id": 2062188
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc16", 
+            "description": "Theory of Mind 16 Contextual task score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275122, 
+            "position": 114, 
+            "type": "Integer", 
+            "id": 2062189
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc17", 
+            "description": "Theory of Mind 17 Contextual task score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275123, 
+            "position": 115, 
+            "type": "Integer", 
+            "id": 2062190
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc18", 
+            "description": "Theory of Mind 18 Contextual task score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275124, 
+            "position": 116, 
+            "type": "Integer", 
+            "id": 2062191
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc19", 
+            "description": "Theory of Mind 19 Contextual task score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275125, 
+            "position": 117, 
+            "type": "Integer", 
+            "id": 2062192
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "theormind_sc21", 
+            "description": "Theory of Mind 21 Contextual task score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0;1", 
+            "dataElementId": 1275126, 
+            "position": 118, 
+            "type": "Integer", 
+            "id": 2062193
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "tm_context", 
+            "description": "TM Contextual", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::6", 
+            "dataElementId": 1275127, 
+            "position": 119, 
+            "type": "Integer", 
+            "id": 2062194
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "tm_totscore", 
+            "description": "TM Total Score", 
+            "required": "Required", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::28; 999", 
+            "dataElementId": 1275128, 
+            "notes": "999= missing/NA", 
+            "position": 120, 
+            "type": "Integer", 
+            "id": 2062195
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "tm_scaledperc", 
+            "description": "TM Scaled Score/Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275129, 
+            "notes": "999= missing/NA", 
+            "position": 121, 
+            "type": "Integer", 
+            "id": 2062196
+        }, 
+        {
+            "name": "visprec_ct1", 
+            "description": "Visuomotor Precision. Car. Completion time", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275130, 
+            "position": 122, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2062197
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "visprec_er1", 
+            "description": "Visuomotor Precision. Car. Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275131, 
+            "position": 123, 
+            "type": "Integer", 
+            "id": 2062198
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "visprec_pt1", 
+            "description": "Visuomotor Precision. Car. Pencil Lifts", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275132, 
+            "position": 124, 
+            "type": "Integer", 
+            "id": 2062199
+        }, 
+        {
+            "name": "visprec_ct2", 
+            "description": "Visuomotor Precision. Motorcycle. Completion time", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275133, 
+            "position": 125, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2062200
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "visprec_er2", 
+            "description": "Visuomotor Precision. Motorcycle. Errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275134, 
+            "position": 126, 
+            "type": "Integer", 
+            "id": 2062201
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "visprec_pt2", 
+            "description": "Visuomotor Precision. Motorcycle. Pencil Lifts", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275135, 
+            "position": 127, 
+            "type": "Integer", 
+            "id": 2062202
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "pencgrip", 
+            "description": "Behavioral Observations Pencil Grip", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "1::4", 
+            "dataElementId": 1275136, 
+            "notes": "1=Mature; 2= Intermediate; 3= Immature; 4= Variable", 
+            "position": 128, 
+            "type": "Integer", 
+            "id": 2062203
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "perc_ss", 
+            "description": "Behavioral Observations Percent of Standartized Sample", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275137, 
+            "position": 129, 
+            "type": "Float", 
+            "id": 2062204
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vp_tottime", 
+            "description": "\"VP Total Completion Time, seconds\"", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::360", 
+            "dataElementId": 1275138, 
+            "position": 130, 
+            "type": "Float", 
+            "id": 2062205
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vp_scaled", 
+            "description": "VP Total Completion Time Scaled Score", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::19", 
+            "dataElementId": 1275139, 
+            "position": 131, 
+            "type": "Integer", 
+            "id": 2062206
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vp_toter", 
+            "description": "VP Total errors", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "valueRange": "0::382", 
+            "dataElementId": 1275140, 
+            "position": 132, 
+            "type": "Integer", 
+            "id": 2062207
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vp_toterperc", 
+            "description": "VP Total Errors Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275141, 
+            "position": 133, 
+            "type": "Integer", 
+            "id": 2062208
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vp_pltot", 
+            "description": "VP Pencil Lift Total", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275142, 
+            "position": 134, 
+            "type": "Integer", 
+            "id": 2062209
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vp_pltotperc", 
+            "description": "VP Pencil Lift Percentile Rank", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 1275143, 
+            "position": 135, 
+            "type": "Integer", 
+            "id": 2062210
+        }, 
+        {
+            "name": "comments_misc", 
+            "description": "Miscellaneous comments on study, interview, methodology relevant to this form data", 
+            "required": "Recommended", 
+            "publishDate": "2014-01-10 09:42:27", 
+            "dataElementId": 5, 
+            "position": 136, 
+            "size": 4000, 
+            "type": "String", 
+            "id": 2062211
+        }
+    ]
+}
