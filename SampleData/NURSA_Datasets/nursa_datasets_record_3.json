@@ -1,15 +1,14 @@
-{
-  "e_uid": "10.1621/datasets.02004",
-  "dataset_id": "10.1621/datasets.02004",
-  "title": "Identification of the subset of genes in HepG2 cells whose transcription is activated by PGC-1&#x3B1; through ERR&#x3B1;",
-  "technique": "Microarray",
-  "investigator": "McDonnell, D",
-  "doi": "10.1621/datasets.02004",
-  "moreinfo_url": "datasets.cfm?doi=10.1621/datasets.02004",
-  "summary": "",
-  "project": "",
-  "contributors": "",
-  "v_uid": "10.1621/datasets.02004",
-  "v_uuid": "c5f2b063-86c2-50d6-88ed-47ebff712976",
-  "v_lastmodified": ""
-}
+{"nif_0000_03208_2": {
+  "e_uid": "10.1621/datasets.04002",
+  "name": "Tissue-specific expression patterns of nuclear receptor coregulators",
+  "type": "Q-PCR",
+  "species": "House Mouse",
+  "doi": "10.1621/datasets.04002",
+  "description": "C57/Bl6J and 129x1/SvJ male or female mice (n = 6) at 8-9 weeks of age from each strain were sacrificed at lights-on (ZT0) by halothane inhalation (Halocarbon Laboratories, River Edge, NJ). 39 tissues were harvested from each animal. All tissues, except pancreas, were snap frozen on liquid nitrogen and stored at -80C until extracted for RNA. Pancreas RNA was prepared immediately due to high RNAse content. RNA was extracted using RNAStat60 (TelTest, Friendswood, TX). Total RNA was pooled in equal quantities for each tissue (n = 6). RNA pools from male mice were used for all tissue analyses, except ovary and uterus. Genomic DNA contamination was eliminated by DNAse treatment using Ambion's Turbo DNA-freeTM kit (Austin, TX), except for pancreas and seminal vesicle RNA which were sensitive to degradation. (CAUTION: Pancreas and seminal vesicles later determined to be degraded.) Preparation of cDNA for QPCR assays was performed using SuperScript RT II (Invitrogen) as previously described (Bookout and Mangelsdorf, 2003) with the following changes: 2.4μg of RNA was first treated with 2U DNAse I and 4.2μM MgCl2 in a final volume of 40μl. The reverse transcription reaction was carried out in 100μl final volume. Following cDNA synthesis, DEPC-H2O was added to increase to sample volume to 300μl. For each sample, pools of RNA from male tissues (n=6) were used, except ovary and uterus. Individual NR and 18S rRNA expression levels were measured in triplcate wells of a 384-well reaction plate with 10ng cDNA per well. The instrument was an Applied Biosystems 7900HT and the chemistry used was SYBR Green. Data analysis was done using the efficiency-corrected ΔCT method. The normalizing gene was 18S rRNA. Error bars represent experimental error and were calculated based on the standard deviations of the average Ct value for each NR and 18S",
+  "tissue_cell_lines": "Not available",
+  "contributors": "Not available",
+  "reference": "Not available",
+  "v_uid": "10.1621/datasets.04002",
+  "v_uuid": "478b7792-b556-50fe-9956-6f8ac7557405",
+  "v_lastmodified": "2016-03-17 14:24:54.977035"
+}}

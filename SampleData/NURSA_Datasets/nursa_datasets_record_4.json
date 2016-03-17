@@ -1,15 +1,14 @@
-{
-  "e_uid": "10.1621/datasets.02003",
-  "dataset_id": "10.1621/datasets.02003",
-  "title": "Ligand-dependent progesterone receptor regulated murine uterine genes",
-  "technique": "Microarray",
-  "investigator": "DeMayo, F",
-  "doi": "10.1621/datasets.02003",
-  "moreinfo_url": "datasets.cfm?doi=10.1621/datasets.02003",
-  "summary": "",
-  "project": "",
-  "contributors": "",
-  "v_uid": "10.1621/datasets.02003",
-  "v_uuid": "ee5669dc-cdcf-5221-9b7b-150b2373fc1c",
-  "v_lastmodified": ""
-}
+{"nif_0000_03208_2": {
+  "e_uid": "10.1621/241XZp6Eex",
+  "name": "Analysis of the Nur77/Nr4a1-NOR1/Nr4a3-regulated transcriptome in hematopoietic stem cells",
+  "type": "Transcriptomic",
+  "species": "House Mouse",
+  "doi": "10.1621/241XZp6Eex",
+  "description": "Lin-Sca1+ hematopoietic stem cells were isolated from Nur77/Nr4a1-NOR1/Nr4a3 double knockout and wildtype mice.",
+  "tissue_cell_lines": "Other, stem cells, hematopoietic, bone marrow",
+  "contributors": "Not Available",
+  "reference": "Not Available",
+  "v_uid": "10.1621/241XZp6Eex",
+  "v_uuid": "cefeb606-2ac6-5ea5-9f35-640626c36197",
+  "v_lastmodified": "2016-03-17 14:24:54.977035"
+}}
