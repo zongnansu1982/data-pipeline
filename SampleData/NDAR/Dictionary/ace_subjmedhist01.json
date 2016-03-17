@@ -1,0 +1,2918 @@
+{
+    "status": "Published", 
+    "title": "ACE Subject Medical History", 
+    "dataType": "Clinical Assessments", 
+    "publishDate": 1354573713301, 
+    "sources": [
+        "ACE Common Measures V2", 
+        "NDAR"
+    ], 
+    "shortName": "ace_subjmedhist01", 
+    "categories": [
+        "Med History"
+    ], 
+    "dataElements": [
+        {
+            "name": "subjectkey", 
+            "description": "The NDAR Global Unique Identifier (GUID) for research subject", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "NDAR*", 
+            "dataElementId": 1, 
+            "position": 1, 
+            "type": "GUID", 
+            "id": 2039159
+        }, 
+        {
+            "name": "src_subject_id", 
+            "description": "Subject ID how it's defined in lab/project", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 2, 
+            "position": 2, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2039160
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "interview_age", 
+            "description": "Age in months at the time of the interview/test/sampling/imaging.", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1260", 
+            "dataElementId": 4, 
+            "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month.", 
+            "position": 3, 
+            "type": "Integer", 
+            "id": 2039161
+        }, 
+        {
+            "name": "interview_date", 
+            "description": "Date on which the interview/genetic test/sampling/imaging was completed. MM/DD/YYYY", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 3, 
+            "notes": "Required field", 
+            "position": 4, 
+            "type": "Date", 
+            "id": 2039162
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gender", 
+            "description": "Gender", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "F"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Male"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Female"
+                    ], 
+                    "key": "F"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "M;F; T", 
+            "dataElementId": 10, 
+            "notes": "M = Male; F = Female; T= Transgender", 
+            "position": 5, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2039163
+        }, 
+        {
+            "name": "comments_misc", 
+            "description": "Miscellaneous comments on study, interview, methodology relevant to this form data", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 5, 
+            "position": 6, 
+            "size": 4000, 
+            "type": "String", 
+            "id": 2039164
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "data_derived", 
+            "description": "Data Derived From", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "1::4", 
+            "dataElementId": 1262062, 
+            "notes": "1 = Physical examination; 2 = Medical record; 3 = Both; 4=Parental report", 
+            "position": 7, 
+            "type": "Integer", 
+            "id": 2039165
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "diag_aofc", 
+            "description": "Age of First Concern(in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1200", 
+            "dataElementId": 1056, 
+            "position": 8, 
+            "type": "Integer", 
+            "id": 2039166
+        }, 
+        {
+            "name": "devel_concern", 
+            "description": "Developmental concern", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1262063, 
+            "notes": "1 = Cognitive/learning; 2 = Behavior; 3 = Hearing; 4 = Motor; 5 = Language; 6= all", 
+            "position": 9, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039167
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "aut_diag", 
+            "description": "Autism-related diagnosis", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "1::4;999", 
+            "dataElementId": 1262064, 
+            "notes": "1 = Autism; 2 = Autism Spectrum Disorder; 3 = Asperger syndrome; 4 = PDD-NOS", 
+            "position": 10, 
+            "type": "Integer", 
+            "id": 2039168
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "diag_ageatdiag", 
+            "description": "Age at diagnosis(in months)", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "NK"
+                    ], 
+                    "key": "-999"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1200", 
+            "dataElementId": 1060, 
+            "position": 11, 
+            "type": "Integer", 
+            "id": 2039169
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "diag_diagnosismadeby", 
+            "description": "Diagnosis made by", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Physician;Psychologist;Other; NK", 
+            "dataElementId": 1062, 
+            "notes": "NK = Not known", 
+            "position": 12, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039170
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "preg_complic", 
+            "description": "Complications during pregnancy?", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262065, 
+            "notes": "NK = Not known", 
+            "position": 13, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039171
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "preg_dxdrug", 
+            "description": "Used prescription medications during pregnancy?", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "999"
+                    ], 
+                    "key": "NK"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262066, 
+            "notes": "NK = Not known", 
+            "position": 14, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039172
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "full_term", 
+            "description": "Full-term delivery? 37-42 weeks", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262067, 
+            "notes": "NK = Not known", 
+            "position": 15, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039173
+        }, 
+        {
+            "name": "info_gest", 
+            "description": "No. Weeks Gestation (G.A.)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 4815, 
+            "position": 16, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039174
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "birth_weight_lbs", 
+            "description": "Birth weight pounds", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1251472, 
+            "position": 17, 
+            "type": "Float", 
+            "id": 2039175
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "ldnb_lgthin", 
+            "description": "What was the babys length at birth(inches)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 5562, 
+            "notes": "-1 = Not known", 
+            "position": 18, 
+            "type": "Float", 
+            "id": 2039176
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "ldnb_hosptotalbabyday", 
+            "description": "How many days total did this baby stay in the hospital (after delivery up until discharge, including the neonatal ICU) (days)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 365", 
+            "dataElementId": 5572, 
+            "position": 19, 
+            "type": "Float", 
+            "id": 2048998
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "earlydev_walk", 
+            "description": "Age when first walked unaided (in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 18, 
+            "notes": "995 = Still not reached; 996 = N/K, but apparently normal; 997 = N/K, but apparently delayed; 998 = N/A; 999 = N/K or not asked", 
+            "position": 20, 
+            "type": "Integer", 
+            "id": 2039178
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "ad016", 
+            "description": "Age of first single words (months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1240778, 
+            "notes": "994 = Milestone not reached; 996 = N/K, but apparently normal; 997 = N/K, but apparently delayed; 998 = N/A; 999 = N/K or not asked", 
+            "position": 21, 
+            "type": "Integer", 
+            "id": 2039179
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "age_3word", 
+            "description": "Age at 3-word sentences (in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1262068, 
+            "position": 22, 
+            "type": "Integer", 
+            "id": 2039180
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "current_lang", 
+            "description": "Current speech/language. Verbal?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262069, 
+            "notes": "NK = Not known", 
+            "position": 23, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039181
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "verb_words", 
+            "description": "\"If yes, how many words?\"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "1::4", 
+            "dataElementId": 1262070, 
+            "notes": "1 = <10 Single words; 2 = Speaks in 10 or more single words; 3 = Speaks in 2 word combinations; 4 = Speaks in 3 or more word combinations", 
+            "position": 24, 
+            "type": "Integer", 
+            "id": 2039182
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_devdelay", 
+            "description": "Developmental Delay", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4680, 
+            "notes": "NK = Not known", 
+            "position": 25, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039183
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "school_perf", 
+            "description": "School Performance", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "1::4", 
+            "dataElementId": 1262071, 
+            "notes": "1 = Below grade level; 2 = At grade level; 3 = Above grade level; 4 = Mixed (at or above grade level in some areas and below grade level in other areas)", 
+            "position": 26, 
+            "type": "Integer", 
+            "id": 2039184
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rx_behav", 
+            "description": "Prescription medications for behavioral concerns", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262072, 
+            "notes": "NK = Not known", 
+            "position": 27, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039185
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rx_phys", 
+            "description": "Prescription medications for physical health concerns", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262073, 
+            "notes": "NK = Not known", 
+            "position": 28, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039186
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "otc_med", 
+            "description": "Over-the-counter medications", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262074, 
+            "notes": "NK = Not known", 
+            "position": 29, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039187
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "ds_med", 
+            "description": "Dietary supplements", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262075, 
+            "notes": "NK = Not known", 
+            "position": 30, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039188
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gastro_spec_diet", 
+            "description": "Does subject have a special diet?", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1259847, 
+            "notes": "NK = Not known", 
+            "position": 31, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039189
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headmeningitis", 
+            "description": "Meningitis", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1087, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 32, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039190
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headmeningitisage", 
+            "description": "Meningitis: Age(in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1200", 
+            "dataElementId": 1088, 
+            "position": 33, 
+            "type": "Integer", 
+            "id": 2039191
+        }, 
+        {
+            "name": "rev_headmeningitisorg", 
+            "description": "Meningitis: Organism", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1089, 
+            "position": 34, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2039192
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headencephalitis", 
+            "description": "Encephalitis", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1090, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 35, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039193
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headencephalitisage", 
+            "description": "Encephalitis: Age(in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1200", 
+            "dataElementId": 1091, 
+            "position": 36, 
+            "type": "Integer", 
+            "id": 2039194
+        }, 
+        {
+            "name": "rev_headencephalitisorg", 
+            "description": "Encephalitis: Organism", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1092, 
+            "position": 37, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2039195
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headfebseiz", 
+            "description": "Febrile Seizures", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "not_answered"
+                    ], 
+                    "key": "NK"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "0_no"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1_yes"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1093, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 38, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039196
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headfebseizages", 
+            "description": "Febrile Seizures: Age(S)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1094, 
+            "position": 39, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2039197
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headseizure", 
+            "description": "Seizures", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1095, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 40, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039198
+        }, 
+        {
+            "name": "rev_headseizureonset", 
+            "description": "Seizures: Onset", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1096, 
+            "position": 41, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2039199
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headseizurecontrol", 
+            "description": "Seizures: Controlled", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1097, 
+            "notes": "NK = Not known", 
+            "position": 42, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039200
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "fhxcp", 
+            "description": "Cerebral Palsy", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 1253800, 
+            "notes": "NK = Not known", 
+            "position": 43, 
+            "size": 5, 
+            "type": "String", 
+            "id": 2039201
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "hist_trauma", 
+            "description": "History of head trauma", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1262076, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 44, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039202
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headimagestudy", 
+            "description": "Imaging Studies", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1100, 
+            "notes": "NK = Not known", 
+            "position": 45, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039203
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headimagestudytype", 
+            "description": "Imaging Studies: Type", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "US;CT;MR;PET;EEG; MR and EEG; CT and EEG; CT and EEG and MR", 
+            "dataElementId": 1101, 
+            "position": 46, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039204
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_headimagestudyresult", 
+            "description": "Imaging Studies: Results", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1102, 
+            "notes": "Normal; Abnormal", 
+            "position": 47, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2039205
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "vis_blind", 
+            "description": "Significant visual loss or congenital blindness", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK", 
+            "dataElementId": 1262077, 
+            "notes": "NK = Not known", 
+            "position": 48, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039206
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_eartest", 
+            "description": "Hearing Testing:", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1107, 
+            "notes": "NK = Not known", 
+            "position": 49, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039207
+        }, 
+        {
+            "name": "rev_eartestages", 
+            "description": "Hearing Testing: Age(S)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1108, 
+            "position": 50, 
+            "size": 255, 
+            "type": "String", 
+            "id": 2039208
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_eartestresult", 
+            "description": "Hearing Testing: Result", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Normal;Abnormal;Unknown", 
+            "dataElementId": 1109, 
+            "position": 51, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039209
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "hear_loss", 
+            "description": "Deafness or significant hearing loss", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "Y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262078, 
+            "notes": "NK = Not known", 
+            "position": 52, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039210
+        }, 
+        {
+            "name": "othmem_hearingcor", 
+            "description": "Hearing corrected?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No", 
+            "dataElementId": 4710, 
+            "position": 53, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039211
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_earrecuotitis", 
+            "description": "Recurrent Otitis Media", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1113, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 54, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039212
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_earrecuotitisyear", 
+            "description": "Recurrent Otitis Media: #Year", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 1114, 
+            "position": 55, 
+            "type": "Integer", 
+            "id": 2039213
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_earrecuotitisage", 
+            "description": "Recurrent Otitis Media: Age of Onset(in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1200", 
+            "dataElementId": 1115, 
+            "position": 56, 
+            "type": "Integer", 
+            "id": 2039214
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_earpetube", 
+            "description": "PE Tubes", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1116, 
+            "notes": "NK = Not known", 
+            "position": 57, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039215
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_mouthcleftlip", 
+            "description": "Is there a cleft lip and/or cleft palate?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1121, 
+            "notes": "NK = Not known", 
+            "position": 58, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039216
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_mouthcleftpalate", 
+            "description": "Cleft Palate", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1122, 
+            "notes": "NK = Not known", 
+            "position": 59, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039217
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_teethdentalab", 
+            "description": "Dental abnormalities", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1127, 
+            "notes": "NK = Not known", 
+            "position": 60, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039218
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_neckspinalab", 
+            "description": "Spinal abnormalities", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1130, 
+            "notes": "NK = Not known", 
+            "position": 61, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039219
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_skinbirthmark", 
+            "description": "Birthmarks (e.g., caf\u0102\u0160-au-lait spots, white spots)", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1139, 
+            "notes": "NK = Not known", 
+            "position": 62, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039220
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_skineczema", 
+            "description": "Eczema", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1140, 
+            "notes": "NK = Not known", 
+            "position": 63, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039221
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_skinabcesses", 
+            "description": "Skin Infections/Abcesses", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1141, 
+            "notes": "NK = Not known", 
+            "position": 64, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039222
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_pulbreathab", 
+            "description": "Abnormal Breathing", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1144, 
+            "notes": "NK = Not known", 
+            "position": 65, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039223
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_pulasthma", 
+            "description": "Asthma", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1145, 
+            "notes": "NK = Not known", 
+            "position": 66, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039224
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_lung", 
+            "description": "Lung disease", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262079, 
+            "notes": "NK = Not known", 
+            "position": 67, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039225
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_cardiomalfunc", 
+            "description": "Cardiac Malformation", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "not_answered"
+                    ], 
+                    "key": "NK"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1152, 
+            "notes": "NK = Not known", 
+            "position": 68, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039226
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_cardiocyanosis", 
+            "description": "Cyanosis", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1154, 
+            "notes": "NK = Not known", 
+            "position": 69, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039227
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_rythm", 
+            "description": "Abnormal rhythm or heart rate", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262080, 
+            "notes": "NK = Not known", 
+            "position": 70, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039228
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_gastrodysphagia", 
+            "description": "Dysphagia", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1156, 
+            "notes": "NK = Not known", 
+            "position": 71, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039229
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_gastroreflux", 
+            "description": "Reflux", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1157, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 72, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039230
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_gastrorefluxmed", 
+            "description": "Reflux: Medication Required", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1158, 
+            "notes": "NK = Not known", 
+            "position": 73, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039231
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_gastroother", 
+            "description": "Other feeding difficulties", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1159, 
+            "notes": "NK = Not known", 
+            "position": 74, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039232
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_endoprecocious", 
+            "description": "Precocious Puberty", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1173, 
+            "notes": "NK = Not known", 
+            "position": 75, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039233
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_endoprecociousage", 
+            "description": "Precocious Puberty: Age(in months)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "0 :: 1200", 
+            "dataElementId": 1174, 
+            "position": 76, 
+            "type": "Integer", 
+            "id": 2039234
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_endohypothyroidism", 
+            "description": "Hypothyroidism", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1175, 
+            "notes": "NK = Not known", 
+            "position": 77, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039235
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_endohyperthyroidism", 
+            "description": "Hyperthyroidism", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1176, 
+            "notes": "NK = Not known", 
+            "position": 78, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039236
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_endodiabetes", 
+            "description": "Diabetes", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "Y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1178, 
+            "notes": "NK = Not known", 
+            "position": 79, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039237
+        }, 
+        {
+            "name": "rev_endodiabetestype", 
+            "description": "Diabetes: Type", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "I;II;999", 
+            "dataElementId": 1179, 
+            "position": 80, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039238
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_endohypoglycemia", 
+            "description": "Hypoglycemia", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1182, 
+            "notes": "NK = Not known", 
+            "position": 81, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039239
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_hemanemia", 
+            "description": "Anemia", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1184, 
+            "notes": "NK = Not known", 
+            "position": 82, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039240
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_hembleeddisorder", 
+            "description": "Bleeding disorder", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1186, 
+            "notes": "NK = Not known", 
+            "position": 83, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039241
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_immunorecurinfection", 
+            "description": "Recurrent Infections((>2 pneum or sinus infect/yr, >8 OM /yr, absesses))", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1188, 
+            "notes": "NK = Not known", 
+            "position": 84, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039242
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_immunoigdeficiency", 
+            "description": "Ig Deficiency", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1196, 
+            "notes": "NK = Not known", 
+            "position": 85, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039243
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_immunocellimmunedef", 
+            "description": "Cell Mediated Immune Def.", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1197, 
+            "notes": "NK = Not known", 
+            "position": 86, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039244
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_immunoenvallergy", 
+            "description": "Environmental Allergies", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1198, 
+            "notes": "NK = Not known", 
+            "position": 87, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039245
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_immunomedallergy", 
+            "description": "Medication Allergies", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "not_answered"
+                    ], 
+                    "key": "NK"
+                }, 
+                {
+                    "values": [
+                        "yes"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "no"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK;NA", 
+            "dataElementId": 1200, 
+            "notes": "NK = Not known; NA=Not Applicable", 
+            "position": 88, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039246
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_immunoimmunization", 
+            "description": "Immunizations", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "No"
+                    ], 
+                    "key": "Behind"
+                }, 
+                {
+                    "values": [
+                        "Yes"
+                    ], 
+                    "key": "Up to date"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Up to date;Behind;None;NK", 
+            "dataElementId": 1202, 
+            "notes": "NK = Not known", 
+            "position": 89, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039247
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gen_dis", 
+            "description": "Does the study subject have any of the following genetic disorders?", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "1::5;999", 
+            "dataElementId": 1262081, 
+            "notes": "1 = Rett syndrome; 2 = Down syndrome; 3 = Tuberous Sclerosis Complex; 4 = Fragile X syndrome; 5 = Neurofibromatosis I", 
+            "position": 90, 
+            "type": "Integer", 
+            "id": 2039248
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gen_dis_conf", 
+            "description": "\"If check above, is the genetic disorder confirmed by a physician-ordered genetic analysis\"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262082, 
+            "notes": "NK = Not known", 
+            "position": 91, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039249
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_bipolar", 
+            "description": "Bipolar disorder (Manic/depression)", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4712, 
+            "notes": "NK = Not known", 
+            "position": 92, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039250
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_depression", 
+            "description": "Depression", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4714, 
+            "notes": "NK = Not known", 
+            "position": 93, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039251
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_anxiety", 
+            "description": "Anxiety disorder", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4716, 
+            "notes": "NK = Not known", 
+            "position": 94, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039252
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "cfmh_othr_ocd", 
+            "description": "Obsessive compulsive disorder", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "1;0; -9", 
+            "dataElementId": 1243950, 
+            "notes": "0 = No; 1 = Yes; -9 = Not known", 
+            "position": 95, 
+            "type": "Integer", 
+            "id": 2039253
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_schizophrenia", 
+            "description": "Schizophrenia", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4720, 
+            "notes": "NK = Not known", 
+            "position": 96, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039254
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_selfinj", 
+            "description": "Self-injuring behavior", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4725, 
+            "notes": "NK = Not known", 
+            "position": 97, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039255
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_adhd", 
+            "description": "Attention deficit hyperactivity disorder (ADHD)", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4732, 
+            "notes": "NK = Not known", 
+            "position": 98, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039256
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_eatingdis", 
+            "description": "Eating disorder. Bulimia, Anorexia, other", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4734, 
+            "notes": "NK = Not known", 
+            "position": 99, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039257
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "othmem_eatingdis_type", 
+            "description": "If yes, specify type", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "dataElementId": 4736, 
+            "position": 100, 
+            "size": 100, 
+            "type": "String", 
+            "id": 2039258
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "sleep_pat", 
+            "description": "Disrupted sleep patterns", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262083, 
+            "notes": "NK = Not known", 
+            "position": 101, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039259
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "touret", 
+            "description": "Tourette Syndrome", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "Y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "NS"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 14:28:33", 
+            "valueRange": "Yes; No; NK; NS", 
+            "dataElementId": 1262084, 
+            "notes": "NK= Not known; NS = Not sure", 
+            "position": 102, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039260
+        }
+    ]
+}

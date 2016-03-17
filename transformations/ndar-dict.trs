@@ -1,0 +1,31 @@
+/* Data acquisition section */ 
+transform column "$.'title'" to "DataAcquisition.title";
+transform column "$.'shortName'" to "DataAcquisition.identifier";
+transform column "$.'shortName'" to "DataAcquisition.identifierScheme" apply {{ result = "Abbreviation of title" }};
+
+/* Organization section */ 
+transform column "$.'sources'[*]" to "DataAcquisition.performedBy.organization[].name";
+
+/* Dimension section */ 
+transform column "$.'dataElements'[*]['name']" to "DataAcquisition.measures[].identifier";
+transform column "$.'dataElements'[*]['name']" to "DataAcquisition.measures[].identifierScheme" apply {{
+result = "Abbreviation of name"
+}};
+transform column "$.'dataElements'[*]['description']" to "DataAcquisition.measures[].name";
+transform column "$.'dataElements'[*]['type']" to "DataAcquisition.measures[].dimensionType";
+transform column "$.'dataElements'[*]['type']" to "DataAcquisition.measures[].partOf.title" apply {{ 
+result = "NDAR Data Dictionary"
+}};
+transform column "$.'dataElements'[*]['type']" to "DataAcquisition.measures[].partOf.dataType" apply {{ 
+result = "Data Definition"
+}};
+transform column "$.'dataElements'[*]['type']" to "DataAcquisition.measures[].partOf.creator.name" apply {{ 
+result = "National Database for Autism Research"
+}};
+transform column "$.'dataElements'[*]['type']" to "DataAcquisition.measures[].partOf.creator.abbreviation" apply {{ 
+result = "NDAR"
+}};
+transform column "$.'dataElements'[*]['publishDate']" to "DataAcquisition.measures[].partOf.date";
+transform column "$.'dataElements'[*]['publishDate']" to "DataAcquisition.measures[].partOf.dateType" apply {{
+result = "YYYY-MM-DD HH:MM:SS"
+}};

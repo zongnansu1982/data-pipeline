@@ -1,11 +1,12 @@
 {
     "Abstract":"Presence of an autism spectrum disorder is a risk factor for development of self-injurious behaviour (SIB) exhibited by individuals with developmental disorders. The most salient SIB risk factors historically studied within developmental disorders are level of intellectual disability, communication deficits and presence of specific genetic disorders. Recent SIB research has expanded the search for risk factors to include less commonly studied variables for people with developmental disorders: negative affect, hyperactivity and impulsivity.",
-    "Cohorts":{
-        "Test - SIB Cohort ( 611 )":{
+    "Cohorts":[
+        {
             "Age":"0 to 1,200 months",
-            "Gender":"Both"
+            "Gender":"Both",
+            "Type":"Test - SIB Cohort ( 611 )"
         }
-    },
+    ],
     "DOI":"10.15154/1226464",
     "Data Use":"Primary Analysis",
     "Investigators":"Richman DM; Barnard-Brak L, Bosch A, Thompson S, Grubb L, Abby L",
@@ -225,9 +226,14 @@
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=wasi_199903"
         }
     ],
+    "ResourceURL":"https://ndar.nih.gov/study.html?id=258",
     "Results":[
-        "Results published in J Intellect Disabil Res, May 2013"
+        {
+            "Title":"Results published in J Intellect Disabil Res, May 2013",
+            "URL":"http://onlinelibrary.wiley.com/doi/10.1111/j.1365-2788.2012.01628.x/full"
+        }
     ],
+    "Title":"Predictors of self-injurious behaviour exhibited by individuals with autism spectrum disorder #258",
     "Types":{
         "Arms/Comparison":{
             "Cohorts":[
@@ -243,6 +249,9 @@
             "Behavioral":[
                 "Questionnaires"
             ]
-        }
-    }
+        },
+        "Study Type":"Observational Study"
+    },
+    "identifier":"258",
+    "identifierScheme":"An identifier for these studies is the number given to it on the NDAR website.  For example, the entry with identifier '1' would represent the data found at 'https://ndar.nih.gov/study.html?id=1'"
 }

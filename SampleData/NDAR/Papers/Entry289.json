@@ -1,15 +1,17 @@
 {
     "Abstract":"Reprogramming human somatic cells into induced pluripotent stem cells (iPSC) has been suspected of causing de novo copy number variations (CNVs). To explore this issue, we performed a whole-genome and transcriptome analysis of 20 human iPSC lines derived from primary skin fibroblasts of 7 individuals using next-generation sequencing. We find that, on average, an iPSC line manifests two CNVs not apparent in the fibroblasts from which the iPSC was derived. Using qPCR, PCR, and digital droplet PCR (ddPCR) to amplify across the CNVs' breakpoints, we show that at least 50% of those CNVs are present as low frequency somatic genomic variants in parental fibroblasts and are manifested in iPSC colonies due to their clonal origin. Hence, reprogramming does not necessarily lead to de novo CNVs in iPSC, since most of line-manifested CNVs reflect somatic mosaicism in the human skin. Moreover, our findings demonstrate that clonal expansion, and iPSC lines in particular, can be used as a discovery tool to reliably detect low frequency CNVs in the tissue of origin. Overall, we estimate that approximately 30% of the fibroblast cells have somatic CNVs, suggesting widespread somatic mosaicism in the human body. Our study paves the way to understanding the fundamental question of the extent to which cells of the human body normally acquire structural alterations in their DNA post-zygotically.",
-    "Cohorts":{
-        "Control - Control ( 7 )":{
+    "Cohorts":[
+        {
             "Age":"0 to 700 months",
-            "Gender":"Both"
+            "Gender":"Both",
+            "Type":"Control - Control ( 7 )"
         },
-        "Test - Test ( 2 )":{
+        {
             "Age":"90 to 200 months",
-            "Gender":"Both"
+            "Gender":"Both",
+            "Type":"Test - Test ( 2 )"
         }
-    },
+    ],
     "DOI":"10.15154/1163509",
     "Data Use":"Primary Analysis",
     "Documents":"R01MH89176 \n\nR33MH087879\n\nSFARI GRANT 137055 R09345",
@@ -160,9 +162,14 @@
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_subject02"
         }
     ],
+    "ResourceURL":"https://ndar.nih.gov/study.html?id=289",
     "Results":[
-        "Results published in Nature, Dec 2012"
+        {
+            "Title":"Results published in Nature, Dec 2012",
+            "URL":"http://www.nature.com/nature/journal/v492/n7429/full/nature11629.html"
+        }
     ],
+    "Title":"Somatic copy-number mosaicism in human skin revealed by induced pluripotent stem cell #289",
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
@@ -180,6 +187,9 @@
             "Genomics":[
                 "SNP Genotyping and CNV Analysis/Microarray"
             ]
-        }
-    }
+        },
+        "Study Type":"Controlled Study"
+    },
+    "identifier":"289",
+    "identifierScheme":"An identifier for these studies is the number given to it on the NDAR website.  For example, the entry with identifier '1' would represent the data found at 'https://ndar.nih.gov/study.html?id=1'"
 }

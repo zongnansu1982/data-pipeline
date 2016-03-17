@@ -32,9 +32,14 @@ def scrape(queue):
             try:
                 resultTD = leftTable.find_next('tr').extract().find_next('td').find_next('td')
                 while True:
+                    titleDict = {}
+                    urlDict = {}
                     resultDict = {}
                     resultDict["URL"] = str(resultTD.find_next('div').find_next('a')['href'])
                     resultDict["Title"] = str(resultTD.find_next('div').extract().text.strip())
+
+
+
                     resultList.append(resultDict)
 
             except:
@@ -50,7 +55,7 @@ def scrape(queue):
             rightTable = soup.find('div', {'class' : 'study-summary-wrapper study-right-wrapper'})
 
             cohort = rightTable.find_next('tr').extract().find_next('td').find_next('td').find_next('div')
-            cohorts = {}
+            cohorts = []
             while cohort is not None:
                 cohortDict = {}
 
@@ -65,12 +70,12 @@ def scrape(queue):
                 cohortDict["Age"] = cohortAge
 
                 cohortDict["Gender"] = str(cohort.find_next('div', {'class' : 'cohort-info'}).extract().text).split(':')[1].strip()
-
-                cohorts[string.join(cohortTitle)] = cohortDict
+                cohortDict["Type"] = string.join(cohortTitle)
+                cohorts.append(cohortDict)
 
                 cohort = cohort.find_next('div')
 
-            cleanDict(cohorts)
+
             entryDict["Cohorts"] = cohorts
 
             measuresTable = soup.find('table', {'class' : 'standard-table measure-table'})
@@ -115,6 +120,10 @@ def scrape(queue):
                 entryDict["Types"] = typeDict
 
             entryDict['ResourceURL'] = "https://ndar.nih.gov/study.html?id=" + filter(str.isdigit, filename)
+            entryDict['identifier'] = filter(str.isdigit, filename)
+            entryDict['identifierScheme'] = "An identifier for these studies is the number given to it on the NDAR" \
+                                            + " website.  For example, the entry with identifier '1' would represent" \
+                                            + " the data found at 'https://ndar.nih.gov/study.html?id=1'"
 
             jFile = json.dumps(entryDict, sort_keys=True, indent=4, separators=(',',':'))
             directory = "Data_From_Papers_JSON"
@@ -147,7 +156,6 @@ def run():
     directory = "Data_From_Papers_HTML"
     totalEntries = len(os.listdir(directory))
     for index, i in enumerate(os.listdir(directory)):
-        #if i.split(".")[0] == "TESTFILE":
         q.put(i.split(".")[0])
 
     q.join()

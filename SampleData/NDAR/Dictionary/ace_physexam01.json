@@ -1,0 +1,1165 @@
+{
+    "status": "Published", 
+    "title": "ACE Subject Physical Exam", 
+    "dataType": "Clinical Assessments", 
+    "publishDate": 1354548944153, 
+    "sources": [
+        "ACE Common Measures V2", 
+        "NDAR"
+    ], 
+    "shortName": "ace_physexam01", 
+    "categories": [
+        "Phys Exam"
+    ], 
+    "dataElements": [
+        {
+            "name": "subjectkey", 
+            "description": "The NDAR Global Unique Identifier (GUID) for research subject", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "NDAR*", 
+            "dataElementId": 1, 
+            "position": 1, 
+            "type": "GUID", 
+            "id": 2039113, 
+            "aliases": [
+                "GUID"
+            ]
+        }, 
+        {
+            "name": "src_subject_id", 
+            "description": "Subject ID how it's defined in lab/project", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 2, 
+            "position": 2, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2039114
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "interview_age", 
+            "description": "Age in months at the time of the interview/test/sampling/imaging.", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "0 :: 1260", 
+            "dataElementId": 4, 
+            "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month.", 
+            "position": 3, 
+            "type": "Integer", 
+            "id": 2039115
+        }, 
+        {
+            "name": "interview_date", 
+            "description": "Date on which the interview/genetic test/sampling/imaging was completed. MM/DD/YYYY", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 3, 
+            "notes": "Required field", 
+            "position": 4, 
+            "type": "Date", 
+            "id": 2039158
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gender", 
+            "description": "Gender", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "F"
+                }, 
+                {
+                    "values": [
+                        "Male"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Female"
+                    ], 
+                    "key": "F"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "M;F; T", 
+            "dataElementId": 10, 
+            "notes": "M = Male; F = Female; T= Transgender", 
+            "position": 5, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2039116
+        }, 
+        {
+            "name": "comments_misc", 
+            "description": "Miscellaneous comments on study, interview, methodology relevant to this form data", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 5, 
+            "position": 6, 
+            "size": 4000, 
+            "type": "String", 
+            "id": 2039117
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "height_met", 
+            "description": "Height - Metric Unit", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 1439, 
+            "position": 7, 
+            "type": "Float", 
+            "id": 2039118
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "weight_met", 
+            "description": "Weight - Metric Unit", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 1441, 
+            "position": 8, 
+            "type": "Float", 
+            "id": 2039119
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "head_circum", 
+            "description": "Head Circumference (in cm)", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 1436, 
+            "notes": "-1 = Not known", 
+            "position": 9, 
+            "type": "Float", 
+            "id": 2039120
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "head_faciala", 
+            "description": "Facial Asymmetry", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1435, 
+            "notes": "NK = Not known", 
+            "position": 10, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039121, 
+            "aliases": [
+                "Charge_physicalexam_head_faciala"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "facial_dysmorp", 
+            "description": "\"Are there dysmorphic facial features (e.g. eyes too closely or widely spaced, ears lowset)?\"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262044, 
+            "notes": "NK = Not known", 
+            "position": 11, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039122
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "child_visionimp", 
+            "description": "Does the Child have a vision impairment?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4376, 
+            "notes": "NK = Not known", 
+            "position": 12, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039123
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "eye_correct", 
+            "description": "If yes, is there any correction/what kind?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "1;2", 
+            "dataElementId": 1269287, 
+            "notes": "1=Glasses or Corrective lens; 2=Surgery", 
+            "position": 13, 
+            "type": "Integer", 
+            "id": 2052256
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "child_hearingimp", 
+            "description": "Does the Child have a hearing impairment?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No; NK", 
+            "dataElementId": 4378, 
+            "notes": "NK = Not known", 
+            "position": 14, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039124
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "hear_corr_type", 
+            "description": "\"If yes, is there any correction/what kind\"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "1;2", 
+            "dataElementId": 1262045, 
+            "notes": "1 = Hearing aids; 2 = Cochlear implants", 
+            "position": 15, 
+            "type": "Integer", 
+            "id": 2039125
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "eye_mov", 
+            "description": "Are the eye movements full and symmetric?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262046, 
+            "position": 16, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039126
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "eyes_strabismus", 
+            "description": "Strabismus", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "dataElementId": 1454, 
+            "notes": "Yes; No; NK (not known/not examined)", 
+            "position": 17, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039127
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "eyes_nystagmus", 
+            "description": "Nystagmus", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1455, 
+            "notes": "NK = Not known", 
+            "position": 18, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039128, 
+            "aliases": [
+                "Charge_physicalexam_eyes_nystagmus"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "eyes_ptosis", 
+            "description": "Ptosis", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1463, 
+            "notes": "NK = Not known", 
+            "position": 19, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039129, 
+            "aliases": [
+                "Charge_physicalexam_eyes_ptosis"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "medprob_ear", 
+            "description": "Ears: Is there any known abnormality in this area?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "No;Yes;NK", 
+            "dataElementId": 5621, 
+            "notes": "NK = Not known", 
+            "position": 20, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039130
+        }, 
+        {
+            "name": "ear_ab_type", 
+            "description": "\"If yes, how do they appear? \"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Cupped; Prominent; Lowset; Tags", 
+            "dataElementId": 1262047, 
+            "position": 21, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039131
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "jaw_ab", 
+            "description": "Does the jaw appear abnormal?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262048, 
+            "notes": "NK = Not known", 
+            "position": 22, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039132
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "rev_mouthcleftlip", 
+            "description": "Is there a cleft lip and/or cleft palate?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1121, 
+            "notes": "NK = Not known", 
+            "position": 23, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039133
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "neck_webbed", 
+            "description": "Is the neck short and/or webbed?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1516, 
+            "notes": "NK = Not known", 
+            "position": 24, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039134, 
+            "aliases": [
+                "Charge_physicalexam_neck_webbed"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "neck_pect", 
+            "description": "Is there a pectus deformity (breastbone scooped in or prominent)?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262049, 
+            "notes": "NK = Not known", 
+            "position": 25, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039135
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "neck_scoliosis", 
+            "description": "Is there scoliosis (curvature of the spine)?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1521, 
+            "notes": "NK = Not known", 
+            "position": 26, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039136, 
+            "aliases": [
+                "Charge_physicalexam_neck_scoliosis"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "cardio_murmur", 
+            "description": "Is there a heart murmur or abnormal heart examination?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1583, 
+            "notes": "NK = Not known", 
+            "position": 27, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039137, 
+            "aliases": [
+                "Charge_physicalexam_cardio_murmur"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "abdomen_hepatom", 
+            "description": "Is there evidence of hepato(spleno)megaly (large liver or spleen)?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1594, 
+            "notes": "NK = Not known", 
+            "position": 28, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039138
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "genit_exam", 
+            "description": "Is the genital exam abnormal?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262050, 
+            "notes": "NK = Not known", 
+            "position": 29, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039139
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "genit_exam_spec", 
+            "description": "\"If yes, what findings? \"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "1::6", 
+            "dataElementId": 1262051, 
+            "notes": "1 = Hypospadias; 2 = Cryptorchidism; 3 = Enlarged testicles; 4 = Micropenis; 5 = Hypoplastic labia; 6=other", 
+            "position": 30, 
+            "type": "Integer", 
+            "id": 2039140
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "limb_abnor", 
+            "description": "Are there any digital abnormalities (extra or missing fingers or toes)?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262052, 
+            "notes": "NK = Not known", 
+            "position": 31, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039141
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "limb_abnor_det", 
+            "description": "\"If yes, what findings? \"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "1::5", 
+            "dataElementId": 1262053, 
+            "notes": "1 = Extra fingers; 2 = Missing fingers; 3= Extra toes; 4 = Missing toes; 5 = Fused digits", 
+            "position": 32, 
+            "type": "Integer", 
+            "id": 2039142
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "limb_joint_loos", 
+            "description": "Are joints excessively loose?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262054, 
+            "notes": "NK = Not known", 
+            "position": 33, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039143
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "limb_jointlimitations", 
+            "description": "Are there joint contractures?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1551, 
+            "notes": "NK = Not known", 
+            "position": 34, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039144, 
+            "aliases": [
+                "Charge_physicalexam_limb_jointlimitations"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "skin_hypopigmen", 
+            "description": "Are there areas of hypopigmentation (ash-leaf spots)?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1557, 
+            "notes": "NK = Not known", 
+            "position": 35, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039145, 
+            "aliases": [
+                "Charge_physicalexam_skin_hypopigmen"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "skin_hyperpig", 
+            "description": "Are there areas of hyperpigmentation (caf\u0102\u0160-au-lait spots)?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1559, 
+            "notes": "NK = Not known", 
+            "position": 36, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039146, 
+            "aliases": [
+                "Charge_physicalexam_skin_hyperpig"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "skin_freck", 
+            "description": "Are there freckles under the arms and/or groin area?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262055, 
+            "notes": "NK = Not known", 
+            "position": 37, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039147
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "skin_neurofib", 
+            "description": "Are there neurofibromas (bumps under the skin, sometimes with a bluish tinge)?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1566, 
+            "notes": "NK = Not known", 
+            "position": 38, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039148, 
+            "aliases": [
+                "Charge_physicalexam_skin_neurofib"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "skin_abnorm", 
+            "description": "Any other skin abnormalities?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262056, 
+            "notes": "NK = Not known", 
+            "position": 39, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039149, 
+            "aliases": [
+                "Charge_physicalexam_skin_comments"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "hypotonia", 
+            "description": "Does (did) the Child have Hypotonia (low muscle tone)?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "0;1;2", 
+            "dataElementId": 1237827, 
+            "notes": "0 = No; 1 = Yes; 2 = Not known", 
+            "position": 40, 
+            "type": "Integer", 
+            "id": 2039150
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "hypertonia", 
+            "description": "Does (did) the Child have Hypertonia (tight muscle tone)?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "0;1;2", 
+            "dataElementId": 1237828, 
+            "notes": "0 = No; 1 = Yes; 2 = Not known", 
+            "position": 41, 
+            "type": "Integer", 
+            "id": 2039151
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "muscle_streng", 
+            "description": "Is muscle strength abnormal?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262057, 
+            "notes": "NK = Not known", 
+            "position": 42, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039152
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "muscle_streng_det", 
+            "description": "\"If yes, what findings \"", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "1;2", 
+            "dataElementId": 1262058, 
+            "notes": "1 = Generalized weakness; 2 = Focal weakness", 
+            "position": 43, 
+            "type": "Integer", 
+            "id": 2039153
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gait_atax", 
+            "description": "Is there evidence of poor coordination or gait ataxia (difficulty walking straight)?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262059, 
+            "notes": "NK = Not known", 
+            "position": 44, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039154
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "neuro_involunmove", 
+            "description": "Are there any involuntary movements?", 
+            "required": "Recommended", 
+            "translations": [
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "N"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "n"
+                    ], 
+                    "key": "No"
+                }, 
+                {
+                    "values": [
+                        "y"
+                    ], 
+                    "key": "Yes"
+                }, 
+                {
+                    "values": [
+                        "0"
+                    ], 
+                    "key": "No "
+                }
+            ], 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1631, 
+            "notes": "NK = Not known", 
+            "position": 45, 
+            "size": 50, 
+            "type": "String", 
+            "id": 2039155, 
+            "aliases": [
+                "Charge_physicalexam_neuro_involunmove"
+            ]
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "cran_nerv", 
+            "description": "\"Are the cranial nerves normal (do face, tongue and palate move normally)? \"", 
+            "required": "Required", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262060, 
+            "notes": "NK = Not known", 
+            "position": 46, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039156
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "sens_exam", 
+            "description": "Is sensory exam normal?", 
+            "required": "Recommended", 
+            "publishDate": "2012-12-03 07:35:44", 
+            "valueRange": "Yes;No;NK", 
+            "dataElementId": 1262061, 
+            "notes": "NK = Not known", 
+            "position": 47, 
+            "size": 10, 
+            "type": "String", 
+            "id": 2039157
+        }
+    ]
+}

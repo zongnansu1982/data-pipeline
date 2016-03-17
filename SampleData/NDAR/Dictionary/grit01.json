@@ -1,0 +1,271 @@
+{
+    "status": "Published", 
+    "title": "12-Item Grit Scale", 
+    "dataType": "Clinical Assessments", 
+    "sources": [
+        "RDoC"
+    ], 
+    "shortName": "grit01", 
+    "categories": [
+        "Questionnaire"
+    ], 
+    "dataElements": [
+        {
+            "name": "subjectkey", 
+            "description": "The NDAR Global Unique Identifier (GUID) for research subject", 
+            "required": "Required", 
+            "valueRange": "NDAR*", 
+            "dataElementId": 1, 
+            "position": 1, 
+            "type": "GUID", 
+            "id": 2081167
+        }, 
+        {
+            "name": "src_subject_id", 
+            "description": "Subject ID how it's defined in lab/project", 
+            "required": "Required", 
+            "dataElementId": 2, 
+            "position": 2, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2081168
+        }, 
+        {
+            "name": "interview_date", 
+            "description": "Date on which the interview/genetic test/sampling/imaging was completed. MM/DD/YYYY", 
+            "required": "Required", 
+            "dataElementId": 3, 
+            "notes": "Required field", 
+            "position": 3, 
+            "type": "Date", 
+            "id": 2081169
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "interview_age", 
+            "description": "Age in months at the time of the interview/test/sampling/imaging.", 
+            "required": "Required", 
+            "valueRange": "0 :: 1260", 
+            "dataElementId": 4, 
+            "notes": "Age is rounded to chronological month. If the research participant is 15-days-old at time of interview, the appropriate value would be 0 months. If the participant is 16-days-old, the value would be 1 month.", 
+            "position": 4, 
+            "type": "Integer", 
+            "id": 2081170
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "gender", 
+            "description": "Gender", 
+            "required": "Required", 
+            "translations": [
+                {
+                    "values": [
+                        "1"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "Male"
+                    ], 
+                    "key": "M"
+                }, 
+                {
+                    "values": [
+                        "2"
+                    ], 
+                    "key": "F"
+                }, 
+                {
+                    "values": [
+                        "Female"
+                    ], 
+                    "key": "F"
+                }
+            ], 
+            "valueRange": "M;F; T", 
+            "dataElementId": 10, 
+            "notes": "M = Male; F = Female; T= Transgender", 
+            "position": 5, 
+            "size": 20, 
+            "type": "String", 
+            "id": 2081171
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit1", 
+            "description": "I have overcome setbacks to conquer an important challenge.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289669, 
+            "notes": "5= Very much like me; 4= Mostly like me; 3= Somewhat like me; 2= Not much like me; 1= Not like me at all", 
+            "position": 6, 
+            "type": "Integer", 
+            "id": 2081172
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit2", 
+            "description": "New ideas and projects sometimes distract me from previous ones.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289667, 
+            "notes": "1= Very much like me; 2= Mostly like me; 3= Somewhat like me; 4= Not much like me; 5= Not like me at all", 
+            "position": 7, 
+            "type": "Integer", 
+            "id": 2081173
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit3", 
+            "description": "My interests change from year to year.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289664, 
+            "notes": "1= Very much like me; 2= Mostly like me; 3= Somewhat like me; 4= Not much like me; 5= Not like me at all", 
+            "position": 8, 
+            "type": "Integer", 
+            "id": 2081174
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit4", 
+            "description": "Setbacks don't discourage me.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289665, 
+            "notes": "5= Very much like me; 4= Mostly like me; 3= Somewhat like me; 2= Not much like me; 1= Not like me at all", 
+            "position": 9, 
+            "type": "Integer", 
+            "id": 2081175
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit5", 
+            "description": "I have been obsessed with a certain idea or project for a short time but later lost interest.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289674, 
+            "notes": "1= Very much like me; 2= Mostly like me; 3= Somewhat like me; 4= Not much like me; 5= Not like me at all", 
+            "position": 10, 
+            "type": "Integer", 
+            "id": 2081176
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit6", 
+            "description": "I am a hard worker.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289662, 
+            "notes": "5= Very much like me; 4= Mostly like me; 3= Somewhat like me; 2= Not much like me; 1= Not like me at all", 
+            "position": 11, 
+            "type": "Integer", 
+            "id": 2081177
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit7", 
+            "description": "I often set a goal but later choose to pursue a different one.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289670, 
+            "notes": "1= Very much like me; 2= Mostly like me; 3= Somewhat like me; 4= Not much like me; 5= Not like me at all", 
+            "position": 12, 
+            "type": "Integer", 
+            "id": 2081178
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit8", 
+            "description": "I have difficulty maintaining my focus on projects that take more than a few months to complete.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289663, 
+            "notes": "1= Very much like me; 2= Mostly like me; 3= Somewhat like me; 4= Not much like me; 5= Not like me at all", 
+            "position": 13, 
+            "type": "Integer", 
+            "id": 2081179
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit9", 
+            "description": "I finish whatever I begin.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289672, 
+            "notes": "5= Very much like me; 4= Mostly like me; 3= Somewhat like me; 2= Not much like me; 1= Not like me at all", 
+            "position": 14, 
+            "type": "Integer", 
+            "id": 2081180
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit10", 
+            "description": "I have achieved a goal that took years of work.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289673, 
+            "notes": "5= Very much like me; 4= Mostly like me; 3= Somewhat like me; 2= Not much like me; 1= Not like me at all", 
+            "position": 15, 
+            "type": "Integer", 
+            "id": 2081181
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit11", 
+            "description": "I become interested in new pursuits every few months.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289671, 
+            "notes": "1= Very much like me; 2= Mostly like me; 3= Somewhat like me; 4= Not much like me; 5= Not like me at all", 
+            "position": 16, 
+            "type": "Integer", 
+            "id": 2081182
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit12", 
+            "description": "I am diligent.", 
+            "required": "Recommended", 
+            "valueRange": "1 :: 5", 
+            "dataElementId": 1289668, 
+            "notes": "5= Very much like me; 4= Mostly like me; 3= Somewhat like me; 2= Not much like me; 1= Not like me at all", 
+            "position": 17, 
+            "type": "Integer", 
+            "id": 2081183
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit_total", 
+            "description": "Grit Total score", 
+            "required": "Required", 
+            "valueRange": "1::5", 
+            "dataElementId": 1289666, 
+            "notes": "1=not at all gritty; 5=extremely gritty", 
+            "position": 18, 
+            "type": "Float", 
+            "id": 2081184
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit_ci", 
+            "description": "Consistency of interests", 
+            "required": "Required", 
+            "dataElementId": 1290886, 
+            "position": 19, 
+            "type": "Float", 
+            "id": 2082597
+        }, 
+        {
+            "filterElement": "1", 
+            "name": "grit_pe", 
+            "description": "Perseverance of effort", 
+            "required": "Required", 
+            "dataElementId": 1290887, 
+            "position": 20, 
+            "type": "Float", 
+            "id": 2082598
+        }
+    ]
+}
