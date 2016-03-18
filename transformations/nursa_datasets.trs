@@ -1,15 +1,27 @@
 /* Dataset Information */
-transform column "$.'dataset_id'" to "dataset.ID";
-transform column "$.'title'" to "dataset.title";
-transform column "$.'summary'" to "dataset.description";
+transform column "$.'doi'" to "dataset.ID";
+transform column "$.'name'" to "dataset.title";
+transform column "$.'description'" to "dataset.description";
 transform column "$.'doi'" to "dataset.downloadURL" apply {{ result = 'https://nursa.org/nursa/datasets/dataset.jsf?doi=' + value }};
 
 /* Data Acquisition Information */
-transform column "$.'technique'" to "dataAcquisition.title";
+transform column "$.'type'" to "dataAcquisition.title";
 
 /* Additional Information */
-transform column "$.'project'" to "study.title";
-transform column "$.'investigator'" to "person.name";
+transform column "$.'species'" to "organism[].name";
+
+transform column "$.'contributors'" to "person.name[]" apply {{
+arr=re.split("\s*,\s*",value1,)
+result=arr
+}};
+
+transform column "$.'tissue_cell_lines'" to "dataset.keywords[]" apply {{
+arr=re.split("\s*,\s*",value1,)
+result=arr
+}};
+
+transform column "$.'reference'" to "publication.description";
+
 
 /* Data Repository Information */
 transform column "$.'dataset_id'" to "dataRepository.name" apply {{ result = 'Nuclear Receptor Signaling Atlas' }};
@@ -34,5 +46,4 @@ transform column "$.'e_uid'" to "e_uid";
 transform column "$.'v_uid'" to "v_uid";
 transform column "$.'v_uuid'" to "v_uuid";
 transform column "$.'v_lastmodified'" to "v_lastmodified";
-transform column "$.'moreinfo_url'" to "moreinfo_url";
 */
