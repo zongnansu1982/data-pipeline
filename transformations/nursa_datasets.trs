@@ -1,39 +1,39 @@
 /* Dataset Information */
-transform column "$.'doi'" to "dataset.ID";
-transform column "$.'name'" to "dataset.title";
-transform column "$.'description'" to "dataset.description";
-transform column "$.'doi'" to "dataset.downloadURL" apply {{ result = 'https://nursa.org/nursa/datasets/dataset.jsf?doi=' + value }};
+transform column "$.'nif_0000_03208_2'.'doi'" to "dataset.ID";
+transform column "$.'nif_0000_03208_2'.'name'" to "dataset.title";
+transform column "$.nif_0000_03208_2.'description'" to "dataset.description";
+transform column "$.'nif_0000_03208_2'.'doi'" to "dataset.downloadURL" apply {{ result = 'https://nursa.org/nursa/datasets/dataset.jsf?doi=' + value }};
 
 /* Data Acquisition Information */
-transform column "$.'type'" to "dataAcquisition.title";
+transform column "$.nif_0000_03208_2.'type'" to "dataAcquisition.title";
 
 /* Additional Information */
-transform column "$.'species'" to "organism[].name";
+transform column "$.nif_0000_03208_2.'species'" to "organism[].name";
 
-transform column "$.'contributors'" to "person.name[]" apply {{
-arr=re.split("\s*,\s*",value1,)
+transform column "$.nif_0000_03208_2.'contributors'" to "person.name[]" apply {{
+arr=re.split("\s*,\s*",value,)
+result= [] if value == 'Not Available' else arr
+}};
+
+transform column "$.nif_0000_03208_2.'tissue_cell_lines'" to "dataset.keywords[]" apply {{
+arr=re.split("\s*,\s*",value,)
 result=arr
 }};
 
-transform column "$.'tissue_cell_lines'" to "dataset.keywords[]" apply {{
-arr=re.split("\s*,\s*",value1,)
-result=arr
-}};
-
-transform column "$.'reference'" to "publication.description";
+transform column "$.nif_0000_03208_2.'reference'" to "publication.description" apply {{ result = '' if value == 'Not Available' else value }};
 
 
 /* Data Repository Information */
-transform column "$.'dataset_id'" to "dataRepository.name" apply {{ result = 'Nuclear Receptor Signaling Atlas' }};
-transform column "$.'dataset_id'" to "dataRepository.abbreviation" apply {{ result = 'NURSA' }};
-transform column "$.'dataset_id'" to "dataRepository.ID" apply {{ result = 'SCR:003287' }};
-transform column "$.'dataset_id'" to "dataRepository.homePage" apply {{ result = 'http://www.nursa.org/' }};
+let "dataRepository.name"  = "Nuclear Receptor Signaling Atlas";
+let "dataRepository.abbreviation" = "NURSA";
+let "dataRepository.ID"  = "SCR:003287";
+let "dataRepository.homePage" = "http://www.nursa.org/";
 
 /* Organization Information */
-transform column "$.'dataset_id'" to "organization.name" apply {{ result = 'National Institute of Diabetes and Digestive and Kidney Diseases' }};
-transform column "$.'dataset_id'" to "organization.abbreviation" apply {{ result = 'NIDDK' }};
-transform column "$.'dataset_id'" to "organization.ID" apply {{ result = 'SCR:012895' }};
-transform column "$.'dataset_id'" to "organization.homePage" apply {{ result = 'http://niddk.nih.gov/' }};
+let "organization.name"  = "National Institute of Diabetes and Digestive and Kidney Diseases";
+let "organization.abbreviation" = "NIDDK";
+let "organization.ID" = "SCR:012895";
+let "organization.homePage"  = "http://niddk.nih.gov/";
 
 /* Items requiring some special formatting/review */
 /*
