@@ -1,20 +1,18 @@
 import requests, bs4, time, pprint, json, string
-import SeleniumTypesScraper, threading, os
-from multiprocessing import Queue
+import SeleniumTypesScraper, os
+from multiprocessing import Pool
 
 totalEntries = 0
 
 def cleanDict(d):
-    for elm in d.keys():
+    for elm in list(d.keys()):
         if len(d[elm]) == 0:
             del d[elm]
 
 def getNextChunk(table):
-    return table.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip()
+    return table.find_next('tr').extract().find_next('td').find_next('td').text.encode('utf-8').strip().decode('unicode_escape')
 
-def scrape(queue):
-    while True:
-        filename = queue.get()
+def scrape(filename):
         try:
             #print "Getting webpage from file..."
             f = "Data_From_Papers_HTML/" + filename + ".html"
@@ -25,8 +23,8 @@ def scrape(queue):
             entryDict = {}
             entryDict["Title"] = soup.find('div', {'class':'id-wrapper'}).find_next('label').text
             leftTable = soup.find('div', {'class' : 'study-summary-wrapper study-left-wrapper'})
-            entryDict["Investigators"] = getNextChunk(leftTable)
-            entryDict["Abstract"] = getNextChunk(leftTable)
+            entryDict["Investigators"] = str(getNextChunk(leftTable))
+            entryDict["Abstract"] = str(getNextChunk(leftTable))
 
             #TODO: Get link, but need login info
             resultList = []
@@ -38,18 +36,15 @@ def scrape(queue):
                     resultDict = {}
                     resultDict["URL"] = str(resultTD.find_next('div').find_next('a')['href'])
                     resultDict["Title"] = str(resultTD.find_next('div').extract().text.strip())
-
-
-
                     resultList.append(resultDict)
 
             except:
                 pass
 
             entryDict["Results"] = resultList
-            entryDict["Documents"] = getNextChunk(leftTable)
-            entryDict["DOI"] = getNextChunk(leftTable)
-            entryDict["Data Use"] = getNextChunk(leftTable)
+            entryDict["Documents"] = str(getNextChunk(leftTable))
+            entryDict["DOI"] = str(getNextChunk(leftTable))
+            entryDict["Data Use"] = str(getNextChunk(leftTable))
 
             cleanDict(entryDict)
 
@@ -59,19 +54,16 @@ def scrape(queue):
             cohorts = []
             while cohort is not None:
                 cohortDict = {}
-
-
-
                 cohortTitle = str(cohort.find_next('label').extract().text).strip(), "(" , str(cohort.find_next('label').text).strip() , ")"
 
                 cohortAge = str(cohort.find_next('div', {'class' : 'cohort-info'}).extract().text).split('\n')
                 for index in range(len(cohortAge)):
                     cohortAge[index] = cohortAge[index].strip()
-                cohortAge = string.join(cohortAge[2:-1])
+                cohortAge = ' '.join(cohortAge[2:-1])
                 cohortDict["Age"] = cohortAge
 
                 cohortDict["Gender"] = str(cohort.find_next('div', {'class' : 'cohort-info'}).extract().text).split(':')[1].strip()
-                cohortDict["Type"] = string.join(cohortTitle)
+                cohortDict["Type"] = ' '.join(cohortTitle)
                 cohorts.append(cohortDict)
 
                 cohort = cohort.find_next('div')
@@ -94,9 +86,7 @@ def scrape(queue):
                 # elements div
                 elements = measure.find_next('a').find_next_sibling('div')
                 if elements is not None:
-
                     elementList = []
-
                     for elem in elements.find_all('tr'):
 
                         dataElement = elem.find_next('td').extract().text.strip()
@@ -116,21 +106,20 @@ def scrape(queue):
             except AttributeError:
                 pass
 
-
             if len(typeDict) > 0:
                 entryDict["Types"] = typeDict
 
-            entryDict['ResourceURL'] = "https://ndar.nih.gov/study.html?id=" + filter(str.isdigit, filename)
-            entryDict['identifier'] = filter(str.isdigit, filename)
+            entryDict['ResourceURL'] = "https://ndar.nih.gov/study.html?id=" + ''.join(c for c in filename if c.isdigit())
+            entryDict['identifier'] = ''.join(c for c in filename if c.isdigit())
             entryDict['identifierScheme'] = "An identifier for these studies is the number given to it on the NDAR" \
                                             + " website.  For example, the entry with identifier '1' would represent" \
                                             + " the data found at 'https://ndar.nih.gov/study.html?id=1'"
 
-            jFile = json.dumps(entryDict, sort_keys=True, indent=4, separators=(',',':'))
+            jFile = json.dumps(dict(entryDict), sort_keys=True, indent=4, separators=(',',':'))
             directory = "Data_From_Papers_JSON"
             if not os.path.exists(directory):
                 os.makedirs(directory)
-            file = open(directory + "/" + filename + ".json", 'w')
+            file = open(directory + "/" + filename + ".json", 'wt')
 
             for line in jFile:
                 file.write(line)
@@ -138,27 +127,29 @@ def scrape(queue):
             file.close()
             global totalEntries
             totalEntries -= 1
-            print("Finished writing" + filename + ", " + totalEntries + " files left")
-            queue.task_done()
+            print("Finished writing " + filename + ", " + str(totalEntries) + " files left")
         except Exception as e:
             totalEntries -= 1
-            print(filename + " failed!\n" + e)
+            print(filename + " failed!\n" + str(e))
 
 def run():
     print("Getting all JSON files ...")
-    q = Queue.Queue()
+#    q = Queue()
 
-    maxThreads = 10
-    for i in range(maxThreads):
-        t = threading.Thread(target=scrape, args=(q,))
-        t.daemon = True
-        t.start()
+#    maxThreads = 10
+#    for i in range(maxThreads):
+#        t = threading.Thread(target=scrape, args=(q,))
+#        t.daemon = True
+#        t.start()
+#    pool = Pool(processes=8)
     global totalEntries
     directory = "Data_From_Papers_HTML"
     totalEntries = len(os.listdir(directory))
+    filenames = []
     for index, i in enumerate(os.listdir(directory)):
-        q.put(i.split(".")[0])
-
-    q.join()
+        filenames.append(i.split(".")[0])
+        scrape(i.split(".")[0])
+#   pool.map(scrape, filenames)
+#   q.join()
 
     print("Done.")

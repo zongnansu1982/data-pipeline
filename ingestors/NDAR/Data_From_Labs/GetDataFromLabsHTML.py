@@ -6,12 +6,13 @@ from datetime import date
 def run():
     page = requests.get('https://ndar.nih.gov/data_from_labs.html')
 
-    f = open("DataFromLabs.html", "w")
+    f = open("DataFromLabs.html", "wb")
 
     for line in page:
         f.write(line)
 
-    f.write("\n<!-- Updated on " + str(date.today()) + " -->")
+    s = "\n<!-- Updated on " + str(date.today()) + " -->"
+    f.write(s.encode('utf-8'))
 
     f.close()
-    print "DataFromLabs.html written!"
+    print("DataFromLabs.html written!")

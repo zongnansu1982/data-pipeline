@@ -32,13 +32,13 @@ def run():
         directory = "Data_From_Papers_HTML"
         if not os.path.exists(directory):
             os.makedirs(directory)
-        f = open(directory + "/Entry" + pageIDs[index].text + ".html", "w")
+        f = open(directory + "/Entry" + pageIDs[index].text + ".html", "wb")
 
         for line in entry:
             f.write(line)
 
         f.close()
         totalEntries -= 1
-        print("Finished writing Entry" + pageIDs[index].text + ".HTML, " +  totalEntries + " entries left")
+        print("Finished writing Entry" + pageIDs[index].text + ".HTML, " +  str(totalEntries) + " entries left")
 
     print("Done.")

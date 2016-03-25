@@ -43,11 +43,11 @@ def scrape(idNumber):
     if sys.platform == 'win32':
         path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs.exe')
         driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
-    elif sys.platform == 'linux2':
+    elif sys.platform == 'linux2' or sys.platform == 'linux':
         path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs')
         driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
     else:
-        raise Exception("This operating system is not handled yet.")
+        raise Exception("This operating system is not handled yet." + str(sys.platform))
 
 
 

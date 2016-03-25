@@ -29,7 +29,7 @@ def getBWTableInfo(table):
         count = 0
         while not col == None:
             try:
-                rowInfo[headers[count]] = str(col.text.encode('utf-8').strip())
+                rowInfo[headers[count]] = col.text.encode('utf-8').strip().decode('unicode_escape')
             except:
                pass
 
@@ -103,7 +103,7 @@ def getETTableInfo(table):
         count = 0
         while not col == None:
             try:
-                rowInfo[headers[count]] = str(col.text.encode('utf-8').strip())
+                rowInfo[headers[count]] = col.text.encode('utf-8').strip().decode('unicode_escape')
             except:
                pass
 
@@ -143,7 +143,7 @@ def getGTTableInfo(table):
         rowInfo["URL"] = str(col.find_next('a')['href'])
         while not col == None:
             try:
-                rowInfo[headers[count]] = str(col.text.encode('utf-8').strip())
+                rowInfo[headers[count]] = col.text.encode('utf-8').strip().decode('unicode_escape')
             except:
                pass
 
@@ -182,7 +182,7 @@ def getRPTableInfo(table):
         count = 0
         while not col == None:
             try:
-                rowInfo[headers[count]] = str(col.text.encode('utf-8').strip())
+                rowInfo[headers[count]] = col.text.encode('utf-8').strip().decode('unicode_escape')
             except:
                pass
 
@@ -219,7 +219,7 @@ def getTableInfo(table):
         rowInfo = []
         count = 0
         while not col == None:
-            rowInfo.append(str(col.text.encode('utf-8').strip()))
+            rowInfo.append( col.text.encode('utf-8').strip().decode('unicode_escape'))
             col = col.find_next_sibling('td')
             count += 1
 

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.4
 import TableSearches
 import bs4
 import json
@@ -7,16 +7,14 @@ import os
 # Gets the next section of information based on this page's structure
 # i.e. Collection Title, Investigators, etc.
 def getNext(start):
-    return start.find_next_sibling('tr').extract().find_next('td').find_next('td').text.strip().encode('utf-8')
+    return start.find_next_sibling('tr').extract().find_next('td').find_next('td').text.strip().encode('utf-8').decode('unicode_escape')
 
 # Gets all of the info from a table inside a span, like the Funding Sources table
 # or the grant information table
 
 
 # Function used to scrape data
-def scrape(queue):
-    while True:
-        filename = queue.get()
+def scrape(filename):
         try:
             #print "Getting webpage from file..."
             f = "Data_From_Labs_HTML/" + filename + ".html"
@@ -84,7 +82,7 @@ def scrape(queue):
                                 try:
                                     rowInfo.append(str(col.find_next('input')['value']))
                                 except:
-                                    print "Caught missing value in Data Expected for ", filename
+                                    print("Caught missing value in Data Expected for " + filename)
                                     rowInfo.append("0")
                                 col = col.find_next_sibling('td')
 
@@ -100,7 +98,7 @@ def scrape(queue):
                             rowDict["Subjects Shared"] = rowInfo[5]
                             rowDict["Status"] = rowInfo[6]
                         else:
-                            print "Col was None for " , filename ," with rowInfo " , rowInfo
+                            print("Col was None for " + filename  + " with rowInfo " + rowInfo)
                             rowDict["No records found."] = ""
 
                         info.append(rowDict)
@@ -155,7 +153,7 @@ def scrape(queue):
             if len(ST) > 0:
                 pageDict["Associated Studies"] = ST
 
-            pageDict['ResourceURL'] = "https://ndar.nih.gov/edit_collection.html?id=" + filter(str.isdigit, filename)
+            pageDict['ResourceURL'] = "https://ndar.nih.gov/edit_collection.html?id=" + ''.join(c for c in filename if c.isdigit())
 
             final = {}
             final['Entry'] = pageDict
@@ -165,12 +163,11 @@ def scrape(queue):
             if not os.path.exists(directory):
                 os.makedirs(directory)
 
-            file = open(directory + "/" + filename + ".json", 'w')
+            file = open(directory + "/" + filename + ".json", 'wt')
             for line in jFile:
                 file.write(line)
 
             file.close()
-            print "Finished writing", filename
-            queue.task_done()
+            print ("Finished writing " + filename)
         except Exception as e:
-            print filename, " failed!\n", type(e)
+            print(filename + " failed!\n" + str(e));
