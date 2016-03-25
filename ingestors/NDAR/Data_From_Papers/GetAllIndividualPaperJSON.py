@@ -1,5 +1,6 @@
 import requests, bs4, time, pprint, json, string
-import SeleniumTypesScraper, Queue, threading, os
+import SeleniumTypesScraper, threading, os
+from multiprocessing import Queue
 
 totalEntries = 0
 
@@ -137,14 +138,14 @@ def scrape(queue):
             file.close()
             global totalEntries
             totalEntries -= 1
-            print "Finished writing" , filename, ", ", totalEntries, " files left"
+            print("Finished writing" + filename + ", " + totalEntries + " files left")
             queue.task_done()
         except Exception as e:
             totalEntries -= 1
-            print filename, " failed!\n", e
+            print(filename + " failed!\n" + e)
 
 def run():
-    print "Getting all JSON files ..."
+    print("Getting all JSON files ...")
     q = Queue.Queue()
 
     maxThreads = 10
@@ -160,4 +161,4 @@ def run():
 
     q.join()
 
-    print "Done."
+    print("Done.")

@@ -1,7 +1,7 @@
 import requests
 
 def run():
-    print "Getting DataFromPapers.html ..."
+    print("Getting DataFromPapers.html ...")
     page = requests.get('https://ndar.nih.gov/data_from_papers.html')
 
     f = open("DataFromPapers.html", "w")
@@ -10,4 +10,4 @@ def run():
         f.write(line)
 
     f.close()
-    print "Done."
+    print("Done.")

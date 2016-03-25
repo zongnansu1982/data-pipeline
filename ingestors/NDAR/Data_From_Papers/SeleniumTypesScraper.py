@@ -67,7 +67,7 @@ def scrape(idNumber):
             studyType = "Observational Study"
             elem = driver.find_element_by_css_selector(".Observational.type-panel")
     except:
-        print "Couldn't find study type."
+        print("Couldn't find study type.")
         return -1
 
     typeDict["Study Type"] = studyType

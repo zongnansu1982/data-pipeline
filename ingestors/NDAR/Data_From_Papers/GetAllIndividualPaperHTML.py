@@ -12,7 +12,7 @@ def clean(txt):
     return txt
 
 def run():
-    print "Getting all HTML files ..."
+    print("Getting all HTML files ...")
     page = open("DataFromPapers.html", "r").read()
 
     soup = bs4.BeautifulSoup(page, "html.parser")
@@ -39,7 +39,6 @@ def run():
 
         f.close()
         totalEntries -= 1
-        print "Finished writing Entry" + pageIDs[index].text + ".HTML, " , \
-            totalEntries, " entries left"
+        print("Finished writing Entry" + pageIDs[index].text + ".HTML, " +  totalEntries + " entries left")
 
-    print "Done."
+    print("Done.")
