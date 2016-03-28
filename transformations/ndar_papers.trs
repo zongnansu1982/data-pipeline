@@ -1,27 +1,21 @@
-/* Study Information */
-transform column "$.'Title'" to "Study.title";
-transform column "$.'Abstract'" to "Study.description";
-transform column "$.'Investigators'" to "Study.performedBy";
-transform column "$.'Types'.'Study Type'" to "Study.studyType";
-transform column "$.'identifier'" to "Study.identifier";
-transform column "$.'identifierScheme'" to "Study.identifierScheme";
+transform column "$.'Abstract'" to "Abstract";
+transform column "$.'Cohorts'[*].'Age'" to "Cohorts[].Age";
+transform column "$.'Cohorts'[*].'Gender'" to "Cohorts[].Gender";
+transform column "$.'Cohorts'[*].'Type'" to "Cohorts[].Type";
+transform column "$.'DOI'" to "DOI";
+transform column "$.'Data Use'" to "Data Use";
+transform column "$.'Investigators'" to "Investigators";
+transform column "$.'Measures'[*].'Data Structure'" to "Measures[].Data Structure";
+transform column "$.'Measures'[*].'Elements'[*]" to "Measures[].Elements[]";
+transform column "$.'Measures'[*].'URL'" to "Measures[].URL";
+transform column "$.'ResourceURL'" to "ResourceURL";
+transform column "$.'Results'[*].'Title'" to "Results[].Title";
+transform column "$.'Results'[*].'URL'" to "Results[].URL";
+transform column "$.'Title'" to "Title";
+transform column "$.'Types'.'Arms/Comparison'.'Cohorts'[*]" to "Types.Arms/Comparison.Cohorts[]";
+transform column "$.'Types'.'Description'.'Primary Purpose'[*]" to "Types.Description.Primary Purpose[]";
+transform column "$.'Types'.'Intervention'.'Behavioral'[*]" to "Types.Intervention.Behavioral[]";
+transform column "$.'Types'.'Study Type'" to "Types.Study Type";
+transform column "$.'identifier'" to "identifier";
+transform column "$.'identifierScheme'" to "identifierScheme";
 
-/* Results */
-transform column "$.'Results'[*]" to "Study.resultsIn[].title" apply {{ 
-copy = value[:]
-result = value.split("Title\":\"")[1].split("\",\"URL\"")[0]
-}};
-transform column "$.'Results'[*]" to "Study.resultsIn[].downloadURL" apply {{ 
-result = copy.split("URL\":\"")[1].split("\"}")[0]
-}};
-
-/* schedulesDataAcquisition 'uses' field, using instrument schema*/
-transform column "$.'Measures'[*]['Data Structure']" to "Study.schedulesDataAcquisition[].uses.name";
-/*transform column "$.'Measures'[*]['Elements'][0][0]" to "Study.schedulesDataAcquisition[].measures[0].name[0]";*/
-
-/* Cohorts -> Study.recruits */
-transform column "$.'Cohorts'[*]['Type']" to "Study.recruits[].name";
-transform column "$.'Cohorts'[*]['Age']" to "Study.recruits[].hasCharacteristic[0].values[0]";
-transform column "$.'Cohorts'[*]['Age']" to "Study.recruits[].hasCharacteristic[0].name" apply {{ result = "Age" }};
-transform column "$.'Cohorts'[*]['Gender']" to "Study.recruits[].hasCharacteristic[1].values[0]";
-transform column "$.'Cohorts'[*]['Gender']" to "Study.recruits[].hasCharacteristic[1].name" apply {{ result = "Gender" }};
