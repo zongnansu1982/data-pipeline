@@ -173,14 +173,14 @@
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
-                "Control",
-                "Study Cohort"
+                "Study Cohort",
+                "Control"
             ]
         },
         "Description":{
             "Primary Purpose":[
-                "Treatment",
-                "Diagnostic"
+                "Diagnostic",
+                "Treatment"
             ]
         },
         "Intervention":{

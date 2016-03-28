@@ -3,14 +3,14 @@
         "Associated Studies":[
             {
                 "Data Use":"Primary Analysis",
-                "Description":"A draft publication is in progress.\r\n\r\nGitHub repository with code for working with NDAR Data is available here: https://github.com/chaselgrove/ndar\r\n\r\n**Note this study is ongoing; additional may be added.**",
+                "Description":"A draft publication is in progress.\n\nGitHub repository with code for working with NDAR Data is available here: https://github.com/chaselgrove/ndar\n\n**Note this study is ongoing; additional may be added.**",
                 "Number of Subjects  Collection / Total":"126 / 356",
                 "State":"Shared",
                 "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using NITRC-CE"
             },
             {
                 "Data Use":"Primary Analysis",
-                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\r\n\r\n**NOTE: This study is ongoing; additional data my be available in the future.**\r\n\r\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\r\n\r\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
+                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\n\n**NOTE: This study is ongoing; additional data my be available in the future.**\n\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\n\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
                 "Number of Subjects  Collection / Total":"126 / 1540",
                 "State":"Shared",
                 "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using C-PAC pipeline and ANTs"
@@ -446,7 +446,7 @@
                 "Name":"SNP genotypes Illumina 370k",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B8650125482D3DDEFBE4DD5277C7505F.node1?experimentId=65&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E52D00C8F62E97F204946ABD6F8217EB.node1?experimentId=65&showSingle=true"
             },
             {
                 "Created Date":"08/20/2012",
@@ -454,7 +454,7 @@
                 "Name":"SNP genotypes Illumina Omni-1: 2010-139, 2010-043, 2011-005",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B8650125482D3DDEFBE4DD5277C7505F.node1?experimentId=67&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E52D00C8F62E97F204946ABD6F8217EB.node1?experimentId=67&showSingle=true"
             },
             {
                 "Created Date":"08/20/2012",
@@ -462,7 +462,7 @@
                 "Name":"SNP genotypes Illumina OmniExpress: 2011-015",
                 "Status":"Approved",
                 "Type":"Omics",
-                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=B8650125482D3DDEFBE4DD5277C7505F.node1?experimentId=68&showSingle=true"
+                "URL":"https://ndar.nih.gov/experimentView.html;jsessionid=E52D00C8F62E97F204946ABD6F8217EB.node1?experimentId=68&showSingle=true"
             }
         ],
         "Funding Sources":[
@@ -566,7 +566,7 @@
                 "URL":"http://www.ncbi.nlm.nih.gov/pubmed/19125863"
             }
         ],
-        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=0",
+        "ResourceURL":"https://ndar.nih.gov/edit_collection.html?id=10",
         "Shared Data":[
             {
                 "Number of Subjects":"290",

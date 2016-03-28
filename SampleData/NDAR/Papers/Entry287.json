@@ -1,5 +1,5 @@
 {
-    "Abstract":"We are studying a potential epigenetic component to\r\nthe autism spectrum disorders (ASD) by interrogating DNA methylation (DNAm) using an\r\nestablished high-throughput assay that interrogates DNA methylation (DNAm) at 27578 highly informative CpG dinucleotides. To date, we have determined the DNA methylation (DNAm) profiles from whole blood-extracted DNA of over four\r\nhundred male sib-pairs discordant for ASD. A close statistical examination may ultimately identify ASD peripheral biomarkers and further characterize the role of DNAm in the pathogenesis of autism.",
+    "Abstract":"We are studying a potential epigenetic component to\nthe autism spectrum disorders (ASD) by interrogating DNA methylation (DNAm) using an\nestablished high-throughput assay that interrogates DNA methylation (DNAm) at 27578 highly informative CpG dinucleotides. To date, we have determined the DNA methylation (DNAm) profiles from whole blood-extracted DNA of over four\nhundred male sib-pairs discordant for ASD. A close statistical examination may ultimately identify ASD peripheral biomarkers and further characterize the role of DNAm in the pathogenesis of autism.",
     "Cohorts":[
         {
             "Age":"48 to 500 months",
@@ -57,15 +57,15 @@
     "Results":[
         {
             "Title":"p values for CpG probes",
-            "URL":"https://ndar.nih.gov/;jsessionid=75949C71AF233C8177346C359D59CD2D.node1"
+            "URL":"https://ndar.nih.gov/;jsessionid=1491933A9AD9DE113754D9222AC47ECC.node2"
         }
     ],
     "Title":"Epigenetics Marks as Peripheral Biomarkers of Autism #287",
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
-                "Control",
-                "Study Cohort"
+                "Study Cohort",
+                "Control"
             ]
         },
         "Description":{

@@ -10,7 +10,7 @@
             },
             {
                 "Data Use":"Primary Analysis",
-                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\r\n\r\n**NOTE: This study is ongoing; additional data my be available in the future.**\r\n\r\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\r\n\r\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
+                "Description":"An automated pipeline was developed to reference Neuroimages hosted by the National Database for Autism Research (NDAR) and derive volumes for distinct brain structures using Advanced Normalization Tools (ANTs) and the Configurable-Pipeline for the Analysis of Connectomes (C-PAC) platform. This pipeline utilized the ANTs cortical thickness methodology discuessed in \"Large-Scale Evaluation of ANTs and Freesurfer Cortical Tchickness Measurements\" [http://www.ncbi.nlm.nih.gov/pubmed/24879923] to extract a cortical thickness volume from T1-weighted anatomical MRI data gathered from the NDAR database. This volume was then registered to an stereotaxic-space anatomical template (OASIS-30 Atropos Template) which was acquired from the Mindboggle Project webpage [http://mindboggle.info/data.html]. After registration, the mean cortical thickness was calculated at 31 ROIs on each hemisphere of the cortex and using the Desikan-Killiany-Tourville (DKT-31) cortical labelling protocol [http://mindboggle.info/faq/labels.html] over the OASIS-30 template.\n\n**NOTE: This study is ongoing; additional data my be available in the future.**\n\nAs a result, each subject that was processed has a cortical thickness volume image and a text file with the mean thickness ROIs (in mm) stored in Amazon Web Services (AWS) Simple Storage Service (S3). Additionally, these results were tabulated in an AWS-hosted database (through NDAR) to enable simple, efficient querying and data access.\n\nAll of the code used to perform this analysis is publicly available on Github [https://github.com/FCP-INDI/ndar-dev]. Additionally, as a computing platform, we developed an Amazon Machine Image (AMI) that comes fully equipped to run this pipeline on any dataset. Using AWS Elastic Cloud Computing (EC2), users can launch our publicly available AMI (\"C-PAC with benchmark\", AMI ID: \"ami-fee34296\", N. Virginia region) and run the ANTs cortical thickness pipeline. The AMI is fully compatible with Sun Grid Engine as well; this enables users to perform many pipeline runs in parallel over a cluster-computing framework.",
                 "Number of Subjects  Collection / Total":"73 / 1540",
                 "State":"Shared",
                 "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using C-PAC pipeline and ANTs"
@@ -38,7 +38,7 @@
             },
             {
                 "Data Use":"Primary Analysis",
-                "Description":"A draft publication is in progress.\r\n\r\nGitHub repository with code for working with NDAR Data is available here: https://github.com/chaselgrove/ndar\r\n\r\n**Note this study is ongoing; additional may be added.**",
+                "Description":"A draft publication is in progress.\n\nGitHub repository with code for working with NDAR Data is available here: https://github.com/chaselgrove/ndar\n\n**Note this study is ongoing; additional may be added.**",
                 "Number of Subjects  Collection / Total":"73 / 356",
                 "State":"Shared",
                 "Study Name":"Derivation of Brain Structure Volumes from MRI Neuroimages hosted by NDAR using NITRC-CE"
@@ -73,7 +73,7 @@
             },
             {
                 "Data Use":"Primary Analysis",
-                "Description":"Scientific Abstract\nThe Social Communication Questionnaire (SCQ) assesses communication skills and social functioning in screening for symptoms of autism-spectrum disorder (ASD). The SCQ is recommended for individuals between 4 to 40 years with a cutoff score of 15 for referral. Mixed findings have been reported regarding the recommended cutoff score\u2019s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus an individual as not at-risk for ASD (specificity). Based on a sample from the National Database for Autism Research (n=344; age: 1.58 to 25.92 years old), the present study examined the SCQ\u2019s sensitivity versus specificity across a range of ages. We recommend that the cutoff scores for the SCQ be re-evaluated with age as a consideration.\nLay Abstract\nThe age neutrality of the Social Communication Questionnaire (SCQ) was examined as a common screener for ASD. Mixed findings have been reported regarding the recommended cutoff score\u2019s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus accurately classifying an individual as not at-risk for ASD (specificity). With a sample from the National Database for Autism Research, the present study examined the SCQ\u2019s sensitivity versus specificity. Analyses indicated that the actual sensitivity and specificity scores were lower than initially reported by the creators of the SCQ.",
+                "Description":"Scientific Abstract\nThe Social Communication Questionnaire (SCQ) assesses communication skills and social functioning in screening for symptoms of autism-spectrum disorder (ASD). The SCQ is recommended for individuals between 4 to 40 years with a cutoff score of 15 for referral. Mixed findings have been reported regarding the recommended cutoff score\u00e2\u0080\u0099s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus an individual as not at-risk for ASD (specificity). Based on a sample from the National Database for Autism Research (n=344; age: 1.58 to 25.92 years old), the present study examined the SCQ\u00e2\u0080\u0099s sensitivity versus specificity across a range of ages. We recommend that the cutoff scores for the SCQ be re-evaluated with age as a consideration.\nLay Abstract\nThe age neutrality of the Social Communication Questionnaire (SCQ) was examined as a common screener for ASD. Mixed findings have been reported regarding the recommended cutoff score\u00e2\u0080\u0099s ability to accurately classify an individual as at-risk for ASD (sensitivity) versus accurately classifying an individual as not at-risk for ASD (specificity). With a sample from the National Database for Autism Research, the present study examined the SCQ\u00e2\u0080\u0099s sensitivity versus specificity. Analyses indicated that the actual sensitivity and specificity scores were lower than initially reported by the creators of the SCQ.",
                 "Number of Subjects  Collection / Total":"6 / 339",
                 "State":"Shared",
                 "Study Name":"The Sensitivity and Specificity of the Social Communication Questionnaire for  Autism Spectrum Disorder with Respect to Age"
@@ -367,7 +367,7 @@
         "Experiments":[
             {
                 "ID":"No records found.",
-                "URL":"https://ndar.nih.gov/study.html;jsessionid=2564AD23222F336A1108BB84DB776B2B.node1?new=true&pmid=26484826&collectionId=6"
+                "URL":"https://ndar.nih.gov/study.html;jsessionid=99EDB9FB46298885AC127104449C4FB2.node1?new=true&pmid=26940029&collectionId=6"
             }
         ],
         "Funding Sources":[
@@ -386,8 +386,17 @@
                 "URL":"http://projectreporter.nih.gov/project_info_details.cfm?aid=7277432"
             }
         ],
-        "Investigators":"Nancy Minshew, M.D.Mark Strauss, Ph.D.Kevin Pelphrey, Ph.D.Marcel Just, Ph.D.Thomas Mitchell, Ph.D.Diane Williams, Ph.D.",
+        "Investigators":"Nancy Minshew, M.D., Mark Strauss, Ph.D., Kevin Pelphrey, Ph.D., Marcel Just, Ph.D., Thomas Mitchell, Ph.D., and Diane Williams, Ph.D.",
         "Publications":[
+            {
+                "Authors":"Haigh SM, Heeger DJ, Heller LM, Gupta A, Dinstein I, Minshew NJ, Behrmann M",
+                "Date":"March 1, 2016",
+                "Journal":"Vision research",
+                "PubMed ID":"26940029",
+                "Study":"Create Study",
+                "Title":"No difference in cross-modal attention or sensory discrimination thresholds in autism and matched controls.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26940029"
+            },
             {
                 "Authors":"Schipul SE, Just MA",
                 "Date":"January 15, 2016",
@@ -408,6 +417,15 @@
             }
         ],
         "Relevant Publications":[
+            {
+                "Authors":"Haigh SM, Heeger DJ, Heller LM, Gupta A, Dinstein I, Minshew NJ, Behrmann M",
+                "Date":"March 1, 2016",
+                "Journal":"Vision research",
+                "PubMed ID":"26940029",
+                "Study":"Create Study",
+                "Title":"No difference in cross-modal attention or sensory discrimination thresholds in autism and matched controls.",
+                "URL":"http://www.ncbi.nlm.nih.gov/pubmed/26940029"
+            },
             {
                 "Authors":"Schipul SE, Just MA",
                 "Date":"January 15, 2016",

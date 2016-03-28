@@ -66,7 +66,7 @@ def getSHDTableInfo(table):
         count = 0
         while not col == None:
             try:
-                rowInfo[headers[count]] = str(col.text.encode('utf-8').strip())
+                rowInfo[headers[count]] = col.text.encode('utf-8').strip().decode('unicode_escape')
             except:
                pass
 

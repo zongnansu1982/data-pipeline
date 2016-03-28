@@ -33,7 +33,7 @@ def scrape(filename):
             start = table.find('td', {'class' : 'labelColumn'}).parent
 
             # Gets several tables from the webpage to be scraped later
-            title = start.find_next('td').find_next('td').text.strip().encode('utf-8')
+            title = start.find_next('td').find_next('td').text.strip().encode('utf-8').decode('unicode_escape')
             investigators = getNext(start)
             description = getNext(start)
             dataSource = getNext(start)

@@ -1,5 +1,5 @@
 import requests, bs4, time, pprint, json, string
-import SeleniumTypesScraper, os
+import SeleniumTypesScraper, os, sys, traceback
 from multiprocessing import Pool
 
 totalEntries = 0
@@ -107,7 +107,7 @@ def scrape(filename):
                 pass
 
             if len(typeDict) > 0:
-                entryDict["Types"] = typeDict
+                entryDict["Types"] = dict(typeDict)
 
             entryDict['ResourceURL'] = "https://ndar.nih.gov/study.html?id=" + ''.join(c for c in filename if c.isdigit())
             entryDict['identifier'] = ''.join(c for c in filename if c.isdigit())
@@ -131,6 +131,7 @@ def scrape(filename):
         except Exception as e:
             totalEntries -= 1
             print(filename + " failed!\n" + str(e))
+            traceback.print_exc(file=sys.stdout)
 
 def run():
     print("Getting all JSON files ...")
@@ -141,14 +142,17 @@ def run():
 #        t = threading.Thread(target=scrape, args=(q,))
 #        t.daemon = True
 #        t.start()
+
 #    pool = Pool(processes=8)
     global totalEntries
     directory = "Data_From_Papers_HTML"
     totalEntries = len(os.listdir(directory))
+    print('totalEntries:' + str(totalEntries))
     filenames = []
     for index, i in enumerate(os.listdir(directory)):
-        filenames.append(i.split(".")[0])
-        scrape(i.split(".")[0])
+        name = i.split(".")[0]
+        filenames.append(name)
+        scrape(name)
 #   pool.map(scrape, filenames)
 #   q.join()
 

@@ -50,9 +50,6 @@ def scrape(idNumber):
         raise Exception("This operating system is not handled yet." + str(sys.platform))
 
 
-
-
-
     studyType = None
     typeDict = {}
     try:
@@ -80,10 +77,10 @@ def scrape(idNumber):
         expandedDict = findExpanded(element)
         tdDict = {}
 
-        for category in expandedDict.keys():
+        for category in list(expandedDict):
             # loop through id numbers, match with a parent from expandeddict
             catList = []
-            for checked in checkDict.keys():
+            for checked in list(checkDict):
                 if checkDict[checked] == category:
                     catList.append(checked)
             #print "Checkdict [check]", checkDict[checked]
@@ -92,7 +89,7 @@ def scrape(idNumber):
     # want arms/comparison: [ genomics: [control, study cohort]]
         typeDict[str(element.find_element_by_xpath(".//label").get_attribute("innerHTML"))] = tdDict
 
-    for elm in typeDict.keys():
+    for elm in list(typeDict):
         if len(typeDict[elm]) == 0:
             del typeDict[elm]
     if driver:

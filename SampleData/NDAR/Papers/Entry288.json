@@ -62,19 +62,19 @@
     "Results":[
         {
             "Title":"Genotype Calls",
-            "URL":"https://ndar.nih.gov/;jsessionid=E6C032ECB3D590A74B89CE84FB2B6A40.node1"
+            "URL":"https://ndar.nih.gov/;jsessionid=BB30CD46BB7AB3363F0970B6DC600A75.node2"
         },
         {
             "Title":"Genotype Calls, part 2",
-            "URL":"https://ndar.nih.gov/;jsessionid=E6C032ECB3D590A74B89CE84FB2B6A40.node1"
+            "URL":"https://ndar.nih.gov/;jsessionid=BB30CD46BB7AB3363F0970B6DC600A75.node2"
         }
     ],
     "Title":"Autism Genome Project #288",
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
-                "Control",
-                "Study Cohort"
+                "Study Cohort",
+                "Control"
             ]
         },
         "Description":{
