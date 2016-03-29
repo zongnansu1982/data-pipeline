@@ -41,7 +41,7 @@ def scrape(idNumber):
 
 
     if sys.platform == 'win32':
-        path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs.exe')
+        path_to_phantomjs = os.path.join(diri, 'phantomjs/lib/phantom/bin/phantomjs.exe')
         driver = webdriver.PhantomJS(executable_path = path_to_phantomjs, desired_capabilities = dcap)
     elif sys.platform == 'linux2' or sys.platform == 'linux':
         path_to_phantomjs = os.path.join(diri, 'phantomjs-2.1.1-linux-x86_64/bin/phantomjs')

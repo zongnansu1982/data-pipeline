@@ -19,36 +19,66 @@
         {
             "Data Structure":"Genomics Sample - V03",
             "Elements":[
-                [
-                    "experiment_id",
-                    "Primary"
-                ],
-                [
-                    "data_file1_type",
-                    "Primary"
-                ],
-                [
-                    "data_file1",
-                    "Primary"
-                ],
-                [
-                    "data_file2",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"experiment_id",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1_type",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_sample03"
         },
         {
             "Data Structure":"Genomics Subject - V02",
             "Elements":[
-                [
-                    "phenotype",
-                    "Primary"
-                ],
-                [
-                    "phenotype_description",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype_description",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_subject02"
         }
@@ -57,15 +87,15 @@
     "Results":[
         {
             "Title":"p values for CpG probes",
-            "URL":"https://ndar.nih.gov/;jsessionid=1491933A9AD9DE113754D9222AC47ECC.node2"
+            "URL":"https://ndar.nih.gov/;jsessionid=4A9CF0AA21D72EA39EF278A27C30473F.node1"
         }
     ],
     "Title":"Epigenetics Marks as Peripheral Biomarkers of Autism #287",
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
-                "Study Cohort",
-                "Control"
+                "Control",
+                "Study Cohort"
             ]
         },
         "Description":{

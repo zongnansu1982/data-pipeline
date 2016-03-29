@@ -24,36 +24,66 @@
         {
             "Data Structure":"Genomics Sample - V03",
             "Elements":[
-                [
-                    "experiment_id",
-                    "Primary"
-                ],
-                [
-                    "data_file1",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"experiment_id",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_sample03"
         },
         {
             "Data Structure":"Genomics Subject - V02",
             "Elements":[
-                [
-                    "phenotype",
-                    "Secondary"
-                ],
-                [
-                    "phenotype_description",
-                    "Secondary"
-                ],
-                [
-                    "adi_dx",
-                    "Secondary"
-                ],
-                [
-                    "ados_dx",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype_description",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"adi_dx",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ados_dx",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_subject02"
         }
@@ -62,19 +92,19 @@
     "Results":[
         {
             "Title":"Genotype Calls",
-            "URL":"https://ndar.nih.gov/;jsessionid=BB30CD46BB7AB3363F0970B6DC600A75.node2"
+            "URL":"https://ndar.nih.gov/;jsessionid=B95803163AC7708ACEAFA6214BE0F6EF.node1"
         },
         {
             "Title":"Genotype Calls, part 2",
-            "URL":"https://ndar.nih.gov/;jsessionid=BB30CD46BB7AB3363F0970B6DC600A75.node2"
+            "URL":"https://ndar.nih.gov/;jsessionid=B95803163AC7708ACEAFA6214BE0F6EF.node1"
         }
     ],
     "Title":"Autism Genome Project #288",
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
-                "Study Cohort",
-                "Control"
+                "Control",
+                "Study Cohort"
             ]
         },
         "Description":{

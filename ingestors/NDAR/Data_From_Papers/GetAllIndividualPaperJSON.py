@@ -88,12 +88,14 @@ def scrape(filename):
                 if elements is not None:
                     elementList = []
                     for elem in elements.find_all('tr'):
-
                         dataElement = elem.find_next('td').extract().text.strip()
-                        #print dataElement
-                        order = elem.find_next('td').extract().text.strip()
-                        #print order
-                        elementList.append((str(dataElement), str(order)))
+                        singleDict = {}
+                        singleDict['name'] = str(dataElement)
+                        singleDict['dimensionType'] = "Data Element"
+                        singleDict['partOf'] = {"title": "NDAR Data From Papers", "dataType": "Autism Studies",
+                                                "creator": "National Database for Autism Research"}
+
+                        elementList.append(singleDict)
                     m["Elements"] = elementList
                 cleanDict(m)
                 measuresList.append(m)

@@ -24,10 +24,15 @@
         {
             "Data Structure":"Image - V02",
             "Elements":[
-                [
-                    "image_file",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"image_file",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=image02"
         }

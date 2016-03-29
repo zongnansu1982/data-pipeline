@@ -25,104 +25,204 @@
         {
             "Data Structure":"Autism Diagnostic Observation Schedule (ADOS) - Module 4 - V02",
             "Elements":[
-                [
-                    "scoresumm_atotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_btotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_abtotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_adosdiag",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_overalldiag",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_atotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_btotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_abtotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_adosdiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_overalldiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados4_200102"
         },
         {
             "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 1 - V02",
             "Elements":[
-                [
-                    "scoresumm_atotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_btotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_abtotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_adosdiag",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_overalldiag",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_atotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_btotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_abtotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_adosdiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_overalldiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados1_200102"
         },
         {
             "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 2 - V02",
             "Elements":[
-                [
-                    "scoresumm_atotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_btotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_abtotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_adosdiag",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_overalldiag",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_atotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_btotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_abtotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_adosdiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_overalldiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados2_200102"
         },
         {
             "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 3 - V02",
             "Elements":[
-                [
-                    "scoresumm_atotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_btotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_abtotal",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_adosdiag",
-                    "Secondary"
-                ],
-                [
-                    "scoresumm_overalldiag",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_atotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_btotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_abtotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_adosdiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_overalldiag",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados3_200102"
         },
@@ -139,58 +239,123 @@
         {
             "Data Structure":"Social Responsiveness Scale (SRS) - V02",
             "Elements":[
-                [
-                    "male_tscore1",
-                    "Primary"
-                ],
-                [
-                    "male_tscore2",
-                    "Primary"
-                ],
-                [
-                    "male_tscore3",
-                    "Primary"
-                ],
-                [
-                    "male_tscore4",
-                    "Primary"
-                ],
-                [
-                    "male_tscore5",
-                    "Primary"
-                ],
-                [
-                    "male_tscoreall",
-                    "Primary"
-                ],
-                [
-                    "female_tscore1",
-                    "Primary"
-                ],
-                [
-                    "female_tscore2",
-                    "Primary"
-                ],
-                [
-                    "female_tscore3",
-                    "Primary"
-                ],
-                [
-                    "female_tscore4",
-                    "Primary"
-                ],
-                [
-                    "female_tscore5",
-                    "Primary"
-                ],
-                [
-                    "female_tscoreall",
-                    "Primary"
-                ],
-                [
-                    "phenotype",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"male_tscore1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"male_tscore2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"male_tscore3",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"male_tscore4",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"male_tscore5",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"male_tscoreall",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"female_tscore1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"female_tscore2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"female_tscore3",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"female_tscore4",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"female_tscore5",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"female_tscoreall",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=srs02"
         }

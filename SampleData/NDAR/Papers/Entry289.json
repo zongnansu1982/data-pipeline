@@ -20,144 +20,294 @@
         {
             "Data Structure":"Genomics Sample - V02",
             "Elements":[
-                [
-                    "experiment_id",
-                    "Primary"
-                ],
-                [
-                    "experiment_id",
-                    "Primary"
-                ],
-                [
-                    "experiment_id",
-                    "Primary"
-                ],
-                [
-                    "data_file1",
-                    "Primary"
-                ],
-                [
-                    "data_file1",
-                    "Primary"
-                ],
-                [
-                    "data_file1",
-                    "Primary"
-                ],
-                [
-                    "data_file2",
-                    "Primary"
-                ],
-                [
-                    "data_file2",
-                    "Primary"
-                ],
-                [
-                    "data_file2",
-                    "Primary"
-                ],
-                [
-                    "data_file3",
-                    "Primary"
-                ],
-                [
-                    "data_file3",
-                    "Primary"
-                ],
-                [
-                    "data_file3",
-                    "Primary"
-                ],
-                [
-                    "data_file4",
-                    "Primary"
-                ],
-                [
-                    "data_file4",
-                    "Primary"
-                ],
-                [
-                    "data_file4",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"experiment_id",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"experiment_id",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"experiment_id",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file3",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file3",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file3",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file4",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file4",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file4",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_sample02"
         },
         {
             "Data Structure":"Genomics Sample - V03",
             "Elements":[
-                [
-                    "experiment_id",
-                    "Primary"
-                ],
-                [
-                    "data_file1",
-                    "Primary"
-                ],
-                [
-                    "data_file2",
-                    "Primary"
-                ],
-                [
-                    "data_file3",
-                    "Primary"
-                ],
-                [
-                    "data_file4",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"experiment_id",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file1",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file2",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file3",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"data_file4",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_sample03"
         },
         {
             "Data Structure":"Genomics Subject - V01",
             "Elements":[
-                [
-                    "phenotype",
-                    "Secondary"
-                ],
-                [
-                    "phenotype",
-                    "Secondary"
-                ],
-                [
-                    "phenotype",
-                    "Secondary"
-                ],
-                [
-                    "phenotype_description",
-                    "Secondary"
-                ],
-                [
-                    "phenotype_description",
-                    "Secondary"
-                ],
-                [
-                    "phenotype_description",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype_description",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype_description",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype_description",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_subject01"
         },
         {
             "Data Structure":"Genomics Subject - V02",
             "Elements":[
-                [
-                    "phenotype",
-                    "Secondary"
-                ],
-                [
-                    "phenotype_description",
-                    "Secondary"
-                ],
-                [
-                    "adi_dx",
-                    "Secondary"
-                ],
-                [
-                    "ados_dx",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"phenotype_description",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"adi_dx",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ados_dx",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=genomics_subject02"
         }
@@ -173,14 +323,14 @@
     "Types":{
         "Arms/Comparison":{
             "Genomics":[
-                "Study Cohort",
-                "Control"
+                "Control",
+                "Study Cohort"
             ]
         },
         "Description":{
             "Primary Purpose":[
-                "Diagnostic",
-                "Treatment"
+                "Treatment",
+                "Diagnostic"
             ]
         },
         "Intervention":{

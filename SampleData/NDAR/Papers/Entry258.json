@@ -14,214 +14,414 @@
         {
             "Data Structure":"Aberrant Behavior Checklist (ABC) - Community - V02",
             "Elements":[
-                [
-                    "ques_active",
-                    "Primary"
-                ],
-                [
-                    "ques_selfinj",
-                    "Primary"
-                ],
-                [
-                    "ques_aggres",
-                    "Primary"
-                ],
-                [
-                    "ques_bodymove",
-                    "Primary"
-                ],
-                [
-                    "ques_boister",
-                    "Primary"
-                ],
-                [
-                    "ques_temper",
-                    "Primary"
-                ],
-                [
-                    "ques_stermov",
-                    "Primary"
-                ],
-                [
-                    "ques_impuls",
-                    "Primary"
-                ],
-                [
-                    "ques_irrita",
-                    "Primary"
-                ],
-                [
-                    "ques_restless",
-                    "Primary"
-                ],
-                [
-                    "ques_diso",
-                    "Primary"
-                ],
-                [
-                    "ques_headrep",
-                    "Primary"
-                ],
-                [
-                    "ques_repmov",
-                    "Primary"
-                ],
-                [
-                    "ques_nsitstil",
-                    "Primary"
-                ],
-                [
-                    "ques_waverep",
-                    "Primary"
-                ],
-                [
-                    "ques_construn",
-                    "Primary"
-                ],
-                [
-                    "ques_rocksrep",
-                    "Primary"
-                ],
-                [
-                    "ques_hurtself",
-                    "Primary"
-                ],
-                [
-                    "ques_violenself",
-                    "Primary"
-                ],
-                [
-                    "ques_overact",
-                    "Primary"
-                ],
-                [
-                    "ques_nownway",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_active",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_selfinj",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_aggres",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_bodymove",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_boister",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_temper",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_stermov",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_impuls",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_irrita",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_restless",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_diso",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_headrep",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_repmov",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_nsitstil",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_waverep",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_construn",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_rocksrep",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_hurtself",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_violenself",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_overact",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ques_nownway",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=abc_community02"
         },
         {
             "Data Structure":"Autism Diagnostic Observation Schedule (ADOS)- Module 3 - V02",
             "Elements":[
-                [
-                    "scoresumm_abtotal",
-                    "Primary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"scoresumm_abtotal",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ados3_200102"
         },
         {
             "Data Structure":"CPEA STAART Leiter Scales  - V02",
             "Elements":[
-                [
-                    "leit_full_iq",
-                    "Secondary"
-                ],
-                [
-                    "leit_nvr_iq",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"leit_full_iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"leit_nvr_iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=cs_leiter02"
         },
         {
             "Data Structure":"CPEA STAART PPVT Version 3 - V02",
             "Elements":[
-                [
-                    "ppvt_v_iq",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ppvt_v_iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=cs_ppvt_302"
         },
         {
             "Data Structure":"CPEA STAART Stanford Binet 4th Edition - V02",
             "Elements":[
-                [
-                    "sb_tc_iq",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"sb_tc_iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=cs_stanford_binet_4th_ed02"
         },
         {
             "Data Structure":"CPEA STAART WASI  - V02",
             "Elements":[
-                [
-                    "wasi_v_iq",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"wasi_v_iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=cs_wasi02"
         },
         {
             "Data Structure":"Peabody Picture Vocabulary Test, Fourth Edition-Form B - V02",
             "Elements":[
-                [
-                    "ss_standardscore",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"ss_standardscore",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=ppvt_4b02"
         },
         {
             "Data Structure":"Wechsler Abbreviated Scale of Intelligence (WASI) - V02",
             "Elements":[
-                [
-                    "iqscores_verbiq",
-                    "Secondary"
-                ],
-                [
-                    "iqscores_perfiq",
-                    "Secondary"
-                ],
-                [
-                    "iqscores_full4iq",
-                    "Secondary"
-                ],
-                [
-                    "profileiqscores_viq",
-                    "Secondary"
-                ],
-                [
-                    "profileiqscores_piq",
-                    "Secondary"
-                ],
-                [
-                    "profileiqscores_fsiq",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"iqscores_verbiq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"iqscores_perfiq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"iqscores_full4iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"profileiqscores_viq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"profileiqscores_piq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"profileiqscores_fsiq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=wasi_199902"
         },
         {
             "Data Structure":"Wechsler Abbreviated Scale of Intelligence (WASI) - V03",
             "Elements":[
-                [
-                    "iqscores_verbiq",
-                    "Secondary"
-                ],
-                [
-                    "iqscores_perfiq",
-                    "Secondary"
-                ],
-                [
-                    "iqscores_full4iq",
-                    "Secondary"
-                ],
-                [
-                    "profileiqscores_viq",
-                    "Secondary"
-                ],
-                [
-                    "profileiqscores_piq",
-                    "Secondary"
-                ],
-                [
-                    "profileiqscores_fsiq",
-                    "Secondary"
-                ]
+                {
+                    "dimensionType":"Data Element",
+                    "name":"iqscores_verbiq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"iqscores_perfiq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"iqscores_full4iq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"profileiqscores_viq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"profileiqscores_piq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                },
+                {
+                    "dimensionType":"Data Element",
+                    "name":"profileiqscores_fsiq",
+                    "partOf":{
+                        "creator":"National Database for Autism Research",
+                        "dataType":"Autism Studies",
+                        "title":"NDAR Data From Papers"
+                    }
+                }
             ],
             "URL":"https://ndar.nih.gov/ndar_data_dictionary.html?short_name=wasi_199903"
         }
