@@ -18,7 +18,7 @@ result = copy.split("URL\":\"")[1].split("\"}")[0]
 /* schedulesDataAcquisition 'uses' field, using instrument schema*/
 transform column "$.'Measures'[*]['Data Structure']" to "Study.schedulesDataAcquisition[].uses.name";
 
-/* TODO: Get the Elements information from Measures, and put into schedulesDataAcquisition[].measures[]
+/* TODO: Get the Elements information from Measures, and put into schedulesDataAcquisition[].measures[]*/
 
 /* Cohorts -> Study.recruits */
 transform column "$.'Cohorts'[*]['Type']" to "Study.recruits[].name";
