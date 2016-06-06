@@ -8,6 +8,9 @@ transform column "$.'experiment'.'releasedate'.'_$'" to "dataset.dateReleased";
 transform column "$.'experiment'.'submissiondate'.'_$'" to "dataset.dateSubmitted";
 transform column "$.'experiment'.'lastupdatedate'.'_$'" to "dataset.dateModified";
 transform column "$.'experiment'.'experimenttype'.'_$'" to "dataset.dataType";
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "none";
+let "dataset.authentication" = "none";
 
 /* Data Collection Information */
 transform column "$.'experiment'.'experimentdesign'.'_$'" to "treatment.title";
