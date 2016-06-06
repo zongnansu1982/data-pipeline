@@ -7,9 +7,10 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Description'.'
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'ProjectReleaseDate'.'_$'" to "dataset.dateReleased";
 transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubmission'.'ProjectDataTypeSet'.'DataType'.'_$'" to "dataset.keywords[0]";
 
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'"  to "dataset.accesstypes" apply {{ result = 'download' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'"  to "dataset.authorization" apply {{ result = 'none' }};
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "none";
 let "dataset.authentication" = "none";
+
 /* Publication Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'@id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
 
