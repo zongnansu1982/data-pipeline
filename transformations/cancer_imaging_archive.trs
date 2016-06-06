@@ -10,6 +10,10 @@ transform column "$.'last_update'" to "dataset.dateLastUpdate" apply toStandardD
 
 transform column "$.'supporting_data_available'" to "dataset.relatedDataset";
 
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "none";
+let "dataset.authentication" = "none";
+
 /* Anatomical Information */
 transform column "$.'anatomical_sites'" to "anatomicalPart[].name" apply {{
 arr=re.split("\s*,\s*",value,)
