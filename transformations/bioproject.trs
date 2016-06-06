@@ -9,8 +9,7 @@ transform column "$.'Package'.'Project'.'Project'.'ProjectType'.'ProjectTypeSubm
 
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'"  to "dataset.accesstypes" apply {{ result = 'download' }};
 transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'"  to "dataset.authorization" apply {{ result = 'none' }};
-transform column "$.'Package'.'Project'.'Project'.'ProjectID'.'ArchiveID'.'@accession'"  to "dataset.authentication" apply {{ result = 'none' }};
-
+let "dataset.authentication" = "none";
 /* Publication Information */
 transform column "$.'Package'.'Project'.'Project'.'ProjectDescr'.'Publication'.'@id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
 
