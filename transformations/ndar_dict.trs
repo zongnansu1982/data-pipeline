@@ -3,6 +3,10 @@ transform column "$.'title'" to "DataAcquisition.title";
 transform column "$.'shortName'" to "DataAcquisition.identifier";
 transform column "$.'shortName'" to "DataAcquisition.identifierScheme" apply {{ result = "Abbreviation of title" }};
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "registration";
+let "dataset.authentication" = "simpleLogin";
+
 /* Organization section */ 
 transform column "$.'sources'[*]" to "DataAcquisition.performedBy.organization[].name";
 
