@@ -8,6 +8,10 @@ transform column "$.'biologicalbucket'" to "dataset.dataType[0]";
 transform column "$.'endpointcategorization'" to "dataset.dataType[1]";
 transform column "$.'centerdatasetid'" to "dataset.downloadURL";
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
 /* Data Repository Information */
 transform column "$.'datasetid'" to "dataRepository.name" apply {{ result = 'Library of Integrated Network-Based Cellular Signatures' }};
 transform column "$.'datasetid'" to "dataRepository.ID" apply {{ result = 'SCR:006454' }};
