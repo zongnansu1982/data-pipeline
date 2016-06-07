@@ -9,6 +9,9 @@ arr=re.split("\s*,\s*",value1,)
 arr.extend(re.split("\s*,\s*",value2))
 result=arr
 }};
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
 
 /* Publication Information */
 transform column "$..'PDBx:citation'[?(@.'@id' = 'primary')].'PDBx:title'.'_$'" to "publication.title";
