@@ -5,6 +5,9 @@ transform column "$.'description'" to "dataset.description";
 transform column "$.'class'" to "dataset.dataType";
 
 transform column "$.'reference_name'" to "publication.name";
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
 
 /* Data Repository Information */
 transform column "$.'name'" to "dataRepository.name" apply {{ result = 'Physiobank' }};
