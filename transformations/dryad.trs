@@ -24,3 +24,7 @@ transform column "$.'record'.'header'.'fetchURL'.'_$'" to "organization.ID" appl
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.name" apply {{ result = 'Dublin Core' }};
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.homepage" apply {{ result = 'dublincore.org' }};
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "datastandard.license" apply {{ result = 'http://dublincore.org/about/copyright/' }};
+
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
