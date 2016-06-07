@@ -4,6 +4,10 @@ transform column "$.'id'" to "dataset.id";
 transform column "$.'description'" to "dataset.description";
 transform column "$.'link'" to "dataset.downloadURL";
 
+let "dataset.accesstypes" = "remoteService";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "simpleLogin";
+
 /* Additional Information */
 transform column "$.'organism'" to "organism[0].name";
 
