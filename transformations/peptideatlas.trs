@@ -5,6 +5,9 @@ transform column "$.'acc'" to "dataset.downloadURL" apply {{
 result = 'ftp://ftp.peptideatlas.org/pub/PeptideAtlas/Repository/' + value 
 }};
 transform column "$.'summary'" to "dataset.description";
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
 
 /* Publication Information */
 transform column "$.'pmid'" to "pmid" apply {{ result = 'pmid:' + value }};
