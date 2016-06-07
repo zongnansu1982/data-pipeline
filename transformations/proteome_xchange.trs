@@ -12,6 +12,11 @@ result=arr
 
 transform column "$.'announcement_date'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd");
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
+
 /* Publication Information */
 transform column "$.'publication'" to "publication.name";
 
