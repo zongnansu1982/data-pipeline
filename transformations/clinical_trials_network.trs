@@ -14,6 +14,10 @@ result=arr
 transform column "$.'investigator'" to "dataset.creator";
 transform column "$.'url'" to "url";
 
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "registration";
+let "dataset.authentication" = "simpleLogin";
+
 /* Organism Information */
 transform column "$.'studynum'" to "organism[0].name" apply {{ result = 'human' }};
 transform column "$.'studynum'" to "organism[0].scientificName" apply {{ result = 'Homo sapiens' }};
