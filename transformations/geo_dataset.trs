@@ -5,6 +5,10 @@ transform column "$.'dataset_description'" to "dataset.description";
 transform column "$.'dataset_update_date'" to "dataset.dateReleased" apply toStandardDate("MMM dd yyyy");
 transform column "$.'dataset_type'" to "dataset.dataType";
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
 /* Publication Information */
 transform column "$.'dataset_pubmed_id'" to "publication.ID" apply {{ result = 'pmid:' + value }};
 transform column "$.'dataset_pubmed_id'" to "citation.count" apply {{ result = '0' }};
