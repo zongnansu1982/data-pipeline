@@ -4,6 +4,10 @@ transform column "$.'name'" to "dataset.title";
 transform column "$.'description'" to "dataset.description";
 transform column "$.'url'" to "dataset.downloadURL";
 
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "clicklicense";
+let "dataset.authentication" = "none";
+
 /* Other Dataset Information */
 transform column "$.'published_at'" to "dataset.dateReleased" apply toStandardDateTime("yyyy-MM-dd'T'HH:mm:ssZ");
 
