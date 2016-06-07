@@ -7,6 +7,10 @@ transform column "$.'description'" to "dataset.description";
 transform column "$.'nstrains'" to "dataset.size";
 transform column "$.'gender'" to "dataset.gender";
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
 /* Dimension Information */
 transform column "$.'dataset_measurements'" to "dimension[].name" apply {{
 arr=re.split("\s*,\s*",value,)
