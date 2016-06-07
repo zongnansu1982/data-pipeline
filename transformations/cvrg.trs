@@ -4,6 +4,10 @@ transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:title'.'_$'" to "da
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_description'.'_$'" to "dataset.description";
 transform column "$.'record'.'header'.'fetchURL'.'_$'" to "dataset.downloadURL";
 
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "none";
+let "dataset.authentication" = "none";
+
 /* Other Dataset Information */
 transform column "$.'record'.'metadata'.'oai_dc_eddi:dc'.'dc:eddi_accessrestrictions'.'_$'" to "license.name";
 
