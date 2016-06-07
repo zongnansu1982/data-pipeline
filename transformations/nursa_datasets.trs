@@ -4,6 +4,10 @@ transform column "$.'nif_0000_03208_2'.'name'" to "dataset.title";
 transform column "$.nif_0000_03208_2.'description'" to "dataset.description";
 transform column "$.'nif_0000_03208_2'.'doi'" to "dataset.downloadURL" apply {{ result = 'https://nursa.org/nursa/datasets/dataset.jsf?doi=' + value }};
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
 /* Data Acquisition Information */
 transform column "$.nif_0000_03208_2.'type'" to "dataAcquisition.title";
 
