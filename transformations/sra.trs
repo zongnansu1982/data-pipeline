@@ -1,3 +1,8 @@
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
+
 transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@broker_name'" to "Dataset.storedIn";
 transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'@center_name'" to "Dataset.creator";
 transform column "$.'SRA'.'EXPERIMENT_SET'.'EXPERIMENT'[*].'DESIGN'.'DESIGN_DESCRIPTION'.'_$'" to "Dataset.title";
