@@ -8,6 +8,10 @@ transform column "$.'Study'.'@modDate'" to "dataset.dateModified";
 
 transform column "$.'Study'.'Configuration'.'Description'.'_$'" to "dataset.keywords";
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
 /* Study Information */
 transform column "$.'Study'.'Configuration'.'StudyURLs'.'Url'[*].'@url'" to "study.downloadURL.Url[]";
 
