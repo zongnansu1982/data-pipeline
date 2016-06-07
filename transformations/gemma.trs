@@ -7,6 +7,10 @@ transform columns "$.'Source'" , "$.'SourceAccession'" to "identifiers[0].ID" ap
 
 transform column "$.'GemmaDsId'" to "dataset.keywords[0]" apply {{ result = 'functional genomics' }};
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "none";
+let "dataset.authentication" = "none";
+
 /* Data Repository Information */
 transform column "$.'GemmaDsId'" to "dataRepository.name" apply {{ result = 'Gemma' }};
 transform column "$.'GemmaDsId'" to "dataRepository.ID" apply {{ result = 'SCR:008007' }};
