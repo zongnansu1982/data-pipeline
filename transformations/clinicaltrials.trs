@@ -7,6 +7,11 @@ transform column "$.'clinical_study'.'id_info'.'nct_id'.'_$'" to "dataset.downlo
 transform column "$.'clinical_study'.'brief_title'.'_$'" to "dataset.briefTitle";
 transform column "$.'clinical_study'.'official_title'.'_$'" to "dataset.title";
 transform column "$.'clinical_study'.'sponsors'.'lead_sponsor'.'agency'.'_$'" to "grant.funder";
+
+let "dataset.accesstypes"  = "download";
+let "dataset.authorization"  = "none";
+let "dataset.authentication" = "none";
+
 /* not in the model */
 transform column "$.'clinical_study'.'source'.'_$'" to "dataset.creator";
 /* Data monitoring committee */
