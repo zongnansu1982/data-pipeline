@@ -3,6 +3,10 @@ transform column "$.'acronym'" to "dataset.ID";
 transform column "$.'name'" to "dataset.title";
 transform column "$.'acronym'" to "dataset.downloadURL" apply {{ result = 'https://www.niddkrepository.org/studies/icdb/' + value }};
 
+let "dataset.accesstypes" = "download";
+let "dataset.authorization" = "registration";
+let "dataset.authentication" = "simpleLogin";
+
 /* Disease Information */
 transform column "$.'conditions'" to "disease[].name" apply {{
 arr=re.split("\s*,\s*",value,)
